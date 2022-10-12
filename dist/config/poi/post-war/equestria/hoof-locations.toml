@@ -1,150 +1,174 @@
 [Stable99]
     name = "Stable 99"
-    class ="misc-poi"
+    class = "misc-poi"
     lat = 3437
     lng = 3689
     zoom_level = 2
 [Stable90]
     name = "Stable 90"
-    class ="misc-poi"
+    class = "misc-poi"
     lat = 3458
     lng = 3693
     zoom_level = 2
 [BoomInc]
     name = "BOOM Inc."
-    class ="misc-poi"
+    class = "misc-poi"
     lat = 3459
     lng = 3691
     zoom_level = 3
 [Well33]
     name = "Well 33"
-    class ="misc-poi"
+    class = "misc-poi"
     lat = 3458
     lng = 3691
     zoom_level = 3
 [MiramareAirStation]
     name = "Miramare Air Station"
-    class ="misc-poi"
+    class = "misc-poi"
     lat = 3458
     lng = 3691
     zoom_level = 3
 [HippocampusSparkStation]
     name = "Hippocampus Spark Station"
-    class ="misc-poi"
+    class = "misc-poi"
     lat = 3451
     lng = 3693
     zoom_level = 3
 [FluttershyMedicalCenter]
     name = "Fluttershy Medical Center"
-    class ="misc-poi"
+    class = "misc-poi"
     lat = 3445
     lng = 3692
     zoom_level = 2
 [IronshodRnD]
     name = "Ironshod R&D"
-    class ="misc-poi"
+    class = "misc-poi"
     lat = 3438
     lng = 3667
     zoom_level = 3
 [HippocracticResearch]
     name = "Hippocractic Research"
-    class ="misc-poi"
+    class = "misc-poi"
     lat = 3456
     lng = 3712
     zoom_level = 3
 [HMSLunaWreck]
     name = "HMS Luna Wreck"
-    class ="misc-poi"
+    class = "misc-poi"
     lat = 3433
     lng = 3712
     zoom_level = 3
 [HoofingtonWeekly]
     name = "Hoofington Weekly"
-    class ="misc-poi"
+    class = "misc-poi"
     lat = 3441
     lng = 3692
     zoom_level = 3
 [Boneyard]
     name = "Boneyard"
-    class ="misc-poi"
+    class = "misc-poi"
     lat = 3429
     lng = 3688
     zoom_level = 3
 [Stable53]
     name = "Stable 53"
-    class ="misc-poi"
+    class = "misc-poi"
     lat = 3433
     lng = 3658
     zoom_level = 2
 [RepconRocketLtd]
     name = "Repcon Rockets Ltd."
-    class ="misc-poi"
+    class = "misc-poi"
     lat = 3432
     lng = 3661
     zoom_level = 3
 [PoseidonElectricsFactoy]
     name = "Poseidon Electrics Factory"
-    class ="misc-poi"
+    class = "misc-poi"
     lat = 3426
     lng = 3665
     zoom_level = 3
 [OIABuilding]
     name = "O.I.A. H.Q."
-    class ="misc-poi"
+    class = "misc-poi"
     lat = 3456
     lng = 3683
     zoom_level = 2
 [BlacktapeFacility]
     name = "Blacktape Facility"
-    class ="misc-poi"
+    class = "misc-poi"
     lat = 3454
     lng = 3684
     zoom_level = 3
 [EAMSStation7]
     name = "E.A.M.S. Station 7"
-    class ="misc-poi"
+    class = "misc-poi"
     lat = 3428
     lng = 3723
     zoom_level = 2
 [IsolatedFarmstead]
     name = "Isolated Farmstead"
-    class ="misc-poi"
+    class = "misc-poi"
     lat = 3448
     lng = 3696
     zoom_level = 3
 [MASEBS13]
     name = "M.A.S.E.B.S. Tower 13"
-    class ="misc-poi"
+    class = "misc-poi"
     lat = 3445
     lng = 3698
     zoom_level = 3
 [MASEBS14]
     name = "M.A.S.E.B.S. Tower 14"
-    class ="misc-poi"
+    class = "misc-poi"
     lat = 3435
     lng = 3699
     zoom_level = 3
 [LunaDam]
     name = "Luna Dam"
-    class ="misc-poi"
+    class = "misc-poi"
     lat = 3442
     lng = 3713
     zoom_level = 3
 [CelestiaDam]
     name = "Celestia Dam"
-    class ="misc-poi"
+    class = "misc-poi"
     lat = 3443
     lng = 3709
     zoom_level = 3
 [HoofingtonCore]
     name = "Hoofington Core"
-    class ="misc-poi"
+    class = "misc-poi"
     lat = 3449
     lng = 3709
     zoom_level = 2
 [HightowerPrison]
     name = "Hightower Prison"
-    class ="misc-poi"
+    class = "misc-poi"
     lat = 3445
     lng = 3719
     zoom_level = 2
+[MuseumOfNaturalHistory]
+    name = "Museum Of Natural History"
+    class = "misc-poi"
+    lat = 3448
+    lng = 3704
+    zoom_level = 3
+[GreenLineAccess]
+    name = "Green Line Access"
+    class = "misc-poi"
+    lat = 3446
+    lng = 3705
+    zoom_level = 3
+[BluebloodEstate]
+    name = "Blueblood Estate"
+    class = "misc-poi"
+    lat = 3444
+    lng = 3704
+    zoom_level = 3
+[StarHouse]
+    name = "Star House"
+    class = "misc-poi"
+    lat = 3451
+    lng = 3704
+    zoom_level = 3

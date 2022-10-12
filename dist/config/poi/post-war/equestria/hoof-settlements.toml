@@ -84,13 +84,13 @@
     zoom_level = 2
 [Meatlocker]
     name = "Meatlocker"
-    class ="settlement"
+    class = "settlement"
     lat = 3441
     lng = 3722
     zoom_level = 2
 [NightmareCastle]
     name = "Nightmare Castle"
-    class ="settlement"
+    class = "settlement"
     lat = 3445
     lng = 3709
     zoom_level = 2
