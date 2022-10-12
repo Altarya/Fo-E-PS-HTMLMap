@@ -70,7 +70,7 @@ fetch("./assets/layers/tropics.svg").then((response => {
                 .openPopup();
             });
 
-            setupPOI(map);
+            setupPOI(map, layerController);
         })
     }
 )

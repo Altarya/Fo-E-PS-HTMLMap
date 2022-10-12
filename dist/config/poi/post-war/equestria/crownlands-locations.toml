@@ -1,0 +1,6 @@
+[IronshodFirearms]
+    name = "Ironshod Firearms"
+    class ="misc-poi"
+    lat = 3281
+    lng = 3306
+    zoom_level = 2

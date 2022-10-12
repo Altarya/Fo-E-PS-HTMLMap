@@ -1,0 +1,18 @@
+[Hope]
+    name = "Hope"
+    class ="settlement"
+    lat = 3261
+    lng = 3278
+    zoom_level = 1
+[Cathedral]
+    name = "Cathedral"
+    class ="post-war-capital"
+    lat = 3225
+    lng = 3340
+    zoom_level = 0
+[Stable39]
+    name = "Stable 39"
+    class ="settlement"
+    lat = 3328
+    lng = 3452
+    zoom_level = 2

@@ -1,4 +1,6 @@
 [PATH]
     poi_list = [
-        "post-war/crownlands"
+        "pre-war/equestria",
+        "post-war/equestria/crownlands-settlements",
+        "post-war/equestria/crownlands-locations",
     ]

@@ -1,0 +1,12 @@
+[Ponyville]
+    name = "Ponyville" #Name
+    class ="city" #Icon, font colour and other CSS stuff
+    lat = 3263 #X
+    lng = 3295 #Y
+    zoom_level = 1 #The zoom level for when this PoI will appear, goes from 0(Always on) to 3(Inside a city)
+[Canterlot]
+    name = "Canterlot"
+    class ="pre-war-capital"
+    lat = 3417
+    lng = 3273
+    zoom_level = 0
