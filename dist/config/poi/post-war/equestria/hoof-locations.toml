@@ -232,3 +232,9 @@
     lat = 3366
     lng = 3552
     zoom_level = 2
+[StarPoint]
+    name = "Star Point"
+    class = "misc-poi"
+    lat = 3432
+    lng = 3718
+    zoom_level = 2
