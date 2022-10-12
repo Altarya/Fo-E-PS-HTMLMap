@@ -1,6 +1,9 @@
-import * as L from "leaflet"
+//import * as L from "leaflet"
 import { LatLngBounds, LatLngBoundsExpression, LatLngExpression, LeafletMouseEvent, ImageOverlayOptions } from "leaflet";
 import { setupPOI } from "./poi";
+
+var L = require('leaflet')
+require('./search.ts')
 
 fetch("./assets/layers/tropics.svg").then((response => {
     if (response.ok) {
@@ -70,7 +73,12 @@ fetch("./assets/layers/tropics.svg").then((response => {
                 .openPopup();
             });
 
-            setupPOI(map, layerController);
+            var poiLayer = setupPOI(map, layerController);
+
+            map.addControl( new L.Control.Search({layer: poiLayer, zoom: 5}) );
+            //searchLayer is a L.LayerGroup contains searched markers
+
+            console.log("Loaded Search")
         })
     }
 )
