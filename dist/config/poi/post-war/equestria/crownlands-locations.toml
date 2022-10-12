@@ -112,3 +112,57 @@
     lat = 3293
     lng = 3523
     zoom_level = 2
+[HopeSolarArray]
+    name = "Hope Solar Array"
+    class = "misc-poi"
+    lat = 3259
+    lng = 3283
+    zoom_level = 3
+[GhostFarm]
+    name = "Ghost Farm"
+    class = "misc-poi"
+    lat = 3259
+    lng = 3293
+    zoom_level = 3
+[ZecorasHut]
+    name = "Zecora's Hut"
+    class = "misc-poi"
+    lat = 3251
+    lng = 3299
+    zoom_level = 3
+[CarouselBoutique]
+    name = "Carousel Boutique"
+    class = "misc-poi"
+    lat = 3261
+    lng = 3299
+    zoom_level = 3
+[SweetAppleAcres]
+    name = "Sweet Apple Acres"
+    class = "misc-poi"
+    lat = 3259
+    lng = 3303
+    zoom_level = 3
+[PonyvilleLibrary]
+    name = "Ponyville Library"
+    class = "misc-poi"
+    lat = 3266
+    lng = 3292
+    zoom_level = 3
+[FluttershysCabin]
+    name = "Fluttershy's Cabin"
+    class = "misc-poi"
+    lat = 3264
+    lng = 3305
+    zoom_level = 3
+[MacintoshMemorial]
+    name = "Macintosh Memorial"
+    class = "misc-poi"
+    lat = 3270
+    lng = 3294
+    zoom_level = 3
+[RainbowDashsShack]
+    name = "Rainbow Dash's Shack"
+    class = "misc-poi"
+    lat = 3296
+    lng = 3316
+    zoom_level = 2

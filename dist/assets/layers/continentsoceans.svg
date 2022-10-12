@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="9728" height="5120" viewBox="0 0 9728 5120">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.5;
+      }
+
+      .cls-2, .cls-3 {
+        font-size: 90px;
+        font-family: "Copperplate Gothic Light";
+      }
+
+      .cls-2 {
+        text-anchor: middle;
+      }
+    </style>
+  </defs>
+  <g id="Continents_And_Oceans" data-name="Continents And Oceans" class="cls-1">
+    <text id="Belical_Ocean" data-name="Belical Ocean" class="cls-2" x="2427.262" y="1288.34"><tspan x="2427.262">Belical</tspan><tspan x="2427.262" dy="108">Ocean</tspan></text>
+    <text id="Messaiom_Ocean" data-name="Messaiom Ocean" class="cls-2" x="2244.347" y="2488.975"><tspan x="2244.347">Messaiom</tspan><tspan x="2244.347" dy="108">Ocean</tspan></text>
+    <text id="Absylupis_Ocean" data-name="Absylupis Ocean" class="cls-2" x="1803.6" y="2972.887"><tspan x="1803.6">Absylupis</tspan><tspan x="1803.6" dy="108">Ocean</tspan></text>
+    <text id="Iremía_Ocean" data-name="Iremía Ocean" class="cls-2" x="1064.233" y="1923.43"><tspan x="1064.233">Iremía</tspan><tspan x="1064.233" dy="108">Ocean</tspan></text>
+    <text id="Cruzian_Ocean" data-name="Cruzian Ocean" class="cls-2" x="3358.427" y="3021.399"><tspan x="3358.427">Cruzian</tspan><tspan x="3358.427" dy="108">Ocean</tspan></text>
+    <text id="Transarctic_Ocean" data-name="Transarctic Ocean" class="cls-2" x="2759.094" y="3985.976"><tspan x="2759.094">Transarctic</tspan><tspan x="2759.094" dy="108">Ocean</tspan></text>
+    <text id="Cervinia" class="cls-2" x="3591.276" y="2417.572"><tspan x="3591.276">Cervinia</tspan></text>
+    <text id="Silver_Ocean" data-name="Silver Ocean" class="cls-2" x="3564.378" y="2020.506"><tspan x="3564.378">Silver</tspan><tspan x="3564.378" dy="108">Ocean</tspan></text>
+    <text id="Al_Sahra" data-name="Al’Sahra" class="cls-3" x="2526.809" y="1951.181">Al’Sahra</text>
+    <text id="Transarctica" class="cls-2" x="3776.05" y="4843.663"><tspan x="3776.05">Transarctica</tspan></text>
+    <text id="Antransarctica" class="cls-3" x="4460.94" y="327.397">Antransarctica</text>
+    <text id="Griffonia" class="cls-2" x="4344.136" y="1829.279"><tspan x="4344.136">Griffonia</tspan></text>
+    <text id="Equestriana" class="cls-2" x="3552.267" y="1492.618"><tspan x="3552.267">Equestriana</tspan></text>
+    <text id="Lupisnistria" class="cls-2" x="2608.943" y="3100.672"><tspan x="2608.943">Lupisnistria</tspan></text>
+    <text id="Felinastra" class="cls-2" x="1186.544" y="2911.119"><tspan x="1186.544">Felinastra</tspan></text>
+    <text id="Magna_Therma" data-name="Magna Therma" class="cls-2" x="1346.054" y="1392.65"><tspan x="1346.054">Magna Therma</tspan></text>
+    <text id="Thermonia" class="cls-2" x="1984.921" y="1931.402"><tspan x="1984.921">Thermonia</tspan></text>
+    <text id="Great_Blue_Ocean" data-name="Great Blue Ocean" class="cls-2" x="336.751" y="3672.699"><tspan x="336.751">Great Blue</tspan><tspan x="336.751" dy="108">Ocean</tspan></text>
+    <text id="Great_Blue_Ocean-2" data-name="Great Blue Ocean" class="cls-2" x="7995.025" y="1962.491"><tspan x="7995.025">Great Blue</tspan><tspan x="7995.025" dy="108">Ocean</tspan></text>
+    <text id="Antransarctic_Ocean" data-name="Antransarctic Ocean" class="cls-2" x="3717.73" y="572.237"><tspan x="3717.73">Antransarctic</tspan><tspan x="3717.73" dy="108">Ocean</tspan></text>
+  </g>
+</svg>
