@@ -1,6 +1,60 @@
 [IronshodFirearms]
     name = "Ironshod Firearms"
-    class ="misc-poi"
+    class = "misc-poi"
     lat = 3281
     lng = 3306
+    zoom_level = 2
+[OldOlneigh]
+    name = "Old Olneigh"
+    class = "misc-poi"
+    lat = 3250
+    lng = 3252
+    zoom_level = 2
+[Maripony]
+    name = "Maripony"
+    class = "misc-poi"
+    lat = 3246
+    lng = 3247
+    zoom_level = 1
+[Stable24]
+    name = "Stable 24"
+    class = "misc-poi"
+    lat = 3292
+    lng = 3282
+    zoom_level = 2
+[PinkiePieMuseum]
+    name = "Pinkie Pie Museum"
+    class = "misc-poi"
+    lat = 3290
+    lng = 3333
+    zoom_level = 2
+[HippocampusEnergyPlant12]
+    name = "Hippocampus Energy Plant 12"
+    class = "misc-poi"
+    lat = 3305
+    lng = 3407
+    zoom_level = 2
+[LumenContaintmentFacility]
+    name = "Lumen Containment Facility"
+    class = "misc-poi"
+    lat = 3365
+    lng = 3411
+    zoom_level = 1
+[Arca1Wreck]
+    name = "Arca 1 Wreck"
+    class = "misc-poi"
+    lat = 3427
+    lng = 3367
+    zoom_level = 2
+[EAMSHub]
+    name = "E.A.M.S. Hub"
+    class = "misc-poi"
+    lat = 3411
+    lng = 3273
+    zoom_level = 2
+[EAMSStation2]
+    name = "E.A.M.S. Station 2"
+    class = "misc-poi"
+    lat = 3341
+    lng = 3449
     zoom_level = 2

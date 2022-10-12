@@ -172,3 +172,9 @@
     lat = 3451
     lng = 3704
     zoom_level = 3
+[SPPTowerHoofington]
+    name = "S.P.P. Tower Hoofington"
+    class = "misc-poi"
+    lat = 3453
+    lng = 3709
+    zoom_level = 3

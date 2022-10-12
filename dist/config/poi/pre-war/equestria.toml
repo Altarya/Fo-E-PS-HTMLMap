@@ -37,9 +37,10 @@
 [Appleloosa]
     name = "Appleloosa"
     class = "city"
-    lat = 3313
-    lng = 3219
+    lat = 3264
+    lng = 3236
     zoom_level = 1
+
 [LosPegasos]
     name = "Los Pegasos"
     class = "city"

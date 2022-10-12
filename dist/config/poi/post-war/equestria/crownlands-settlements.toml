@@ -1,18 +1,54 @@
 [Hope]
     name = "Hope"
-    class ="settlement"
+    class = "settlement"
     lat = 3261
     lng = 3278
-    zoom_level = 1
+    zoom_level = 2
 [Cathedral]
     name = "Cathedral"
-    class ="post-war-capital"
+    class = "post-war-capital"
     lat = 3225
     lng = 3340
     zoom_level = 0
 [Stable39]
     name = "Stable 39"
-    class ="settlement"
+    class = "settlement"
     lat = 3328
     lng = 3452
     zoom_level = 2
+[Stable2]
+    name = "Stable 2"
+    class = "settlement"
+    lat = 3256
+    lng = 3302
+    zoom_level = 2
+[JunctionR7]
+    name = "Junction R7"
+    class = "settlement"
+    lat = 3306
+    lng = 3351
+    zoom_level = 1
+[ShatteredHoof]
+    name = "Shattered Hoof Correctional Facility"
+    class = "settlement"
+    lat = 3298
+    lng = 3368
+    zoom_level = 2
+[NewAppleloosa]
+    name = "New Appleloosa"
+    class = "settlement"
+    lat = 3283
+    lng = 3269
+    zoom_level = 1
+[TheRepublic]
+    name = "The Republic"
+    class = "settlement"
+    lat = 3343
+    lng = 3296
+    zoom_level = 1
+[Glyphmark]
+    name = "Glyphmark"
+    class = "settlement"
+    lat = 3388
+    lng = 3232
+    zoom_level = 1
