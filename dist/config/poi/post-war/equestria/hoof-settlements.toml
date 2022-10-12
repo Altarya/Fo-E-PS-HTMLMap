@@ -94,3 +94,9 @@
     lat = 3445
     lng = 3709
     zoom_level = 2
+[ThePitt]
+    name = "The Pitt"
+    class = "settlement"
+    lat = 3365
+    lng = 3545
+    zoom_level = 1

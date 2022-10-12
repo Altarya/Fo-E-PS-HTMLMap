@@ -178,3 +178,57 @@
     lat = 3453
     lng = 3709
     zoom_level = 3
+[StableTecHQ]
+    name = "Stable-Tec H.Q."
+    class = "misc-poi"
+    lat = 3388
+    lng = 3559
+    zoom_level = 1
+[Stable0]
+    name = "Stable 0"
+    class = "misc-poi"
+    lat = 3387
+    lng = 3562
+    zoom_level = 2
+[BankOfEquestria]
+    name = "Bank of Equestria"
+    class = "misc-poi"
+    lat = 3382
+    lng = 3569
+    zoom_level = 2
+[MOMHub]
+    name = "M.O.M. Hub"
+    class = "misc-poi"
+    lat = 3362
+    lng = 3541
+    zoom_level = 2
+[FillydelphiaFunFarm]
+    name = "Fillidelphia Fun Farm"
+    class = "misc-poi"
+    lat = 3372
+    lng = 3546
+    zoom_level = 2
+[AlphaOmegaHotel]
+    name = "Alpha Omega Hotel"
+    class = "misc-poi"
+    lat = 3369
+    lng = 3557
+    zoom_level = 2
+[TheRoamer]
+    name = "The Roamer"
+    class = "misc-poi"
+    lat = 3377
+    lng = 3566
+    zoom_level = 2
+[SPPTowerFillydelphia]
+    name = "S.P.P. Tower Fillydelphia"
+    class = "misc-poi"
+    lat = 3392
+    lng = 3573
+    zoom_level = 2
+[FillidelphiaCrater]
+    name = "Fillydelphia Crater"
+    class = "misc-poi"
+    lat = 3366
+    lng = 3552
+    zoom_level = 2
