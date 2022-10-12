@@ -1,5 +1,6 @@
-import * as L from "leaflet";
+import * as L from "leaflet"
 import { LatLngBounds, LatLngBoundsExpression, LatLngExpression, LeafletMouseEvent, ImageOverlayOptions } from "leaflet";
+import { setupPOI } from "./poi";
 
 fetch("./assets/layers/tropics.svg").then((response => {
     if (response.ok) {
@@ -68,6 +69,8 @@ fetch("./assets/layers/tropics.svg").then((response => {
                 .addTo(map)
                 .openPopup();
             });
+
+            setupPOI(map);
         })
     }
 )
