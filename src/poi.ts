@@ -25,6 +25,8 @@ export function setupPOI(map: L.Map) {
                         let key = entry[0];
                         let value = entry[1];
                         console.log(key+" "+value)
+
+                        
                     }
                 } catch (error) {
                     console.error("Parsing error on line " + error.line + ", column " + error.column + ": " + error.message);

@@ -1,0 +1,9 @@
+[POIS]
+    [Ponyville] #Name
+        icon ="city.wepb" #Icon
+        lat = 2500 #X
+        lng = 4500 #Y
+    [Canterlot]
+        icon ="pre-war-capital.wepb"
+        lat = 2700
+        lng = 4200
