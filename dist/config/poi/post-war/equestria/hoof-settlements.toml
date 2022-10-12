@@ -1,0 +1,96 @@
+[Chapel]
+    name = "Chapel"
+    class = "settlement"
+    lat = 3450
+    lng = 3705
+    zoom_level = 2
+[Flotsam]
+    name = "Flotsam"
+    class = "settlement"
+    lat = 3441
+    lng = 3709
+    zoom_level = 2
+[Megamart]
+    name = "Megamart"
+    class = "settlement"
+    lat = 3439
+    lng = 3698
+    zoom_level = 1
+[Paradise]
+    name = "Paradise"
+    class = "settlement"
+    lat = 3470
+    lng = 3647
+    zoom_level = 1
+[Flank]
+    name = "Flank"
+    class = "settlement"
+    lat = 3461
+    lng = 3691
+    zoom_level = 1
+[Boardwalk]
+    name = "Boardwalk"
+    class = "settlement"
+    lat = 3430
+    lng = 3695
+    zoom_level = 2
+[Riverside]
+    name = "Riverside"
+    class = "settlement"
+    lat = 3443
+    lng = 3707
+    zoom_level = 2
+[Thunderhead]
+    name = "Thunderhead"
+    class = "settlement"
+    lat = 3447
+    lng = 3709
+    zoom_level = 1
+[HoofingtonSportsArena]
+    name = "Hoofington Sports Arena"
+    class = "settlement"
+    lat = 3441
+    lng = 3701
+    zoom_level = 2
+[IronmareNavalStation]
+    name = "Ironmare Naval Station"
+    class = "settlement"
+    lat = 3436
+    lng = 3716
+    zoom_level = 2
+[RosehoofAcademy]
+    name = "Rosehoof Academy"
+    class = "settlement"
+    lat = 3457
+    lng = 3698
+    zoom_level = 2
+[Stable152]
+    name = "Stable 152"
+    class = "settlement"
+    lat = 3455
+    lng = 3690
+    zoom_level = 2
+[BrimstonesFall]
+    name = "Brimstone's Fall"
+    class = "settlement"
+    lat = 3457
+    lng = 3695
+    zoom_level = 2
+[Stockyard]
+    name = "Stockyard"
+    class = "settlement"
+    lat = 3449
+    lng = 3689
+    zoom_level = 2
+[Meatlocker]
+    name = "Meatlocker"
+    class ="settlement"
+    lat = 3441
+    lng = 3722
+    zoom_level = 2
+[NightmareCastle]
+    name = "Nightmare Castle"
+    class ="settlement"
+    lat = 3445
+    lng = 3709
+    zoom_level = 2
