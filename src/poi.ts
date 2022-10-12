@@ -8,32 +8,35 @@ var capitals = new L.FeatureGroup(); //Level 0
 var cities = new L.FeatureGroup(); //Level 1
 var settlements = new L.FeatureGroup(); //Level 2
 var intraSettlement = new L.FeatureGroup(); //Level 3
+var locationsLayers = L.layerGroup([capitals, cities, settlements, intraSettlement])
 
 function zoomCheck(mapVar: L.Map) {
-    let zoom = mapVar.getZoom()
-    mapVar.addLayer(capitals);
-    if (zoom > 0){
-        mapVar.addLayer(cities);
-    }
-    else {
-        mapVar.removeLayer(cities);
-    }
-    if (zoom > 2){
-        mapVar.addLayer(settlements);
-    }
-    else {
-        mapVar.removeLayer(settlements);
-    }
-    if (zoom > 4){
-        mapVar.addLayer(intraSettlement);
-    }
-    else {
-        mapVar.removeLayer(intraSettlement);
+    if (mapVar.hasLayer(locationsLayers)) {
+        let zoom = mapVar.getZoom()
+        mapVar.addLayer(capitals);
+        if (zoom > 0){
+            mapVar.addLayer(cities);
+        }
+        else {
+            mapVar.removeLayer(cities);
+        }
+        if (zoom > 2){
+            mapVar.addLayer(settlements);
+        }
+        else {
+            mapVar.removeLayer(settlements);
+        }
+        if (zoom > 4){
+            mapVar.addLayer(intraSettlement);
+        }
+        else {
+            mapVar.removeLayer(intraSettlement);
+        }
     }
 }
 
 export function setupPOI(mapVar: L.Map, layerController: L.Control.Layers) {
-    let locationsLayers = L.layerGroup([capitals, cities, settlements, intraSettlement])
+
     layerController.addOverlay(locationsLayers, "Locations")
 
     mapVar.on('zoomend', function() {
