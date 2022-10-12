@@ -58,3 +58,57 @@
     lat = 3341
     lng = 3449
     zoom_level = 2
+[Stable29]
+    name = "Stable 29"
+    class = "misc-poi"
+    lat = 3301
+    lng = 3496
+    zoom_level = 2
+[RedRacerFactory]
+    name = "Red Racer Factory"
+    class = "misc-poi"
+    lat = 3293
+    lng = 3507
+    zoom_level = 2
+[ManehattanCrater]
+    name = "Manehattan Crater"
+    class = "misc-poi"
+    lat = 3275
+    lng = 3538
+    zoom_level = 1
+[HorseshoeTower]
+    name = "Horseshoe Tower"
+    class = "misc-poi"
+    lat = 3310
+    lng = 3509
+    zoom_level = 2
+[CelestiaLine]
+    name = "Celestia Line"
+    class = "misc-poi"
+    lat = 3303
+    lng = 3518
+    zoom_level = 2
+[LunaLine]
+    name = "Luna Line"
+    class = "misc-poi"
+    lat = 3299
+    lng = 3510
+    zoom_level = 2
+[GRAS]
+    name = "G.R.A.S."
+    class = "misc-poi"
+    lat = 3270
+    lng = 3531
+    zoom_level = 2
+[ManehattanGardens]
+    name = "Manehattan Gardens"
+    class = "misc-poi"
+    lat = 3301
+    lng = 3527
+    zoom_level = 1
+[FourStarsGrandHotel]
+    name = "Four Stars Grand Hotel"
+    class = "misc-poi"
+    lat = 3293
+    lng = 3523
+    zoom_level = 2

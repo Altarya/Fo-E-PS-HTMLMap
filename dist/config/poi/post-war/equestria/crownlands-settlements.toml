@@ -52,3 +52,51 @@
     lat = 3388
     lng = 3232
     zoom_level = 1
+[Fetlock]
+    name = "Fetlock"
+    class = "settlement"
+    lat = 3304
+    lng = 3486
+    zoom_level = 1
+[FriendshipCity]
+    name = "Friendship City"
+    class = "settlement"
+    lat = 3258
+    lng = 3535
+    zoom_level = 1
+[TenponyTower]
+    name = "Tenpony Tower"
+    class = "settlement"
+    lat = 3287
+    lng = 3530
+    zoom_level = 1
+[Gutterville]
+    name = "Gutterville"
+    class = "settlement"
+    lat = 3292
+    lng = 3539
+    zoom_level = 1
+[Arbu]
+    name = "Arbu"
+    class = "settlement"
+    lat = 3274
+    lng = 3521
+    zoom_level = 2
+[BucklinCross]
+    name = "Buckling Cross"
+    class = "settlement"
+    lat = 3277
+    lng = 3526
+    zoom_level = 1
+[Duskhoof]
+    name = "Duskhoof"
+    class = "settlement"
+    lat = 3310
+    lng = 3524
+    zoom_level = 1
+[RaidersNest]
+    name = "Raider's Nest"
+    class = "settlement"
+    lat = 3321
+    lng = 3516
+    zoom_level = 1
