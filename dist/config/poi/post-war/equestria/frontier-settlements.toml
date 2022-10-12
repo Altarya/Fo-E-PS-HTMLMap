@@ -1,0 +1,84 @@
+[Cartwheel]
+    name = "Cartwheel"
+    class = "settlement"
+    lat = 3342
+    lng = 3177
+    zoom_level = 1
+[HiddenValley]
+    name = "Hidden Valley"
+    class = "settlement"
+    lat = 3323
+    lng = 3181
+    zoom_level = 1
+[TheBramble]
+    name = "The Bramble"
+    class = "settlement"
+    lat = 3307
+    lng = 3158
+    zoom_level = 1
+[NewPegasus]
+    name = "New Pegasus"
+    class = "post-war-capital"
+    lat = 3284
+    lng = 3152
+    zoom_level = 0
+[NewPegasusStrip]
+    name = "New Pegasus Strip"
+    class = "settlement"
+    lat = 3274
+    lng = 3158
+    zoom_level = 1
+[Freedom]
+    name = "Freedom"
+    class = "settlement"
+    lat = 3265
+    lng = 3159
+    zoom_level = 1
+[SpitfiresFlightAcademy]
+    name = "Spitfire's Flight Academy"
+    class = "settlement"
+    lat = 3265
+    lng = 3177
+    zoom_level = 2
+[Trotston]
+    name = "Trotston"
+    class = "settlement"
+    lat = 3269
+    lng = 3183
+    zoom_level = 2
+[FortSummit]
+    name = "Fort Summit"
+    class = "settlement"
+    lat = 3255
+    lng = 3180
+    zoom_level = 2
+[CrimsonCanyon]
+    name = "Crimson Canyon"
+    class = "settlement"
+    lat = 3260
+    lng = 3185
+    zoom_level = 1
+[Appleton]
+    name = "Appleton"
+    class = "settlement"
+    lat = 3244
+    lng = 3152
+    zoom_level = 1
+[Stratus]
+    name = "Stratus"
+    class = "settlement"
+    lat = 3246
+    lng = 3147
+    zoom_level = 1
+[Stable28]
+    name = "Stable 28"
+    class = "settlement"
+    lat = 3357
+    lng = 3163
+    zoom_level = 1
+[TheKingdom]
+    name = "The Kingdom"
+    class = "settlement"
+    lat = 3394
+    lng = 3075
+    zoom_level = 1

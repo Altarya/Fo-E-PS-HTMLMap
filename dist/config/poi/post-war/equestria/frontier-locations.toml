@@ -1,0 +1,48 @@
+[Stable9]
+    name = "Stable 9"
+    class = "misc-poi"
+    lat = 3307
+    lng = 3182
+    zoom_level = 2
+[Stable14]
+    name = "Stable 14"
+    class = "misc-poi"
+    lat = 3283
+    lng = 3183
+    zoom_level = 2
+[HaloOnePowerStation]
+    name = "Halo One Power Station"
+    class = "misc-poi"
+    lat = 3295
+    lng = 3192
+    zoom_level = 2
+[NewPegasusAirport]
+    name = "New Pegasus Airport"
+    class = "misc-poi"
+    lat = 3303
+    lng = 3173
+    zoom_level = 2
+[NewPegasusDam]
+    name = "New Pegasus Dam"
+    class = "misc-poi"
+    lat = 3330
+    lng = 3165
+    zoom_level = 1
+[FnFTools]
+    name = "F&F Tools"
+    class = "misc-poi"
+    lat = 3316
+    lng = 3173
+    zoom_level = 2
+[GreenMistValley]
+    name = "Green Mist Valley"
+    class = "misc-poi"
+    lat = 3336
+    lng = 3176
+    zoom_level = 1
+[EAMSStation1]
+    name = "E.A.M.S. Station 1"
+    class = "misc-poi"
+    lat = 3297
+    lng = 3157
+    zoom_level = 2
