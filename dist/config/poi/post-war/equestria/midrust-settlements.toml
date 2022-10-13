@@ -1,0 +1,18 @@
+[PonaRosa]
+    name = "Pona Rosa"
+    class = "settlement"
+    lat = 3569
+    lng = 3616
+    zoom_level = 1
+[NewCloudsdale]
+    name = "New Cloudsdale"
+    class = "post-war-capital"
+    lat = 3548
+    lng = 3395
+    zoom_level = 0
+[Portharbour]
+    name = "Portharbour"
+    class = "settlement"
+    lat = 3785
+    lng = 3474
+    zoom_level = 1
