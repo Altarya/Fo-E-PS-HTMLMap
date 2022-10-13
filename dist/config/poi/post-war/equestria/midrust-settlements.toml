@@ -16,3 +16,9 @@
     lat = 3785
     lng = 3474
     zoom_level = 1
+[Stable11]
+    name = "Stable 11"
+    class = "settlement"
+    lat = 3593
+    lng = 3533
+    zoom_level = 2
