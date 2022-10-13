@@ -48,13 +48,13 @@
     zoom_level = 2
 [EAMSHub]
     name = "E.A.M.S. Hub"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3411
     lng = 3273
     zoom_level = 2
 [EAMSStation2]
     name = "E.A.M.S. Station 2"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3341
     lng = 3449
     zoom_level = 2
@@ -66,7 +66,7 @@
     zoom_level = 2
 [RedRacerFactory]
     name = "Red Racer Factory"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3293
     lng = 3507
     zoom_level = 2
@@ -78,37 +78,37 @@
     zoom_level = 1
 [HorseshoeTower]
     name = "Horseshoe Tower"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3310
     lng = 3509
     zoom_level = 2
 [CelestiaLine]
     name = "Celestia Line"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3303
     lng = 3518
     zoom_level = 2
 [LunaLine]
     name = "Luna Line"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3299
     lng = 3510
     zoom_level = 2
 [GRAS]
     name = "G.R.A.S."
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3270
     lng = 3531
     zoom_level = 2
 [ManehattanGardens]
     name = "Manehattan Gardens"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3301
     lng = 3527
     zoom_level = 1
 [FourStarsGrandHotel]
     name = "Four Stars Grand Hotel"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3293
     lng = 3523
     zoom_level = 2
@@ -120,43 +120,43 @@
     zoom_level = 3
 [GhostFarm]
     name = "Ghost Farm"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3259
     lng = 3293
     zoom_level = 3
 [ZecorasHut]
     name = "Zecora's Hut"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3251
     lng = 3299
     zoom_level = 3
 [CarouselBoutique]
     name = "Carousel Boutique"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3261
     lng = 3299
     zoom_level = 3
 [SweetAppleAcres]
     name = "Sweet Apple Acres"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3259
     lng = 3303
     zoom_level = 3
 [PonyvilleLibrary]
     name = "Ponyville Library"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3266
     lng = 3292
     zoom_level = 3
 [FluttershysCabin]
     name = "Fluttershy's Cabin"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3264
     lng = 3305
     zoom_level = 3
 [MacintoshMemorial]
     name = "Macintosh Memorial"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3270
     lng = 3294
     zoom_level = 3
@@ -168,31 +168,31 @@
     zoom_level = 2
 [EquestriaRoyalPalace]
     name = "Equestrian Royal Palace"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3415
     lng = 3277
     zoom_level = 3
 [MinistryWalk]
     name = "Ministry Walk"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3416
     lng = 3276
     zoom_level = 3
 [CelestianMonument]
     name = "Celestian Monument"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3417
     lng = 3277
     zoom_level = 3
 [IvoryTower]
     name = "Ivory Tower"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3418
     lng = 3279
     zoom_level = 3
 [SchoolForGiftedUnicorns]
     name = "School For Gifted Unicorns"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3417
     lng = 3274
     zoom_level = 3

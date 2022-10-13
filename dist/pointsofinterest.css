@@ -1,0 +1,100 @@
+/****************/
+/* All Tooltips */
+/****************/
+.leaflet-tooltip {
+    position: absolute;
+    padding: 6px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    color: #fff;
+    box-shadow: 0 1px 3px transparent;
+    text-shadow: 0 0 12px rgb(0, 0, 0);
+    font-family: Fallouty;
+}
+
+.leaflet-tooltip-left:before {
+    right: 0;
+    margin-right: -12px;
+    border-left-color: #fff;
+}
+.leaflet-tooltip-right:before {
+    left: 0;
+    margin-left: -12px;
+    border-right-color: #fff;
+}
+
+/*******************************/
+/* Your custom classes go here */
+/*******************************/
+.pre-war-capital {
+    background-color: transparent;
+    font-size: 20;
+    color: rgb(0, 180, 0);
+}
+.pre-war-capital.leaflet-tooltip-left:before {
+    border-left-color: rgb(0, 180, 0);
+}
+.pre-war-capital.leaflet-tooltip-right:before {
+    border-right-color: rgb(0, 180, 0);
+}
+
+.city {
+    background-color: transparent;
+    font-size: 18;
+    color: rgb(0, 255, 0);
+}
+.city.leaflet-tooltip-left:before {
+    border-left-color: rgb(0, 255, 0);
+}
+.city.leaflet-tooltip-right:before {
+    border-right-color: rgb(0, 255, 0);
+}
+
+.post-war-capital {
+    background-color: transparent;
+    font-size: 20;
+    color: rgb(180, 0, 0);
+}
+.post-war-capital.leaflet-tooltip-left:before {
+    border-left-color: rgb(180, 0, 0);
+}
+.post-war-capital.leaflet-tooltip-right:before {
+    border-right-color: rgb(180, 0, 0);
+}
+
+.settlement {
+    background-color: transparent;
+    font-size: 16;
+    color: rgb(255, 0, 0);
+}
+.settlement.leaflet-tooltip-left:before {
+    border-left-color: rgb(255, 0, 0);
+}
+.settlement.leaflet-tooltip-right:before {
+    border-right-color: rgb(255, 0, 0);
+}
+
+.intra-settlement {
+    background-color: transparent;
+    font-size: 14;
+    color: rgb(0, 180, 180);
+}
+.intra-settlement.leaflet-tooltip-left:before {
+    border-left-color: rgb(0, 180, 180);
+}
+.intra-settlement.leaflet-tooltip-right:before {
+    border-right-color: rgb(0, 180, 180);
+}
+
+.misc-poi {
+    background-color: transparent;
+    font-size: 14;
+    color: rgb(0, 255, 255);
+}
+.misc-poi.leaflet-tooltip-left:before {
+    border-left-color: rgb(0, 255, 255);
+}
+.misc-poi.leaflet-tooltip-right:before {
+    border-right-color: rgb(0, 255, 255);
+}

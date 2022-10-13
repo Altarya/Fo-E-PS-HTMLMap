@@ -18,7 +18,7 @@
     zoom_level = 3
 [Well33]
     name = "Well 33"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3458
     lng = 3691
     zoom_level = 3
@@ -36,19 +36,19 @@
     zoom_level = 3
 [FluttershyMedicalCenter]
     name = "Fluttershy Medical Center"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3445
     lng = 3692
     zoom_level = 2
 [IronshodRnD]
     name = "Ironshod R&D"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3438
     lng = 3667
     zoom_level = 3
 [HippocracticResearch]
     name = "Hippocractic Research"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3456
     lng = 3712
     zoom_level = 3
@@ -60,7 +60,7 @@
     zoom_level = 3
 [HoofingtonWeekly]
     name = "Hoofington Weekly"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3441
     lng = 3692
     zoom_level = 3
@@ -90,7 +90,7 @@
     zoom_level = 3
 [OIABuilding]
     name = "O.I.A. H.Q."
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3456
     lng = 3683
     zoom_level = 2
@@ -102,25 +102,25 @@
     zoom_level = 3
 [EAMSStation7]
     name = "E.A.M.S. Station 7"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3428
     lng = 3723
     zoom_level = 2
 [IsolatedFarmstead]
     name = "Isolated Farmstead"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3448
     lng = 3696
     zoom_level = 3
 [MASEBS13]
     name = "M.A.S.E.B.S. Tower 13"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3445
     lng = 3698
     zoom_level = 3
 [MASEBS14]
     name = "M.A.S.E.B.S. Tower 14"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3435
     lng = 3699
     zoom_level = 3
@@ -144,43 +144,43 @@
     zoom_level = 2
 [HightowerPrison]
     name = "Hightower Prison"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3445
     lng = 3719
     zoom_level = 2
 [MuseumOfNaturalHistory]
     name = "Museum Of Natural History"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3448
     lng = 3704
     zoom_level = 3
 [GreenLineAccess]
     name = "Green Line Access"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3446
     lng = 3705
     zoom_level = 3
 [BluebloodEstate]
     name = "Blueblood Estate"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3444
     lng = 3704
     zoom_level = 3
 [StarHouse]
     name = "Star House"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3451
     lng = 3704
     zoom_level = 3
 [SPPTowerHoofington]
     name = "S.P.P. Tower Hoofington"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3453
     lng = 3709
     zoom_level = 3
 [StableTecHQ]
     name = "Stable-Tec H.Q."
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3388
     lng = 3559
     zoom_level = 1
@@ -192,37 +192,37 @@
     zoom_level = 2
 [BankOfEquestria]
     name = "Bank of Equestria"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3382
     lng = 3569
     zoom_level = 2
 [MOMHub]
     name = "M.O.M. Hub"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3362
     lng = 3541
     zoom_level = 2
 [FillydelphiaFunFarm]
     name = "Fillidelphia Fun Farm"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3372
     lng = 3546
     zoom_level = 2
 [AlphaOmegaHotel]
     name = "Alpha Omega Hotel"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3369
     lng = 3557
     zoom_level = 2
 [TheRoamer]
     name = "The Roamer"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3377
     lng = 3566
     zoom_level = 2
 [SPPTowerFillydelphia]
     name = "S.P.P. Tower Fillydelphia"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3392
     lng = 3573
     zoom_level = 2

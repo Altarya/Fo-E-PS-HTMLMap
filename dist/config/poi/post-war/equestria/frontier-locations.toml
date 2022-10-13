@@ -42,67 +42,67 @@
     zoom_level = 1
 [EAMSStation1]
     name = "E.A.M.S. Station 1"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3297
     lng = 3157
     zoom_level = 2
 [QueensSchoolOfInterpretation]
     name = "Queen's School of Interpretation"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3262
     lng = 3157
     zoom_level = 3
 [VanDamns]
     name = "Van Damns'"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3268
     lng = 3162
     zoom_level = 3
 [LuckyHorseshoe]
     name = "The Lucky Horseshoe"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3273
     lng = 3157
     zoom_level = 3
 [DemocracysPalace]
     name = "Democracy's Palace"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3276
     lng = 3149
     zoom_level = 3
 [MatchnTariffs]
     name = "Match and Tariff's"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3266
     lng = 3157
     zoom_level = 3
 [EmperorsPalace]
     name = "Emperor's Palace"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3272
     lng = 3158
     zoom_level = 3
 [TheGrandRoyale]
     name = "The Grand Royale"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3271
     lng = 3157
     zoom_level = 3
 [TheApplewoodResortnCasino]
     name = "The Applewood Resort & Casino"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3270
     lng = 3158
     zoom_level = 3
 [Stable20Hotel]
     name = "Stable 20 Hotel"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3271
     lng = 3154
     zoom_level = 3
 [HonestHeartsDetectiveAgency]
     name = "Honest Hearts Detective Agency"
-    class = "misc-poi"
+    class = "intra-settlement"
     lat = 3269
     lng = 3153
     zoom_level = 3
