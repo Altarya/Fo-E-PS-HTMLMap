@@ -82,3 +82,9 @@
     lat = 3394
     lng = 3075
     zoom_level = 1
+[LittleLamplight]
+    name = "Little Lamplight"
+    class = "settlement"
+    lat = 3322
+    lng = 3167
+    zoom_level = 2

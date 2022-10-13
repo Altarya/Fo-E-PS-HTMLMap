@@ -46,3 +46,75 @@
     lat = 3297
     lng = 3157
     zoom_level = 2
+[QueensSchoolOfInterpretation]
+    name = "Queen's School of Interpretation"
+    class = "misc-poi"
+    lat = 3262
+    lng = 3157
+    zoom_level = 3
+[VanDamns]
+    name = "Van Damns'"
+    class = "misc-poi"
+    lat = 3268
+    lng = 3162
+    zoom_level = 3
+[LuckyHorseshoe]
+    name = "The Lucky Horseshoe"
+    class = "misc-poi"
+    lat = 3273
+    lng = 3157
+    zoom_level = 3
+[DemocracysPalace]
+    name = "Democracy's Palace"
+    class = "misc-poi"
+    lat = 3276
+    lng = 3149
+    zoom_level = 3
+[MatchnTariffs]
+    name = "Match and Tariff's"
+    class = "misc-poi"
+    lat = 3266
+    lng = 3157
+    zoom_level = 3
+[EmperorsPalace]
+    name = "Emperor's Palace"
+    class = "misc-poi"
+    lat = 3272
+    lng = 3158
+    zoom_level = 3
+[TheGrandRoyale]
+    name = "The Grand Royale"
+    class = "misc-poi"
+    lat = 3271
+    lng = 3157
+    zoom_level = 3
+[TheApplewoodResortnCasino]
+    name = "The Applewood Resort & Casino"
+    class = "misc-poi"
+    lat = 3270
+    lng = 3158
+    zoom_level = 3
+[Stable20Hotel]
+    name = "Stable 20 Hotel"
+    class = "misc-poi"
+    lat = 3271
+    lng = 3154
+    zoom_level = 3
+[HonestHeartsDetectiveAgency]
+    name = "Honest Hearts Detective Agency"
+    class = "misc-poi"
+    lat = 3269
+    lng = 3153
+    zoom_level = 3
+[Stable97]
+    name = "Stable 97"
+    class = "misc-poi"
+    lat = 3394
+    lng = 2976
+    zoom_level = 2
+[TwinCitiesDam]
+    name = "Twin Cities Dam"
+    class = "misc-poi"
+    lat = 3391
+    lng = 3000
+    zoom_level = 1
