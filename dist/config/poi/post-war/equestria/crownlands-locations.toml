@@ -196,3 +196,63 @@
     lat = 3417
     lng = 3274
     zoom_level = 3
+[SphinxQuicksilverRuin]
+    name = "Sphinx Quicksilver Ruin"
+    class = "misc-poi"
+    lat = 3447
+    lng = 3374
+    zoom_level = 2
+[HMBLunaria]
+    name = "HMB Lunaria"
+    class = "intra-settlement"
+    lat = 3429
+    lng = 3365
+    zoom_level = 2
+[SphinxTown]
+    name = "Sphinx Town"
+    class = "intra-settlement"
+    lat = 3440
+    lng = 3369
+    zoom_level = 2
+[FleurDeLisGreatBoutique]
+    name = "Fleur De Lis' Great Boutique"
+    class = "intra-settlement"
+    lat = 3435
+    lng = 3373
+    zoom_level = 2
+[OldBatopia]
+    name = "Old Batopia"
+    class = "intra-settlement"
+    lat = 3438
+    lng = 3355
+    zoom_level = 2
+[EZPStoreSplendid]
+    name = "E.Z.P. Store (Splendid Falls)"
+    class = "intra-settlement"
+    lat = 3431
+    lng = 3376
+    zoom_level = 2
+[AetherithsWeapons]
+    name = "Aetherith's Weapons"
+    class = "intra-settlement"
+    lat = 3433
+    lng = 3366
+    zoom_level = 2
+[NewStableDistrict]
+    name = "New Stable District"
+    class = "intra-settlement"
+    lat = 3431
+    lng = 3360
+    zoom_level = 2
+[SplendidMedicalDistrict]
+    name = "Splendid Medical District"
+    class = "intra-settlement"
+    lat = 3436
+    lng = 3370
+    zoom_level = 2
+[TrottinghamEmbassy]
+    name = "Trottingham Embassy"
+    class = "intra-settlement"
+    lat = 3437
+    lng = 3375
+    zoom_level = 2
