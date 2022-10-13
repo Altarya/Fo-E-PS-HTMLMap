@@ -166,3 +166,33 @@
     lat = 3296
     lng = 3316
     zoom_level = 2
+[EquestriaRoyalPalace]
+    name = "Equestrian Royal Palace"
+    class = "misc-poi"
+    lat = 3415
+    lng = 3277
+    zoom_level = 3
+[MinistryWalk]
+    name = "Ministry Walk"
+    class = "misc-poi"
+    lat = 3416
+    lng = 3276
+    zoom_level = 3
+[CelestianMonument]
+    name = "Celestian Monument"
+    class = "misc-poi"
+    lat = 3417
+    lng = 3277
+    zoom_level = 3
+[IvoryTower]
+    name = "Ivory Tower"
+    class = "misc-poi"
+    lat = 3418
+    lng = 3279
+    zoom_level = 3
+[SchoolForGiftedUnicorns]
+    name = "School For Gifted Unicorns"
+    class = "misc-poi"
+    lat = 3417
+    lng = 3274
+    zoom_level = 3

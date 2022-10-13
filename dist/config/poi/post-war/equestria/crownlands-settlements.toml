@@ -100,3 +100,15 @@
     lat = 3321
     lng = 3516
     zoom_level = 1
+[Neighvarro]
+    name = "Neighvarro"
+    class = "settlement"
+    lat = 3408
+    lng = 3220
+    zoom_level = 1
+[Stable1City]
+    name = "Stable (1) City"
+    class = "settlement"
+    lat = 3414
+    lng = 3275
+    zoom_level = 1

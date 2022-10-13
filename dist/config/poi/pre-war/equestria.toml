@@ -7,8 +7,8 @@
 [Canterlot]
     name = "Canterlot"
     class ="pre-war-capital"
-    lat = 3417
-    lng = 3273
+    lat = 3421
+    lng = 3274
     zoom_level = 0
 [Baltimare]
     name = "Baltimare"
