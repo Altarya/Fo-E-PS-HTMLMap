@@ -37,6 +37,17 @@ function zoomCheck(mapVar: L.Map) {
 
 export function setupPOI(mapVar: L.Map, layerController: L.Control.Layers) {
 
+    var poiIcon: new(any: any) => L.Icon = L.Icon.extend({
+        options: {
+            iconSize:     [24, 24],
+            shadowSize:   [0, 0],
+            iconAnchor:   [12, 12],
+            shadowAnchor: [0, 0],
+            popupAnchor:  [8, 0],
+            tooltipAnchor:  [8, 0]
+        }
+    });
+
     layerController.addOverlay(locationsLayers, "Locations")
 
     mapVar.on('zoomend', function() {
@@ -102,20 +113,28 @@ export function setupPOI(mapVar: L.Map, layerController: L.Control.Layers) {
                                                 }
                                             ).bindTooltip(label)
 
+                                            let iconImage: string = ""
                                             switch (zoom_level[1]) {
                                                 case 1:
+                                                    iconImage = "./assets/icons/poi/1.webp"
                                                     cities.addLayer(marker);
                                                     break;
                                                 case 2:
+                                                    iconImage = "./assets/icons/poi/2.webp"
                                                     settlements.addLayer(marker);
                                                     break;
                                                 case 3:
+                                                    iconImage = "./assets/icons/poi/3.webp"
                                                     intraSettlement.addLayer(marker);
                                                     break;
                                                 default:
+                                                    iconImage = "./assets/icons/poi/0.webp"
                                                     capitals.addLayer(marker);
                                                     break;
                                             }
+
+                                            var Icon = new poiIcon({iconUrl: iconImage, className: classNamev[1]})
+                                            marker.setIcon(Icon)
                                         }
                                     } catch (error) {
                                         console.error("Parsing error on line " + error.line + ", column " + error.column + ": " + error.message);

@@ -2,26 +2,26 @@
 /* All Tooltips */
 /****************/
 .leaflet-tooltip {
-    position: absolute;
-    padding: 6px;
     background-color: transparent;
-    border: 1px solid transparent;
-    border-radius: 3px;
+    border: solid transparent;
     color: #fff;
-    box-shadow: 0 1px 3px transparent;
+    box-shadow: 0 0 0 transparent;
     text-shadow: 0 0 12px rgb(0, 0, 0);
     font-family: Fallouty;
 }
-
 .leaflet-tooltip-left:before {
-    right: 0;
-    margin-right: -12px;
     border-left-color: #fff;
 }
 .leaflet-tooltip-right:before {
-    left: 0;
-    margin-left: -12px;
     border-right-color: #fff;
+}
+
+/***************/
+/* All Markers */
+/***************/
+.leaflet-marker-icon {
+    -webkit-filter: drop-shadow(0 0 2px black);
+    filter: drop-shadow(0 0 2px black);
 }
 
 /*******************************/
@@ -38,6 +38,10 @@
 .pre-war-capital.leaflet-tooltip-right:before {
     border-right-color: rgb(0, 180, 0);
 }
+.pre-war-capital.leaflet-marker-icon {
+    -webkit-filter: drop-shadow(0 0 2px black) brightness(0.4) sepia(1) hue-rotate(-270deg) saturate(5);
+    filter: drop-shadow(0 0 2px black) brightness(0.4) sepia(1) hue-rotate(-270deg) saturate(5);
+}
 
 .city {
     background-color: transparent;
@@ -50,6 +54,11 @@
 .city.leaflet-tooltip-right:before {
     border-right-color: rgb(0, 255, 0);
 }
+.city.leaflet-marker-icon {
+    -webkit-filter: drop-shadow(0 0 2px black) brightness(0.5) sepia(1) hue-rotate(-270deg) saturate(5);
+    filter: drop-shadow(0 0 2px black) brightness(0.5) sepia(1) hue-rotate(-270deg) saturate(5);
+}
+
 
 .post-war-capital {
     background-color: transparent;
@@ -61,6 +70,10 @@
 }
 .post-war-capital.leaflet-tooltip-right:before {
     border-right-color: rgb(180, 0, 0);
+}
+.post-war-capital.leaflet-marker-icon {
+    -webkit-filter: drop-shadow(0 0 2px black) brightness(0.2) sepia(1) hue-rotate(-50deg) saturate(5);
+    filter: drop-shadow(0 0 2px black) brightness(0.2) sepia(1) hue-rotate(-50deg) saturate(5);
 }
 
 .settlement {
@@ -74,6 +87,11 @@
 .settlement.leaflet-tooltip-right:before {
     border-right-color: rgb(255, 0, 0);
 }
+.settlement.leaflet-marker-icon {
+    -webkit-filter: drop-shadow(0 0 2px black) brightness(0.3) sepia(1) hue-rotate(-40deg) saturate(5);
+    filter: drop-shadow(0 0 2px black) brightness(0.3) sepia(1) hue-rotate(-40deg) saturate(5);
+}
+
 
 .intra-settlement {
     background-color: transparent;
@@ -86,6 +104,10 @@
 .intra-settlement.leaflet-tooltip-right:before {
     border-right-color: rgb(0, 180, 180);
 }
+.intra-settlement.leaflet-marker-icon {
+    -webkit-filter: drop-shadow(0 0 2px black) brightness(0.6) sepia(1) hue-rotate(-180deg) saturate(5);
+    filter: drop-shadow(0 0 2px black) brightness(0.6) sepia(1) hue-rotate(-180deg) saturate(5);
+}
 
 .misc-poi {
     background-color: transparent;
@@ -97,4 +119,8 @@
 }
 .misc-poi.leaflet-tooltip-right:before {
     border-right-color: rgb(0, 255, 255);
+}
+.misc-poi.leaflet-marker-icon {
+    -webkit-filter: drop-shadow(0 0 2px black) brightness(0.7) sepia(1) hue-rotate(-180deg) saturate(5);
+    filter: drop-shadow(0 0 2px black) brightness(0.7) sepia(1) hue-rotate(-180deg) saturate(5);
 }
