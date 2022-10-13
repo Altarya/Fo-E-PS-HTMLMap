@@ -118,3 +118,15 @@
     lat = 3391
     lng = 3000
     zoom_level = 1
+[LittlehornValley]
+    name = "Littlehorn Valley"
+    class = "misc-poi"
+    lat = 3256
+    lng = 2856
+    zoom_level = 1
+[LunasSchoolForGiftedUnicorns]
+    name = "Luna's School For Gifted Unicorns"
+    class = "misc-poi"
+    lat = 3250
+    lng = 2856
+    zoom_level = 2
