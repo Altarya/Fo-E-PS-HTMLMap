@@ -1,0 +1,18 @@
+[Trottingham]
+    name = "Trottingham"
+    class ="pre-war-capital"
+    lat = 3357
+    lng = 3705
+    zoom_level = 0
+[Poniborg]
+    name = "Poniborg"
+    class = "city"
+    lat = 3265
+    lng = 3674
+    zoom_level = 1
+[Trotsyvil]
+    name = "Trotsyvil"
+    class = "city"
+    lat = 3230
+    lng = 3625
+    zoom_level = 1
