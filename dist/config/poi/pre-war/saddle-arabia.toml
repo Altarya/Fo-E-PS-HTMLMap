@@ -1,0 +1,12 @@
+[Ryakhoof]
+    name = "Ryakhoof"
+    class ="pre-war-capital"
+    lat = 2864
+    lng = 2474
+    zoom_level = 0
+[Stemphis]
+    name = "Stemphis"
+    class = "city"
+    lat = 2946
+    lng = 2546
+    zoom_level = 1

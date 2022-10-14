@@ -1,0 +1,60 @@
+[Griffiedra]
+    name = "Griffiedra (Griffonstone)"
+    class ="pre-war-capital"
+    lat = 3208
+    lng = 4415
+    zoom_level = 0
+[Garrid]
+    name = "Garrid"
+    class = "city"
+    lat = 3186
+    lng = 4494
+    zoom_level = 1
+[Zarapluma]
+    name = "Zarapluma"
+    class = "city"
+    lat = 3014
+    lng = 4343
+    zoom_level = 1
+[LasPatas]
+    name = "Las Patas"
+    class = "city"
+    lat = 3121
+    lng = 4256
+    zoom_level = 1
+[Patarlona]
+    name = "Patarlona"
+    class = "city"
+    lat = 3196
+    lng = 4150
+    zoom_level = 1
+[Sevala]
+    name = "Sevala"
+    class = "city"
+    lat = 3209
+    lng = 4071
+    zoom_level = 1
+[Grifencia]
+    name = "Griféncia"
+    class = "city"
+    lat = 3284
+    lng = 4075
+    zoom_level = 1
+[Picao]
+    name = "Picao"
+    class = "city"
+    lat = 3278
+    lng = 4280
+    zoom_level = 1
+[VitoriaGabriela]
+    name = "Vitoria-Gabriela"
+    class = "city"
+    lat = 3484
+    lng = 4384
+    zoom_level = 1
+[Trotenedo]
+    name = "Troteñedo"
+    class = "city"
+    lat = 3517
+    lng = 4169
+    zoom_level = 1

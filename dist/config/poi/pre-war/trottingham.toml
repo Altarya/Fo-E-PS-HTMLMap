@@ -16,3 +16,15 @@
     lat = 3230
     lng = 3625
     zoom_level = 1
+[Irktrotsky]
+    name = "Irktrotsky"
+    class = "city"
+    lat = 3320
+    lng = 3616
+    zoom_level = 1
+[Kopytograd]
+    name = "Kopytograd"
+    class = "city"
+    lat = 3311
+    lng = 3679
+    zoom_level = 1

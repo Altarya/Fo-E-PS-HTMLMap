@@ -27,6 +27,11 @@
         "pre-war/arya",
         "pre-war/trottingham",
         "post-war/trottingham/trottingham-settlements",
+        "pre-war/cervidas",
+        "pre-war/griffiedra",
+        "pre-war/saddle-arabia",
+        "pre-war/abyssinia",
+        "pre-war/stormora",
     ]
     features_list = [
         "equestriana"
