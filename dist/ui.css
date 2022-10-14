@@ -281,3 +281,26 @@
     font-family: "Copperplate Gothic Light";
     src: url("./assets/fonts/Copperplate Gothic Light Regular.ttf");
 }
+
+/*******************/
+/* Party Indicator */
+/*******************/
+.party-indicator {
+    background-color: transparent;
+    font-size: 18;
+    color: rgb(0, 255, 0);
+}
+.party-indicator.leaflet-marker-icon {
+    -webkit-filter: drop-shadow(0 0 2px black) brightness(0.5) sepia(1) hue-rotate(-270deg) saturate(5);
+    filter: drop-shadow(0 0 2px black) brightness(0.5) sepia(1) hue-rotate(-270deg) saturate(5);
+}
+.party-indicator.leaflet-tooltip-left:before {
+    border-left-color: rgb(0, 255, 0);
+}
+.party-indicator.leaflet-tooltip-right:before {
+    border-right-color: rgb(0, 255, 0);
+}
+.party-indicator.leaflet-marker-icon {
+    -webkit-filter: drop-shadow(0 0 2px black) brightness(0.5) sepia(1) hue-rotate(-270deg) saturate(5);
+    filter: drop-shadow(0 0 2px black) brightness(0.5) sepia(1) hue-rotate(-270deg) saturate(5);
+}

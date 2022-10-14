@@ -24,3 +24,13 @@
         "post-war/prance/seinesia-settlements",
         "post-war/prance/seinesia-locations",
     ]
+[CONFIG]
+    enable_party_indicator = true #Wether or not the draggable party indicator is enabled
+    default_party_indicator = [ #Default position for the party indicator
+        3256, #Lat
+        3301 #Lng
+    ] #To save its new position click on it, it will open a save as window, DO NOT rename the file
+    #and save it on the root of the html map(WHERE index.html IS) upon a reload its position should be
+    #saved, this is quite clunky, but it'll do for now
+    enable_party_indicator_save_on_drag = true #If enabled the save as window will appear after dragging the
+    #indicator instead of requiring a click

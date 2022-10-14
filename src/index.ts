@@ -3,8 +3,25 @@ import { LatLngBounds, LatLngBoundsExpression, LatLngExpression, LeafletMouseEve
 import { setupPOI } from "./poi";
 import * as Config from './config'
 import * as toml from '@iarna/toml'
+import saveAs from "file-saver";
 
 var Lextra: any;
+let centerOfMap = new L.LatLng(3374, 3339)
+let partyIcon = new L.Icon({
+    iconSize:     [48, 48],
+    shadowSize:   [0, 0],
+    iconAnchor:   [24, 24],
+    shadowAnchor: [0, 0],
+    tooltipAnchor:  [16, 0],
+    iconUrl: "./assets/icons/ui/party.webp",
+    className: "party-indicator"
+})
+let tooltip = L.tooltip({className: "party-indicator"}).setContent("Party Location")
+var markerParty = L.marker(centerOfMap, {
+    icon: partyIcon,
+    draggable: true,
+    title: "Party Location",
+}).bindTooltip(tooltip)
 
 if (typeof exports === 'object') {
     Lextra = require('leaflet');
@@ -29,7 +46,6 @@ fetch(Config.configPath+"main.toml").then((response => {
             const mainConfigMap = new Map(Object.entries(mainConfigParsed));
 
             try {
-                let centerOfMap = new L.LatLng(3374, 3339)
 
                 let map = new L.Map('map', {
                     crs: L.CRS.Simple,
@@ -104,9 +120,16 @@ fetch(Config.configPath+"main.toml").then((response => {
 
                 let locMarker = L.marker(centerOfMap, {
                     icon: locMarkerIcon,
+                    draggable: true
                 });
 
                 map.on('click', (e: LeafletMouseEvent) => {
+                    locMarker.setLatLng(e.latlng)
+                    .bindPopup(e.latlng.lat + " " + e.latlng.lng + " Latitude and Longitude")
+                    .addTo(map)
+                    .openPopup();
+                });
+                locMarker.on('drag', (e: LeafletMouseEvent) => {
                     locMarker.setLatLng(e.latlng)
                     .bindPopup(e.latlng.lat + " " + e.latlng.lng + " Latitude and Longitude")
                     .addTo(map)
@@ -143,9 +166,62 @@ fetch(Config.configPath+"main.toml").then((response => {
                 };
                 Lextra.control.ruler(options).addTo(map);
                 console.log("Loaded Ruler")
+
+                const CONFIG = new Map(Object.entries(mainConfigMap.get("CONFIG")))
+
+                const isPartyEnabled: boolean = CONFIG.get("enable_party_indicator")
+
+                    if (isPartyEnabled) {
+                        const defaultPos: [number, number] = CONFIG.get("default_party_indicator")
+
+                        markerParty.setLatLng(defaultPos).addTo(map)
+
+                        poiLayer.addLayer(markerParty)
+
+                        const isPartyDragEnabled: boolean = CONFIG.get("enable_party_indicator_save_on_drag")
+
+                        if (isPartyDragEnabled) {
+                            markerParty.on('dragend', (e: LeafletMouseEvent) => {
+                                let pos = markerParty.getLatLng()
+                                let serialPos = 
+                                    "position = [\n" +
+                                    pos.lat + ",\n" +
+                                    pos.lng + "\n" +
+                                    "]\n"
+                                saveAs(new File([serialPos], "party-pos.toml", {type: "text/plain;charset=utf-8"}));
+                            })
+                        }
+                    }
+
             } catch (error) {
                 console.error("Parsing error on line " + error.line + ", column " + error.column + ": " + error.message);
             }
         }
     )
+})
+
+fetch("./party-pos.toml").then((response => {
+    if (response.ok) {
+        return response.blob()
+    }
+    }))
+    .then((result) => {
+        result.text().then(response => {
+            const posParsed = toml.parse(response);
+            const posParsedMap = new Map(Object.entries(posParsed));
+            const pos: [number, number] = <any>posParsedMap.get("position")
+
+            markerParty.setLatLng(pos)
+        })
+    }
+)
+
+markerParty.on('click', (e: LeafletMouseEvent) => {
+    let pos = markerParty.getLatLng()
+    let serialPos = 
+        "position = [\n" +
+        pos.lat + ",\n" +
+        pos.lng + "\n" +
+        "]\n"
+    saveAs(new File([serialPos], "party-pos.toml", {type: "text/plain;charset=utf-8"}));
 })
