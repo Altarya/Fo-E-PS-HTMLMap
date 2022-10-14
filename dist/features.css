@@ -1,0 +1,38 @@
+/***********************************/
+/* Custom Features Classes go here */
+/***********************************/
+.natural {
+    background-color: transparent;
+    font-size: 18;
+    color: rgb(255, 255, 0);
+    font-family: FalloutEquestria;
+}
+.natural.leaflet-marker-icon {
+    -webkit-filter: drop-shadow(0 0 2px black) brightness(0.6) sepia(1) hue-rotate(20deg) saturate(5);
+    filter: drop-shadow(0 0 2px black) brightness(0.6) sepia(1) hue-rotate(20deg) saturate(5);
+}
+.unnatural {
+    background-color: transparent;
+    font-size: 18;
+    color: rgb(255, 69, 0);
+    font-family: FalloutEquestria;
+}
+.unnatural.leaflet-marker-icon {
+    -webkit-filter: drop-shadow(0 0 2px black) brightness(0.4) sepia(1) hue-rotate(-45deg) saturate(5);
+    filter: drop-shadow(0 0 2px black) brightness(0.4) sepia(1) hue-rotate(-45deg) saturate(5);
+}
+.sea.leaflet-marker-icon {
+    -webkit-filter: drop-shadow(0 0 2px black) brightness(0.6) sepia(1) hue-rotate(20deg) saturate(5);
+    filter: drop-shadow(0 0 2px black) brightness(0.6) sepia(1) hue-rotate(20deg) saturate(5);
+}
+.sea {
+    background-color: transparent;
+    font-size: 18;
+    color: rgb(0, 153, 255);
+    font-family: FinalFrontier;
+}
+.sea.leaflet-marker-icon {
+    -webkit-filter: drop-shadow(0 0 2px black) brightness(0.4) sepia(1) hue-rotate(-180deg) saturate(5);
+    filter: drop-shadow(0 0 2px black) brightness(0.4) sepia(1) hue-rotate(-180deg) saturate(5);
+}
+

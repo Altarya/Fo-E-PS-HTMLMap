@@ -1,0 +1,15 @@
+[EverfreeForest]
+    name = "Everfree Forest"
+    class = "natural"
+    lat = 3159
+    lng = 3323
+[RedForest]
+    name = "Red Forest"
+    class = "unnatural"
+    lat = 3850
+    lng = 3559
+[HoofBay]
+    name = "Hoof Bay"
+    class = "sea"
+    lat = 3378
+    lng = 3641

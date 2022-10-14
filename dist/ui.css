@@ -281,6 +281,14 @@
     font-family: "Copperplate Gothic Light";
     src: url("./assets/fonts/Copperplate Gothic Light Regular.ttf");
 }
+@font-face {
+    font-family: FalloutEquestria;
+    src: url("./assets/fonts/fallout_equestria_by_l9obl-d6a67q4.ttf");
+}
+@font-face {
+    font-family: FinalFrontier;
+    src: url("./assets/fonts/Finalnew.ttf");
+}
 
 /*******************/
 /* Party Indicator */

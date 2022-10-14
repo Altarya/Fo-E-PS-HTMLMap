@@ -2,8 +2,6 @@ import * as Config from './config'
 import * as toml from '@iarna/toml'
 import * as L from "leaflet"
 
-require('./search.ts')
-
 var capitals = new L.FeatureGroup(); //Level 0
 var cities = new L.FeatureGroup(); //Level 1
 var settlements = new L.FeatureGroup(); //Level 2

@@ -24,6 +24,9 @@
         "post-war/prance/seinesia-settlements",
         "post-war/prance/seinesia-locations",
     ]
+    features_list = [
+        "equestriana"
+    ]
 [CONFIG]
     enable_party_indicator = true #Wether or not the draggable party indicator is enabled
     default_party_indicator = [ #Default position for the party indicator

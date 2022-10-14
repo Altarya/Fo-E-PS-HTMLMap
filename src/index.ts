@@ -4,6 +4,7 @@ import { setupPOI } from "./poi";
 import * as Config from './config'
 import * as toml from '@iarna/toml'
 import saveAs from "file-saver";
+import { setupFeatures } from "./features";
 
 var Lextra: any;
 let centerOfMap = new L.LatLng(3374, 3339)
@@ -137,8 +138,10 @@ fetch(Config.configPath+"main.toml").then((response => {
                 });
 
                 var poiLayer = setupPOI(map, layerController, mainConfigMap);
+                var featuresLayer = setupFeatures(layerController, mainConfigMap);
 
-                map.addControl( new Lextra.Control.Search({layer: poiLayer, zoom: 5}) );
+                var searchLayers = L.layerGroup([poiLayer, featuresLayer])
+                map.addControl( new Lextra.Control.Search({layer: searchLayers, zoom: 5}) );
                 console.log("Loaded Search")
 
                 var options = {
@@ -176,7 +179,7 @@ fetch(Config.configPath+"main.toml").then((response => {
 
                         markerParty.setLatLng(defaultPos).addTo(map)
 
-                        poiLayer.addLayer(markerParty)
+                        searchLayers.addLayer(markerParty)
 
                         const isPartyDragEnabled: boolean = CONFIG.get("enable_party_indicator_save_on_drag")
 
