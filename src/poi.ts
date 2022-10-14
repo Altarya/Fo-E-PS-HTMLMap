@@ -67,14 +67,14 @@ export function setupPOI(mapVar: L.Map, layerController: L.Control.Layers) {
                     const parsed = toml.parse(response);
 
                     const map = new Map(Object.entries(parsed));
-                    console.log(map);
+                    //console.log(map);
 
                     const PATH = new Map(Object.entries(map.get("PATH")))
                     const poiList = new Map(Object.entries(PATH.get("poi_list")))
                     for (let entry of Array.from(poiList.entries())) {
                         let key = entry[0];
                         let value = entry[1];
-                        console.log(key+" "+value)
+                        //console.log(key+" "+value)
 
                         fetch(Config.poiPath+value+".toml").then((response => {
                             if (response.ok) {
@@ -87,17 +87,17 @@ export function setupPOI(mapVar: L.Map, layerController: L.Control.Layers) {
                                         var parsed = toml.parse(response);
 
                                         const pois = new Map(Object.entries(parsed));
-                                        console.log(pois);
+                                        //console.log(pois);
 
                                         for (let entry of Array.from(pois.entries())) {
                                             let key = entry[0];
                                             let value = entry[1];
-                                            console.log(key+" "+value)
+                                            //console.log(key+" "+value)
 
                                             const entm = new Map(Object.entries(pois.get(key)))
                                             const ent = Array.from(entm.entries())
 
-                                            console.log(ent);
+                                            //console.log(ent);
 
                                             const name = ent[0]
                                             const classNamev = ent[1]
