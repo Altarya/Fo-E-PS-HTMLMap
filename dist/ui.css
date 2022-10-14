@@ -25,6 +25,38 @@
     border-right-color: #fff;
 }
 
+/**************/
+/* All Popups */
+/**************/
+.leaflet-popup-content-wrapper {
+    background-clip: padding-box;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: solid transparent;
+    color: #fff;
+    border-color: #fff;
+    box-shadow: 0 0 0 transparent;
+    text-shadow: 0 0 12px rgb(0, 0, 0);
+    font-family: Fallouty;
+}
+.leaflet-popup {
+    background-color: transparent;
+    border: solid transparent;
+    color: #fff;
+    box-shadow: 0 0 0 transparent;
+    text-shadow: 0 0 12px rgb(0, 0, 0);
+    font-family: Fallouty;
+}
+.leaflet-popup-tip {
+    background: #fff;
+    box-shadow: 0 0 0 transparent;
+}
+.leaflet-container a.leaflet-popup-close-button:focus, .leaflet-container a.leaflet-popup-close-button:hover {
+    color: #d70000;
+}
+.leaflet-container a.leaflet-popup-close-button {
+    color: #fff;
+}
+
 /***************/
 /* All Markers */
 /***************/

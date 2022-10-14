@@ -15,9 +15,11 @@ if (typeof exports === 'object') {
 require('./search.ts')
 require('./ruler.ts')
 
+let centerOfMap = new L.LatLng(3374, 3339)
+
 let map = new L.Map('map', {
     crs: L.CRS.Simple,
-    center: new L.LatLng(3374, 3339),
+    center: centerOfMap,
     zoom: 0,
     minZoom: -3
 });
@@ -77,10 +79,22 @@ layerController.addOverlay(states, "Administrative Divisions(States)")
 layerController.addOverlay(tropics, "Tropics")
 layerController.addOverlay(continents, "Continents and Oceans")
 
+let locMarkerIcon = new L.Icon({
+    iconSize:     [24, 24],
+    shadowSize:   [0, 0],
+    iconAnchor:   [12, 12],
+    shadowAnchor: [0, 0],
+    iconUrl: "./assets/icons/ui/click-location-indicator.webp",
+    className: "click-location-indicator"
+})
+
+let locMarker = L.marker(centerOfMap, {
+    icon: locMarkerIcon,
+});
+
 map.on('click', (e: LeafletMouseEvent) => {
-    let marker = L.marker(e.latlng)
-    
-    .bindPopup("You clicked the map at " + e.latlng.toString())
+    locMarker.setLatLng(e.latlng)
+    .bindPopup(e.latlng.lat + " " + e.latlng.lng + " Latitude and Longitude")
     .addTo(map)
     .openPopup();
 });
