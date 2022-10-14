@@ -1,0 +1,66 @@
+[Marefort]
+    name = "Marefort"
+    class = "settlement"
+    lat = 3766
+    lng = 3772
+    zoom_level = 1
+[Dise]
+    name = "Dise"
+    class = "settlement"
+    lat = 3750
+    lng = 3951
+    zoom_level = 1
+[Stable42]
+    name = "Stable 42"
+    class = "post-war-capital"
+    lat = 3749
+    lng = 3776
+    zoom_level = 0
+[BriddleHope]
+    name = "Briddle Hope"
+    class = "settlement"
+    lat = 3715
+    lng = 3872
+    zoom_level = 1
+[HellfireBunker]
+    name = "Hellfire Bunker"
+    class = "settlement"
+    lat = 3675
+    lng = 3923
+    zoom_level = 1
+[Walltrot]
+    name = "Walltrot"
+    class = "settlement"
+    lat = 3690
+    lng = 3959
+    zoom_level = 1
+[DiseStrip]
+    name = "Dise Strip"
+    class = "settlement"
+    lat = 3736
+    lng = 3984
+    zoom_level = 1
+[ParadiseMound]
+    name = "Paradise Mound"
+    class = "settlement"
+    lat = 3724
+    lng = 3991
+    zoom_level = 1
+[TheBeak]
+    name = "The Beak"
+    class = "settlement"
+    lat = 3716
+    lng = 3977
+    zoom_level = 1
+[Flankyard]
+    name = "Flankyard"
+    class = "settlement"
+    lat = 3731
+    lng = 4011
+    zoom_level = 1
+[Timber]
+    name = "Timber"
+    class = "settlement"
+    lat = 3716
+    lng = 3851
+    zoom_level = 1

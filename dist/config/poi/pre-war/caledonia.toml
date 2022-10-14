@@ -1,0 +1,42 @@
+[Trotonto]
+    name = "Trotonto"
+    class ="pre-war-capital"
+    lat = 3442
+    lng = 3911
+    zoom_level = 0
+[CelestiasParadise]
+    name = "Celestia's Paradise"
+    class = "city"
+    lat = 3729
+    lng = 3958
+    zoom_level = 1
+[QueighbeckCity]
+    name = "Queighbeck City"
+    class = "city"
+    lat = 3598
+    lng = 3839
+    zoom_level = 1
+[Otrotwa]
+    name = "Otrotwa"
+    class = "city"
+    lat = 3581
+    lng = 4063
+    zoom_level = 1
+[Taurear]
+    name = "Taurear"
+    class = "city"
+    lat = 3859
+    lng = 3985
+    zoom_level = 1
+[Midtreal]
+    name = "Midtreal"
+    class = "city"
+    lat = 3917
+    lng = 3892
+    zoom_level = 1
+[Bugtown]
+    name = "Bugtown"
+    class = "city"
+    lat = 3927
+    lng = 3770
+    zoom_level = 1

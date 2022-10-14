@@ -37,8 +37,8 @@
 [GreenMistValley]
     name = "Green Mist Valley"
     class = "misc-poi"
-    lat = 3336
-    lng = 3176
+    lat = 3352
+    lng = 3166
     zoom_level = 1
 [EAMSStation1]
     name = "E.A.M.S. Station 1"

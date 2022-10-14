@@ -1,0 +1,78 @@
+[Stable102]
+    name = "Stable 102"
+    class = "misc-poi"
+    lat = 3705
+    lng = 3941
+    zoom_level = 2
+[Stable123]
+    name = "Stable 123"
+    class = "misc-poi"
+    lat = 3767
+    lng = 3938
+    zoom_level = 2
+[EAMSStation3]
+    name = "E.A.M.S. Station 3"
+    class = "intra-settlement"
+    lat = 3723
+    lng = 3924
+    zoom_level = 2
+[TheGreatWarMuseum]
+    name = "The Great War Museum"
+    class = "intra-settlement"
+    lat = 3696
+    lng = 3952
+    zoom_level = 2
+[PlatinumsUndergroundOrphanage]
+    name = "Platinum's Underground Orphanage"
+    class = "intra-settlement"
+    lat = 3730
+    lng = 3977
+    zoom_level = 3
+[DiseFlightAcademy]
+    name = "Dise Flight Academy"
+    class = "intra-settlement"
+    lat = 3736
+    lng = 3975
+    zoom_level = 3
+[NCAEmbassy]
+    name = "NCA Embassy"
+    class = "intra-settlement"
+    lat = 3737
+    lng = 3978
+    zoom_level = 3
+[PhotoFinishsStudio]
+    name = "Photo Finish's Studio"
+    class = "intra-settlement"
+    lat = 3727
+    lng = 3985
+    zoom_level = 3
+[TheBlackSalamander]
+    name = "The Black Salamander"
+    class = "intra-settlement"
+    lat = 3732 
+    lng = 3981
+    zoom_level = 3
+[TheMoonCasino]
+    name = "The Moon Casino"
+    class = "intra-settlement"
+    lat = 3735
+    lng = 3980
+    zoom_level = 3
+[ClipsnClopsCasino]
+    name = "Clips & Clops Casino"
+    class = "intra-settlement"
+    lat = 3733
+    lng = 3983
+    zoom_level = 3
+[TheAlehouse]
+    name = "The Alehouse"
+    class = "intra-settlement"
+    lat = 3734
+    lng = 3979
+    zoom_level = 3
+[DiseCrater]
+    name = "Dise Crater"
+    class = "misc-poi"
+    lat = 3740
+    lng = 3952
+    zoom_level = 2
