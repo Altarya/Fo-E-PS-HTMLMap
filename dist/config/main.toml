@@ -32,6 +32,8 @@
         "pre-war/saddle-arabia",
         "pre-war/abyssinia",
         "pre-war/stormora",
+        "pre-war/ezpassion",
+        "pre-war/spqr",
     ]
     features_list = [
         "equestriana"

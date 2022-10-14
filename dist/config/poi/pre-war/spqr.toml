@@ -1,0 +1,186 @@
+[Roam]
+    name = "Roam"
+    class ="pre-war-capital"
+    lat = 3085
+    lng = 2021
+    zoom_level = 0
+[Clavenas]
+    name = "Clavenas"
+    class = "city"
+    lat = 3152
+    lng = 2255
+    zoom_level = 1
+[Ormoeas]
+    name = "Órmoeas"
+    class = "city"
+    lat = 3060
+    lng = 2162
+    zoom_level = 1
+[Knochaitios]
+    name = "Knochaítios"
+    class = "city"
+    lat = 3020
+    lng = 2105
+    zoom_level = 1
+[Alagovala]
+    name = "Alagovala"
+    class = "city"
+    lat = 2990
+    lng = 2037
+    zoom_level = 1
+[Doryarta]
+    name = "Doryarta"
+    class = "city"
+    lat = 3006
+    lng = 2232
+    zoom_level = 1
+[Tripodimiki]
+    name = "Tripodimiki"
+    class = "city"
+    lat = 3083
+    lng = 2392
+    zoom_level = 1
+[Sanctvm]
+    name = "Sanctvm"
+    class = "city"
+    lat = 3184
+    lng = 2412
+    zoom_level = 1
+[Zestrvm]
+    name = "Zestrvm"
+    class = "city"
+    lat = 3069
+    lng = 2429
+    zoom_level = 1
+[Exilivrbs]
+    name = "Exilivrbs"
+    class = "city"
+    lat = 3155
+    lng = 3738
+    zoom_level = 1
+[Herazevraion]
+    name = "Herazévraion"
+    class = "city"
+    lat = 3143
+    lng = 2177
+    zoom_level = 1
+[Opliolis]
+    name = "Opliolis"
+    class = "city"
+    lat = 3277
+    lng = 2142
+    zoom_level = 1
+[OryzaFlvvivs]
+    name = "Oryza Flvvivs"
+    class = "city"
+    lat = 3424
+    lng = 2056
+    zoom_level = 1
+[Thermopolis]
+    name = "Thermopolis"
+    class = "city"
+    lat = 3282
+    lng = 1984
+    zoom_level = 1
+[Nicomedivm]
+    name = "Nicomedivm"
+    class = "city"
+    lat = 3340
+    lng = 1905
+    zoom_level = 1
+[Aricornvm]
+    name = "Aricornvm"
+    class = "city"
+    lat = 3370
+    lng = 1837
+    zoom_level = 1
+[Vallvum]
+    name = "Vallvm"
+    class = "city"
+    lat = 3307
+    lng = 1752
+    zoom_level = 1
+[Lvghinnitvm]
+    name = "Lvghinnitvm"
+    class = "city"
+    lat = 3181
+    lng = 1842
+    zoom_level = 1
+[Lvmenopolis]
+    name = "Lvmenopolis"
+    class = "city"
+    lat = 3025
+    lng = 1893
+    zoom_level = 1
+[Zevran]
+    name = "Zévran"
+    class = "city"
+    lat = 3185
+    lng = 1676
+    zoom_level = 1
+[Londvngvlam]
+    name = "Londvgvlam"
+    class = "city"
+    lat = 3442
+    lng = 1690
+    zoom_level = 1
+[Rvptvpiclaven]
+    name = "Rvptvpiclaven"
+    class = "city"
+    lat = 3591
+    lng = 1705
+    zoom_level = 1
+[Blesfrigvs]
+    name = "Blesfrigvs"
+    class = "city"
+    lat = 3624 
+    lng = 1640
+    zoom_level = 1
+[Glaceniam]
+    name = "Glaceniam"
+    class = "city"
+    lat = 3843
+    lng = 1638
+    zoom_level = 1
+[Antizevran]
+    name = "Antizévran"
+    class = "city"
+    lat = 3447
+    lng = 1332
+    zoom_level = 1
+[Hvmidvmia]
+    name = "Hvmidvmia"
+    class = "city"
+    lat = 3500
+    lng = 1292
+    zoom_level = 1
+[NovvsReginam]
+    name = "Novvs Reginam"
+    class = "city"
+    lat = 3474
+    lng = 1245
+    zoom_level = 1
+[Marepropem]
+    name = "Marepropem"
+    class = "city"
+    lat = 3450
+    lng = 1060
+    zoom_level = 1
+[VngvlaSerdica]
+    name = "Vngvla Serdica"
+    class = "city"
+    lat = 3500
+    lng = 1013
+    zoom_level = 1
+[Caeseratrix]
+    name = "Caeseratrix"
+    class = "city"
+    lat = 3579
+    lng = 1002
+    zoom_level = 1
+[NovaRoam]
+    name = "Nova Roam"
+    class = "city"
+    lat = 3715
+    lng = 868
+    zoom_level = 1
