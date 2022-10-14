@@ -184,3 +184,111 @@
     lat = 3715
     lng = 868
     zoom_level = 1
+[Rhofias]
+    name = "Rhofias"
+    class = "city"
+    lat = 2955 
+    lng = 2071
+    zoom_level = 1
+[Canalogos]
+    name = "Çanálogos"
+    class = "city"
+    lat = 2924
+    lng = 2063
+    zoom_level = 1
+[Trochaitas]
+    name = "Trochaítas"
+    class = "city"
+    lat = 2954
+    lng = 1972
+    zoom_level = 1
+[Knosto]
+    name = "Knósto"
+    class = "city"
+    lat = 2880
+    lng = 1961
+    zoom_level = 1
+[Zevrymno]
+    name = "Zevrymno"
+    class = "city"
+    lat = 2863
+    lng = 2015
+    zoom_level = 1
+[Zakropolis]
+    name = "Zakropolis"
+    class = "city"
+    lat = 2855
+    lng = 2074
+    zoom_level = 1
+[Mikitainia]
+    name = "Mikitainía"
+    class = "city"
+    lat = 2896
+    lng = 2161
+    zoom_level = 1
+[Phaignostos]
+    name = "Phaignóstos"
+    class = "city"
+    lat = 2839
+    lng = 2046
+    zoom_level = 1
+[Maliphilias]
+    name = "Maliphilias"
+    class = "city"
+    lat = 2803
+    lng = 2124
+    zoom_level = 1
+[Palekalogos]
+    name = "Palekálogos"
+    class = "city"
+    lat = 2759
+    lng = 2061
+    zoom_level = 1
+[Tylichivos]
+    name = "Tylichívos"
+    class = "city"
+    lat = 2728
+    lng = 2122
+    zoom_level = 1
+[Calvis]
+    name = "Calvis"
+    class = "city"
+    lat = 2752
+    lng = 1948
+    zoom_level = 1
+[Cognitionia]
+    name = "Cognitionia"
+    class = "city"
+    lat = 2783
+    lng = 1949
+    zoom_level = 1
+[Insvlermo]
+    name = "Insvlermo"
+    class = "city"
+    lat = 2792
+    lng = 1913
+    zoom_level = 1
+[Cagliarem]
+    name = "Cagliarem"
+    class = "city"
+    lat = 2832
+    lng = 1802
+    zoom_level = 1
+[Pomperlona]
+    name = "Pomperlona"
+    class = "city"
+    lat = 2853
+    lng = 1678
+    zoom_level = 1
+[Syraecvvs]
+    name = "Syræcvvs"
+    class = "city"
+    lat = 2819
+    lng = 1997
+    zoom_level = 1
+[Saltvrbs]
+    name = "Saltvrbs"
+    class = "city"
+    lat = 2924
+    lng = 1577
+    zoom_level = 1
