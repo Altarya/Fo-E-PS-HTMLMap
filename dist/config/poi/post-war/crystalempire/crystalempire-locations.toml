@@ -1,0 +1,18 @@
+[2016WorldsFairCentre]
+    name = "2016 World's Fair Centre"
+    class = "misc-poi"
+    lat = 4167
+    lng = 3920
+    zoom_level = 2
+[EAMSStation4]
+    name = "E.A.M.S Station 4"
+    class = "intra-settlement"
+    lat = 4171
+    lng = 3587
+    zoom_level = 2
+[CrystalPalaca]
+    name = "Crystal Palace"
+    class = "intra-settlement"
+    lat = 4180
+    lng = 3577
+    zoom_level = 2

@@ -1,0 +1,60 @@
+[CrystalCity]
+    name = "Crystal City"
+    class ="pre-war-capital"
+    lat = 4173
+    lng = 3579
+    zoom_level = 0
+[Ceffyldd]
+    name = "Ceffyldd"
+    class = "city"
+    lat = 4179
+    lng = 3683
+    zoom_level = 1
+[Birneigham]
+    name = "Birneigham"
+    class = "city"
+    lat = 4139
+    lng = 3588
+    zoom_level = 1
+[Leads]
+    name = "Leads"
+    class = "city"
+    lat = 4085
+    lng = 3449
+    zoom_level = 1
+[YCastell]
+    name = "Y Castell"
+    class = "city"
+    lat = 4124
+    lng = 3736
+    zoom_level = 1
+[Edinhoof]
+    name = "Edinhoof"
+    class = "city"
+    lat = 3919
+    lng = 3059
+    zoom_level = 1
+[Oliverland]
+    name = "Oliverland"
+    class = "city"
+    lat = 4412
+    lng = 2986
+    zoom_level = 1
+[Briddlefast]
+    name = "Briddlefast"
+    class = "city"
+    lat = 4145
+    lng = 3924
+    zoom_level = 1
+[Cruscllin]
+    name = "Crusclin"
+    class = "city"
+    lat = 4109
+    lng = 3931
+    zoom_level = 1
+[Lerpick]
+    name = "Lerpick"
+    class = "city"
+    lat = 4285
+    lng = 4296
+    zoom_level = 1

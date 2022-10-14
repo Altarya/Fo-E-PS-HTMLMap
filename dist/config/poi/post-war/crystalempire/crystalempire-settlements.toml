@@ -1,0 +1,18 @@
+[CrystalSkyEnrichmentCentre]
+    name = "Crystal Sky Enrichment Centre"
+    class = "settlement"
+    lat = 4176
+    lng = 3572
+    zoom_level = 1
+[FukkatsuAriuBase]
+    name = "Fukkatsu Ariu Base"
+    class = "settlement"
+    lat = 4542
+    lng = 2965
+    zoom_level = 1
+[QilinguoAntransarcticBase]
+    name = "Qilinguo Antransarctic Base"
+    class = "settlement"
+    lat = 4614
+    lng = 2706
+    zoom_level = 1
