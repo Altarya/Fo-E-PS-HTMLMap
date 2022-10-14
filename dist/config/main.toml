@@ -23,6 +23,8 @@
         "post-war/prance/trottanie-locations",
         "post-war/prance/seinesia-settlements",
         "post-war/prance/seinesia-locations",
+        "pre-war/YAK",
+        "pre-war/Arya",
     ]
     features_list = [
         "equestriana"
