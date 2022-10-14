@@ -19,8 +19,8 @@
 [BriddleHope]
     name = "Briddle Hope"
     class = "settlement"
-    lat = 3715
-    lng = 3872
+    lat = 3714 
+    lng = 3900
     zoom_level = 1
 [HellfireBunker]
     name = "Hellfire Bunker"
