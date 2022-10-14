@@ -5,7 +5,7 @@
     lng = 3252
     zoom_level = 2
 [EAMSStation5]
-    name = "E.A.M.S Station 5"
+    name = "E.A.M.S. Station 5"
     class = "intra-settlement"
     lat = 3694
     lng = 3251
