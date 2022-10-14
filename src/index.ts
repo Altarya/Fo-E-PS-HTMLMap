@@ -1,8 +1,17 @@
-//import * as L from "leaflet"
+import * as L from "leaflet"
 import { LatLngBounds, LatLngBoundsExpression, LatLngExpression, LeafletMouseEvent, ImageOverlayOptions } from "leaflet";
 import { setupPOI } from "./poi";
 
-var L = require('leaflet')
+var Lextra: any;
+
+if (typeof exports === 'object') {
+    Lextra = require('leaflet');
+} else {
+    if(typeof window.L === 'undefined')
+        throw 'Leaflet must be loaded first';
+    Lextra = L
+}
+
 require('./search.ts')
 require('./ruler.ts')
 
@@ -78,7 +87,7 @@ map.on('click', (e: LeafletMouseEvent) => {
 
 var poiLayer = setupPOI(map, layerController);
 
-map.addControl( new L.Control.Search({layer: poiLayer, zoom: 5}) );
+map.addControl( new Lextra.Control.Search({layer: poiLayer, zoom: 5}) );
 console.log("Loaded Search")
 
 var options = {
@@ -104,7 +113,7 @@ var options = {
         label: 'Bearing:'
     }
 };
-L.control.ruler(options).addTo(map);
+Lextra.control.ruler(options).addTo(map);
 console.log("Loaded Ruler")
 
 

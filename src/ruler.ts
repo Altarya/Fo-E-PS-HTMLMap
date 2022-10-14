@@ -6,10 +6,11 @@
         define(['leaflet'], factory);
     } else*/ if (typeof exports === 'object') {
         module.exports = factory(require('leaflet'));
+    } else {
+        if(typeof window.L === 'undefined')
+            throw 'Leaflet must be loaded first';
+        factory(window.L);
     }
-    /*if (typeof window !== 'undefined' && window.L) {
-        window.L.Ruler = factory(L);
-    }*/
     }(function (L: any) {
         "use strict";
         L.Control.Ruler = L.Control.extend({
