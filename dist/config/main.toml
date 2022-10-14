@@ -12,6 +12,7 @@
         "pre-war/caledonia",
         "post-war/caledonia/maretoba-settlements",
         "post-war/caledonia/trontario-settlements",
+        "post-war/caledonia/trontario-locations",
         "post-war/caledonia/newparadiseandgallopador-settlements",
         "post-war/caledonia/newparadiseandgallopador-locations",
         "pre-war/crystalempire",
@@ -20,4 +21,6 @@
         "pre-war/prance",
         "post-war/prance/trottanie-settlements",
         "post-war/prance/trottanie-locations",
+        "post-war/prance/seinesia-settlements",
+        "post-war/prance/seinesia-locations",
     ]

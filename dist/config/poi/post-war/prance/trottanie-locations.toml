@@ -1,0 +1,24 @@
+[ColterField]
+    name = "Colter Field"
+    class = "intra-settlement"
+    lat = 3576
+    lng = 2866
+    zoom_level = 2
+[FillysTower]
+    name = "Filly's Tower"
+    class = "intra-settlement"
+    lat = 3607
+    lng = 2859
+    zoom_level = 2
+[ChicacoltMuseum]
+    name = "Chicacolt Museum"
+    class = "intra-settlement"
+    lat = 3590
+    lng = 2850
+    zoom_level = 2
+[FillysPier]
+    name = "Filly's Pier"
+    class = "intra-settlement"
+    lat = 3623
+    lng = 2853
+    zoom_level = 2

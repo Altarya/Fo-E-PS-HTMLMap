@@ -1,0 +1,6 @@
+[CielNuageux]
+    name = "Ciel Nuageux"
+    class = "settlement"
+    lat = 3670
+    lng = 3238
+    zoom_level = 1

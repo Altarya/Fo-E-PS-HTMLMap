@@ -1,0 +1,24 @@
+[Nimbus]
+    name = "Nimbus"
+    class = "settlement"
+    lat = 3511
+    lng = 3105
+    zoom_level = 1
+[ChiTown]
+    name = "Chi Town"
+    class = "settlement"
+    lat = 3611
+    lng = 2852
+    zoom_level = 1
+[Filliet]
+    name = "Filliet"
+    class = "settlement"
+    lat = 3603
+    lng = 2855
+    zoom_level = 1
+[Theathre]
+    name = "Theathre"
+    class = "settlement"
+    lat = 3585
+    lng = 2853
+    zoom_level = 1

@@ -5,12 +5,12 @@
     lng = 3920
     zoom_level = 2
 [EAMSStation4]
-    name = "E.A.M.S Station 4"
+    name = "E.A.M.S. Station 4"
     class = "intra-settlement"
     lat = 4171
     lng = 3587
     zoom_level = 2
-[CrystalPalaca]
+[CrystalPalace]
     name = "Crystal Palace"
     class = "intra-settlement"
     lat = 4180
