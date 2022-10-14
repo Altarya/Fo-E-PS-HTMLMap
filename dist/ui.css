@@ -7,6 +7,32 @@
     width: 100%;
 }
 
+/****************/
+/* All Tooltips */
+/****************/
+.leaflet-tooltip {
+    background-color: transparent;
+    border: solid transparent;
+    color: #fff;
+    box-shadow: 0 0 0 transparent;
+    text-shadow: 0 0 12px rgb(0, 0, 0);
+    font-family: Fallouty;
+}
+.leaflet-tooltip-left:before {
+    border-left-color: #fff;
+}
+.leaflet-tooltip-right:before {
+    border-right-color: #fff;
+}
+
+/***************/
+/* All Markers */
+/***************/
+.leaflet-marker-icon {
+    -webkit-filter: drop-shadow(0 0 2px black);
+    filter: drop-shadow(0 0 2px black);
+}
+
 /**********/
 /* Search */
 /**********/
@@ -126,6 +152,65 @@
     color:#e00;
     font-weight:bold;
     border-radius:.25em;
+}
+
+/*********/
+/* Ruler */
+/*********/
+.leaflet-ruler {
+    height: 30px;
+    width: 30px;
+    background-image: url("./assets/icons/ui/ruler-icon.png"); /* <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.leaflet-ruler:hover {
+    background-image: url("./assets/icons/ui/ruler-icon-colored.png"); /* <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> */
+}
+.leaflet-ruler-clicked {
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("./assets/icons/ui/ruler-icon-colored.png");
+    border-color: chartreuse !important;
+}
+.leaflet-bar {
+    background-color: #ffffff;
+}
+.leaflet-control {
+    cursor: pointer;
+}
+.result-tooltip {
+    border-width: medium;
+    border-color: #de0000;
+    background-color: black;
+    font-size: 12;
+    color: #de0000
+}
+.moving-tooltip {
+    background-clip: padding-box;
+    background-color: black;
+    opacity: 0.5;
+    border: dotted;
+    border-color: red;
+    font-size: 12;
+    color: #de0000
+}
+.moving-tooltip.leaflet-tooltip-left:before {
+    border-left-color: transparent;
+}
+.moving-tooltip.leaflet-tooltip-right:before {
+    border-right-color: transparent;
+}
+.result-tooltip.leaflet-tooltip-left:before {
+    border-left-color: transparent;
+}
+.result-tooltip.leaflet-tooltip-right:before {
+    border-right-color: transparent;
+}
+.plus-length{
+    padding-left: 45px;
 }
 
 /************************************/

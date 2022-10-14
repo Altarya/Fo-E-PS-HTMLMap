@@ -1,29 +1,3 @@
-/****************/
-/* All Tooltips */
-/****************/
-.leaflet-tooltip {
-    background-color: transparent;
-    border: solid transparent;
-    color: #fff;
-    box-shadow: 0 0 0 transparent;
-    text-shadow: 0 0 12px rgb(0, 0, 0);
-    font-family: Fallouty;
-}
-.leaflet-tooltip-left:before {
-    border-left-color: #fff;
-}
-.leaflet-tooltip-right:before {
-    border-right-color: #fff;
-}
-
-/***************/
-/* All Markers */
-/***************/
-.leaflet-marker-icon {
-    -webkit-filter: drop-shadow(0 0 2px black);
-    filter: drop-shadow(0 0 2px black);
-}
-
 /*******************************/
 /* Your custom classes go here */
 /*******************************/

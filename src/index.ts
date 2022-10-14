@@ -4,6 +4,7 @@ import { setupPOI } from "./poi";
 
 var L = require('leaflet')
 require('./search.ts')
+require('./ruler.ts')
 
 let map = new L.Map('map', {
     crs: L.CRS.Simple,
@@ -78,6 +79,32 @@ map.on('click', (e: LeafletMouseEvent) => {
 var poiLayer = setupPOI(map, layerController);
 
 map.addControl( new L.Control.Search({layer: poiLayer, zoom: 5}) );
-//searchLayer is a L.LayerGroup contains searched markers
-
 console.log("Loaded Search")
+
+var options = {
+    position: 'topleft',
+    circleMarker: {               // Leaflet circle marker options for points used in this plugin
+        color: 'red',
+        radius: 2
+    },
+    lineStyle: {                  // Leaflet polyline options for lines used in this plugin
+        color: 'red',
+        dashArray: '1,6'
+    },
+    lengthUnit: {                 // You can use custom length units. Default unit is kilometers.
+        display: 'km',              // This is the display value will be shown on the screen. Example: 'meters'
+        decimal: 2,                 // Distance result will be fixed to this value. 
+        factor: 0.05,               // This value will be used to convert from kilometers. Example: 1000 (from kilometers to meters)  
+        label: 'Distance:'           
+    },
+    angleUnit: {
+        display: '&deg;',           // This is the display value will be shown on the screen. Example: 'Gradian'
+        decimal: 2,                 // Bearing result will be fixed to this value.
+        factor: 0.05,                // This option is required to customize angle unit. Specify solid angle value for angle unit. Example: 400 (for gradian).
+        label: 'Bearing:'
+    }
+};
+L.control.ruler(options).addTo(map);
+console.log("Loaded Ruler")
+
+
