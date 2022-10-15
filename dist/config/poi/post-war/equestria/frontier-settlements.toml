@@ -82,9 +82,15 @@
     lat = 3394
     lng = 3075
     zoom_level = 1
-[LittleLamplight]
-    name = "Little Lamplight"
+[LittleHoof]
+    name = "Little Hoof"
     class = "settlement"
     lat = 3322
     lng = 3167
     zoom_level = 2
+[MillCityTower]
+    name = "Mill City Tower"
+    class = "settlement"
+    lat = 3380
+    lng = 2991
+    zoom_level = 1

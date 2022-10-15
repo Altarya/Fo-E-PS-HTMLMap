@@ -130,3 +130,15 @@
     lat = 3250
     lng = 2856
     zoom_level = 2
+[KingdomsMansion]
+    name = "Kingdom's Mansion"
+    class = "intra-settlement"
+    lat = 3395
+    lng = 3074
+    zoom_level = 2
+[AbsentRuins]
+    name = "Absent Ruins"
+    class = "misc-poi"
+    lat = 3392
+    lng = 3073
+    zoom_level = 2
