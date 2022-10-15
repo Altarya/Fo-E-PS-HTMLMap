@@ -48,6 +48,8 @@
         "pre-war/vimtever",
         "pre-war/pratenia",
         "pre-war/champisuyu",
+        "pre-war/ausil",
+        "post-war/ausil/porto-capital-locations",
     ]
     features_list = [
         "equestriana"

@@ -1,0 +1,60 @@
+[PalacioDaInquisicao]
+    name = "Palácio da Inquisição"
+    class = "intra-settlement"
+    lat = 2211
+    lng = 2916
+    zoom_level = 3
+[PalacioDaJustica]
+    name = "Palácio da Justiça"
+    class = "intra-settlement"
+    lat = 2210
+    lng = 2918
+    zoom_level = 3
+[PalacioDaAuvorada]
+    name = "Palácio da Auvorada"
+    class = "intra-settlement"
+    lat = 2213
+    lng = 2921
+    zoom_level = 3
+[CongressoNacional]
+    name = "Congresso Nacional"
+    class = "intra-settlement"
+    lat = 2212
+    lng = 2914
+    zoom_level = 3
+[MinisterioDeDefesaPublica]
+    name = "Ministério de Defesa Pública"
+    class = "intra-settlement"
+    lat = 2209
+    lng = 2917
+    zoom_level = 3
+[EmbaixadaEquestriana]
+    name = "Embaixada Equestriana"
+    class = "intra-settlement"
+    lat = 2205
+    lng = 2917
+    zoom_level = 3
+[PalacioKauane]
+    name = "Palácio de Kauane"
+    class = "intra-settlement"
+    lat = 2203
+    lng = 2921
+    zoom_level = 3
+[DistritoDeGuarabara]
+    name = "Distrito de Guarábara"
+    class = "intra-settlement"
+    lat = 2208
+    lng = 2916
+    zoom_level = 2
+[CasteloDasDiretas]
+    name = "Castelo Das Diretas"
+    class = "intra-settlement"
+    lat = 2193
+    lng = 2890
+    zoom_level = 2
+[ASenzalaInconfidente]
+    name = "A Senzala Inconfidente"
+    class = "intra-settlement"
+    lat = 2224
+    lng = 2908
+    zoom_level = 2
