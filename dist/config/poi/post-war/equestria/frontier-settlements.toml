@@ -91,6 +91,18 @@
 [MillCityTower]
     name = "Mill City Tower"
     class = "settlement"
-    lat = 3380
-    lng = 2991
+    lat = 3387
+    lng = 2973
     zoom_level = 1
+[Sorchville]
+    name = "Scorchville"
+    class = "settlement"
+    lat = 3405
+    lng = 3042
+    zoom_level = 2
+[Branch]
+    name = "Branch"
+    class = "settlement"
+    lat = 3415
+    lng = 3030
+    zoom_level = 2

@@ -78,6 +78,11 @@
     class = "unnatural"
     lat = 3280
     lng = 3619
+[NorthwoodsWasteland]
+    name = "Northwoods Wasteland"
+    class = "unnatural"
+    lat = 3420
+    lng = 3039
 [HoofBay]
     name = "Hoof Bay"
     class = "sea"

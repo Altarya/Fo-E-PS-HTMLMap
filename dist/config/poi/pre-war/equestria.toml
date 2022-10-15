@@ -131,3 +131,9 @@
     lat = 3865
     lng = 3495
     zoom_level = 1
+[Lakewood]
+    name = "Lakewood"
+    class = "city"
+    lat = 3412
+    lng = 3047
+    zoom_level = 1

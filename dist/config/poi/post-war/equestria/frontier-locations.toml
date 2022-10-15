@@ -142,3 +142,9 @@
     lat = 3392
     lng = 3073
     zoom_level = 2
+[FirstBoulevard]
+    name = "First Boulevard"
+    class = "intra-settlement"
+    lat = 3380
+    lng = 2991
+    zoom_level = 2
