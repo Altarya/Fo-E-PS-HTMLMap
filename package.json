@@ -67,6 +67,7 @@
           "index.html",
           "yarn-error.log",
           "dist/party-pos.toml",
+          "docs",
           "node_modules",
           "src"
         ]

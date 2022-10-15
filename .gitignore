@@ -9,3 +9,4 @@ docs/latest.yml
 docs/builder-debug.yml
 docs/builder-effective-config.yaml
 yarn-error.log
+dist
