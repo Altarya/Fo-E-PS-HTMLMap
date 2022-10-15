@@ -3,13 +3,103 @@
     class = "natural"
     lat = 3159
     lng = 3323
+[MarejaveDesert]
+    name = "Marejave Desert"
+    class = "natural"
+    lat = 3225 
+    lng = 3174
+[TheBadlands]
+    name = "The Badlands"
+    class = "natural"
+    lat = 3127
+    lng = 3196
+[PineForest]
+    name = "Pine Forest"
+    class = "natural"
+    lat = 3526
+    lng = 3780
+[GoldeSandsDesert]
+    name = "Golden Sands Desert"
+    class = "natural"
+    lat = 3772  
+    lng = 4024
+[SerenePeaksPark]
+    name = "Serene Peaks Park"
+    class = "natural"
+    lat = 3988
+    lng = 3600
+[CaledonianHighlands]
+    name = "Caledonian Highlands"
+    class = "natural"
+    lat = 3801
+    lng = 3698
+[Equestrian-prenchRange]
+    name = "Equestrian-prench Range"
+    class = "natural"
+    lat = 3479
+    lng = 3302
+[ThestralIsland]
+    name = "Thestral Island"
+    class = "natural"
+    lat = 4034
+    lng = 3118
+[QuartzArchipelago]
+    name = "Quartz Archipelago"
+    class = "natural"
+    lat = 4157 
+    lng = 4004
+[PrismArchipelago]
+    name = "Prism Archipelago"
+    class = "natural"
+    lat = 4310 
+    lng = 4308
+[WhitetailWoods]
+    name = "Whitetail Woods"
+    class = "natural"
+    lat = 3308
+    lng = 3297
+[IsleOfTrottingham]
+    name = "Isle of Trottingham"
+    class = "natural"
+    lat = 3247  
+    lng = 3712
 [RedForest]
     name = "Red Forest"
     class = "unnatural"
     lat = 3850
     lng = 3559
+[PinewoodsPark]
+    name = "Pinewoods Park"
+    class = "unnatural"
+    lat = 3571
+    lng = 3609
+[TheExclusionZone]
+    name = "The Exclusion Zone"
+    class = "unnatural"
+    lat = 3280
+    lng = 3619
 [HoofBay]
     name = "Hoof Bay"
     class = "sea"
     lat = 3378
     lng = 3641
+[CelestialChannel]
+    name = "Celestial Channel"
+    class = "sea"
+    lat = 3312
+    lng = 3058
+[TheGreatTradeBay]
+    name = "The Great Trade Bay"
+    class = "sea"
+    lat = 3563
+    lng = 3996
+[ManeBay]
+    name = "Mane Bay"
+    class = "sea"
+    lat = 3267
+    lng = 3456
+[SplendidLake]
+    name = "Splendid Lake"
+    class = "sea"
+    lat = 3385
+    lng = 3351

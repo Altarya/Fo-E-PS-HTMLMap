@@ -1,0 +1,15 @@
+[PatapicoDesert]
+    name = "Patapico Desert"
+    class = "natural"
+    lat = 3367
+    lng = 4253
+[PatriaGriffia]
+    name = "Patria Griffia"
+    class = "natural"
+    lat = 3223
+    lng = 4345
+[LakeTipata]
+    name = "Lake Tipata"
+    class = "sea"
+    lat = 3216
+    lng = 4176

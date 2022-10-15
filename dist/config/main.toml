@@ -52,7 +52,11 @@
         "post-war/ausil/porto-capital-locations",
     ]
     features_list = [
-        "equestriana"
+        "equestriana",
+        "alsahra",
+        "antransarctica",
+        "griffonia",
+        "thermonia",
     ]
 [CONFIG]
     enable_party_indicator = true #Wether or not the draggable party indicator is enabled

@@ -1,0 +1,60 @@
+[BuffaloDesert]
+    name = "Buffalo Desert"
+    class = "natural"
+    lat = 3278
+    lng = 2943
+[SanPalominoDesert]
+    name = "San Palomino Desert"
+    class = "natural"
+    lat = 3194
+    lng = 3094
+[Ezpassionia]
+    name = "Ezpassionia"
+    class = "natural"
+    lat = 3017
+    lng = 3013
+[GreatAlsahranDesert]
+    name = "Great Alsahran Desert"
+    class = "natural"
+    lat = 3136
+    lng = 2718
+[SaddleForest]
+    name = "Saddle Forest"
+    class = "natural"
+    lat = 2705
+    lng = 2752
+[WasatIsland]
+    name = "Wasat Island"
+    class = "natural"
+    lat = 2683
+    lng = 2579
+[PeakOfThales]
+    name = "Peak of Thales"
+    class = "natural"
+    lat = 2997
+    lng = 2880
+[KirinPeaks]
+    name = "Kirin Peaks"
+    class = "natural"
+    lat = 2980
+    lng = 2957
+[ThalYCoen]
+    name = "Thal Y Coen"
+    class = "natural"
+    lat = 3042
+    lng = 2932
+[NoPonysLAnd]
+    name = "No Pony's Land"
+    class = "unnatural"
+    lat = 3263
+    lng = 2646
+[PassionicaForest]
+    name = "Passionica Forest"
+    class = "unnatural"
+    lat = 2925
+    lng = 3026
+[LunarChannel]
+    name = "Lunar Channel"
+    class = "sea"
+    lat = 2913
+    lng = 2871
