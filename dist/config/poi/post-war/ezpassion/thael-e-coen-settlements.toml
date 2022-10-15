@@ -1,0 +1,36 @@
+[Areiao]
+    name = "Areião"
+    class = "settlement"
+    lat = 3032
+    lng = 2894
+    zoom_level = 2
+[Museulandia]
+    name = "Museulândia"
+    class = "settlement"
+    lat = 3020
+    lng = 2930
+    zoom_level = 2
+[Dirizivel]
+    name = "Dirizívels"
+    class = "settlement"
+    lat = 3034
+    lng = 2975
+    zoom_level = 2
+[CascoQuebrado]
+    name = "Casco Quebrado"
+    class = "settlement"
+    lat = 3047
+    lng = 2900
+    zoom_level = 2
+[Pedrinhas]
+    name = "Predrinhas"
+    class = "settlement"
+    lat = 3057
+    lng = 2931
+    zoom_level = 2
+[MatoFino]
+    name = "Mato Fino"
+    class = "settlement"
+    lat = 3006
+    lng = 2953
+    zoom_level = 2

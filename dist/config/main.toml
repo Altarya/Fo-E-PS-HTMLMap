@@ -33,6 +33,16 @@
         "pre-war/abyssinia",
         "pre-war/stormora",
         "pre-war/ezpassion",
+        "post-war/ezpassion/ezthalesia-settlements",
+        "post-war/ezpassion/ezthalesia-locations",
+        "post-war/ezpassion/algalopas-settlements",
+        "post-war/ezpassion/algalopas-locations",
+        "post-war/ezpassion/thael-e-coen-settlements",
+        "post-war/ezpassion/sunkenem-settlements",
+        "post-war/ezpassion/magna-starya-settlements",
+        "post-war/ezpassion/magna-starya-locations",
+        "post-war/ezpassion/passionia-settlements",
+        "post-war/ezpassion/extremalistra-settlements",
         "pre-war/spqr",
     ]
     features_list = [

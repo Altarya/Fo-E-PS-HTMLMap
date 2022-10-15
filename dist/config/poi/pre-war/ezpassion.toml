@@ -82,3 +82,9 @@
     lat = 2933 
     lng = 2821
     zoom_level = 1
+[Remota]
+    name = "Remota"
+    class = "city"
+    lat = 3010
+    lng = 3022
+    zoom_level = 1

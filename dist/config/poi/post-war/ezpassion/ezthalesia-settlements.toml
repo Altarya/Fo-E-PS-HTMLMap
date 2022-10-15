@@ -1,0 +1,78 @@
+[Metro]
+    name = "Metrô"
+    class = "settlement"
+    lat = 2978
+    lng = 2867
+    zoom_level = 2
+[Trilhao]
+    name = "Trilhão"
+    class = "settlement"
+    lat = 2989
+    lng = 2856
+    zoom_level = 2
+[VistasDosTrilhos]
+    name = "Vistas dos Trilhos"
+    class = "settlement"
+    lat = 3000
+    lng = 2855
+    zoom_level = 1
+[Barcopolis]
+    name = "Barcópolis"
+    class = "settlement"
+    lat = 3019
+    lng = 2861
+    zoom_level = 2
+[Fuligem]
+    name = "Fuligem"
+    class = "settlement"
+    lat = 3035
+    lng = 2873
+    zoom_level = 2
+[PortoGrande]
+    name = "Porto Grande"
+    class = "settlement"
+    lat = 3049
+    lng = 2876
+    zoom_level = 1
+[MinasDouro]
+    name = "Minas D'ouro"
+    class = "settlement"
+    lat = 3014
+    lng = 2899
+    zoom_level = 2
+[CampoLua]
+    name = "Campo Lua"
+    class = "settlement"
+    lat = 3002
+    lng = 2873
+    zoom_level = 2
+[Precinto]
+    name = "Precinto"
+    class = "settlement"
+    lat = 2982
+    lng = 2901
+    zoom_level = 2
+[TresPredios]
+    name = "Três Prédios"
+    class = "settlement"
+    lat = 2965
+    lng = 2893
+    zoom_level = 2
+[Fabriquicia]
+    name = "Fabriquícia"
+    class = "settlement"
+    lat = 2934
+    lng = 2894
+    zoom_level = 2
+[CascadasSerenas]
+    name = "Cascadas Serênas"
+    class = "settlement"
+    lat = 2988
+    lng = 2886
+    zoom_level = 2
+[ThalesiaDowntown]
+    name = "Thalesia Downtown"
+    class = "settlement"
+    lat = 2974
+    lng = 2901
+    zoom_level = 1

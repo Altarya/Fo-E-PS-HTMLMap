@@ -1,0 +1,12 @@
+[Verdade]
+    name = "Verdade"
+    class = "settlement"
+    lat = 2969
+    lng = 2975
+    zoom_level = 2
+[LaAzul]
+    name = "Lã Azul"
+    class = "settlement"
+    lat = 2957
+    lng = 2955
+    zoom_level = 2

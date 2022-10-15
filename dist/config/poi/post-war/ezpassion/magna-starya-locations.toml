@@ -1,0 +1,30 @@
+[PalacioTenebrae]
+    name = "Palácio Tenebrae"
+    class = "intra-settlement"
+    lat = 2941 
+    lng = 2984
+    zoom_level = 2
+[ElevadorEspacial]
+    name = "Elevador Espacial"
+    class = "intra-settlement"
+    lat = 2944
+    lng = 2974
+    zoom_level = 2
+[TorreCapital]
+    name = "Torre Capital"
+    class = "intra-settlement"
+    lat = 2934
+    lng = 2968
+    zoom_level = 2
+[Eterno]
+    name = "Eterno"
+    class = "intra-settlement"
+    lat = 2922
+    lng = 2954
+    zoom_level = 2
+[BaiaBelaVista]
+    name = "Baía Bela Vista"
+    class = "intra-settlement"
+    lat = 2912
+    lng = 2961
+    zoom_level = 2

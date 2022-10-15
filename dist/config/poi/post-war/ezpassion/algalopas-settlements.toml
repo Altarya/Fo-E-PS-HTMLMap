@@ -1,0 +1,6 @@
+[Estebordoburgo]
+    name = "Estebordoburgo"
+    class = "settlement"
+    lat = 3004
+    lng = 3019
+    zoom_level = 2

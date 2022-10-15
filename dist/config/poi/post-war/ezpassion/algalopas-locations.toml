@@ -1,0 +1,12 @@
+[FabricaDeBatatas]
+    name = "Fábrica de Batatas"
+    class = "misc-poi"
+    lat = 2977
+    lng = 2989
+    zoom_level = 2
+[MansaoCarangueijo]
+    name = "Mansão Carangueijo"
+    class = "misc-poi"
+    lat = 3007
+    lng = 3024
+    zoom_level = 2
