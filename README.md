@@ -13,18 +13,18 @@ An interactive map(or Map template) made using LeafletJS, Typescript and Electro
 
 # How to use?
 ## Standalone
-1 - Download the latest release
-2 - Unpack it somewhere
-3 - Run htmlmap.exe
+- 1 - Download the latest release
+- 2 - Unpack it somewhere
+- 3 - Run htmlmap.exe
 ## As a webpage
-1 - Run your http server of choice(like npx http-server .\) on (extracted folder)/resources/app/dist
-2 - Open the address of the server, and it should be the default page
+- 1 - Run your http server of choice(like npx http-server .\) on (extracted folder)/resources/app/dist
+- 2 - Open the address of the server, and it should be the default page
 ## Within Foundry Virtual Tabletop
-1 - Download and enable the HTML To Scene Module
-2 - Create a new scene
-3 - Edit Scene properties and open the HTML To Scene tab
-4 - Enable it
-5 - On the location, point it to (extracted folder)/resources/app/dist/index.html
+- 1 - Download and enable the HTML To Scene Module
+- 2 - Create a new scene
+- 3 - Edit Scene properties and open the HTML To Scene tab
+- 4 - Enable it
+- 5 - On the location, point it to (extracted folder)/resources/app/dist/index.html
 
 # How to modify?
 Most editing is done by modifying files in assets and config
