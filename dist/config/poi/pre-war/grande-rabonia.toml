@@ -1,0 +1,12 @@
+[Botrota]
+    name = "Botrotá"
+    class ="pre-war-capital"
+    lat = 1810
+    lng = 2098
+    zoom_level = 0
+[Mararrabo]
+    name = "Mararrabo"
+    class ="city"
+    lat = 1877
+    lng = 2302
+    zoom_level = 1

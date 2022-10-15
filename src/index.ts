@@ -23,6 +23,12 @@ var markerParty = L.marker(centerOfMap, {
     draggable: true,
     title: "Party Location",
 }).bindTooltip(tooltip)
+var map = new L.Map('map', {
+    crs: L.CRS.Simple,
+    center: centerOfMap,
+    zoom: 0,
+    minZoom: -3
+});
 
 if (typeof exports === 'object') {
     Lextra = require('leaflet');
@@ -47,13 +53,6 @@ fetch(Config.configPath+"main.toml").then((response => {
             const mainConfigMap = new Map(Object.entries(mainConfigParsed));
 
             try {
-
-                let map = new L.Map('map', {
-                    crs: L.CRS.Simple,
-                    center: centerOfMap,
-                    zoom: 0,
-                    minZoom: -3
-                });
 
                 var layerController = L.control.layers().addTo(map)
 
@@ -181,6 +180,8 @@ fetch(Config.configPath+"main.toml").then((response => {
 
                         searchLayers.addLayer(markerParty)
 
+                        map.setView(defaultPos)
+
                         const isPartyDragEnabled: boolean = CONFIG.get("enable_party_indicator_save_on_drag")
 
                         if (isPartyDragEnabled) {
@@ -194,6 +195,33 @@ fetch(Config.configPath+"main.toml").then((response => {
                                 saveAs(new File([serialPos], "party-pos.toml", {type: "text/plain;charset=utf-8"}));
                             })
                         }
+
+                        fetch("./party-pos.toml").then((response => {
+                            if (response.ok) {
+                                return response.blob()
+                            }
+                            }))
+                            .then((result) => {
+                                result.text().then(response => {
+                                    const posParsed = toml.parse(response);
+                                    const posParsedMap = new Map(Object.entries(posParsed));
+                                    const pos: [number, number] = <any>posParsedMap.get("position")
+
+                                    markerParty.setLatLng(pos)
+                                    map.setView(pos)
+                                })
+                            }
+                        )
+
+                        markerParty.on('click', (e: LeafletMouseEvent) => {
+                            let pos = markerParty.getLatLng()
+                            let serialPos = 
+                                "position = [\n" +
+                                pos.lat + ",\n" +
+                                pos.lng + "\n" +
+                                "]\n"
+                            saveAs(new File([serialPos], "party-pos.toml", {type: "text/plain;charset=utf-8"}));
+                        })
                     }
 
             } catch (error) {
@@ -201,30 +229,4 @@ fetch(Config.configPath+"main.toml").then((response => {
             }
         }
     )
-})
-
-fetch("./party-pos.toml").then((response => {
-    if (response.ok) {
-        return response.blob()
-    }
-    }))
-    .then((result) => {
-        result.text().then(response => {
-            const posParsed = toml.parse(response);
-            const posParsedMap = new Map(Object.entries(posParsed));
-            const pos: [number, number] = <any>posParsedMap.get("position")
-
-            markerParty.setLatLng(pos)
-        })
-    }
-)
-
-markerParty.on('click', (e: LeafletMouseEvent) => {
-    let pos = markerParty.getLatLng()
-    let serialPos = 
-        "position = [\n" +
-        pos.lat + ",\n" +
-        pos.lng + "\n" +
-        "]\n"
-    saveAs(new File([serialPos], "party-pos.toml", {type: "text/plain;charset=utf-8"}));
 })

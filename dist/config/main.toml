@@ -44,6 +44,10 @@
         "post-war/ezpassion/passionia-settlements",
         "post-war/ezpassion/extremalistra-settlements",
         "pre-war/spqr",
+        "pre-war/grande-rabonia",
+        "pre-war/vimtever",
+        "pre-war/pratenia",
+        "pre-war/champisuyu",
     ]
     features_list = [
         "equestriana"
