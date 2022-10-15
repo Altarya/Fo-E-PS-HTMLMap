@@ -102,12 +102,20 @@ fetch(Config.configPath+"main.toml").then((response => {
                         zIndex: 5
                     }
                 )
+                var countries = L.imageOverlay(
+                    './assets/layers/countries.webp', 
+                    L.latLngBounds( southWest, northEast),
+                    {
+                        zIndex: 5
+                    }
+                )
 
                 layerController.addOverlay(municipalities, "Municipalities, Sub-states and Sea Regions")
                 layerController.addOverlay(statesFilled, "Administrative Divisions(States) Filled")
                 layerController.addOverlay(states, "Administrative Divisions(States)")
                 layerController.addOverlay(tropics, "Tropics")
                 layerController.addOverlay(continents, "Continents and Oceans")
+                layerController.addOverlay(countries, "Major Factions and Countries")
 
                 let locMarkerIcon = new L.Icon({
                     iconSize:     [24, 24],
