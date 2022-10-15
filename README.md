@@ -18,14 +18,14 @@ and here: https://altarya.github.io/Fo-E-PS-HTMLMap/ for the whole thing working
 - 2 - Unpack it somewhere
 - 3 - Run htmlmap.exe
 ## As a webpage
-- 1 - Run your http server of choice(like npx http-server .\) on (extracted folder)/resources/app/dist
+- 1 - Run your http server of choice(like npx http-server .\) on (extracted folder)/resources/app/docs
 - 2 - Open the address of the server, and it should be the default page
 ## Within Foundry Virtual Tabletop
 - 1 - Download and enable the HTML To Scene Module
 - 2 - Create a new scene
 - 3 - Edit Scene properties and open the HTML To Scene tab
 - 4 - Enable it
-- 5 - On the location, point it to (extracted folder)/resources/app/dist/index.html
+- 5 - On the location, point it to (extracted folder)/resources/app/docs/index.html
 
 # How to modify?
 Most editing is done by modifying files in assets and config
@@ -77,7 +77,7 @@ the bundled Electron's) webpage inspector(Inspect Element).
 # Why?
 I greatly enjoy making maps for tabletop rpg games and such, and up until this project I'd do them on an image editor like Photoshop,
 while thats usually perfectly fine, there is a limit to the amount of information density a static map can display without getting cluttered,
-plus they lack the ability to measure distances and to search the marked locations. There are many mapping tools available online, most with
+plus they lack the ability to measure docsances and to search the marked locations. There are many mapping tools available online, most with
 far more features than this will ever have, but I've yet to find one that outputs a file that can be easilly integrated into Foundry, so I took
 matters into my own hands.
 

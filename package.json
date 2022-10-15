@@ -64,10 +64,8 @@
           "webpack.config.js",
           "tsconfig.json",
           "jsconfig.json",
-          "index.html",
           "yarn-error.log",
-          "dist/party-pos.toml",
-          "docs",
+          "docs/party-pos.toml",
           "node_modules",
           "src"
         ]
