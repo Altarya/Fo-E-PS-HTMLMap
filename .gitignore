@@ -1,3 +1,11 @@
 node_modules/*
 dist/party-pos.toml
 dist/htmlserenitymap.rar
+out/
+dist/win-unpacked
+*.exe
+*.blockmap
+dist/latest.yml
+dist/builder-debug.yml
+dist/builder-effective-config.yaml
+yarn-error.log
