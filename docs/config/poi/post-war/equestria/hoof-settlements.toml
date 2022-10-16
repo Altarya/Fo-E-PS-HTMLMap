@@ -43,8 +43,8 @@
 [Thunderhead]
     name = "Thunderhead"
     class = "settlement"
-    lat = 3447
-    lng = 3709
+    lat = 3448
+    lng = 3711
     zoom_level = 1
 [HoofingtonSportsArena]
     name = "Hoofington Sports Arena"
@@ -91,8 +91,8 @@
 [NightmareCastle]
     name = "Nightmare Castle"
     class = "settlement"
-    lat = 3445
-    lng = 3709
+    lat = 3447
+    lng = 3710
     zoom_level = 2
 [ThePitt]
     name = "The Pitt"

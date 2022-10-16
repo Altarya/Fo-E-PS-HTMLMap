@@ -139,8 +139,8 @@
 [HoofingtonCore]
     name = "Hoofington Core"
     class = "misc-poi"
-    lat = 3449
-    lng = 3709
+    lat = 3450
+    lng = 3711
     zoom_level = 2
 [HightowerPrison]
     name = "Hightower Prison"
@@ -151,7 +151,7 @@
 [MuseumOfNaturalHistory]
     name = "Museum Of Natural History"
     class = "intra-settlement"
-    lat = 3448
+    lat = 3449
     lng = 3704
     zoom_level = 3
 [GreenLineAccess]
@@ -175,8 +175,8 @@
 [SPPTowerHoofington]
     name = "S.P.P. Tower Hoofington"
     class = "intra-settlement"
-    lat = 3453
-    lng = 3709
+    lat = 3452
+    lng = 3711
     zoom_level = 3
 [StableTecHQ]
     name = "Stable-Tec H.Q."
