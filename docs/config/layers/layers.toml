@@ -1,0 +1,24 @@
+[Municipalities]
+    name = "Municipalities, Sub-states and Sea Regions"
+    zindex = 1
+    image = "municipalities.webp"
+[StatesOutlines]
+    name = "Administrative Divisions(States)"
+    zindex = 2
+    image = "states.webp"
+[States]
+    name = "Administrative Divisions(States) Filled"
+    zindex = 3
+    image = "statesfilled.webp"
+[Tropics]
+    name = "Tropics"
+    zindex = 4
+    image = "tropics.webp"
+[ContinentsnOceans]
+    name = "Continents and Oceans"
+    zindex = 5
+    image = "continentsoceans.webp"
+[Factions]
+    name = "Major Factions and Countries(2275)"
+    zindex = 6
+    image = "countries.webp"

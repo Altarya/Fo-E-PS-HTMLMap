@@ -5,6 +5,7 @@ import * as Config from './config'
 import * as toml from '@iarna/toml'
 import saveAs from "file-saver";
 import { setupFeatures } from "./features";
+import { setupLayers } from "./layers";
 
 var Lextra: any;
 let centerOfMap = new L.LatLng(3374, 3339)
@@ -49,15 +50,19 @@ fetch(Config.configPath+"main.toml").then((response => {
     .then((result) => {
         result.text().then(response => {
 
-            const mainConfigParsed = toml.parse(response);
-            const mainConfigMap = new Map(Object.entries(mainConfigParsed));
+            const mainConfigParsed = toml.parse(response)
+            const mainConfigMap = new Map(Object.entries(mainConfigParsed))
+
+            const CONFIG = new Map(Object.entries(mainConfigMap.get("CONFIG")))
 
             try {
 
                 var layerController = L.control.layers().addTo(map)
 
+                let mapSize: [number, number] = CONFIG.get("map_size")
+
                 var southWest: LatLngExpression = new L.LatLng(0, 0)
-                var northEast: LatLngExpression = new L.LatLng(5120, 9728)
+                var northEast: LatLngExpression = new L.LatLng(mapSize[0], mapSize[1])
 
                 L.imageOverlay(
                     './assets/layers/terrain.webp', 
@@ -67,7 +72,7 @@ fetch(Config.configPath+"main.toml").then((response => {
                     }
                 ).addTo(map)
 
-                var statesFilled = L.imageOverlay(
+                /*var statesFilled = L.imageOverlay(
                     './assets/layers/statesfilled.webp', 
                     L.latLngBounds( southWest, northEast),
                     {
@@ -115,7 +120,9 @@ fetch(Config.configPath+"main.toml").then((response => {
                 layerController.addOverlay(states, "Administrative Divisions(States)")
                 layerController.addOverlay(tropics, "Tropics")
                 layerController.addOverlay(continents, "Continents and Oceans")
-                layerController.addOverlay(countries, "Major Factions and Countries")
+                layerController.addOverlay(countries, "Major Factions and Countries")*/
+
+                setupLayers(map, layerController, southWest, northEast)
 
                 let locMarkerIcon = new L.Icon({
                     iconSize:     [24, 24],
@@ -176,8 +183,6 @@ fetch(Config.configPath+"main.toml").then((response => {
                 };
                 Lextra.control.ruler(options).addTo(map);
                 console.log("Loaded Ruler")
-
-                const CONFIG = new Map(Object.entries(mainConfigMap.get("CONFIG")))
 
                 const isPartyEnabled: boolean = CONFIG.get("enable_party_indicator")
 

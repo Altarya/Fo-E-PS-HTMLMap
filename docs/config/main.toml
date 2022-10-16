@@ -57,6 +57,7 @@
         "antransarctica",
         "griffonia",
         "thermonia",
+        "cervinia",
     ]
 [CONFIG]
     enable_party_indicator = true #Wether or not the draggable party indicator is enabled
@@ -68,3 +69,7 @@
     #saved, this is quite clunky, but it'll do for now
     enable_party_indicator_save_on_drag = true #If enabled the save as window will appear after dragging the
     #indicator instead of requiring a click
+    map_size = [ #Size of the terrain.webp file, note that ALL LAYERS must have this same resolution
+        5120,
+        9728
+    ]

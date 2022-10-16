@@ -65,6 +65,7 @@
           "tsconfig.json",
           "jsconfig.json",
           "yarn-error.log",
+          "README.md",
           "docs/party-pos.toml",
           "node_modules",
           "src"
