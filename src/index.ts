@@ -72,56 +72,6 @@ fetch(Config.configPath+"main.toml").then((response => {
                     }
                 ).addTo(map)
 
-                /*var statesFilled = L.imageOverlay(
-                    './assets/layers/statesfilled.webp', 
-                    L.latLngBounds( southWest, northEast),
-                    {
-                        zIndex: 1
-                    }
-                )
-                var municipalities = L.imageOverlay(
-                    './assets/layers/municipalities.webp', 
-                    L.latLngBounds( southWest, northEast),
-                    {
-                        zIndex: 2
-                    }
-                )
-                var states = L.imageOverlay(
-                    './assets/layers/states.webp', 
-                    L.latLngBounds( southWest, northEast),
-                    {
-                        zIndex: 3
-                    }
-                )
-                var tropics = L.imageOverlay(
-                    './assets/layers/tropics.webp', 
-                    L.latLngBounds( southWest, northEast),
-                    {
-                        zIndex: 4
-                    }
-                )
-                var continents = L.imageOverlay(
-                    './assets/layers/continentsoceans.webp', 
-                    L.latLngBounds( southWest, northEast),
-                    {
-                        zIndex: 5
-                    }
-                )
-                var countries = L.imageOverlay(
-                    './assets/layers/countries.webp', 
-                    L.latLngBounds( southWest, northEast),
-                    {
-                        zIndex: 5
-                    }
-                )
-
-                layerController.addOverlay(municipalities, "Municipalities, Sub-states and Sea Regions")
-                layerController.addOverlay(statesFilled, "Administrative Divisions(States) Filled")
-                layerController.addOverlay(states, "Administrative Divisions(States)")
-                layerController.addOverlay(tropics, "Tropics")
-                layerController.addOverlay(continents, "Continents and Oceans")
-                layerController.addOverlay(countries, "Major Factions and Countries")*/
-
                 setupLayers(map, layerController, southWest, northEast)
 
                 let locMarkerIcon = new L.Icon({
