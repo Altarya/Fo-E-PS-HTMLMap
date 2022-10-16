@@ -6,7 +6,7 @@ and here: https://altarya.github.io/Fo-E-PS-HTMLMap/ for the whole thing working
 
 # Features
 - Vectorised fully configurable waypoints that appear at different zoom levels
-- Togable Layers
+- Togable and customisable Layers
 - Search bar
 - (Semi-accurate) Distance and Bearing ruler
 - Loose files for deployment with the packaged Electron Launcher or anywhere that can render WebGL and HTML5
