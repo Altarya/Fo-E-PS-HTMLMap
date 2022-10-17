@@ -238,3 +238,9 @@
     lat = 3432
     lng = 3718
     zoom_level = 2
+[HoofingtonIndustrialCenter]
+    name = "Hoofington Industrial Center"
+    class = "misc-poi"
+    lat = 3430
+    lng = 3644
+    zoom_level = 1
