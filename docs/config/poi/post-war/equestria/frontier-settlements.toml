@@ -106,3 +106,9 @@
     lat = 3415
     lng = 3030
     zoom_level = 2
+[Pins]
+    name = "Pins"
+    class = "settlement"
+    lat = 3335
+    lng = 3152
+    zoom_level = 2
