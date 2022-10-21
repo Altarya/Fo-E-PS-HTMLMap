@@ -4,15 +4,24 @@
     lat = 4176
     lng = 3572
     zoom_level = 1
+    description = "The site of the Crystal Empire's most ambitious research centre."
+    link = ""
+    from = 2
 [FukkatsuAriuBase]
     name = "Fukkatsu Ariu Base"
     class = "settlement"
     lat = 4542
     lng = 2965
     zoom_level = 1
+    description = "The base of operations from the yarinese resistence."
+    link = ""
+    from = 2
 [QilinguoAntransarcticBase]
     name = "Qilinguo Antransarctic Base"
     class = "settlement"
     lat = 4614
     lng = 2706
     zoom_level = 1
+    description = "A large post-war millitary and scientific installation owned by the Qilinguo government."
+    link = ""
+    from = 2

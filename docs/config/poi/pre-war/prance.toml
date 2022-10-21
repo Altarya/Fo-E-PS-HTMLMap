@@ -4,45 +4,69 @@
     lat = 3680
     lng = 3250
     zoom_level = 0
+    description = ""
+    link = ""
+    from = 2
 [Neighon]
     name = "Neighon"
     class = "city"
     lat = 3747
     lng = 3137
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Hondeaux]
     name = "Hondeaux"
     class = "city"
     lat = 3654
     lng = 3089
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Fille]
     name = "Fille"
     class = "city"
     lat = 3615
     lng = 3260
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Fancee]
     name = "Fancee"
     class = "city"
     lat = 3528
     lng = 3112
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Trotluise]
     name = "Trotluise"
     class = "city"
     lat = 3543
     lng = 2946
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Maneille]
     name = "Maneille"
     class = "city"
     lat = 3644
     lng = 2961
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Chicacolt]
     name = "Chicacolt"
     class = "city"
     lat = 3597
     lng = 2860
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 3

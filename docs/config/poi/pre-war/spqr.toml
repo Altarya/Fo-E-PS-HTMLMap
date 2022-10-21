@@ -4,291 +4,438 @@
     lat = 3085
     lng = 2021
     zoom_level = 0
+    description = "The beautyful capital of the zebras now reduced to an eternally burning hell."
+    link = ""
+    from = 7
 [Clavenas]
     name = "Clavenas"
     class = "city"
     lat = 3152
     lng = 2255
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Ormoeas]
     name = "Órmoeas"
     class = "city"
     lat = 3060
     lng = 2162
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Knochaitios]
     name = "Knochaítios"
     class = "city"
     lat = 3020
     lng = 2105
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Alagovala]
     name = "Alagovala"
     class = "city"
     lat = 2990
     lng = 2037
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Doryarta]
     name = "Doryarta"
     class = "city"
     lat = 3006
     lng = 2232
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Tripodimiki]
     name = "Tripodimiki"
     class = "city"
     lat = 3083
     lng = 2392
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Sanctvm]
     name = "Sanctvm"
     class = "city"
     lat = 3184
     lng = 2412
     zoom_level = 1
+    description = "Also known as 'Sanctuary'"
+    link = ""
+    from = 7
 [Zestrvm]
     name = "Zestrvm"
     class = "city"
     lat = 3069
     lng = 2429
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Exilivrbs]
     name = "Exilivrbs"
     class = "city"
     lat = 3155
     lng = 3738
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Herazevraion]
     name = "Herazévraion"
     class = "city"
     lat = 3143
     lng = 2177
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Opliolis]
     name = "Opliolis"
     class = "city"
     lat = 3277
     lng = 2142
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [OryzaFlvvivs]
     name = "Oryza Flvvivs"
     class = "city"
     lat = 3424
     lng = 2056
     zoom_level = 1
+    description = "Also known as 'Rice River'."
+    link = ""
+    from = 7
 [Thermopolis]
     name = "Thermopolis"
     class = "city"
     lat = 3282
     lng = 1984
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Nicomedivm]
     name = "Nicomedivm"
     class = "city"
     lat = 3340
     lng = 1905
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Aricornvm]
     name = "Aricornvm"
     class = "city"
     lat = 3370
     lng = 1837
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Vallvum]
     name = "Vallvm"
     class = "city"
     lat = 3307
     lng = 1752
     zoom_level = 1
+    description = "Also known as 'Bastion'"
+    link = ""
+    from = 7
 [Lvghinnitvm]
     name = "Lvghinnitvm"
     class = "city"
     lat = 3181
     lng = 1842
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Lvmenopolis]
     name = "Lvmenopolis"
     class = "city"
     lat = 3025
     lng = 1893
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Zevran]
     name = "Zévran"
     class = "city"
     lat = 3185
     lng = 1676
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Londvngvlam]
     name = "Londvgvlam"
     class = "city"
     lat = 3442
     lng = 1690
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Rvptvpiclaven]
     name = "Rvptvpiclaven"
     class = "city"
     lat = 3591
     lng = 1705
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Blesfrigvs]
     name = "Blesfrigvs"
     class = "city"
     lat = 3624 
     lng = 1640
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Glaceniam]
     name = "Glaceniam"
     class = "city"
     lat = 3843
     lng = 1638
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Antizevran]
     name = "Antizévran"
     class = "city"
     lat = 3447
     lng = 1332
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Hvmidvmia]
     name = "Hvmidvmia"
     class = "city"
     lat = 3500
     lng = 1292
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [NovvsReginam]
     name = "Novvs Reginam"
     class = "city"
     lat = 3474
     lng = 1245
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Marepropem]
     name = "Marepropem"
     class = "city"
     lat = 3450
     lng = 1060
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [VngvlaSerdica]
     name = "Vngvla Serdica"
     class = "city"
     lat = 3500
     lng = 1013
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Caeseratrix]
     name = "Caeseratrix"
     class = "city"
     lat = 3579
     lng = 1002
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [NovaRoam]
     name = "Nova Roam"
     class = "city"
     lat = 3715
     lng = 868
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Rhofias]
     name = "Rhofias"
     class = "city"
     lat = 2955 
     lng = 2071
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Canalogos]
     name = "Çanálogos"
     class = "city"
     lat = 2924
     lng = 2063
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Trochaitas]
     name = "Trochaítas"
     class = "city"
     lat = 2954
     lng = 1972
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Knosto]
     name = "Knósto"
     class = "city"
     lat = 2880
     lng = 1961
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Zevrymno]
     name = "Zevrymno"
     class = "city"
     lat = 2863
     lng = 2015
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Zakropolis]
     name = "Zakropolis"
     class = "city"
     lat = 2855
     lng = 2074
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Mikitainia]
     name = "Mikitainía"
     class = "city"
     lat = 2896
     lng = 2161
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Phaignostos]
     name = "Phaignóstos"
     class = "city"
     lat = 2839
     lng = 2046
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Maliphilias]
     name = "Maliphilias"
     class = "city"
     lat = 2803
     lng = 2124
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Palekalogos]
     name = "Palekálogos"
     class = "city"
     lat = 2759
     lng = 2061
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Tylichivos]
     name = "Tylichívos"
     class = "city"
     lat = 2728
     lng = 2122
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Calvis]
     name = "Calvis"
     class = "city"
     lat = 2752
     lng = 1948
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Cognitionia]
     name = "Cognitionia"
     class = "city"
     lat = 2783
     lng = 1949
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Insvlermo]
     name = "Insvlermo"
     class = "city"
     lat = 2792
     lng = 1913
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Cagliarem]
     name = "Cagliarem"
     class = "city"
     lat = 2832
     lng = 1802
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Pomperlona]
     name = "Pomperlona"
     class = "city"
     lat = 2853
     lng = 1678
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Syraecvvs]
     name = "Syræcvvs"
     class = "city"
     lat = 2819
     lng = 1997
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Saltvrbs]
     name = "Saltvrbs"
     class = "city"
     lat = 2924
     lng = 1577
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2

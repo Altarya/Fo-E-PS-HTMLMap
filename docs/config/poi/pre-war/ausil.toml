@@ -4,81 +4,123 @@
     lat = 2202
     lng = 2919
     zoom_level = 0
+    description = "The capital of the Federal Republic of Ausil."
+    link = ""
+    from = 2
 [PortoNovo]
     name = "Porto Novo"
     class ="city"
     lat = 2240
     lng = 2869
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [FortalezaDoCouro]
     name = "Fortaleza do Couro"
     class ="city"
     lat = 2262
     lng = 2822
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [JoaoPonei]
     name = "João Ponei"
     class ="city"
     lat = 2146
     lng = 3010
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Cascoiba]
     name = "Cascoibá"
     class ="city"
     lat = 2013
     lng = 3159
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [BelasPraias]
     name = "Belas Praias"
     class ="city"
     lat = 1983
     lng = 3144
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [RioDeJaneighro]
     name = "Rio de Janeighro"
     class ="city"
     lat = 1972
     lng = 2965
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Nitrotaroi]
     name = "Nitrotarói"
     class ="city"
     lat = 1894
     lng = 3090
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [BeloMirante]
     name = "Belo Mirante"
     class ="city"
     lat = 1807
     lng = 3046
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [SaoPasto]
     name = "São Pasto"
     class ="city"
     lat = 1810
     lng = 2917
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Relinchem]
     name = "Relinchém"
     class ="city"
     lat = 1781
     lng = 2748
     zoom_level = 1
-[Morocegueira]
+    description = ""
+    link = ""
+    from = 2
+[Morcegueira]
     name = "Morcegueira"
     class ="city"
     lat = 1770
     lng = 3178
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Pontaus]
     name = "Pontaus"
     class ="city"
     lat = 1621
     lng = 3019
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [NoOeste]
     name = "Nó Oeste"
     class ="city"
     lat = 1586
     lng = 2699
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2

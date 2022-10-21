@@ -4,136 +4,204 @@
     lat = 3263 #X
     lng = 3295 #Y
     zoom_level = 1 #The zoom level for when this PoI will appear, goes from 0(Always on) to 3(Inside a city)
+    description = "" #The description of the poi, fully html compliant
+    link = "" #A link to say a wiki page of this poi
+    from = 1 #where this poi is from
 [Canterlot]
     name = "Canterlot"
     class ="pre-war-capital"
     lat = 3421
     lng = 3274
     zoom_level = 0
+    description = ""
+    link = ""
+    from = 1
 [Baltimare]
     name = "Baltimare"
     class = "city"
     lat = 3330
     lng = 3432
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 1
 [Cloudsdale]
     name = "Cloudsdale"
     class = "city"
     lat = 3328
     lng = 3271
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 1
 [NeighOrleans]
     name = "Neigh Orleans"
     class = "city"
     lat = 3168
     lng = 3267
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 1
 [LosAlicorn]
     name = "Los Alicorn"
     class = "city"
     lat = 3230
     lng = 3212
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 4
 [Appleloosa]
     name = "Appleloosa"
     class = "city"
     lat = 3264
     lng = 3236
     zoom_level = 1
-
+    description = ""
+    link = ""
+    from = 1
 [LosPegasos]
     name = "Los Pegasos"
     class = "city"
     lat = 3286
     lng = 3163
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 1
 [Detrot]
     name = "Detrot"
     class = "city"
     lat = 3198
     lng = 3038
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Whinnieapolis]
     name = "Whinnieapolis"
     class = "city"
     lat = 3385
     lng = 2982
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 4
 [SaintsParish]
     name = "Saint's Parish"
     class = "city"
     lat = 3404
     lng = 3017
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 4
 [Reinchester]
     name = "Reinchester"
     class = "city"
     lat = 3401
     lng = 3079
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 4
 [Vanhoover]
     name = "Vanhoover"
     class = "city"
     lat = 3457
     lng = 2857
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 1
 [Zebratown]
     name = "Zebratown"
     class = "city"
     lat = 3391
     lng = 3266
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 0
 [SplendidFalls]
     name = "Splendid Falls"
     class = "city"
     lat = 3434
     lng = 3368
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Manehattan]
     name = "Manehattan"
     class = "city"
     lat = 3316
     lng = 3500
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 1
 [Fillydelphia]
     name = "Fillydeplhia"
     class = "city"
     lat = 3376
     lng = 3555
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 1
 [Hoofington]
     name = "Hoofington"
     class = "city"
     lat = 3451
     lng = 3710
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 5
 [Foaledo]
     name = "Foaledo"
     class = "city"
     lat = 3608
     lng = 3519
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Maretropolis]
     name = "Maretropolis"
     class = "city"
     lat = 3705
     lng = 3465
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Portlandia]
     name = "Portlandia"
     class = "city"
     lat = 3782
     lng = 3475
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 6
 [Seaddle]
     name = "Seaddle"
     class = "city"
     lat = 3865
     lng = 3495
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 6
 [Lakewood]
     name = "Lakewood"
     class = "city"
     lat = 3412
     lng = 3047
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 4

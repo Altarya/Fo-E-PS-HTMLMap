@@ -4,21 +4,33 @@
     lat = 3576
     lng = 2866
     zoom_level = 2
+    description = ""
+    link = ""
+    from = ""
 [FillysTower]
     name = "Filly's Tower"
     class = "intra-settlement"
     lat = 3607
     lng = 2859
     zoom_level = 2
+    description = ""
+    link = ""
+    from = ""
 [ChicacoltMuseum]
     name = "Chicacolt Museum"
     class = "intra-settlement"
     lat = 3590
     lng = 2850
     zoom_level = 2
+    description = ""
+    link = ""
+    from = 3
 [FillysPier]
     name = "Filly's Pier"
     class = "intra-settlement"
     lat = 3623
     lng = 2853
     zoom_level = 2
+    description = ""
+    link = ""
+    from = 3

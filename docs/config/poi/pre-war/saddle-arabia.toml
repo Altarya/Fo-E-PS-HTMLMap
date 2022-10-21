@@ -4,9 +4,15 @@
     lat = 2864
     lng = 2474
     zoom_level = 0
+    description = ""
+    link = ""
+    from = 2
 [Stemphis]
     name = "Stemphis"
     class = "city"
     lat = 2946
     lng = 2546
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2

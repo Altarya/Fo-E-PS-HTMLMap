@@ -4,3 +4,6 @@
     lat = 3860
     lng = 3817
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 8

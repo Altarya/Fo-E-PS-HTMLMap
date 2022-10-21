@@ -108,3 +108,13 @@
     class = "sea"
     lat = 3385
     lng = 3351
+[SeineLake]
+    name = "Seine Lake"
+    class = "sea"
+    lat = 3714 
+    lng = 3202
+[HeartBay]
+    name = "Heart Bay"
+    class = "sea"
+    lat = 3883
+    lng = 3475

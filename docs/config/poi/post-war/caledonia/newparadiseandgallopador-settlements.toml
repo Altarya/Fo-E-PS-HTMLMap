@@ -4,63 +4,105 @@
     lat = 3766
     lng = 3772
     zoom_level = 1
+    description = "<a hreff='https://falloutequestria.fandom.com/wiki/Hired_Gun_(Heroes)'>Hired Gun/Silver Storm</a>'s birthplace, a city built onm a fort made entirely of mares."
+    link = "https://falloutequestria.fandom.com/wiki/Marefort_(Heroes)"
+    from = 8
 [Dise]
     name = "Dise"
     class = "settlement"
     lat = 3750
     lng = 3951
     zoom_level = 1
+    description = "The greatest of Caledonia's cities, now one of the most developed places in The Wasteland.<img src='https://static.wikia.nocookie.net/falloutequestria/images/f/fb/Dise.png' style='height: 160px;'></img> Image by: TheOmegaRidley"
+    link = "https://falloutequestria.fandom.com/wiki/Dise_(Heroes)"
+    from = 8
 [Stable42]
     name = "Stable 42"
     class = "post-war-capital"
     lat = 3749
     lng = 3776
     zoom_level = 0
+    description = "The center of operations for The <a href='https://falloutequestria.fandom.com/wiki/Crimson_Hoof_(Heroes)'>Crimson Hoof</a>."
+    link = ""
+    from = 8
 [BriddleHope]
     name = "Briddle Hope"
     class = "settlement"
     lat = 3714 
     lng = 3900
     zoom_level = 1
+    description = "A small trading settlement that trades a lot with the Dise gangs."
+    link = ""
+    from = 8
 [HellfireBunker]
     name = "Hellfire Bunker"
     class = "settlement"
     lat = 3675
     lng = 3923
     zoom_level = 1
+    description = "The home base the Dise Steel Rangers Branch"
+    link = ""
+    from = 8
 [Walltrot]
     name = "Walltrot"
     class = "settlement"
     lat = 3690
     lng = 3959
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [DiseStrip]
     name = "Dise Strip"
     class = "settlement"
     lat = 3736
     lng = 3984
     zoom_level = 1
+    description = "The center of wealth of Dise where its famous casinos and major gangs reside."
+    link = ""
+    from = 8
+[DiseTunnels]
+    name = "Dise Tunnels"
+    class = "settlement"
+    lat = 3728.6875 
+    lng = 3978
+    zoom_level = 1
+    description = "A series of underground tunnels under Dise built by Wallkirk as an attempt to create a stable-like bunker system, it failed."
+    link = "https://falloutequestria.fandom.com/wiki/Dise_Tunnels_(Heroes)"
+    from = 8
 [ParadiseMound]
     name = "Paradise Mound"
     class = "settlement"
     lat = 3724
     lng = 3991
     zoom_level = 1
+    description = "The periphery of Dise, where lowlifes lives. It is mainly controlled by The Finishers."
+    link = ""
+    from = 8
 [TheBeak]
     name = "The Beak"
     class = "settlement"
     lat = 3716
     lng = 3977
     zoom_level = 1
+    description = "The old griffon district of Dise, now home of the Golden Talons company."
+    link = ""
+    from = 2
 [Flankyard]
     name = "Flankyard"
     class = "settlement"
     lat = 3731
     lng = 4011
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 8
 [Timber]
     name = "Timber"
     class = "settlement"
     lat = 3716
     lng = 3851
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 8

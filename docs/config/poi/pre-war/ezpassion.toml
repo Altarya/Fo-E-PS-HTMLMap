@@ -4,87 +4,132 @@
     lat = 2931
     lng = 2974
     zoom_level = 0
+    description = ""
+    link = ""
+    from = 2
 [Liscasco]
     name = "Liscasco"
     class = "city"
     lat = 2888
     lng = 2960
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Sulporta]
     name = "Sulporta"
     class = "city"
     lat = 2918
     lng = 3008
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Cascorto]
     name = "Cascôrto"
     class = "city"
     lat = 2883
     lng = 3011
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Popaporto]
     name = "Popaporto"
     class = "city"
     lat = 2891
     lng = 3027
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Portroto]
     name = "Portrôto"
     class = "city"
     lat = 2953
     lng = 3043
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Estibordoburgo]
     name = "Estibordoburgo"
     class = "city"
     lat = 3002
     lng = 3012
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Boencia]
     name = "Boençia"
     class = "city"
     lat = 3030
     lng = 2927
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [SunkenSunAnkh]
     name = "Sunkén Sun Ankh"
     class = "city"
     lat = 2990
     lng = 2952
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Thalesia]
     name = "Thalesia"
     class = "city"
     lat = 2968
     lng = 2901
     zoom_level = 1
+    description = "The world's largest city, so large it was beyond certain small countries, at its peak Thalesia had 1.5 Billion inhabitants."
+    link = ""
+    from = 2
 [Norteporta]
     name = "Norteporta"
     class = "city"
     lat = 2966
     lng = 2969
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Cruzada]
     name = "Cruzada"
     class = "city"
     lat = 2926
     lng = 2935
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [RioLeste]
     name = "Rio Leste"
     class = "city"
     lat = 2967
     lng = 2811
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [TerraNova]
     name = "Terra Nova"
     class = "city"
     lat = 2933 
     lng = 2821
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Remota]
     name = "Remota"
     class = "city"
     lat = 3010
     lng = 3022
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2

@@ -4,99 +4,159 @@
     lat = 3450
     lng = 3705
     zoom_level = 2
+    description = "Home of the <a href='https://falloutequestria.fandom.com/wiki/Crusaders_(Project_Horizons)'>Crusaders.</a><p><img src='https://static.wikia.nocookie.net/falloutequestria/images/2/22/Hoofington_Crusaders.png/revision/latest?cb=20120405224543' style='height: 160px;'></img></p> <p>Image by: DotRook</p>"
+    link = ""
+    from = 5
 [Flotsam]
     name = "Flotsam"
     class = "settlement"
     lat = 3441
     lng = 3709
     zoom_level = 2
+    description = "A small settlement built over a floating platform."
+    link = ""
+    from = 5
 [Megamart]
     name = "Megamart"
     class = "settlement"
     lat = 3439
     lng = 3698
     zoom_level = 1
+    description = "<a href='https://falloutequestria.fandom.com/wiki/Bottlecap_(Project_Horizons)'>Bottlecap</a>'s settlement, built on trade of goods."
+    link = ""
+    from = 5
 [Paradise]
     name = "Paradise"
     class = "settlement"
     lat = 3470
     lng = 3647
     zoom_level = 1
+    description = "<a href='https://falloutequestria.fandom.com/wiki/Usury_(Project_Horizons)'>Usury</a>'s settlement, built on slave trade."
+    link = ""
+    from = 5
 [Flank]
     name = "Flank"
     class = "settlement"
     lat = 3461
     lng = 3691
     zoom_level = 1
+    description = "<a href='https://falloutequestria.fandom.com/wiki/Caprice_(Project_Horizons)'>Caprice</a>'s settlement, built on prostitution."
+    link = ""
+    from = 5
 [Boardwalk]
     name = "Boardwalk"
     class = "settlement"
     lat = 3430
     lng = 3695
     zoom_level = 2
+    description = "A small settlement built on old docks."
+    link = ""
+    from = 5
 [Riverside]
     name = "Riverside"
     class = "settlement"
     lat = 3443
     lng = 3707
     zoom_level = 2
+    description = "A small hellhound/diamond dog settlement."
+    link = ""
+    from = 5
 [Thunderhead]
     name = "Thunderhead"
     class = "settlement"
     lat = 3448
     lng = 3711
     zoom_level = 1
+    description = "A city to rival Neighvarro, Thunderhead is one of the Enclave's most powerfull cities and the most technologically advanced. <a href='https://falloutequestria.fandom.com/wiki/Morning_Glory_(Project_Horizons)'>Morning Glory</a>'s home"
+    link = "https://falloutequestria.fandom.com/wiki/Thunderhead_(Project_Horizons)"
+    from = 5
 [HoofingtonSportsArena]
     name = "Hoofington Sports Arena"
     class = "settlement"
     lat = 3441
     lng = 3701
     zoom_level = 2
+    description = "The H.Q. of the <a href='https://falloutequestria.fandom.com/wiki/Reapers_(Project_Horizons)'>Reapers</a>. <p><img src='https://static.wikia.nocookie.net/falloutequestria/images/6/66/Reapersfactiondotrook.png/revision/latest?cb=20111224175843' style='height: 160px;'></img></p> <p>Image by: DotRook</p>"
+    link = ""
+    from = 5
 [IronmareNavalStation]
     name = "Ironmare Naval Station"
     class = "settlement"
     lat = 3436
     lng = 3716
     zoom_level = 2
+    description = "The base of operations for the Hoofington Steel Rangers branch."
+    link = ""
+    from = 5
 [RosehoofAcademy]
     name = "Rosehoof Academy"
     class = "settlement"
     lat = 3457
     lng = 3698
     zoom_level = 2
+    description = "The old university of hoofington now the home base of the <a href='https://falloutequestria.fandom.com/wiki/Collegiate_(Project_Horizons)'>The Collegiate</a>.<p><img src='https://static.wikia.nocookie.net/falloutequestria/images/6/6a/Collegiatefactiondotrook.png/revision/latest?cb=20111224180000' style='height: 160px;'></img></p> <p>Image by: DotRook</p>"
+    link = "https://falloutequestria.fandom.com/wiki/University_(Project_Horizons)"
+    from = 5
 [Stable152]
     name = "Stable 152"
     class = "settlement"
     lat = 3455
     lng = 3690
     zoom_level = 2
+    description = "An active sealed millitary stable, one of the largest stables."
+    link = ""
+    from = 2
 [BrimstonesFall]
     name = "Brimstone's Fall"
     class = "settlement"
     lat = 3457
     lng = 3695
     zoom_level = 2
+    description = "A medium slaver settlement."
+    link = ""
+    from = 5
 [Stockyard]
     name = "Stockyard"
     class = "settlement"
     lat = 3449
     lng = 3689
     zoom_level = 2
+    description = "A small settlement built over a trash pit."
+    link = ""
+    from = 5
 [Meatlocker]
     name = "Meatlocker"
     class = "settlement"
     lat = 3441
     lng = 3722
     zoom_level = 2
+    description = "A ghoul settlement built on an old industrial meat killing place."
+    link = ""
+    from = 5
 [NightmareCastle]
     name = "Nightmare Castle"
     class = "settlement"
     lat = 3447
     lng = 3710
     zoom_level = 2
-[ThePitt]
-    name = "The Pitt"
+    description = "Princess Luna's ancient castle, now used as a sort of stable by the descendants of the night guard. Very inbred."
+    link = ""
+    from = 5
+[ShwdowboltTower]
+    name = "Shadowbolt Tower"
     class = "settlement"
-    lat = 3365
-    lng = 3545
+    lat = 3449
+    lng = 3710
+    zoom_level = 3
+    description = "The very very very tall sky scraper on the hoofington core that pierces the clouds and goes right through Thunderhead, it was owned by the Ministry of Awesome.<p><img src='https://static.wikia.nocookie.net/falloutequestria/images/7/77/Shadowbolt_Tower.png/revision/latest?cb=20140203141044' style='height: 160px;'></img></p> <p>Image by: Marktwain</p>"
+    link = "https://falloutequestria.fandom.com/wiki/Shadowbolt_Tower_(Project_Horizons)"
+    from = 5
+[FillydelphiaFunFarm]
+    name = "Fillidelphia Fun Farm"
+    class = "settlement"
+    lat = 3372
+    lng = 3546
     zoom_level = 1
+    description = "A large slaver settlement controlled by <a href='https://falloutequestria.fandom.com/wiki/Red_Eye'>Red Eye.</a>"
+    link = "https://falloutequestria.fandom.com/wiki/Fillydelphia_FunFarm"
+    from = 0

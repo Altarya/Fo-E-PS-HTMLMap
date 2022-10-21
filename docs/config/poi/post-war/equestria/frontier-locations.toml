@@ -4,147 +4,231 @@
     lat = 3307
     lng = 3182
     zoom_level = 2
+    description = "An old abandoned and sealed from the outside stable, a lot of bloodwings seem to live there."
+    link = ""
+    from = 4
 [Stable14]
     name = "Stable 14"
     class = "misc-poi"
     lat = 3283
     lng = 3183
     zoom_level = 2
+    description = "An empty griffon stable now used as base by the Triggerponies."
+    link = ""
+    from = 4
 [HaloOnePowerStation]
     name = "Halo One Power Station"
     class = "misc-poi"
     lat = 3295
     lng = 3192
     zoom_level = 2
+    description = "A large solar updraft and underground hydroelectric power plant that is constantly being fought over by the R.N.P, Steel Rangers and Enclave."
+    link = ""
+    from = 4
 [NewPegasusAirport]
     name = "New Pegasus Airport"
     class = "misc-poi"
     lat = 3303
     lng = 3173
     zoom_level = 2
+    description = "The old international airport of Los Pegasos, now used as a R.N.P. base."
+    link = ""
+    from = 4
 [NewPegasusDam]
     name = "New Pegasus Dam"
     class = "misc-poi"
     lat = 3330
     lng = 3165
     zoom_level = 1
+    description = "A very large hydroelectric power plant thats under the control of the R.N.P. with constant attack by the New Legion."
+    link = ""
+    from = 4
 [FnFTools]
     name = "F&F Tools"
     class = "misc-poi"
     lat = 3316
     lng = 3173
     zoom_level = 2
+    description = "The old F&F factory."
+    link = ""
+    from = 4
 [GreenMistValley]
     name = "Green Mist Valley"
     class = "misc-poi"
     lat = 3352
     lng = 3166
     zoom_level = 1
+    description = "A vallley of radioactive myst filled with feral ghouls."
+    link = ""
+    from = 4
 [EAMSStation1]
     name = "E.A.M.S. Station 1"
     class = "intra-settlement"
     lat = 3297
     lng = 3157
     zoom_level = 2
+    description = ""
+    link = ""
+    from = 2
 [QueensSchoolOfInterpretation]
     name = "Queen's School of Interpretation"
     class = "intra-settlement"
     lat = 3262
     lng = 3157
     zoom_level = 3
+    description = "The H.Q. of The Queens, a former school of theatre."
+    link = ""
+    from = 4
 [VanDamns]
     name = "Van Damns'"
     class = "intra-settlement"
     lat = 3268
     lng = 3162
     zoom_level = 3
+    description = "A shady magical energy weapons story."
+    link = ""
+    from = 4
 [LuckyHorseshoe]
     name = "The Lucky Horseshoe"
     class = "intra-settlement"
     lat = 3273
     lng = 3157
     zoom_level = 3
+    description = "The tallest building in New Pegasus and home of Mr. Tops, New Pegasus' mysterious controller. It used to be a bustling casino but now very few get to enter it."
+    link = ""
+    from = 4
 [DemocracysPalace]
     name = "Democracy's Palace"
     class = "intra-settlement"
     lat = 3276
     lng = 3149
     zoom_level = 3
+    description = "The presidential palace of the R.N.P. built over a massive luxury resort."
+    link = ""
+    from = 2
 [MatchnTariffs]
     name = "Match and Tariff's"
     class = "intra-settlement"
     lat = 3266
     lng = 3157
     zoom_level = 3
+    description = "A general store owned by a stallion couple."
+    link = ""
+    from = 4
 [EmperorsPalace]
     name = "Emperor's Palace"
     class = "intra-settlement"
     lat = 3272
     lng = 3158
     zoom_level = 3
+    description = "A large luxury casino built like a roaman building."
+    link = ""
+    from = 4
 [TheGrandRoyale]
     name = "The Grand Royale"
     class = "intra-settlement"
     lat = 3271
     lng = 3157
     zoom_level = 3
+    description = "A V shaped casino with the creepiest of staff, all masked. Its meant to be a luxury semi-resort with a pool."
+    link = ""
+    from = 4
 [TheApplewoodResortnCasino]
     name = "The Applewood Resort & Casino"
     class = "intra-settlement"
     lat = 3270
     lng = 3158
     zoom_level = 3
+    description = "A tacky casino filled to the brim with posters and imagery of pre-war celebrities."
+    link = ""
+    from = 4
 [Stable20Hotel]
     name = "Stable 20 Hotel"
     class = "intra-settlement"
     lat = 3271
     lng = 3154
     zoom_level = 3
+    description = "A hotel built on what was New Pegasus' main stable."
+    link = ""
+    from = 4
 [HonestHeartsDetectiveAgency]
     name = "Honest Hearts Detective Agency"
     class = "intra-settlement"
     lat = 3269
     lng = 3153
     zoom_level = 3
+    description = "A detective agency owned by a synth pony named Honest Hearts."
+    link = ""
+    from = 4
 [Stable97]
     name = "Stable 97"
     class = "misc-poi"
     lat = 3394
     lng = 2976
     zoom_level = 2
+    description = "A reactivated stable by the Enclave for their 'Devil's Child' programme."
+    link = ""
+    from = 4
 [TwinCitiesDam]
     name = "Twin Cities Dam"
     class = "misc-poi"
     lat = 3391
     lng = 3000
     zoom_level = 1
+    description = "A large dam that powers both Saint's Parish and Whinneapolis."
+    link = ""
+    from = 4
 [LittlehornValley]
     name = "Littlehorn Valley"
     class = "misc-poi"
     lat = 3256
     lng = 2856
     zoom_level = 1
+    description = "A valley famous for a massacre that took place at the early days of The Great War."
+    link = ""
+    from = 0
 [LunasSchoolForGiftedUnicorns]
     name = "Luna's School For Gifted Unicorns"
     class = "misc-poi"
     lat = 3250
     lng = 2856
     zoom_level = 2
+    description = "A magic school for unicorns ran by Princess Luna, it was the site of a massacre."
+    link = ""
+    from = 0
 [KingdomsMansion]
     name = "Kingdom's Mansion"
     class = "intra-settlement"
     lat = 3395
     lng = 3074
     zoom_level = 2
+    description = "The house of Empress Sheena and Emperor Punch, features a very extensive medical complex."
+    link = ""
+    from = 4
 [AbsentRuins]
     name = "Absent Ruins"
     class = "misc-poi"
     lat = 3392
     lng = 3073
     zoom_level = 2
+    description = "Ruins of the old pre-war city of Reinchester, now said to be haunted."
+    link = ""
+    from = 4
+[MASEBS10]
+    name = "M.A.S.E.B.S. Tower 10"
+    class = "misc-poi"
+    lat = 3345
+    lng = 3175
+    zoom_level = 2
+    description = ""
+    link = ""
+    from = 4
 [FirstBoulevard]
     name = "First Boulevard"
     class = "intra-settlement"
     lat = 3380
     lng = 2991
     zoom_level = 2
+    description = "The wealthiest part of Whinnieapolis"
+    link = ""
+    from = 4

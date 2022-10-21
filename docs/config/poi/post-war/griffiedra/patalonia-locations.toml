@@ -4,21 +4,33 @@
     lat = 3289
     lng = 4070
     zoom_level = 2
+    description = ""
+    link = ""
+    from = 11
 [PuertoDeGrifencia]
     name = "Puerto de Griféncia"
     class = "intra-settlement"
     lat = 3282
     lng = 4066
     zoom_level = 3
+    description = ""
+    link = ""
+    from = 11
 [FortalezaDorada]
     name = "Fortaleza Dorada"
     class = "intra-settlement"
     lat = 3285
     lng = 4075
     zoom_level = 3
+    description = ""
+    link = ""
+    from = 11
 [LaPataDeOro]
     name = "La Pata de Oro"
     class = "intra-settlement"
     lat = 3288
     lng = 4067
     zoom_level = 3
+    description = ""
+    link = ""
+    from = 11

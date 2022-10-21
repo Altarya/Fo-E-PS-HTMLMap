@@ -4,15 +4,24 @@
     lat = 3417
     lng = 3790
     zoom_level = 0
+    description = ""
+    link = ""
+    from = 2
 [Trabisberg]
     name = "Trabisberg"
     class ="city"
     lat = 3408
     lng = 3741
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [Hufburg]
     name = "Hufburg"
     class = "city"
     lat = 3482
     lng = 3778
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2

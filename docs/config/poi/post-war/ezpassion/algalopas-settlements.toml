@@ -4,3 +4,6 @@
     lat = 3004
     lng = 3019
     zoom_level = 2
+    description = "'This is how its supposed to be spelled!'"
+    link = ""
+    from = 2

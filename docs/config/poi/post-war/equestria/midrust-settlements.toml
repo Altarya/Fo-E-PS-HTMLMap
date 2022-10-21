@@ -4,21 +4,33 @@
     lat = 3569
     lng = 3616
     zoom_level = 1
+    description = "A bustling trade settlement that is meant to be a neutral zone for all gangs in the regions, the only pre-day-of-sunshine-and-rainbows settlement from Dead End."
+    link = ""
+    from = 9
 [NewCloudsdale]
     name = "New Cloudsdale"
     class = "post-war-capital"
     lat = 3548
     lng = 3395
     zoom_level = 0
+    description = "The 'official' capital of the Grand Pegasus Enclave and its largest city, its size is comparable to a pre-war metropolis."
+    link = ""
+    from = 2
 [Portharbour]
     name = "Portharbour"
     class = "settlement"
     lat = 3785
     lng = 3474
     zoom_level = 1
+    description = "'Is it a port or a harbour?!'"
+    link = ""
+    from = 2
 [Stable11]
     name = "Stable 11"
     class = "settlement"
     lat = 3593
     lng = 3533
     zoom_level = 2
+    description = "Cherry Fizz's still active stable that also regularly trades with the outside. It's overmare has recently been 'murdered'."
+    link = ""
+    from = 10

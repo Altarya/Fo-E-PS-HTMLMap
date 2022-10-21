@@ -4,15 +4,24 @@
     lat = 4167
     lng = 3920
     zoom_level = 2
+    description = "The old site of the 2016 World's Fair, where everyone who wanders never returns."
+    link = ""
+    from = 2
 [EAMSStation4]
     name = "E.A.M.S. Station 4"
     class = "intra-settlement"
     lat = 4171
     lng = 3587
     zoom_level = 2
+    description = ""
+    link = ""
+    from = 2
 [CrystalPalace]
     name = "Crystal Palace"
     class = "intra-settlement"
     lat = 4180
     lng = 3577
     zoom_level = 2
+    description = "The old palace of the crystallian royalty."
+    link = ""
+    from = 1

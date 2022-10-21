@@ -4,9 +4,15 @@
     lat = 1810
     lng = 2098
     zoom_level = 0
+    description = ""
+    link = ""
+    from = 2
 [Mararrabo]
     name = "Mararrabo"
     class ="city"
     lat = 1877
     lng = 2302
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2

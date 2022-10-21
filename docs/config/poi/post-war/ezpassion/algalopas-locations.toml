@@ -4,9 +4,15 @@
     lat = 2977
     lng = 2989
     zoom_level = 2
+    description = ""
+    link = ""
+    from = 2
 [MansaoCarangueijo]
     name = "Mansão Carangueijo"
     class = "misc-poi"
     lat = 3007
     lng = 3024
     zoom_level = 2
+    description = "Also known as Crab Manor, an old seapony manor."
+    link = ""
+    from = 2

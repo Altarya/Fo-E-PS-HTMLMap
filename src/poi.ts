@@ -60,6 +60,8 @@ export function setupPOI(mapVar: L.Map, layerController: L.Control.Layers, map: 
 
     const PATH = new Map(Object.entries(map.get("PATH")))
     const poiList = new Map(Object.entries(PATH.get("poi_list")))
+    const atribLists = new Array(PATH.get("atribution_list"))
+    const realAtribList: [string] = atribLists[0]
     for (let entry of Array.from(poiList.entries())) {
         let key = entry[0];
         let value = entry[1];
@@ -88,42 +90,66 @@ export function setupPOI(mapVar: L.Map, layerController: L.Control.Layers, map: 
 
                             //console.log(ent);
 
-                            const name = ent[0]
-                            const classNamev = ent[1]
-                            const lat = ent[2]
-                            const lng = ent[3]
-                            const zoom_level = ent[4]
+                            if(ent.length == 8) {
+                                const name: string = ent[0][1]
+                                const classNamev: string = ent[1][1]
+                                const lat: number = ent[2][1]
+                                const lng: number = ent[3][1]
+                                const zoom_level: number = ent[4][1]
+                                const description: string = ent[5][1]
+                                const link: string = ent[6][1]
+                                const from: number = ent[7][1]
 
-                            const label = L.tooltip({className: classNamev[1], permanent: true}).setLatLng((new L.LatLng(lat[1], lng[1]))).setContent(name[1])
+                                const label = L.tooltip({className: classNamev, permanent: true}).setLatLng((new L.LatLng(lat, lng))).setContent(name)
 
-                            var marker = L.marker(
-                                (new L.LatLng(lat[1], lng[1])), {
-                                    title: name[1]
+                                var marker = L.marker(
+                                    (new L.LatLng(lat, lng)), {
+                                        title: name
+                                    }
+                                ).bindTooltip(label)
+
+                                let iconImage: string = ""
+                                switch (zoom_level) {
+                                    case 1:
+                                        iconImage = "./assets/icons/poi/1.webp"
+                                        cities.addLayer(marker);
+                                        break;
+                                    case 2:
+                                        iconImage = "./assets/icons/poi/2.webp"
+                                        settlements.addLayer(marker);
+                                        break;
+                                    case 3:
+                                        iconImage = "./assets/icons/poi/3.webp"
+                                        intraSettlement.addLayer(marker);
+                                        break;
+                                    default:
+                                        iconImage = "./assets/icons/poi/0.webp"
+                                        capitals.addLayer(marker);
+                                        break;
                                 }
-                            ).bindTooltip(label)
 
-                            let iconImage: string = ""
-                            switch (zoom_level[1]) {
-                                case 1:
-                                    iconImage = "./assets/icons/poi/1.webp"
-                                    cities.addLayer(marker);
-                                    break;
-                                case 2:
-                                    iconImage = "./assets/icons/poi/2.webp"
-                                    settlements.addLayer(marker);
-                                    break;
-                                case 3:
-                                    iconImage = "./assets/icons/poi/3.webp"
-                                    intraSettlement.addLayer(marker);
-                                    break;
-                                default:
-                                    iconImage = "./assets/icons/poi/0.webp"
-                                    capitals.addLayer(marker);
-                                    break;
+                                let linkVar = ""
+                                if (link.length) {
+                                    linkVar = "<h2><a href='" + link + "'>Link</a></h2>"
+                                }
+
+                                let descVar = ""
+                                if (description.length) {
+                                    descVar = "<h2>Description</h2>" + description
+                                }
+
+                                let fromVar = ""
+                                if (realAtribList[from].length && from < realAtribList.length) {
+                                    fromVar = "<h2>From</h2>" + realAtribList[from]
+                                }
+
+                                marker.bindPopup("<h1>" + name + "</h1>" + descVar + linkVar + fromVar);
+
+                                var Icon = new poiIcon({iconUrl: iconImage, className: classNamev})
+                                marker.setIcon(Icon)
+                            } else {
+                                console.error("ERROR: Entry " + ent[0][1] + " has an invalid table, it has " + ent.length + " Entries and needs 8!")
                             }
-
-                            var Icon = new poiIcon({iconUrl: iconImage, className: classNamev[1]})
-                            marker.setIcon(Icon)
                         }
                     } catch (error) {
                         console.error("Parsing error on line " + error.line + ", column " + error.column + ": " + error.message);

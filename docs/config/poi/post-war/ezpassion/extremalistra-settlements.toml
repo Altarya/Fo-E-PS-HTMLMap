@@ -4,15 +4,24 @@
     lat = 2892
     lng = 3012
     zoom_level = 2
+    description = ""
+    link = ""
+    from = 2
 [PontePonte]
     name = "Ponte Ponte"
     class = "settlement"
     lat = 2899
     lng = 3000
     zoom_level = 2
+    description = ""
+    link = ""
+    from = 2
 [PortoRelevancia]
     name = "Porto Relevância"
     class = "settlement"
     lat = 2877
     lng = 2958
     zoom_level = 2
+    description = ""
+    link = ""
+    from = 2

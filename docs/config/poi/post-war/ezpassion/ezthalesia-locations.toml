@@ -4,33 +4,51 @@
     lat = 2971
     lng = 2919
     zoom_level = 2
+    description = ""
+    link = ""
+    from = 2
 [UniversidadeDeThalesia]
     name = "Universidade de Thalesia"
     class = "intra-settlement"
     lat = 2966
     lng = 2876
     zoom_level = 2
+    description = ""
+    link = ""
+    from = 2
 [EZPPhaserFactory]
     name = "Fábrica de Fazers E.Z.P."
     class = "intra-settlement"
     lat = 2947
     lng = 2918
     zoom_level = 2
+    description = "Also known as the E.Z.P. Phaser Factory."
+    link = ""
+    from = 2
 [EZPAeroFactory]
     name = "Aero-fábrica E.Z.P."
     class = "intra-settlement"
     lat = 2957
     lng = 2916
     zoom_level = 2
+    description = "Also known as The E.Z.P. Aerofactory."
+    link = ""
+    from = 2
 [ThalesiaSouthCrater]
     name = "Thalesia South Crater"
     class = "misc-poi"
     lat = 2949
     lng = 2901
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2
 [ThalesiaNorthCrater]
     name = "Thalesia North Crater"
     class = "misc-poi"
     lat = 3000
     lng = 2905
     zoom_level = 1
+    description = ""
+    link = ""
+    from = 2

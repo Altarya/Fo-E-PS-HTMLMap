@@ -4,21 +4,33 @@
     lat = 2963
     lng = 3043
     zoom_level = 2
+    description = ""
+    link = ""
+    from = 2
 [Mercadors]
     name = "Mercador's"
     class = "settlement"
     lat = 2942
     lng = 3040
     zoom_level = 2
+    description = ""
+    link = ""
+    from = 2
 [BalsaSitti]
     name = "Balsa Sitti"
     class = "settlement"
     lat = 2907
     lng = 3009
     zoom_level = 2
+    description = ""
+    link = ""
+    from = 2
 [Visagem]
     name = "Visagem"
     class = "settlement"
     lat = 2900
     lng = 3017
     zoom_level = 2
+    description = ""
+    link = ""
+    from = 2

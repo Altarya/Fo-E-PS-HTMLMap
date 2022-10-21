@@ -4,111 +4,168 @@
     lat = 3342
     lng = 3177
     zoom_level = 1
+    description = "A small trading town whose main establishment of note is the Equestrian Express courtier service owned by Box Tape."
+    link = ""
+    from = 4
 [HiddenValley]
     name = "Hidden Valley"
     class = "settlement"
     lat = 3323
     lng = 3181
     zoom_level = 1
+    description = "The bunker where the New Pegasus Steel Rangers branch reside."
+    link = ""
+    from = 4
 [TheBramble]
     name = "The Bramble"
     class = "settlement"
     lat = 3307
     lng = 3158
     zoom_level = 1
+    description = "A bloodthirsty underground settlement with one of The Wasteland's deadliest gladiatorial arenas."
+    link = ""
+    from = 4
 [NewPegasus]
     name = "New Pegasus"
     class = "post-war-capital"
     lat = 3284
     lng = 3152
     zoom_level = 0
+    description = "The bustling capital of the R.N.P. The only major pre-war equestrian city to avoid the bombs."
+    link = ""
+    from = 4
 [NewPegasusStrip]
     name = "New Pegasus Strip"
     class = "settlement"
     lat = 3274
     lng = 3158
     zoom_level = 1
+    description = "The wealthiest part of New Pegasus with its famous casinos."
+    link = ""
+    from = 4
 [Freedom]
     name = "Freedom"
     class = "settlement"
     lat = 3265
     lng = 3159
     zoom_level = 1
+    description = "The poor parts of New Pegasus, dominated by The Queens and the Van Damns."
+    link = ""
+    from = 4
 [SpitfiresFlightAcademy]
     name = "Spitfire's Flight Academy"
     class = "settlement"
     lat = 3265
     lng = 3177
     zoom_level = 2
+    description = "Homebase of The Anihhilators a group of former stable dwellers that don't take kindly to outsiders."
+    link = ""
+    from = 4
 [Trotston]
     name = "Trotston"
     class = "settlement"
     lat = 3269
     lng = 3183
     zoom_level = 2
+    description = "A technologically advanced and heavilly fortified settlement made by former stable dwellers from stable 9."
+    link = ""
+    from = 4
 [FortSummit]
     name = "Fort Summit"
     class = "settlement"
     lat = 3255
     lng = 3180
     zoom_level = 2
+    description = "A settlement created by an alicorn named Violet which is open to everyone fleeing persecution."
+    link = ""
+    from = 4
 [CrimsonCanyon]
     name = "Crimson Canyon"
     class = "settlement"
     lat = 3260
     lng = 3185
     zoom_level = 1
+    description = "The home of the Red Talon Company griffons one the best talon companies in The Wasteland."
+    link = ""
+    from = 4
 [Appleton]
     name = "Appleton"
     class = "settlement"
     lat = 3244
     lng = 3152
     zoom_level = 1
+    description = "A large trading settlement that has a large Enclave presence due to it sitting underneath the cloud city of Stratus."
+    link = ""
+    from = 4
 [Stratus]
     name = "Stratus"
     class = "settlement"
     lat = 3246
     lng = 3147
     zoom_level = 1
+    description = "One of the Enclave's smaller cities, famous for its everlasting alliance with Nimbus."
+    link = ""
+    from = 4
 [Stable28]
     name = "Stable 28"
     class = "settlement"
     lat = 3357
     lng = 3163
     zoom_level = 1
+    description = "Shadow Star's still active stable. An earth pony stable thats recently closed off from the outside."
+    link = ""
+    from = 4
 [TheKingdom]
     name = "The Kingdom"
     class = "settlement"
     lat = 3394
     lng = 3075
     zoom_level = 1
+    description = "A grand settlement open to everyone so long as they don't hold any prejudices or are violent, lead by Empress Sheena and Emperor Periwinkle Punch."
+    link = ""
+    from = 4
 [LittleHoof]
     name = "Little Hoof"
     class = "settlement"
     lat = 3322
     lng = 3167
     zoom_level = 2
+    description = "A settlement composed entirelly of fillies and colts, hidden from the outside."
+    link = ""
+    from = 4
 [MillCityTower]
     name = "Mill City Tower"
     class = "settlement"
     lat = 3387
     lng = 2973
     zoom_level = 1
+    description = "A large spire located in the centre of Whinneapolis, its used as a major centre of Enclave research."
+    link = ""
+    from = 4
 [Sorchville]
     name = "Scorchville"
     class = "settlement"
     lat = 3405
     lng = 3042
     zoom_level = 2
+    description = "A small settlement near the pre-war city of Lakewood with a peculiar cult of a robot by the name of Serendipidy."
+    link = ""
+    from = 4
 [Branch]
     name = "Branch"
     class = "settlement"
     lat = 3415
     lng = 3030
     zoom_level = 2
+    description = "A medium settlement in Saint's Parish famous for its exploding grain silos."
+    link = ""
+    from = 4
 [Pins]
     name = "Pins"
     class = "settlement"
     lat = 3335
     lng = 3152
     zoom_level = 2
+    description = "A small settlement of slavers."
+    link = ""
+    from = 4
