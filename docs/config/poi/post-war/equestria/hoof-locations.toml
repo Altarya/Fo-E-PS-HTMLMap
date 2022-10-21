@@ -211,7 +211,7 @@
     lat = 3450
     lng = 3711
     zoom_level = 2
-    description = "The cursed core of the city of Hoofington, one of the deadliest places in The Wasteland.<p><img src='https://static.wikia.nocookie.net/falloutequestria/images/f/f6/Foe_ph_hoofington_by_theomegaridley-d6td5aw.png/revision/latest?cb=20140516152042' style='height: 160px;'></img></p> <p>Image by: TheOmegaRidley</p>"
+    description = "The cursed core of the city of Hoofington, one of the deadliest places in The Wasteland.<p><img src='https://static.wikia.nocookie.net/falloutequestria/images/f/f6/Foe_ph_hoofington_by_theomegaridley-d6td5aw.png' style='height: 160px;'></img></p> <p>Image by: TheOmegaRidley</p>"
     link = ""
     from = 5
 [HightowerPrison]

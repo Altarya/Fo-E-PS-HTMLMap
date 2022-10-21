@@ -22,7 +22,7 @@
     lat = 3246
     lng = 3247
     zoom_level = 1
-    description = "An old wartime research facility owned by the M.A.S. it houses the Alicorn project and nowdays the Goddess.<p><img src='https://static.wikia.nocookie.net/falloutequestria/images/1/17/Maripony.png/revision/latest?cb=20140203092749' style='height: 160px;'></img></p> <p>Image by: OmegaRidley</p>"
+    description = "An old wartime research facility owned by the M.A.S. it houses the Alicorn project and nowdays the Goddess.<p><img src='https://static.wikia.nocookie.net/falloutequestria/images/1/17/Maripony.png' style='height: 160px;'></img></p> <p>Image by: OmegaRidley</p>"
     link = "https://falloutequestria.fandom.com/wiki/Maripony"
     from = 0
 [Stable24]
@@ -211,7 +211,7 @@
     lat = 3259
     lng = 3303
     zoom_level = 3
-    description = "Applejack's old farm<p><img src='https://static.wikia.nocookie.net/falloutequestria/images/1/13/SweetAppleAcres.jpg/revision/latest?cb=20111016102535' style='height: 120px;'></img></p> <p>Image by: MLP.</p>"
+    description = "Applejack's old farm<p><img src='https://static.wikia.nocookie.net/falloutequestria/images/1/13/SweetAppleAcres.jpg' style='height: 120px;'></img></p> <p>Image by: MLP.</p>"
     link = "https://falloutequestria.fandom.com/wiki/Sweet_Apple_Acres"
     from = 1
 [PonyvilleLibrary]
