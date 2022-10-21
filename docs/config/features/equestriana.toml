@@ -63,6 +63,11 @@
     class = "natural"
     lat = 3247  
     lng = 3712
+[SplendidValley]
+    name = "Splendid Valley"
+    class = "unnatural"
+    lat = 3250
+    lng = 3248
 [RedForest]
     name = "Red Forest"
     class = "unnatural"

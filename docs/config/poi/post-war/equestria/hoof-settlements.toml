@@ -142,7 +142,7 @@
     description = "Princess Luna's ancient castle, now used as a sort of stable by the descendants of the night guard. Very inbred."
     link = ""
     from = 5
-[ShwdowboltTower]
+[ShawdowboltTower]
     name = "Shadowbolt Tower"
     class = "settlement"
     lat = 3449

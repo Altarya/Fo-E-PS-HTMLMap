@@ -109,8 +109,8 @@
 [Vanhoover]
     name = "Vanhoover"
     class = "city"
-    lat = 3457
-    lng = 2857
+    lat = 3705
+    lng = 3465
     zoom_level = 1
     description = ""
     link = ""
@@ -172,8 +172,8 @@
 [Maretropolis]
     name = "Maretropolis"
     class = "city"
-    lat = 3705
-    lng = 3465
+    lat = 3457
+    lng = 2857
     zoom_level = 1
     description = ""
     link = ""
