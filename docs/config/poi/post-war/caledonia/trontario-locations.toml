@@ -1,6 +1,6 @@
 [EAMSStation6]
     name = "E.A.M.S. Station 6"
-    class = "intra-settlement"
+    class = "intra-settlement eams"
     lat = 3460
     lng = 3904
     zoom_level = 2

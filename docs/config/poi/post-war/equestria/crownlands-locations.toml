@@ -54,7 +54,7 @@
     from = 0
 [LumenContaintmentFacility]
     name = "Lumen Containment Facility"
-    class = "misc-poi"
+    class = "misc-poi ezp"
     lat = 3365
     lng = 3411
     zoom_level = 1
@@ -63,7 +63,7 @@
     from = 2
 [Arca1Wreck]
     name = "Arca 1 Wreck"
-    class = "misc-poi"
+    class = "misc-poi ezp"
     lat = 3427
     lng = 3367
     zoom_level = 2
@@ -72,7 +72,7 @@
     from = 2
 [EAMSHub]
     name = "E.A.M.S. Hub"
-    class = "intra-settlement"
+    class = "intra-settlement eams"
     lat = 3408
     lng = 3273
     zoom_level = 2
@@ -81,7 +81,7 @@
     from = 2
 [EAMSStation2]
     name = "E.A.M.S. Station 2"
-    class = "intra-settlement"
+    class = "intra-settlement eams"
     lat = 3341
     lng = 3449
     zoom_level = 2
@@ -342,7 +342,7 @@
     from = 2
 [EZPStoreSplendid]
     name = "E.Z.P. Store (Splendid Falls)"
-    class = "intra-settlement shop"
+    class = "intra-settlement ezp"
     lat = 3431
     lng = 3376
     zoom_level = 2
@@ -376,12 +376,21 @@
     description = "A growing collection of medical staff."
     link = ""
     from = 2
-[TrottinghamEmbassy]
-    name = "Trottingham Embassy"
+[SniezhanniamEmbassy]
+    name = "Sniezhannia Embassy"
     class = "intra-settlement"
     lat = 3437
     lng = 3375
     zoom_level = 2
     description = "The official embassy between Splendid Falls and the Sniezhannia S.S.R."
+    link = ""
+    from = 2
+[LightOfTheMoonGeneralGoods]
+    name = "Light Of The Moon General Goods"
+    class = "intra-settlement shop"
+    lat = 3431.875
+    lng = 3372.4375
+    zoom_level = 2
+    description = "A general store owned by a unicorn named Sunflower."
     link = ""
     from = 2

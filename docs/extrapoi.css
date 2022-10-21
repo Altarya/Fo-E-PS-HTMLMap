@@ -47,3 +47,43 @@
     height: 50px !important;
     object-fit: contain;
 }
+
+.ezp.leaflet-marker-icon {
+    background-image: url(./assets/icons/poi/ezp.webp);
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: top;
+    align-content: center;
+    height: 50px !important;
+    object-fit: contain;
+}
+
+.enclave.leaflet-marker-icon {
+    background-image: url(./assets/icons/poi/enclave.webp);
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: top;
+    align-content: center;
+    height: 50px !important;
+    object-fit: contain;
+}
+
+.eams.leaflet-marker-icon {
+    background-image: url(./assets/icons/poi/eams.webp);
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: top;
+    align-content: center;
+    height: 50px !important;
+    object-fit: contain;
+}
+
+.steelranger.leaflet-marker-icon {
+    background-image: url(./assets/icons/poi/steelranger.webp);
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: top;
+    align-content: center;
+    height: 50px !important;
+    object-fit: contain;
+}

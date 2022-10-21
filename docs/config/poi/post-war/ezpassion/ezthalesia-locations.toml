@@ -1,6 +1,6 @@
 [EZPHQ]
     name = "E.Z.P. H.Q."
-    class = "intra-settlement"
+    class = "intra-settlement ezp"
     lat = 2971
     lng = 2919
     zoom_level = 2
@@ -18,7 +18,7 @@
     from = 2
 [EZPPhaserFactory]
     name = "Fábrica de Fazers E.Z.P."
-    class = "intra-settlement"
+    class = "intra-settlement ezp"
     lat = 2947
     lng = 2918
     zoom_level = 2
@@ -27,7 +27,7 @@
     from = 2
 [EZPAeroFactory]
     name = "Aero-fábrica E.Z.P."
-    class = "intra-settlement"
+    class = "intra-settlement ezp"
     lat = 2957
     lng = 2916
     zoom_level = 2

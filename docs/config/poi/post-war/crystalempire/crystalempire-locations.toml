@@ -9,7 +9,7 @@
     from = 2
 [EAMSStation4]
     name = "E.A.M.S. Station 4"
-    class = "intra-settlement"
+    class = "intra-settlement eams"
     lat = 4171
     lng = 3587
     zoom_level = 2

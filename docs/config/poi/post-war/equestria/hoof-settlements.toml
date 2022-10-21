@@ -63,7 +63,7 @@
     from = 5
 [Thunderhead]
     name = "Thunderhead"
-    class = "settlement"
+    class = "settlement enclave"
     lat = 3448
     lng = 3711
     zoom_level = 1
@@ -81,7 +81,7 @@
     from = 5
 [IronmareNavalStation]
     name = "Ironmare Naval Station"
-    class = "settlement"
+    class = "settlement steelranger"
     lat = 3436
     lng = 3716
     zoom_level = 2
@@ -91,7 +91,7 @@
 [RosehoofAcademy]
     name = "Rosehoof Academy"
     class = "settlement"
-    lat = 3457
+    lat = 3456.5
     lng = 3698
     zoom_level = 2
     description = "The old university of hoofington now the home base of the <a href='https://falloutequestria.fandom.com/wiki/Collegiate_(Project_Horizons)'>The Collegiate</a>.<p><img src='https://static.wikia.nocookie.net/falloutequestria/images/6/6a/Collegiatefactiondotrook.png' style='height: 160px;'></img></p> <p>Image by: DotRook</p>"

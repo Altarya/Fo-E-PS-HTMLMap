@@ -9,7 +9,7 @@
     from = 9
 [NewCloudsdale]
     name = "New Cloudsdale"
-    class = "post-war-capital"
+    class = "post-war-capital enclave"
     lat = 3548
     lng = 3395
     zoom_level = 0

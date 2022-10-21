@@ -36,7 +36,7 @@
     from = 8
 [HellfireBunker]
     name = "Hellfire Bunker"
-    class = "settlement"
+    class = "settlement steelranger"
     lat = 3675
     lng = 3923
     zoom_level = 1

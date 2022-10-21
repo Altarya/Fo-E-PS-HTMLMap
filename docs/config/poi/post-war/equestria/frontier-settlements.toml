@@ -9,7 +9,7 @@
     from = 4
 [HiddenValley]
     name = "Hidden Valley"
-    class = "settlement"
+    class = "settlement steelranger"
     lat = 3323
     lng = 3181
     zoom_level = 1
@@ -90,7 +90,7 @@
     from = 4
 [Appleton]
     name = "Appleton"
-    class = "settlement"
+    class = "settlement enclave"
     lat = 3244
     lng = 3152
     zoom_level = 1
@@ -99,7 +99,7 @@
     from = 4
 [Stratus]
     name = "Stratus"
-    class = "settlement"
+    class = "settlement enclave"
     lat = 3246
     lng = 3147
     zoom_level = 1
@@ -135,7 +135,7 @@
     from = 4
 [MillCityTower]
     name = "Mill City Tower"
-    class = "settlement"
+    class = "settlement enclave"
     lat = 3387
     lng = 2973
     zoom_level = 1

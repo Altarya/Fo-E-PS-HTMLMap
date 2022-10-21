@@ -63,7 +63,7 @@
     from = 4
 [EAMSStation1]
     name = "E.A.M.S. Station 1"
-    class = "intra-settlement"
+    class = "intra-settlement eams"
     lat = 3297
     lng = 3157
     zoom_level = 2
@@ -171,7 +171,7 @@
     from = 4
 [TwinCitiesDam]
     name = "Twin Cities Dam"
-    class = "misc-poi"
+    class = "misc-poi enclave"
     lat = 3391
     lng = 3000
     zoom_level = 1

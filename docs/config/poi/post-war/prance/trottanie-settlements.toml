@@ -1,6 +1,6 @@
 [Nimbus]
     name = "Nimbus"
-    class = "settlement"
+    class = "settlement enclave"
     lat = 3511
     lng = 3105
     zoom_level = 1
