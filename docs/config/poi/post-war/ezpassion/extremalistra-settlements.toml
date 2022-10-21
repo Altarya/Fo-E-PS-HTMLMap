@@ -4,7 +4,7 @@
     lat = 2892
     lng = 3012
     zoom_level = 2
-    description = ""
+    description = "A large settlement built on a massive former ezpassionian millitary complex. Name means: Great Arsenal"
     link = ""
     from = 2
 [PontePonte]
@@ -13,7 +13,7 @@
     lat = 2899
     lng = 3000
     zoom_level = 2
-    description = ""
+    description = "A small settlement built over two collapsed bridges. Name means: Bridge Bridge"
     link = ""
     from = 2
 [PortoRelevancia]
@@ -22,6 +22,6 @@
     lat = 2877
     lng = 2958
     zoom_level = 2
-    description = ""
+    description = "A small isolated settlement built on a small port. Name means: Relevant Port"
     link = ""
     from = 2

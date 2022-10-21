@@ -4,7 +4,7 @@
     lat = 2969
     lng = 2975
     zoom_level = 2
-    description = ""
+    description = "A large ghoul settlement built over the eternally flooding ruins of Norteporta, very swampy despite being on built on an office skyscraper's 12th floor. Name means: Truth."
     link = ""
     from = 2
 [LaAzul]
@@ -13,6 +13,6 @@
     lat = 2957
     lng = 2955
     zoom_level = 2
-    description = ""
+    description = "A medium trading settlement built over an old shopping mall. Name means: Blue Wool."
     link = ""
     from = 2

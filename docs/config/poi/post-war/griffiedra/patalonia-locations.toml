@@ -4,7 +4,7 @@
     lat = 3289
     lng = 4070
     zoom_level = 2
-    description = ""
+    description = "A magnificent advanced museum, featuring live virtual reality rooms and a plethora of artifacts, said to be extremelly dangerous but filled with valuable loot. Name means: Museum of Arts and Sciences of Grifencia."
     link = ""
     from = 11
 [PuertoDeGrifencia]
@@ -13,7 +13,7 @@
     lat = 3282
     lng = 4066
     zoom_level = 3
-    description = ""
+    description = "A very active port for the settlement of Bastión. Name means: Grifencia Port."
     link = ""
     from = 11
 [FortalezaDorada]
@@ -22,7 +22,7 @@
     lat = 3285
     lng = 4075
     zoom_level = 3
-    description = ""
+    description = "The home of the duchess of Bastión. Name means: Golden Fortress."
     link = ""
     from = 11
 [LaPataDeOro]
@@ -31,6 +31,6 @@
     lat = 3288
     lng = 4067
     zoom_level = 3
-    description = ""
+    description = "A small but quite popular bar famous for its discounts. Owned by a griffon named Amanda and managed by her daughter Clara. Name means: The Golden Paw."
     link = ""
     from = 11

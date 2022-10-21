@@ -4,7 +4,7 @@
     lat = 3511
     lng = 3105
     zoom_level = 1
-    description = ""
+    description = "An Enclave cloud city famous for its unicorns and also for being the only cloud city with a substantial amount of crystal ponies, it maintains close relations with Stratus and even controls two surface cities where its inhabitants are allowed to live. Them being Saint's Parish and Whinneapolis."
     link = ""
     from = 4
 [ChiTown]
@@ -13,7 +13,7 @@
     lat = 3611
     lng = 2852
     zoom_level = 1
-    description = ""
+    description = "A settlement host to various tribes and former stable-ponies, controlled primarilly by the Lotus Triad."
     link = ""
     from = 3
 [Filliet]
@@ -22,7 +22,7 @@
     lat = 3603
     lng = 2855
     zoom_level = 1
-    description = ""
+    description = "A settlement litterally built over a landfill."
     link = ""
     from = 3
 [Theathre]
@@ -31,6 +31,6 @@
     lat = 3585
     lng = 2853
     zoom_level = 1
-    description = ""
+    description = "A large settlement under the protection of the M.M.M.M."
     link = ""
     from = 3

@@ -4,16 +4,16 @@
     lat = 2941 
     lng = 2984
     zoom_level = 2
-    description = ""
+    description = "The former royal palace of Queen Starya. Untouched since the end of The Great War. Name means: Tenebrae Palace."
     link = ""
     from = 2
-[ElevadorEspacial]
-    name = "Elevador Espacial"
+[ElevadorEspacialKatarya]
+    name = "Elevador Espacial Katarya Tenebrae Çari Skarya"
     class = "intra-settlement"
     lat = 2944
     lng = 2974
     zoom_level = 2
-    description = ""
+    description = "The world's still standing tallest creature-made building, formerly used to transport things to space without the need of rockets and a 'symbol of peace, cooperation and prosperity. Name means: Space Elevator Katarya Tenebrae Çari Skarya."
     link = ""
     from = 2
 [TorreCapital]
@@ -22,7 +22,7 @@
     lat = 2934
     lng = 2968
     zoom_level = 2
-    description = ""
+    description = "One of the tallest towers in the world it used to be used to broadcast the Corporação de Telecomunicações de Ezpassiôn(Ezpassion Telecomunications Corporation) signal and is still doing so. Name means: Capital Tower."
     link = ""
     from = 2
 [Eterno]
@@ -31,7 +31,7 @@
     lat = 2922
     lng = 2954
     zoom_level = 2
-    description = ""
+    description = "The world's tallest skyscraper with 1000000 storeys, barely standing with several floors that have collapsed downwards partially. Name means: Eternal."
     link = ""
     from = 2
 [BaiaBelaVista]
@@ -40,6 +40,6 @@
     lat = 2912
     lng = 2961
     zoom_level = 2
-    description = ""
+    description = "The world's deepest structure, nobody knows how deep it actually goes or what its true purpose is, its said to be some sort of prison. Name means: Beautyful View Bay."
     link = ""
     from = 2

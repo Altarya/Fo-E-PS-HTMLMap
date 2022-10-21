@@ -4,7 +4,7 @@
     lat = 2931
     lng = 2974
     zoom_level = 0
-    description = ""
+    description = "The fully planned and highly automated former capital of the Queendom of Ezpassiôn. Now covered by the deadly Fog."
     link = ""
     from = 2
 [Liscasco]
@@ -76,7 +76,7 @@
     lat = 2990
     lng = 2952
     zoom_level = 1
-    description = ""
+    description = "The former largest kirin city outside of the qilin lands."
     link = ""
     from = 2
 [Thalesia]

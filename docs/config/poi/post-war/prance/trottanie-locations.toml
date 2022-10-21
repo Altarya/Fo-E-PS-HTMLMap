@@ -4,7 +4,7 @@
     lat = 3576
     lng = 2866
     zoom_level = 2
-    description = ""
+    description = "An old hoofball stadium home of the Cult of Iron Will."
     link = ""
     from = ""
 [FillysTower]
@@ -13,7 +13,7 @@
     lat = 3607
     lng = 2859
     zoom_level = 2
-    description = ""
+    description = "A black tall tower known for its ghost tales that scare away any scavengers. The Minotaur DJ broadcasts from here."
     link = ""
     from = ""
 [ChicacoltMuseum]
@@ -22,7 +22,7 @@
     lat = 3590
     lng = 2850
     zoom_level = 2
-    description = ""
+    description = "An old run down museum thats ffar too danggerous to venture into."
     link = ""
     from = 3
 [FillysPier]
@@ -31,6 +31,6 @@
     lat = 3623
     lng = 2853
     zoom_level = 2
-    description = ""
+    description = "An old equestrian millitary naval base that also featured a theme park with a ferris wheel, "
     link = ""
     from = 3

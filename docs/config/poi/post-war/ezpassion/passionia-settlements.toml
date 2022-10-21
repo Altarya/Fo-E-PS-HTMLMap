@@ -4,7 +4,7 @@
     lat = 2963
     lng = 3043
     zoom_level = 2
-    description = ""
+    description = "A settlement that defies all logic existing in Ezpassion's jungle where most of its former host city has been reclaimed by nature. Its built over what used to be Portrôto's Town Hall. Name means: Paradigm."
     link = ""
     from = 2
 [Mercadors]
@@ -13,7 +13,7 @@
     lat = 2942
     lng = 3040
     zoom_level = 2
-    description = ""
+    description = "A small governmentless trading settlement built over Protrôto's pier. Name means: Trade's"
     link = ""
     from = 2
 [BalsaSitti]
@@ -22,7 +22,7 @@
     lat = 2907
     lng = 3009
     zoom_level = 2
-    description = ""
+    description = "A small settlement made up primarilly of former equestrian ponies' descedants that lived in the district. Its name is an ezthalesification of 'Balsa(Ferry)' and the equestrian word 'City'. Its built on the old pony district and ferry stop."
     link = ""
     from = 2
 [Visagem]
@@ -31,6 +31,6 @@
     lat = 2900
     lng = 3017
     zoom_level = 2
-    description = ""
+    description = "A small settlement built over a former water park. Name means: Vista."
     link = ""
     from = 2

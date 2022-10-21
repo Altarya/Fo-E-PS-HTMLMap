@@ -4,7 +4,7 @@
     lat = 3032
     lng = 2894
     zoom_level = 2
-    description = ""
+    description = "A tiny settlement built over a white sands part of the Çoen Desert. Name means: Big Sand."
     link = ""
     from = 2
 [Museulandia]
@@ -13,25 +13,25 @@
     lat = 3020
     lng = 2930
     zoom_level = 2
-    description = ""
+    description = "A large settlement built over a museum complex. Name means: Museum Land."
     link = ""
     from = 2
 [Dirizivel]
-    name = "Dirizívels"
+    name = "Dirizível"
     class = "settlement"
     lat = 3034
     lng = 2975
     zoom_level = 2
-    description = ""
+    description = "A medium settlement built over a crashed airship Ark. Name means a misspelled version of the word Dirigível which means Dirigible."
     link = ""
     from = 2
-[CascoQuebrado]
-    name = "Casco Quebrado"
+[PataQuebrada]
+    name = "Pata Quebrada"
     class = "settlement"
     lat = 3047
     lng = 2900
     zoom_level = 2
-    description = ""
+    description = "A small settlement built over an old sphinx village. Name means: Broken Paw."
     link = ""
     from = 2
 [Pedrinhas]
@@ -40,7 +40,7 @@
     lat = 3057
     lng = 2931
     zoom_level = 2
-    description = ""
+    description = "A small settlement built over an old marble mine. Name means: Little Stones."
     link = ""
     from = 2
 [MatoFino]
@@ -49,6 +49,6 @@
     lat = 3006
     lng = 2953
     zoom_level = 2
-    description = ""
+    description = "A small settlement built over the edge of the grasslands and the desert. Name means: Thinn Bushes."
     link = ""
     from = 2

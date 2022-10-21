@@ -4,7 +4,7 @@
     lat = 3680
     lng = 3250
     zoom_level = 0
-    description = ""
+    description = "Known formerly as the city of light, it used to be one of the most famous cities in the world."
     link = ""
     from = 2
 [Neighon]
@@ -40,7 +40,7 @@
     lat = 3528
     lng = 3112
     zoom_level = 1
-    description = ""
+    description = "A former large city that featured the most amount of crystal ponies outside of the Crystal Empire, it as well was a crystal city."
     link = ""
     from = 2
 [Trotluise]
@@ -67,6 +67,6 @@
     lat = 3597
     lng = 2860
     zoom_level = 1
-    description = ""
-    link = ""
+    description = "A former booming metropolis that was more equestrian than prench."
+    link = "https://falloutequestria.fandom.com/wiki/Chicacolt_(Starlight)"
     from = 3

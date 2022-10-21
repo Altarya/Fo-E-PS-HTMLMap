@@ -4,7 +4,7 @@
     lat = 3263 #X
     lng = 3295 #Y
     zoom_level = 1 #The zoom level for when this PoI will appear, goes from 0(Always on) to 3(Inside a city)
-    description = "" #The description of the poi, fully html compliant
+    description = "A small unnassuming village that was the home of the Mane 6 aka. the Ministry Mares." #The description of the poi, fully html compliant
     link = "" #A link to say a wiki page of this poi
     from = 1 #where this poi is from
 [Canterlot]
@@ -13,7 +13,7 @@
     lat = 3421
     lng = 3274
     zoom_level = 0
-    description = ""
+    description = "The old city on a hill and former capital of Equestria."
     link = ""
     from = 1
 [Baltimare]
@@ -67,7 +67,7 @@
     lat = 3286
     lng = 3163
     zoom_level = 1
-    description = ""
+    description = "Known formerly as the city of vice, it used to be a major cloud and ground metropolis."
     link = ""
     from = 1
 [Detrot]
@@ -114,7 +114,7 @@
     zoom_level = 1
     description = ""
     link = ""
-    from = 1
+    from = 6
 [Zebratown]
     name = "Zebratown"
     class = "city"
@@ -130,7 +130,7 @@
     lat = 3434
     lng = 3368
     zoom_level = 1
-    description = ""
+    description = "A former tiny village only known for its waterfalls turned open settlement."
     link = ""
     from = 2
 [Manehattan]
