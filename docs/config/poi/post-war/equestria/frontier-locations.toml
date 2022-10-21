@@ -241,3 +241,30 @@
     description = "One of the largest collections off medical staff in the wasteland."
     link = ""
     from = 4
+[SilverSnipsArmoury]
+    name = "Silver Snip's Armoury"
+    class = "intra-settlement armour"
+    lat = 3342.40625 
+    lng = 3176.5625
+    zoom_level = 3
+    description = "A small tailoury owned by an unicorn mare named Silver Snip."
+    link = ""
+    from = 4
+[PurpleHeartClinic]
+    name = "Purple Heart Clinic"
+    class = "intra-settlement medical"
+    lat = 3342.640625
+    lng = 3177.0703125
+    zoom_level = 3
+    description = "A small clinic owned by an unicorn stallion named Purple Heart."
+    link = ""
+    from = 4
+[EquestrianExpress]
+    name = "Equestrian Express"
+    class = "intra-settlement"
+    lat = 3341.390625
+    lng = 3177.390625
+    zoom_level = 3
+    description = "The main place for the Equestrian Express courier service owned by an old earth pony stallion named Box Tape."
+    link = ""
+    from = 4
