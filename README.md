@@ -54,6 +54,9 @@ said folder. Then in the list follow this:
     lng = 0 #Longitude
     zoom_level = 0 #A value of 0 to 3 that determines at which zoom level this waypoint will be visible where:
     #0-Always Visible, 1-Major City, 2-Small City, 3-Street Level
+    description = "" #The description of the poi, fully html compliant
+    link = "" #A link to say a wiki page of this poi
+    from = 0 #where this poi is from a number from 0 to last on the atribution_list in main.toml
 ```
 Add as many as you want following that template.
 ## Waypoints (Features)
