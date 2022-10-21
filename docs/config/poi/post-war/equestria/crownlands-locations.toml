@@ -27,7 +27,7 @@
     from = 0
 [Stable24]
     name = "Stable 24"
-    class = "misc-poi"
+    class = "misc-poi stable"
     lat = 3292
     lng = 3282
     zoom_level = 2
@@ -73,7 +73,7 @@
 [EAMSHub]
     name = "E.A.M.S. Hub"
     class = "intra-settlement"
-    lat = 3411
+    lat = 3408
     lng = 3273
     zoom_level = 2
     description = "The hub of the Equestrian Arm of Movement System for very important ponies!"
@@ -90,7 +90,7 @@
     from = 2
 [Stable29]
     name = "Stable 29"
-    class = "misc-poi"
+    class = "misc-poi stable"
     lat = 3301
     lng = 3496
     zoom_level = 2
@@ -324,7 +324,7 @@
     from = 2
 [FleurDeLisGreatBoutique]
     name = "Fleur De Lis' Great Boutique"
-    class = "intra-settlement"
+    class = "intra-settlement armour"
     lat = 3435
     lng = 3373
     zoom_level = 2
@@ -342,7 +342,7 @@
     from = 2
 [EZPStoreSplendid]
     name = "E.Z.P. Store (Splendid Falls)"
-    class = "intra-settlement"
+    class = "intra-settlement shop"
     lat = 3431
     lng = 3376
     zoom_level = 2
@@ -351,7 +351,7 @@
     from = 2
 [AetherithsWeapons]
     name = "Aetherith's Weapons"
-    class = "intra-settlement"
+    class = "intra-settlement weapons"
     lat = 3433
     lng = 3366
     zoom_level = 2
@@ -369,7 +369,7 @@
     from = 2
 [SplendidMedicalDistrict]
     name = "Splendid Medical District"
-    class = "intra-settlement"
+    class = "intra-settlement medical"
     lat = 3436
     lng = 3370
     zoom_level = 2

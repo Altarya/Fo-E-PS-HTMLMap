@@ -1,6 +1,6 @@
 [Stable99]
     name = "Stable 99"
-    class = "misc-poi"
+    class = "misc-poi stable"
     lat = 3437
     lng = 3689
     zoom_level = 2
@@ -9,7 +9,7 @@
     from = 5
 [Stable90]
     name = "Stable 90"
-    class = "misc-poi"
+    class = "misc-poi stable"
     lat = 3458
     lng = 3693
     zoom_level = 2
@@ -108,7 +108,7 @@
     from = 5
 [Stable53]
     name = "Stable 53"
-    class = "misc-poi"
+    class = "misc-poi stable"
     lat = 3433
     lng = 3658
     zoom_level = 2
@@ -279,7 +279,7 @@
     from = 0
 [Stable0]
     name = "Stable 0"
-    class = "misc-poi"
+    class = "misc-poi stable"
     lat = 3387
     lng = 3562
     zoom_level = 2
@@ -367,3 +367,12 @@
     description = "The industrial hub of Hoofington."
     link = ""
     from = 2
+[CharitysShop]
+    name = "Charity's Shop"
+    class = "intra-settlement shop"
+    lat = 3450.5
+    lng = 3705.5
+    zoom_level = 3
+    description = "A shop ran by a filly named Charity. Despite its name she is quite famously a price gouger."
+    link = ""
+    from = 5

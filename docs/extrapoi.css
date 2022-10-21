@@ -1,0 +1,49 @@
+.stable.leaflet-marker-icon {
+    background-image: url(./assets/icons/poi/gear.webp);
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: top;
+    align-content: center;
+    height: 50px !important;
+    object-fit: contain;
+}
+
+.shop.leaflet-marker-icon {
+    background-image: url(./assets/icons/poi/shop.webp);
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: top;
+    align-content: center;
+    height: 50px !important;
+    object-fit: contain;
+}
+
+.weapons.leaflet-marker-icon {
+    background-image: url(./assets/icons/poi/weapon.webp);
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: top;
+    align-content: center;
+    height: 50px !important;
+    object-fit: contain;
+}
+
+.armour.leaflet-marker-icon {
+    background-image: url(./assets/icons/poi/armour.webp);
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: top;
+    align-content: center;
+    height: 50px !important;
+    object-fit: contain;
+}
+
+.medical.leaflet-marker-icon {
+    background-image: url(./assets/icons/poi/medical.webp);
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: top;
+    align-content: center;
+    height: 50px !important;
+    object-fit: contain;
+}

@@ -9,7 +9,7 @@
     from = 0
 [Cathedral]
     name = "Cathedral (Stable 101)"
-    class = "post-war-capital"
+    class = "post-war-capital stable"
     lat = 3225
     lng = 3340
     zoom_level = 0
@@ -18,7 +18,7 @@
     from = 0
 [Stable39]
     name = "Stable 39"
-    class = "settlement"
+    class = "settlement stable"
     lat = 3328
     lng = 3452
     zoom_level = 2
@@ -27,7 +27,7 @@
     from = 2
 [Stable2]
     name = "Stable 2"
-    class = "settlement"
+    class = "settlement stable"
     lat = 3256
     lng = 3302
     zoom_level = 2
@@ -162,8 +162,8 @@
     from = 0
 [Stable1City]
     name = "Stable (1) City"
-    class = "settlement"
-    lat = 3414
+    class = "settlement stable"
+    lat = 3411
     lng = 3275
     zoom_level = 1
     description = "A settlement of mainly pink cloud ghouls."

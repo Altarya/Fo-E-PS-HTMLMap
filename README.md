@@ -49,7 +49,7 @@ said folder. Then in the list follow this:
 ```toml
 [YourWaypointNameWithoutSpacesOrSpecialCharacters]
     name = "Your Waypoint Name"
-    class = "CSS Class(See styling)"
+    class = "CSS Class(See styling) or multiple separated by a space"
     lat = 0 #Latitude, clicking on the map will display lat and lng coordinates that you can use here
     lng = 0 #Longitude
     zoom_level = 0 #A value of 0 to 3 that determines at which zoom level this waypoint will be visible where:

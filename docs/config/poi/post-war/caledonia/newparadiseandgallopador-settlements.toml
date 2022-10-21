@@ -18,7 +18,7 @@
     from = 8
 [Stable42]
     name = "Stable 42"
-    class = "post-war-capital"
+    class = "post-war-capital stable"
     lat = 3749
     lng = 3776
     zoom_level = 0

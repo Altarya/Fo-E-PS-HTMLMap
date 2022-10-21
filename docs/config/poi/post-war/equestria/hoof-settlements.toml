@@ -99,7 +99,7 @@
     from = 5
 [Stable152]
     name = "Stable 152"
-    class = "settlement"
+    class = "settlement stable"
     lat = 3455
     lng = 3690
     zoom_level = 2

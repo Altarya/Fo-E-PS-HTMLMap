@@ -1,6 +1,6 @@
 [Stable102]
     name = "Stable 102"
-    class = "misc-poi"
+    class = "misc-poi stable"
     lat = 3705
     lng = 3941
     zoom_level = 2
@@ -9,7 +9,7 @@
     from = 8
 [Stable123]
     name = "Stable 123"
-    class = "misc-poi"
+    class = "misc-poi stable"
     lat = 3767
     lng = 3938
     zoom_level = 2

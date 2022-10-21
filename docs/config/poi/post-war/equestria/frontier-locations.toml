@@ -1,6 +1,6 @@
 [Stable9]
     name = "Stable 9"
-    class = "misc-poi"
+    class = "misc-poi stable"
     lat = 3307
     lng = 3182
     zoom_level = 2
@@ -9,7 +9,7 @@
     from = 4
 [Stable14]
     name = "Stable 14"
-    class = "misc-poi"
+    class = "misc-poi stable"
     lat = 3283
     lng = 3183
     zoom_level = 2
@@ -108,7 +108,7 @@
     from = 2
 [MatchnTariffs]
     name = "Match and Tariff's"
-    class = "intra-settlement"
+    class = "intra-settlement shop"
     lat = 3266
     lng = 3157
     zoom_level = 3
@@ -144,7 +144,7 @@
     from = 4
 [Stable20Hotel]
     name = "Stable 20 Hotel"
-    class = "intra-settlement"
+    class = "intra-settlement stable"
     lat = 3271
     lng = 3154
     zoom_level = 3
@@ -162,7 +162,7 @@
     from = 4
 [Stable97]
     name = "Stable 97"
-    class = "misc-poi"
+    class = "misc-poi stable"
     lat = 3394
     lng = 2976
     zoom_level = 2
@@ -230,5 +230,14 @@
     lng = 2991
     zoom_level = 2
     description = "The wealthiest part of Whinnieapolis"
+    link = ""
+    from = 4
+[KingdomsMedicalWing]
+    name = "Kingdom's Medical Wing"
+    class = "intra-settlement medical"
+    lat = 3395.21875
+    lng = 3073.40625
+    zoom_level = 3
+    description = "One of the largest collections off medical staff in the wasteland."
     link = ""
     from = 4

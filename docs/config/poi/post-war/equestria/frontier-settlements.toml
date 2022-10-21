@@ -108,7 +108,7 @@
     from = 4
 [Stable28]
     name = "Stable 28"
-    class = "settlement"
+    class = "settlement stable"
     lat = 3357
     lng = 3163
     zoom_level = 1
