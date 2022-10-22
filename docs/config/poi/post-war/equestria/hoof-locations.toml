@@ -20,16 +20,16 @@
     name = "BOOM Inc."
     class = "misc-poi"
     lat = 3459
-    lng = 3691
+    lng = 3689
     zoom_level = 3
     description = "An old explosives factory."
     link = ""
     from = 5
 [Well33]
     name = "Well 33"
-    class = "intra-settlement"
+    class = "misc-poi"
     lat = 3458
-    lng = 3691
+    lng = 3690
     zoom_level = 3
     description = ""
     link = ""
@@ -37,7 +37,7 @@
 [MiramareAirStation]
     name = "Miramare Air Station"
     class = "misc-poi"
-    lat = 3458
+    lat = 3458.5
     lng = 3691
     zoom_level = 3
     description = "A wartime millitary airbase, famously used by <a href='https://falloutequestria.fandom.com/wiki/Macintosh%27s_Marauders_(Project_Horizons)'>Macintosh's Marauders</a>"
