@@ -45,7 +45,7 @@
     from = 8
 [DiseFlightAcademy]
     name = "Dise Flight Academy"
-    class = "intra-settlement"
+    class = "intra-settlement enclave"
     lat = 3736
     lng = 3975
     zoom_level = 3
