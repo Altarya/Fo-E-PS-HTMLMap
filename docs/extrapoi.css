@@ -11,7 +11,7 @@
 .shop.leaflet-marker-icon {
     background-image: url(./assets/icons/poi/shop.webp);
     background-repeat: no-repeat;
-    background-size: 16px;
+    background-size: 20px;
     background-position: top;
     align-content: center;
     height: 50px !important;
@@ -21,7 +21,7 @@
 .weapons.leaflet-marker-icon {
     background-image: url(./assets/icons/poi/weapon.webp);
     background-repeat: no-repeat;
-    background-size: 16px;
+    background-size: 20px;
     background-position: top;
     align-content: center;
     height: 50px !important;
@@ -31,7 +31,7 @@
 .armour.leaflet-marker-icon {
     background-image: url(./assets/icons/poi/armour.webp);
     background-repeat: no-repeat;
-    background-size: 16px;
+    background-size: 18px;
     background-position: top;
     align-content: center;
     height: 50px !important;
@@ -41,7 +41,7 @@
 .medical.leaflet-marker-icon {
     background-image: url(./assets/icons/poi/medical.webp);
     background-repeat: no-repeat;
-    background-size: 16px;
+    background-size: 20px;
     background-position: top;
     align-content: center;
     height: 50px !important;
@@ -71,7 +71,7 @@
 .eams.leaflet-marker-icon {
     background-image: url(./assets/icons/poi/eams.webp);
     background-repeat: no-repeat;
-    background-size: 16px;
+    background-size: 20px;
     background-position: top;
     align-content: center;
     height: 50px !important;
@@ -82,6 +82,106 @@
     background-image: url(./assets/icons/poi/steelranger.webp);
     background-repeat: no-repeat;
     background-size: 16px;
+    background-position: top;
+    align-content: center;
+    height: 50px !important;
+    object-fit: contain;
+}
+
+.nca.leaflet-marker-icon {
+    background-image: url(./assets/icons/poi/nca.webp);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: top;
+    align-content: center;
+    height: 50px !important;
+    object-fit: contain;
+}
+
+.rnp.leaflet-marker-icon {
+    background-image: url(./assets/icons/poi/rnp.webp);
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: top;
+    align-content: center;
+    height: 50px !important;
+    object-fit: contain;
+}
+
+.casino.leaflet-marker-icon {
+    background-image: url(./assets/icons/poi/casino.webp);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: top;
+    align-content: center;
+    height: 50px !important;
+    object-fit: contain;
+}
+
+.lodge.leaflet-marker-icon {
+    background-image: url(./assets/icons/poi/lodge.webp);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: top;
+    align-content: center;
+    height: 50px !important;
+    object-fit: contain;
+}
+
+.redeye.leaflet-marker-icon {
+    background-image: url(./assets/icons/poi/redeye.webp);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: top;
+    align-content: center;
+    height: 50px !important;
+    object-fit: contain;
+}
+
+.sniezhannia.leaflet-marker-icon {
+    background-image: url(./assets/icons/poi/sniezhannia.webp);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: top;
+    align-content: center;
+    height: 50px !important;
+    object-fit: contain;
+}
+
+.crimsomhoof.leaflet-marker-icon {
+    background-image: url(./assets/icons/poi/crimsomhoof.webp);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: top;
+    align-content: center;
+    height: 50px !important;
+    object-fit: contain;
+}
+
+.talon.leaflet-marker-icon {
+    background-image: url(./assets/icons/poi/talon.webp);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: top;
+    align-content: center;
+    height: 50px !important;
+    object-fit: contain;
+}
+
+.unity.leaflet-marker-icon {
+    background-image: url(./assets/icons/poi/unity_by_cazra.webp);
+    background-repeat: no-repeat;
+    background-size: 19px;
+    background-position: top;
+    align-content: center;
+    height: 50px !important;
+    object-fit: contain;
+}
+
+.radiation.leaflet-marker-icon {
+    background-image: url(./assets/icons/poi/radiation.webp);
+    background-repeat: no-repeat;
+    background-size: 18px;
     background-position: top;
     align-content: center;
     height: 50px !important;

@@ -1,6 +1,6 @@
 [Hope]
     name = "Hope"
-    class = "settlement"
+    class = "settlement redeye"
     lat = 3261
     lng = 3278
     zoom_level = 2
@@ -45,7 +45,7 @@
     from = 0
 [ShatteredHoof]
     name = "Shattered Hoof Re-Education Facility"
-    class = "settlement"
+    class = "settlement redeye"
     lat = 3298
     lng = 3368
     zoom_level = 2
@@ -81,7 +81,7 @@
     from = 0
 [Fetlock]
     name = "Fetlock"
-    class = "settlement"
+    class = "settlement redeye"
     lat = 3304
     lng = 3486
     zoom_level = 1
@@ -135,7 +135,7 @@
     from = 0
 [Duskhoof]
     name = "Duskhoof"
-    class = "settlement"
+    class = "settlement redeye"
     lat = 3310
     lng = 3524
     zoom_level = 1
@@ -144,7 +144,7 @@
     from = 3
 [RaidersNest]
     name = "Raider's Nest"
-    class = "settlement"
+    class = "settlement redeye"
     lat = 3321
     lng = 3516
     zoom_level = 1
@@ -168,4 +168,31 @@
     zoom_level = 1
     description = "A settlement of mainly pink cloud ghouls."
     link = "https://falloutequestria.fandom.com/wiki/Stable_City"
+    from = 0
+[ShatteredHoofRidge]
+    name = "Shattered Hoof Ridge"
+    class = "settlement talon"
+    lat = 3338
+    lng = 3377
+    zoom_level = 1
+    description = "A medium settlement of griffons ran by a griffon named <a href='https://falloutequestria.fandom.com/wiki/Gawdyna_Grimfeathers>Gawdyna Grimfeathers</a>."
+    link = ""
+    from = 0
+[Maripony]
+    name = "Maripony"
+    class = "settlement unity"
+    lat = 3246
+    lng = 3247
+    zoom_level = 1
+    description = "An old wartime research facility owned by the M.A.S. it houses the Alicorn project and nowdays the Goddess.<p><img src='https://static.wikia.nocookie.net/falloutequestria/images/1/17/Maripony.png' style='height: 160px;'></img></p> <p>Image by: OmegaRidley</p>"
+    link = "https://falloutequestria.fandom.com/wiki/Maripony"
+    from = 0
+[EquestriaRoyalPalace]
+    name = "Equestrian Royal Palace"
+    class = "settlement unity"
+    lat = 3415
+    lng = 3277
+    zoom_level = 2
+    description = "Or Canterlot Castle, it was the old home of the equestrian princesses, nowdays it seems to be controlled by a crazed alicorn named Nightseer."
+    link = "https://falloutequestria.fandom.com/wiki/Canterlot_Castle"
     from = 0

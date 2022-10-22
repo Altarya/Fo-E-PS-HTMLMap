@@ -45,7 +45,7 @@
     from = 2
 [EmbaixadaEquestriana]
     name = "Embaixada Equestriana"
-    class = "intra-settlement"
+    class = "intra-settlement lodge"
     lat = 2205
     lng = 2917
     zoom_level = 3

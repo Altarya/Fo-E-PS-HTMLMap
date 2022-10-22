@@ -1,6 +1,6 @@
 [EyeGlow]
     name = "Eye Glow"
-    class = "post-war-capital"
+    class = "post-war-capital nca"
     lat = 3451
     lng = 3917
     zoom_level = 0

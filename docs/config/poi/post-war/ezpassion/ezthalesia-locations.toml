@@ -36,7 +36,7 @@
     from = 2
 [ThalesiaSouthCrater]
     name = "Thalesia South Crater"
-    class = "misc-poi"
+    class = "misc-poi radiation"
     lat = 2949
     lng = 2901
     zoom_level = 1
@@ -45,7 +45,7 @@
     from = 2
 [ThalesiaNorthCrater]
     name = "Thalesia North Crater"
-    class = "misc-poi"
+    class = "misc-poi radiation"
     lat = 3000
     lng = 2905
     zoom_level = 1

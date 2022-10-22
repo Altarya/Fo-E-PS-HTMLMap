@@ -1,6 +1,6 @@
 [Marefort]
     name = "Marefort"
-    class = "settlement"
+    class = "settlement crimsomhoof"
     lat = 3766
     lng = 3772
     zoom_level = 1
@@ -27,7 +27,7 @@
     from = 8
 [BriddleHope]
     name = "Briddle Hope"
-    class = "settlement"
+    class = "settlement nca"
     lat = 3714 
     lng = 3900
     zoom_level = 1
@@ -45,7 +45,7 @@
     from = 8
 [Walltrot]
     name = "Walltrot"
-    class = "settlement"
+    class = "settlement nca"
     lat = 3690
     lng = 3959
     zoom_level = 1
@@ -61,15 +61,6 @@
     description = "The center of wealth of Dise where its famous casinos and major gangs reside."
     link = ""
     from = 8
-[DiseTunnels]
-    name = "Dise Tunnels"
-    class = "settlement"
-    lat = 3728.6875 
-    lng = 3978
-    zoom_level = 1
-    description = "A series of underground tunnels under Dise built by Wallkirk as an attempt to create a stable-like bunker system, it failed."
-    link = "https://falloutequestria.fandom.com/wiki/Dise_Tunnels_(Heroes)"
-    from = 8
 [ParadiseMound]
     name = "Paradise Mound"
     class = "settlement"
@@ -81,7 +72,7 @@
     from = 8
 [TheBeak]
     name = "The Beak"
-    class = "settlement"
+    class = "settlement talon"
     lat = 3716
     lng = 3977
     zoom_level = 1
@@ -90,7 +81,7 @@
     from = 2
 [Flankyard]
     name = "Flankyard"
-    class = "settlement"
+    class = "settlement nca"
     lat = 3731
     lng = 4011
     zoom_level = 1
@@ -99,10 +90,19 @@
     from = 8
 [Timber]
     name = "Timber"
-    class = "settlement"
+    class = "settlement crimsomhoof"
     lat = 3716
     lng = 3851
     zoom_level = 1
     description = ""
+    link = ""
+    from = 8
+[PlatinumsUndergroundOrphanage]
+    name = "Platinum's Underground Orphanage"
+    class = "settlement unity"
+    lat = 3730
+    lng = 3977
+    zoom_level = 3
+    description = "A secret underground orphanage created by an alicorn called Platinum Haze."
     link = ""
     from = 8

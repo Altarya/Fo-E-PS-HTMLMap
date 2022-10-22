@@ -1,6 +1,6 @@
 [IronshodFirearms]
     name = "Ironshod Firearms"
-    class = "misc-poi"
+    class = "misc-poi redeye"
     lat = 3281
     lng = 3306
     zoom_level = 2
@@ -9,21 +9,12 @@
     from = 0
 [OldOlneigh]
     name = "Old Olneigh"
-    class = "misc-poi"
+    class = "misc-poi unity"
     lat = 3250
     lng = 3252
     zoom_level = 2
     description = "An old wartime village."
     link = "https://falloutequestria.fandom.com/wiki/Old_Olneigh"
-    from = 0
-[Maripony]
-    name = "Maripony"
-    class = "misc-poi"
-    lat = 3246
-    lng = 3247
-    zoom_level = 1
-    description = "An old wartime research facility owned by the M.A.S. it houses the Alicorn project and nowdays the Goddess.<p><img src='https://static.wikia.nocookie.net/falloutequestria/images/1/17/Maripony.png' style='height: 160px;'></img></p> <p>Image by: OmegaRidley</p>"
-    link = "https://falloutequestria.fandom.com/wiki/Maripony"
     from = 0
 [Stable24]
     name = "Stable 24"
@@ -45,7 +36,7 @@
     from = 0
 [HippocampusEnergyPlant12]
     name = "Hippocampus Energy Plant 12"
-    class = "misc-poi"
+    class = "misc-poi redeye"
     lat = 3305
     lng = 3407
     zoom_level = 2
@@ -108,7 +99,7 @@
     from = 0
 [ManehattanCrater]
     name = "Manehattan Crater"
-    class = "misc-poi"
+    class = "misc-poi radiation"
     lat = 3275
     lng = 3538
     zoom_level = 1
@@ -171,7 +162,7 @@
     from = 0
 [HopeSolarArray]
     name = "Hope Solar Array"
-    class = "misc-poi"
+    class = "misc-poi redeye"
     lat = 3259
     lng = 3283
     zoom_level = 3
@@ -249,15 +240,6 @@
     zoom_level = 2
     description = "The old secluded wartime get-away of Rainbow Dash."
     link = "https://falloutequestria.fandom.com/wiki/Rainbow_Dash%27s_Shack"
-    from = 0
-[EquestriaRoyalPalace]
-    name = "Equestrian Royal Palace"
-    class = "intra-settlement"
-    lat = 3415
-    lng = 3277
-    zoom_level = 3
-    description = "Or Canterlot Castle, it was the old home of the equestrian princesses, nowdays it seems to be controlled by a crazed alicorn named Nightseer."
-    link = "https://falloutequestria.fandom.com/wiki/Canterlot_Castle"
     from = 0
 [MinistryWalk]
     name = "Ministry Walk"
@@ -360,7 +342,7 @@
     from = 2
 [NewStableDistrict]
     name = "New Stable District"
-    class = "intra-settlement"
+    class = "intra-settlement lodge"
     lat = 3431
     lng = 3360
     zoom_level = 2
@@ -378,7 +360,7 @@
     from = 2
 [SniezhanniamEmbassy]
     name = "Sniezhannia Embassy"
-    class = "intra-settlement"
+    class = "intra-settlement sniezhannia"
     lat = 3437
     lng = 3375
     zoom_level = 2

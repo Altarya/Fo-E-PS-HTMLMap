@@ -27,11 +27,11 @@
     from = 4
 [NewPegasus]
     name = "New Pegasus"
-    class = "post-war-capital"
+    class = "post-war-capital rnp"
     lat = 3284
     lng = 3152
     zoom_level = 0
-    description = "The bustling capital of the R.N.P. The only major pre-war equestrian city to avoid the bombs."
+    description = "The bustling 'capital' on paper of the R.N.P. The only major pre-war equestrian city to avoid the bombs."
     link = ""
     from = 4
 [NewPegasusStrip]
@@ -55,8 +55,8 @@
 [SpitfiresFlightAcademy]
     name = "Spitfire's Flight Academy"
     class = "settlement"
-    lat = 3265
-    lng = 3177
+    lat = 3266.5
+    lng = 3177.5
     zoom_level = 2
     description = "Homebase of The Anihhilators a group of former stable dwellers that don't take kindly to outsiders."
     link = ""
@@ -72,7 +72,7 @@
     from = 4
 [FortSummit]
     name = "Fort Summit"
-    class = "settlement"
+    class = "settlement unity"
     lat = 3255
     lng = 3180
     zoom_level = 2
@@ -81,7 +81,7 @@
     from = 4
 [CrimsonCanyon]
     name = "Crimson Canyon"
-    class = "settlement"
+    class = "settlement talon"
     lat = 3260
     lng = 3185
     zoom_level = 1

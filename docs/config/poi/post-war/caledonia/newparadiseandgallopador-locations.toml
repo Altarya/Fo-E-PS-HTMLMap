@@ -27,22 +27,13 @@
     from = 8
 [TheGreatWarMuseum]
     name = "The Great War Museum"
-    class = "intra-settlement"
+    class = "intra-settlement nca"
     lat = 3696
     lng = 3952
     zoom_level = 2
     description = "A grand war museum with several originals, including boats!"
     link = ""
     from = 2
-[PlatinumsUndergroundOrphanage]
-    name = "Platinum's Underground Orphanage"
-    class = "intra-settlement"
-    lat = 3730
-    lng = 3977
-    zoom_level = 3
-    description = "A secret underground orphanage created by an alicorn called Platinum Haze."
-    link = ""
-    from = 8
 [DiseFlightAcademy]
     name = "Dise Flight Academy"
     class = "intra-settlement enclave"
@@ -54,7 +45,7 @@
     from = 8
 [NCAEmbassy]
     name = "NCA Embassy"
-    class = "intra-settlement"
+    class = "intra-settlement nca"
     lat = 3737
     lng = 3978
     zoom_level = 3
@@ -72,7 +63,7 @@
     from = 8
 [TheBlackSalamander]
     name = "The Black Salamander"
-    class = "intra-settlement"
+    class = "intra-settlement casino"
     lat = 3732 
     lng = 3981
     zoom_level = 3
@@ -81,7 +72,7 @@
     from = 8
 [TheMoonCasino]
     name = "The Moon Casino"
-    class = "intra-settlement"
+    class = "intra-settlement casino"
     lat = 3735
     lng = 3980
     zoom_level = 3
@@ -90,7 +81,7 @@
     from = 8
 [ClipsnClopsCasino]
     name = "Clips & Clops Casino"
-    class = "intra-settlement"
+    class = "intra-settlement casino"
     lat = 3733
     lng = 3983
     zoom_level = 3
@@ -99,7 +90,7 @@
     from = 8
 [TheAlehouse]
     name = "The Alehouse"
-    class = "intra-settlement"
+    class = "intra-settlement casino"
     lat = 3734
     lng = 3979
     zoom_level = 3
@@ -108,10 +99,19 @@
     from = 8
 [DiseCrater]
     name = "Dise Crater"
-    class = "misc-poi"
+    class = "misc-poi radiation"
     lat = 3740
     lng = 3952
     zoom_level = 2
     description = "The impact site of the megaspell that hit Dise"
     link = ""
+    from = 8
+[DiseTunnels]
+    name = "Dise Tunnels"
+    class = "intra-settlement"
+    lat = 3728.6875 
+    lng = 3978
+    zoom_level = 1
+    description = "A series of underground tunnels under Dise built by Wallkirk as an attempt to create a stable-like bunker system, it failed."
+    link = "https://falloutequestria.fandom.com/wiki/Dise_Tunnels_(Heroes)"
     from = 8

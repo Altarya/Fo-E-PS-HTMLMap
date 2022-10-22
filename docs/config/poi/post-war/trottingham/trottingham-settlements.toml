@@ -1,6 +1,6 @@
 [Stalliongrad]
     name = "Stalliongrad"
-    class = "post-war-capital"
+    class = "post-war-capital sniezhannia"
     lat = 3342
     lng = 3711
     zoom_level = 0

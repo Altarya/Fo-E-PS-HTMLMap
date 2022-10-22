@@ -99,7 +99,7 @@
     from = 5
 [Boneyard]
     name = "Boneyard"
-    class = "misc-poi"
+    class = "misc-poi radiation"
     lat = 3429
     lng = 3688
     zoom_level = 3
@@ -216,7 +216,7 @@
     from = 5
 [HightowerPrison]
     name = "Hightower Prison"
-    class = "intra-settlement"
+    class = "intra-settlement radiation"
     lat = 3445
     lng = 3719
     zoom_level = 2
@@ -306,7 +306,7 @@
     from = 0
 [ThePit]
     name = "The Pit"
-    class = "intra-settlement"
+    class = "intra-settlement redeye"
     lat = 3365
     lng = 3545
     zoom_level = 2
@@ -324,7 +324,7 @@
     from = 0
 [TheRoamer]
     name = "The Roamer"
-    class = "intra-settlement"
+    class = "intra-settlement redeye"
     lat = 3377
     lng = 3566
     zoom_level = 2
@@ -342,7 +342,7 @@
     from = 0
 [FillidelphiaCrater]
     name = "Fillydelphia Crater"
-    class = "misc-poi"
+    class = "misc-poi radiation"
     lat = 3366
     lng = 3552
     zoom_level = 2

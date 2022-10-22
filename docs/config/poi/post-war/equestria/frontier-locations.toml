@@ -18,7 +18,7 @@
     from = 4
 [HaloOnePowerStation]
     name = "Halo One Power Station"
-    class = "misc-poi"
+    class = "misc-poi rnp"
     lat = 3295
     lng = 3192
     zoom_level = 2
@@ -27,7 +27,7 @@
     from = 4
 [NewPegasusAirport]
     name = "New Pegasus Airport"
-    class = "misc-poi"
+    class = "misc-poi rnp"
     lat = 3303
     lng = 3173
     zoom_level = 2
@@ -36,7 +36,7 @@
     from = 4
 [NewPegasusDam]
     name = "New Pegasus Dam"
-    class = "misc-poi"
+    class = "misc-poi rnp"
     lat = 3330
     lng = 3165
     zoom_level = 1
@@ -54,7 +54,7 @@
     from = 4
 [GreenMistValley]
     name = "Green Mist Valley"
-    class = "misc-poi"
+    class = "misc-poi radiation"
     lat = 3352
     lng = 3166
     zoom_level = 1
@@ -81,7 +81,7 @@
     from = 4
 [VanDamns]
     name = "Van Damns'"
-    class = "intra-settlement"
+    class = "intra-settlement weapons"
     lat = 3268
     lng = 3162
     zoom_level = 3
@@ -90,7 +90,7 @@
     from = 4
 [LuckyHorseshoe]
     name = "The Lucky Horseshoe"
-    class = "intra-settlement"
+    class = "intra-settlement casino"
     lat = 3273
     lng = 3157
     zoom_level = 3
@@ -99,7 +99,7 @@
     from = 4
 [DemocracysPalace]
     name = "Democracy's Palace"
-    class = "intra-settlement"
+    class = "intra-settlement rnp"
     lat = 3276
     lng = 3149
     zoom_level = 3
@@ -117,7 +117,7 @@
     from = 4
 [EmperorsPalace]
     name = "Emperor's Palace"
-    class = "intra-settlement"
+    class = "intra-settlement casino"
     lat = 3272
     lng = 3158
     zoom_level = 3
@@ -126,7 +126,7 @@
     from = 4
 [TheGrandRoyale]
     name = "The Grand Royale"
-    class = "intra-settlement"
+    class = "intra-settlement casino"
     lat = 3271
     lng = 3157
     zoom_level = 3
@@ -135,7 +135,7 @@
     from = 4
 [TheApplewoodResortnCasino]
     name = "The Applewood Resort & Casino"
-    class = "intra-settlement"
+    class = "intra-settlement casino"
     lat = 3270
     lng = 3158
     zoom_level = 3
@@ -145,7 +145,7 @@
 [Stable20Hotel]
     name = "Stable 20 Hotel"
     class = "intra-settlement stable"
-    lat = 3271
+    lat = 3271.5
     lng = 3154
     zoom_level = 3
     description = "A hotel built on what was New Pegasus' main stable."
@@ -198,7 +198,7 @@
     from = 0
 [KingdomsMansion]
     name = "Kingdom's Mansion"
-    class = "intra-settlement"
+    class = "intra-settlement lodge"
     lat = 3395
     lng = 3074
     zoom_level = 2
@@ -266,5 +266,23 @@
     lng = 3177.390625
     zoom_level = 3
     description = "The main place for the Equestrian Express courier service owned by an old earth pony stallion named Box Tape."
+    link = ""
+    from = 4
+[GrimsShack]
+    name = "Grim's Shack"
+    class = "intra-settlement"
+    lat = 3270.1875
+    lng = 3183.5
+    zoom_level = 3
+    description = "An old run down shack that used to be a repair shop owned by a unicorn nammed Grimoire Spell."
+    link = ""
+    from = 4
+[EnclaveSkyport]
+    name = "Enclave Skyport"
+    class = "intra-settlement enclave"
+    lat = 3275.09375
+    lng = 3156.78125
+    zoom_level = 3
+    description = "The last functional cloud elevator in New Pegasus, turned basically the official embassy of the Enclave in the city."
     link = ""
     from = 4
