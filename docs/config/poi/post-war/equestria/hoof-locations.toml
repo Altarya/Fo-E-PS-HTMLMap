@@ -193,7 +193,7 @@
     lat = 3442
     lng = 3713
     zoom_level = 3
-    description = "Hoofington's western hydroelectric dam."
+    description = "Hoofington's eastern hydroelectric dam."
     link = ""
     from = 5
 [CelestiaDam]
@@ -202,7 +202,7 @@
     lat = 3442
     lng = 3709
     zoom_level = 3
-    description = "Hoofington's eastern hydroelectric dam."
+    description = "Hoofington's western hydroelectric dam."
     link = ""
     from = 5
 [HoofingtonCore]
