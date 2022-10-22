@@ -199,7 +199,7 @@
 [CelestiaDam]
     name = "Celestia Dam"
     class = "misc-poi"
-    lat = 3443
+    lat = 3442
     lng = 3709
     zoom_level = 3
     description = "Hoofington's eastern hydroelectric dam."
