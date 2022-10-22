@@ -105,7 +105,7 @@ fetch(Config.configPath+"main.toml").then((response => {
                 var featuresLayer = setupFeatures(layerController, mainConfigMap);
 
                 var searchLayers = L.layerGroup([poiLayer, featuresLayer])
-                map.addControl( new Lextra.Control.Search({layer: searchLayers, zoom: 5}) );
+                map.addControl( new Lextra.Control.Search({layer: searchLayers, zoom: 5, initial: false}) );
                 console.log("Loaded Search")
 
                 var options = {
