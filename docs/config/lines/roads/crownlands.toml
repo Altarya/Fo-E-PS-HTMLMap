@@ -1,0 +1,16 @@
+[ManeRoad]
+    name = "Mane Road"
+    className = "road"
+    color = "red"
+    layer = 0
+    latLngs = [
+        [3323.25, 3504.25 ],
+        [3341.5, 3499.875],
+        [3352.75, 3505.5 ],
+        [3384.75, 3548.0 ],
+        [3429.0, 3642.5],
+        [3443.75, 3693.5 ],
+    ]
+    width = 2
+    smoothing = 1.0
+    description = "The Mane Road!"

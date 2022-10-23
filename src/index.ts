@@ -6,6 +6,8 @@ import * as toml from '@iarna/toml'
 import saveAs from "file-saver";
 import { setupFeatures } from "./features";
 import { setupLayers } from "./layers";
+import { setupRivers } from "./river";
+import { setupLines } from "./lines";
 
 var Lextra: any;
 let centerOfMap = new L.LatLng(3374, 3339)
@@ -42,6 +44,7 @@ if (typeof exports === 'object') {
 require('./search.ts')
 require('./ruler.ts')
 require('./minimap.ts')
+require('./river.ts')
 
 fetch(Config.configPath+"main.toml").then((response => {
     if (response.ok) {
@@ -114,8 +117,10 @@ fetch(Config.configPath+"main.toml").then((response => {
 
                 var poiLayer = setupPOI(map, layerController, mainConfigMap);
                 var featuresLayer = setupFeatures(layerController, mainConfigMap);
+                var riversLayer = setupRivers(layerController, mainConfigMap);
+                var linesLayer = setupLines(layerController, mainConfigMap);
 
-                var searchLayers = L.layerGroup([poiLayer, featuresLayer])
+                var searchLayers = L.layerGroup([poiLayer, featuresLayer, riversLayer])
                 map.addControl( new Lextra.Control.Search({layer: searchLayers, zoom: 5, initial: false}) );
                 console.log("Loaded Search")
 

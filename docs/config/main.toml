@@ -61,6 +61,17 @@
         "thermonia",
         "cervinia",
     ]
+    rivers_list = [
+        "equestriana",
+    ]
+    lines_layers = [
+        "Roads", #0
+        "Railroads", #1
+        "Dirt Roads", #2
+    ]
+    lines_list = [
+        "roads/crownlands",
+    ]
     atribution_list = [
         "<a href='https://www.fimfiction.net/story/119190/fallout-equestria'>Fallout: Equestria</a>", #0
         "My Little Pony G4", #1
