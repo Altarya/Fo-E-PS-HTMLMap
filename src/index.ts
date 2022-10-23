@@ -41,6 +41,7 @@ if (typeof exports === 'object') {
 
 require('./search.ts')
 require('./ruler.ts')
+require('./minimap.ts')
 
 fetch(Config.configPath+"main.toml").then((response => {
     if (response.ok) {
@@ -71,6 +72,14 @@ fetch(Config.configPath+"main.toml").then((response => {
                         zIndex: 0
                     }
                 ).addTo(map)
+
+                const terrainMinimap = L.imageOverlay(
+                    './assets/layers/terrain.webp', 
+                    L.latLngBounds( southWest, northEast),
+                    {
+                        zIndex: 0
+                    }
+                )
 
                 setupLayers(map, layerController, southWest, northEast)
 
@@ -136,49 +145,29 @@ fetch(Config.configPath+"main.toml").then((response => {
                 Lextra.control.ruler(options).addTo(map);
                 console.log("Loaded Ruler")
 
+                Lextra.control.MiniMap(terrainMinimap, {
+                    position: 'bottomright',
+                    toggleDisplay: true,
+                    zoomAnimation: true,
+                    zoomLevelFixed: true,
+                    zoomLevelOffset: -5
+                }).addTo(map);
+
                 const isPartyEnabled: boolean = CONFIG.get("enable_party_indicator")
 
-                    if (isPartyEnabled) {
-                        const defaultPos: [number, number] = CONFIG.get("default_party_indicator")
+                if (isPartyEnabled) {
+                    const defaultPos: [number, number] = CONFIG.get("default_party_indicator")
 
-                        markerParty.setLatLng(defaultPos).addTo(map)
+                    markerParty.setLatLng(defaultPos).addTo(map)
 
-                        searchLayers.addLayer(markerParty)
+                    searchLayers.addLayer(markerParty)
 
-                        map.setView(defaultPos)
+                    map.setView(defaultPos)
 
-                        const isPartyDragEnabled: boolean = CONFIG.get("enable_party_indicator_save_on_drag")
+                    const isPartyDragEnabled: boolean = CONFIG.get("enable_party_indicator_save_on_drag")
 
-                        if (isPartyDragEnabled) {
-                            markerParty.on('dragend', (e: LeafletMouseEvent) => {
-                                let pos = markerParty.getLatLng()
-                                let serialPos = 
-                                    "position = [\n" +
-                                    pos.lat + ",\n" +
-                                    pos.lng + "\n" +
-                                    "]\n"
-                                saveAs(new File([serialPos], "party-pos.toml", {type: "text/plain;charset=utf-8"}));
-                            })
-                        }
-
-                        fetch("./party-pos.toml").then((response => {
-                            if (response.ok) {
-                                return response.blob()
-                            }
-                            }))
-                            .then((result) => {
-                                result.text().then(response => {
-                                    const posParsed = toml.parse(response);
-                                    const posParsedMap = new Map(Object.entries(posParsed));
-                                    const pos: [number, number] = <any>posParsedMap.get("position")
-
-                                    markerParty.setLatLng(pos)
-                                    map.setView(pos)
-                                })
-                            }
-                        )
-
-                        markerParty.on('click', (e: LeafletMouseEvent) => {
+                    if (isPartyDragEnabled) {
+                        markerParty.on('dragend', (e: LeafletMouseEvent) => {
                             let pos = markerParty.getLatLng()
                             let serialPos = 
                                 "position = [\n" +
@@ -188,6 +177,34 @@ fetch(Config.configPath+"main.toml").then((response => {
                             saveAs(new File([serialPos], "party-pos.toml", {type: "text/plain;charset=utf-8"}));
                         })
                     }
+
+                    fetch("./party-pos.toml").then((response => {
+                        if (response.ok) {
+                            return response.blob()
+                        }
+                        }))
+                        .then((result) => {
+                            result.text().then(response => {
+                                const posParsed = toml.parse(response);
+                                const posParsedMap = new Map(Object.entries(posParsed));
+                                const pos: [number, number] = <any>posParsedMap.get("position")
+
+                                markerParty.setLatLng(pos)
+                                map.setView(pos)
+                            })
+                        }
+                    )
+
+                    markerParty.on('click', (e: LeafletMouseEvent) => {
+                        let pos = markerParty.getLatLng()
+                        let serialPos = 
+                            "position = [\n" +
+                            pos.lat + ",\n" +
+                            pos.lng + "\n" +
+                            "]\n"
+                        saveAs(new File([serialPos], "party-pos.toml", {type: "text/plain;charset=utf-8"}));
+                    })
+                }
 
             } catch (error) {
                 console.error("Parsing error on line " + error.line + ", column " + error.column + ": " + error.message);
