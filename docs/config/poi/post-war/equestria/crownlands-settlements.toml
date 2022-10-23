@@ -103,7 +103,7 @@
     lat = 3287
     lng = 3530
     zoom_level = 1
-    description = "A bustling settlement of wealthy ponies built within an old Ministry of Arcane Sciences Hub. <p><img src='https://static.wikia.nocookie.net/falloutequestria/images/d/dd/Tenpony_tower_by_masterjosh140_copy.jpg' style='height: 160px;'></img></p> <p>Image by: MasterJosh140</p>"
+    description = "A bustling settlement of wealthy ponies built within an old Ministry of Arcane Sciences Hub home to the Twilight Society. <p><img src='https://static.wikia.nocookie.net/falloutequestria/images/d/dd/Tenpony_tower_by_masterjosh140_copy.jpg' style='height: 160px;'></img></p> <p>Image by: MasterJosh140</p><img src='https://static.wikia.nocookie.net/falloutequestria/images/7/77/Twilight_Society.png' style='height: 160px;'></img> Image by: DotRook"
     link = "https://falloutequestria.fandom.com/wiki/Tenpony_Tower"
     from = 0
 [Gutterville]

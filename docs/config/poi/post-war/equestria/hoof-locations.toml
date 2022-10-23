@@ -376,3 +376,12 @@
     description = "A shop ran by a filly named Charity. Despite its name she is quite famously a price gouger."
     link = ""
     from = 5
+[BlackPonyountain]
+    name = "Black Pony Mountain"
+    class = "misc-poi"
+    lat = 3456 
+    lng = 3726
+    zoom_level = 1
+    description = "A small 'mountain' that had its top completelly excavated."
+    link = ""
+    from = 5
