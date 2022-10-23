@@ -1,0 +1,27 @@
+[ReapersBounty]
+    name = "Reaper's Bounty"
+    class = "misc-poi lodge"
+    lat = 3569.8125 
+    lng = 3606.46875
+    zoom_level = 2
+    description = "A friendly bar owned by a ghoul mare named Dead Ringer that gets a lot of traffic."
+    link = ""
+    from = 9
+[TheCage]
+    name = "The Cage"
+    class = "misc-poi"
+    lat = 3569.375
+    lng = 3608.40625
+    zoom_level = 2
+    description = "A deadly arena open to outside bets, participants usuallly fight to the death."
+    link = ""
+    from = 9
+[SnakeEyes]
+    name = "Snake Eyes"
+    class = "misc-poi casino"
+    lat = 3567.15625
+    lng = 3607.875
+    zoom_level = 2
+    description = "Roulette's personal casino and primary source of income from Pona Rosa."
+    link = ""
+    from = 9
