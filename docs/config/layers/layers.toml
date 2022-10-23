@@ -1,24 +1,35 @@
+[Upscaled]
+    name = "Terrain(Upscaled)"
+    zindex = 0
+    image = "terrain_upscaled.webp"
+    base = true
 [Municipalities]
     name = "Municipalities, Sub-states and Sea Regions"
     zindex = 1
     image = "municipalities.webp"
+    base = false
 [StatesOutlines]
     name = "Administrative Divisions(States)"
     zindex = 2
     image = "states.webp"
+    base = false
 [States]
     name = "Administrative Divisions(States) Filled"
     zindex = 3
     image = "statesfilled.webp"
+    base = false
 [Tropics]
     name = "Tropics"
     zindex = 4
     image = "tropics.webp"
+    base = false
 [ContinentsnOceans]
     name = "Continents and Oceans"
     zindex = 5
     image = "continentsoceans.webp"
+    base = false
 [Factions]
     name = "Major Factions and Countries(2275)"
     zindex = 6
     image = "countries.webp"
+    base = false

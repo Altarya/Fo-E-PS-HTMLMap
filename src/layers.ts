@@ -29,16 +29,21 @@ export function setupLayers(mapVar: L.Map, layerController: L.Control.Layers, so
                         const name = <string>ent[0][1]
                         const zindex = <number>ent[1][1]
                         const image = <string>ent[2][1]
+                        const isBase = <boolean>ent[3][1]
 
                         var layer = L.imageOverlay(
                             "./assets/layers/" + image, 
                             L.latLngBounds( southWest, northEast),
                             {
-                                zIndex: zindex
+                                zIndex: zindex,
                             }
                         )
-        
-                        layerController.addOverlay(layer, name)
+
+                        if(!isBase) {
+                            layerController.addOverlay(layer, name)
+                        } else {
+                            layerController.addBaseLayer(layer, name)
+                        }
                     }
                 } catch (error) {
                     console.error("Parsing error on line " + error.line + ", column " + error.column + ": " + error.message);

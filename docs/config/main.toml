@@ -75,7 +75,6 @@
         "Fallout Equestria: Buckhaven", #10
         "Fallout Equestria: Griffonia", #11
         "<a href='https://steamcommunity.com/sharedfiles/filedetails/?id=1826643372'>Equestria At War</a>", #12
-
     ]
 [CONFIG]
     enable_party_indicator = true #Wether or not the draggable party indicator is enabled

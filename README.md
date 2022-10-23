@@ -6,6 +6,7 @@ and here: https://altarya.github.io/Fo-E-PS-HTMLMap/ for the whole thing working
 
 # Features
 - Vectorised fully configurable waypoints that appear at different zoom levels
+- HTML compliant popups on markers
 - Togable and customisable Layers
 - Search bar
 - (Semi-accurate) Distance and Bearing ruler
@@ -41,6 +42,8 @@ within then you can add/remove layers by modifying these entries:
         #bellow layers with a higher z-index
         image = "your-layer-image.webp" #You can use PNG/JPEG as well
         #but webp is recommended for performance
+        base = false #Wether this is a base layer or not, base layers override the terrain layer
+        #and only one can be active at a time
 ```
 
 ## Waypoints(Locations)

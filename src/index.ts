@@ -64,7 +64,7 @@ fetch(Config.configPath+"main.toml").then((response => {
                 var southWest: LatLngExpression = new L.LatLng(0, 0)
                 var northEast: LatLngExpression = new L.LatLng(mapSize[0], mapSize[1])
 
-                L.imageOverlay(
+                const terrain = L.imageOverlay(
                     './assets/layers/terrain.webp', 
                     L.latLngBounds( southWest, northEast),
                     {
@@ -100,6 +100,8 @@ fetch(Config.configPath+"main.toml").then((response => {
                     .addTo(map)
                     .openPopup();
                 });
+
+                layerController.addBaseLayer(terrain, "Terrain")
 
                 var poiLayer = setupPOI(map, layerController, mainConfigMap);
                 var featuresLayer = setupFeatures(layerController, mainConfigMap);
