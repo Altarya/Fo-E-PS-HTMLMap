@@ -3,6 +3,11 @@
     zindex = 0
     image = "terrain_upscaled.webp"
     base = true
+[Upscaled4]
+    name = "Terrain(Upscaled 4x)"
+    zindex = 0
+    image = "terrain_upscaled_4x.webp"
+    base = true
 [Municipalities]
     name = "Municipalities, Sub-states and Sea Regions"
     zindex = 1

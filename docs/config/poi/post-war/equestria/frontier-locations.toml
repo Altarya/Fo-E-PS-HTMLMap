@@ -25,8 +25,8 @@
     description = "A large solar updraft and underground hydroelectric power plant that is constantly being fought over by the R.N.P, Steel Rangers and Enclave."
     link = ""
     from = 4
-[NewPegasusAirport]
-    name = "New Pegasus Airport"
+[JetblueSkyport]
+    name = "Jetblue Skyport"
     class = "misc-poi rnp"
     lat = 3303
     lng = 3173
