@@ -115,10 +115,10 @@ fetch(Config.configPath+"main.toml").then((response => {
 
                 layerController.addBaseLayer(terrain, "Terrain")
 
-                var poiLayer = setupPOI(map, layerController, mainConfigMap);
-                var featuresLayer = setupFeatures(layerController, mainConfigMap);
-                var riversLayer = setupRivers(layerController, mainConfigMap);
-                var linesLayer = setupLines(layerController, mainConfigMap);
+                var poiLayer = setupPOI(map, layerController, mainConfigMap)
+                var featuresLayer = setupFeatures(layerController, mainConfigMap)
+                var riversLayer = setupRivers(layerController, mainConfigMap)
+                var linesLayer = setupLines(layerController, mainConfigMap).addTo(map)
 
                 var searchLayers = L.layerGroup([poiLayer, featuresLayer])
                 map.addControl( new Lextra.Control.Search({layer: searchLayers, zoom: 5, initial: false}) );

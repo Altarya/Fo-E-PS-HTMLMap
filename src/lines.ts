@@ -27,6 +27,8 @@ export function setupLines(layerController: L.Control.Layers, map: Map<string, t
         let layer = new L.FeatureGroup
         lines.push(layer)
 
+        locationsLayers.addLayer(lines[i])
+
         layerController.addOverlay(lines[i], value)
     }
 
