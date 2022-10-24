@@ -120,7 +120,7 @@ fetch(Config.configPath+"main.toml").then((response => {
                 var riversLayer = setupRivers(layerController, mainConfigMap);
                 var linesLayer = setupLines(layerController, mainConfigMap);
 
-                var searchLayers = L.layerGroup([poiLayer, featuresLayer, riversLayer])
+                var searchLayers = L.layerGroup([poiLayer, featuresLayer])
                 map.addControl( new Lextra.Control.Search({layer: searchLayers, zoom: 5, initial: false}) );
                 console.log("Loaded Search")
 
