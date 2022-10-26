@@ -205,3 +205,12 @@
     description = ""
     link = ""
     from = 4
+[GravelCity]
+    name = "Gravel City"
+    class = "city"
+    lat = 3409
+    lng = 3129
+    zoom_level = 1
+    description = "A small gem mining town, now mostly empty save it for the cave which houses a settlement of hellhounds and ponies."
+    link = ""
+    from = 4

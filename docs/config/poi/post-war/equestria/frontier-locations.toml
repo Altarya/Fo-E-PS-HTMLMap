@@ -244,10 +244,10 @@
 [SilverSnipsArmoury]
     name = "Silver Snip's Armoury"
     class = "intra-settlement armour"
-    lat = 3342.40625 
-    lng = 3176.5625
+    lat = 3341.734375
+    lng = 3177.296875
     zoom_level = 3
-    description = "A small tailoury owned by an unicorn mare named Silver Snip."
+    description = "A small tailor shop owned by an unicorn mare named Silver Snip."
     link = ""
     from = 4
 [PurpleHeartClinic]
@@ -257,6 +257,24 @@
     lng = 3177.0703125
     zoom_level = 3
     description = "A small clinic owned by an unicorn stallion named Purple Heart."
+    link = ""
+    from = 4
+[DriftsPlace]
+    name = "Drift's Place"
+    class = "intra-settlement shop"
+    lat = 3342.25
+    lng = 3176.90625
+    zoom_level = 3
+    description = "A small shop owned by a ghoul stallion named Drift Fast."
+    link = ""
+    from = 4
+[MommasGuns]
+    name = "Momma's guns"
+    class = "intra-settlement weapons"
+    lat = 3342.40625
+    lng = 3176.8125
+    zoom_level = 3
+    description = "A small weapons store owned by a mare named Redheart."
     link = ""
     from = 4
 [EquestrianExpress]
