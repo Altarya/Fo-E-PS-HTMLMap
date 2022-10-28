@@ -304,3 +304,12 @@
     description = "The last functional cloud elevator in New Pegasus, turned basically the official embassy of the Enclave in the city."
     link = ""
     from = 4
+[Stable34]
+    name = "Stable 34"
+    class = "misc-poi stable"
+    lat = 3268.25
+    lng = 3184.15625
+    zoom_level = 2
+    description = "The old stable where The Anihilators are from, now owned by Trotston which has sparked a fierce rivalry between the two."
+    link = ""
+    from = 4
