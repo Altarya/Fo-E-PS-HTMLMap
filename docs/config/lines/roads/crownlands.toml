@@ -48,6 +48,6 @@
         [3406.25, 3747.375],
         [3407.75, 3784.75],
     ]
-    width = 2
+    width = 4
     smoothing = 1.0
     description = "The Mane Road!"

@@ -63,6 +63,11 @@
     class = "natural"
     lat = 3247  
     lng = 3712
+[AppleachianMountains]
+    name = "Appleachian Mountains"
+    class = "natural"
+    lat = 3550.125 
+    lng = 3277
 [SplendidValley]
     name = "Splendid Valley"
     class = "unnatural"

@@ -66,11 +66,12 @@
     ]
     lines_layers = [
         "Roads", #0
-        "Railroads", #1
-        "Dirt Roads", #2
+        #"Railroads", #1
+        #"Dirt Roads", #2
     ]
     lines_list = [
         "roads/crownlands",
+        "roads/frontier",
     ]
     atribution_list = [
         "<a href='https://www.fimfiction.net/story/119190/fallout-equestria'>Fallout: Equestria</a>", #0
@@ -86,6 +87,7 @@
         "Fallout Equestria: Buckhaven", #10
         "Fallout Equestria: Griffonia", #11
         "<a href='https://steamcommunity.com/sharedfiles/filedetails/?id=1826643372'>Equestria At War</a>", #12
+        "<a href='https://www.fimfiction.net/story/514028/fallout-equestria-storm-protocol'>Fallout Equestria: Storm Protocol</a>", #13
     ]
 [CONFIG]
     enable_party_indicator = true #Wether or not the draggable party indicator is enabled

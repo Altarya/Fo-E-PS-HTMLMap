@@ -70,3 +70,21 @@
     description = "A former booming metropolis that was more equestrian than prench."
     link = "https://falloutequestria.fandom.com/wiki/Chicacolt_(Starlight)"
     from = 3
+[Albamareal]
+    name = "Albamareal"
+    class = "city"
+    lat = 3531.5
+    lng = 3235
+    zoom_level = 1
+    description = ""
+    link = ""
+    from = 13
+[Bridlewood]
+    name = "Bridlewood"
+    class = "city"
+    lat = 3551.125 
+    lng = 3175.125
+    zoom_level = 1
+    description = ""
+    link = ""
+    from = 13

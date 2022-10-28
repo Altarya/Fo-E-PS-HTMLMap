@@ -169,8 +169,8 @@
     description = "A settlement of mainly pink cloud ghouls."
     link = "https://falloutequestria.fandom.com/wiki/Stable_City"
     from = 0
-[ShatteredHoofRidge]
-    name = "Shattered Hoof Ridge"
+[ShatteredHoofMine]
+    name = "Shattered Hoof Mine"
     class = "settlement talon"
     lat = 3338
     lng = 3377

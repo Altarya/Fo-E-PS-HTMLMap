@@ -88,3 +88,31 @@
     minWidth = 1
     maxWidth = 10
     opacity = 0.5
+[AlbamarealLake]
+    name = "Albamareal Lake"
+    className = "lake"
+    latLngs = [
+        [3548.75, 3244.250],
+        [3552.875, 3231.0],
+        [3561.875, 3222.0],
+    ]
+    minWidth = 15
+    maxWidth = 15
+    opacity = 0.5
+[ShenandoeahRiver]
+    name = "Shenandoeah River"
+    className = "major"
+    latLngs = [
+        [3561.875, 3222.0],
+        [3585.75, 3214.0],
+        [3595.0, 3207.5],
+        [3601.25, 3194.5],
+        [3608.25, 3186.75],
+        [3629.25, 3182.5],
+        [3637.0, 3170.5],
+        [3652.75, 3165.875],
+        [3658.875, 3143.625],
+    ]
+    minWidth = 15
+    maxWidth = 20
+    opacity = 0.5

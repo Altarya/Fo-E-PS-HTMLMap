@@ -1,0 +1,19 @@
+[CloudWay]
+    name = "Cloud Way"
+    className = "road"
+    color = "gray"
+    layer = 0
+    latLngs = [
+        [3259.625, 3161.0],
+        [3260.0625, 3171.375],
+        [3272.0625, 3183.5],
+        [3283.0, 3199.0],
+        [3295.5, 3216.0],
+        [3325.125, 3262.125],
+        [3332.125, 3264.125],
+        [3338.625, 3265.5],
+        [3384.125, 3262.625],
+    ]
+    width = 2
+    smoothing = 1.0
+    description = "The main road from Canterlot to the Frontier."

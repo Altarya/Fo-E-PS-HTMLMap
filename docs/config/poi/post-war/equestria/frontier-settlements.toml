@@ -169,3 +169,12 @@
     description = "A small settlement of slavers."
     link = ""
     from = 4
+[CrossroadsTradingPosts]
+    name = "Crossroads Trading Posts"
+    class = "settlement rnp"
+    lat = 3260.542578125
+    lng = 3170.671875
+    zoom_level = 2
+    description = "A large trading settlement built on an overpass and controlled by the R.N.P."
+    link = ""
+    from = 4

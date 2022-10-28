@@ -6,7 +6,7 @@
     zoom_level = 2
     description = "An old hoofball stadium home of the Cult of Iron Will."
     link = ""
-    from = ""
+    from = 3
 [FillysTower]
     name = "Filly's Tower"
     class = "intra-settlement"
@@ -15,7 +15,7 @@
     zoom_level = 2
     description = "A black tall tower known for its ghost tales that scare away any scavengers. The Minotaur DJ broadcasts from here."
     link = ""
-    from = ""
+    from = 3
 [ChicacoltMuseum]
     name = "Chicacolt Museum"
     class = "intra-settlement"
@@ -31,6 +31,69 @@
     lat = 3623
     lng = 2853
     zoom_level = 2
-    description = "An old equestrian millitary naval base that also featured a theme park with a ferris wheel, "
+    description = "An old equestrian millitary naval base that also featured a theme park with a ferris wheel."
     link = ""
     from = 3
+[AlbamarealWestDam]
+    name = "Albamareal West Dam"
+    class = "misc-poi"
+    lat = 3520.25
+    lng = 3245
+    zoom_level = 2
+    description = ""
+    link = ""
+    from = 13
+[AlbamarealEastDam]
+    name = "Albamareal East Dam"
+    class = "misc-poi"
+    lat = 3519
+    lng = 3253.2
+    zoom_level = 2
+    description = ""
+    link = ""
+    from = 13
+[WhinnychesterCompound]
+    name = "Whinnychester Compound"
+    class = "misc-poi"
+    lat = 3513.125
+    lng = 3262.5
+    zoom_level = 2
+    description = ""
+    link = ""
+    from = 13
+[PleasantPoint]
+    name = "Pleasant Point"
+    class = "misc-poi"
+    lat = 3594.375
+    lng = 3202.125
+    zoom_level = 2
+    description = ""
+    link = ""
+    from = 13
+[ToxicValley]
+    name = "Toxic Valley"
+    class = "misc-poi radiation"
+    lat = 3606.375
+    lng = 3176.125
+    zoom_level = 2
+    description = ""
+    link = ""
+    from = 13
+[NewRiverGorgeBridge]
+    name = "New River Gorge Bridge"
+    class = "misc-poi"
+    lat = 3535.125
+    lng = 3218.875
+    zoom_level = 2
+    description = ""
+    link = ""
+    from = 13
+[EquestrianStreet]
+    name = "Equestrian Street"
+    class = "intra-settlement"
+    lat = 3603.625
+    lng = 3182.875
+    zoom_level = 2
+    description = ""
+    link = ""
+    from = 13
