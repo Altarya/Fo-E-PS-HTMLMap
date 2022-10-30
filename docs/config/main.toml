@@ -103,5 +103,5 @@
         5120,
         9728
     ]
-    enable_leaflet_scalebar = true #Wether or not Leaflet's default scale bar will be visible
+    enable_leaflet_scalebar = false #Wether or not Leaflet's default scale bar will be visible
     enable_better_scalebar = true #Wether or not Betterscale's scale bar will be visible

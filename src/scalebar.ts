@@ -1,5 +1,7 @@
 import * as L from "leaflet"
 
+/* From the leaflet plugin Betterscale */
+
 let BetterScale: new (options: any) => any = L.Control.extend({
     options: {
         position: "bottomleft",
