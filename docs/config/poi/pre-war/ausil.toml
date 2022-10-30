@@ -1,8 +1,8 @@
 [PortoCapital]
     name = "Porto Capital"
     class ="pre-war-capital"
-    lat = 2202
-    lng = 2919
+    x = 2202
+    y = 2919
     zoom_level = 0
     description = "The capital of the Federal Republic of Ausil."
     link = ""
@@ -10,8 +10,8 @@
 [PortoNovo]
     name = "Porto Novo"
     class ="city"
-    lat = 2240
-    lng = 2869
+    x = 2240
+    y = 2869
     zoom_level = 1
     description = ""
     link = ""
@@ -19,8 +19,8 @@
 [FortalezaDoCouro]
     name = "Fortaleza do Couro"
     class ="city"
-    lat = 2262
-    lng = 2822
+    x = 2262
+    y = 2822
     zoom_level = 1
     description = ""
     link = ""
@@ -28,8 +28,8 @@
 [JoaoPonei]
     name = "João Ponei"
     class ="city"
-    lat = 2146
-    lng = 3010
+    x = 2146
+    y = 3010
     zoom_level = 1
     description = ""
     link = ""
@@ -37,8 +37,8 @@
 [Cascoiba]
     name = "Cascoibá"
     class ="city"
-    lat = 2013
-    lng = 3159
+    x = 2013
+    y = 3159
     zoom_level = 1
     description = ""
     link = ""
@@ -46,8 +46,8 @@
 [BelasPraias]
     name = "Belas Praias"
     class ="city"
-    lat = 1983
-    lng = 3144
+    x = 1983
+    y = 3144
     zoom_level = 1
     description = ""
     link = ""
@@ -55,8 +55,8 @@
 [RioDeJaneighro]
     name = "Rio de Janeighro"
     class ="city"
-    lat = 1972
-    lng = 2965
+    x = 1972
+    y = 2965
     zoom_level = 1
     description = ""
     link = ""
@@ -64,8 +64,8 @@
 [Nitrotaroi]
     name = "Nitrotarói"
     class ="city"
-    lat = 1894
-    lng = 3090
+    x = 1894
+    y = 3090
     zoom_level = 1
     description = ""
     link = ""
@@ -73,8 +73,8 @@
 [BeloMirante]
     name = "Belo Mirante"
     class ="city"
-    lat = 1807
-    lng = 3046
+    x = 1807
+    y = 3046
     zoom_level = 1
     description = ""
     link = ""
@@ -82,8 +82,8 @@
 [SaoPasto]
     name = "São Pasto"
     class ="city"
-    lat = 1810
-    lng = 2917
+    x = 1810
+    y = 2917
     zoom_level = 1
     description = ""
     link = ""
@@ -91,8 +91,8 @@
 [Relinchem]
     name = "Relinchém"
     class ="city"
-    lat = 1781
-    lng = 2748
+    x = 1781
+    y = 2748
     zoom_level = 1
     description = ""
     link = ""
@@ -100,8 +100,8 @@
 [Morcegueira]
     name = "Morcegueira"
     class ="city"
-    lat = 1770
-    lng = 3178
+    x = 1770
+    y = 3178
     zoom_level = 1
     description = ""
     link = ""
@@ -109,8 +109,8 @@
 [Pontaus]
     name = "Pontaus"
     class ="city"
-    lat = 1621
-    lng = 3019
+    x = 1621
+    y = 3019
     zoom_level = 1
     description = ""
     link = ""
@@ -118,8 +118,8 @@
 [NoOeste]
     name = "Nó Oeste"
     class ="city"
-    lat = 1586
-    lng = 2699
+    x = 1586
+    y = 2699
     zoom_level = 1
     description = ""
     link = ""

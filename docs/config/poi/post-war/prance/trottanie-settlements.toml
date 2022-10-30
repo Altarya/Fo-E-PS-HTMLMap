@@ -1,8 +1,8 @@
 [Nimbus]
     name = "Nimbus"
     class = "settlement enclave"
-    lat = 3511
-    lng = 3105
+    x = 3511
+    y = 3105
     zoom_level = 1
     description = "An Enclave cloud city famous for its unicorns and also for being the only cloud city with a substantial amount of crystal ponies, it maintains close relations with Stratus and even controls two surface cities where its inhabitants are allowed to live. Them being Saint's Parish and Whinneapolis."
     link = ""
@@ -10,8 +10,8 @@
 [ChiTown]
     name = "Chi Town"
     class = "settlement"
-    lat = 3611
-    lng = 2852
+    x = 3611
+    y = 2852
     zoom_level = 1
     description = "A settlement host to various tribes and former stable-ponies, controlled primarilly by the Lotus Triad."
     link = ""
@@ -19,8 +19,8 @@
 [Filliet]
     name = "Filliet"
     class = "settlement"
-    lat = 3603
-    lng = 2855
+    x = 3603
+    y = 2855
     zoom_level = 1
     description = "A settlement litterally built over a landfill."
     link = ""
@@ -28,8 +28,8 @@
 [Theathre]
     name = "Theathre"
     class = "settlement"
-    lat = 3585
-    lng = 2853
+    x = 3585
+    y = 2853
     zoom_level = 1
     description = "A large settlement under the protection of the M.M.M.M."
     link = ""
@@ -37,8 +37,8 @@
 [SkyscraperStable83]
     name = "Skyscraper(Stable 83)"
     class = "settlement stable"
-    lat = 3524.25
-    lng = 3240
+    x = 3524.25
+    y = 3240
     zoom_level = 1
     description = ""
     link = ""
@@ -46,8 +46,8 @@
 [Raineigh]
     name = "Raineigh"
     class = "settlement enclave"
-    lat = 3537.375
-    lng = 3265.875
+    x = 3537.375
+    y = 3265.875
     zoom_level = 1
     description = ""
     link = ""
@@ -55,8 +55,8 @@
 [SugarGrove]
     name = "Sugar Grove"
     class = "settlement"
-    lat = 3533.375
-    lng = 3270.625
+    x = 3533.375
+    y = 3270.625
     zoom_level = 2
     description = ""
     link = ""
@@ -64,8 +64,8 @@
 [TheHive]
     name = "The Hive"
     class = "settlement"
-    lat = 3618.75
-    lng = 3173.75
+    x = 3618.75
+    y = 3173.75
     zoom_level = 2
     description = ""
     link = ""
@@ -73,8 +73,8 @@
 [PortTopsailNavalBase]
     name = "Port Topsail Naval Base"
     class = "settlement steelranger"
-    lat = 3601.375
-    lng = 3198.125
+    x = 3601.375
+    y = 3198.125
     zoom_level = 2
     description = ""
     link = ""
@@ -82,8 +82,8 @@
 [SandyShoals]
     name = "Sandy Shoals"
     class = "settlement"
-    lat = 3629.875 
-    lng = 3213.375
+    x = 3629.875 
+    y = 3213.375
     zoom_level = 2
     description = ""
     link = ""

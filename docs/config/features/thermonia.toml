@@ -1,45 +1,45 @@
 [ImanisMagnis]
     name = "Imanis Magnis"
     class = "natural"
-    lat = 3235
-    lng = 1861
+    x = 3235
+    y = 1861
 [ExoterikosForest]
     name = "Exoterikos Forest"
     class = "natural"
-    lat = 3094
-    lng = 2353
+    x = 3094
+    y = 2353
 [MegalooidsForest]
     name = "Megaloids Forest"
     class = "natural"
-    lat = 3137 
-    lng = 2127
+    x = 3137 
+    y = 2127
 [SofiaHighlands]
     name = "Sofia Highlands"
     class = "natural"
-    lat = 3181
-    lng = 2287
+    x = 3181
+    y = 2287
 [LumenForest]
     name = "Lumen Forest"
     class = "natural"
-    lat = 2952
-    lng = 1845
+    x = 2952
+    y = 1845
 [AigalogosArchpelago]
     name = "Aigalogos Archipelago"
     class = "natural"
-    lat = 2853
-    lng = 1938
+    x = 2853
+    y = 1938
 [RoamanBay]
     name = "Roaman Bay"
     class = "sea"
-    lat = 3034
-    lng = 1944
+    x = 3034
+    y = 1944
 [ZevraBay]
     name = "Zevra Bay"
     class = "sea"
-    lat = 3003
-    lng = 2163
+    x = 3003
+    y = 2163
 [DiairesteChannel]
     name = "Diaireste Channel"
     class = "sea"
-    lat = 2987 
-    lng = 2279
+    x = 2987 
+    y = 2279

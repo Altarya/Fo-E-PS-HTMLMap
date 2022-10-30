@@ -1,8 +1,8 @@
 [Estebordoburgo]
     name = "Estebordoburgo"
     class = "settlement"
-    lat = 3004
-    lng = 3019
+    x = 3004
+    y = 3019
     zoom_level = 2
     description = "'This is how its supposed to be spelled!'"
     link = ""

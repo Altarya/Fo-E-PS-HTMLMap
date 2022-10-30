@@ -1,8 +1,8 @@
 [BoasVistas]
     name = "Boas Vistas"
     class ="pre-war-capital"
-    lat = 1657
-    lng = 2450
+    x = 1657
+    y = 2450
     zoom_level = 0
     description = ""
     link = ""

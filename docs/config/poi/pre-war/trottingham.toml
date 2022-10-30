@@ -1,8 +1,8 @@
 [Trottingham]
     name = "Trottingham"
     class ="pre-war-capital"
-    lat = 3357
-    lng = 3705
+    x = 3357
+    y = 3705
     zoom_level = 0
     description = ""
     link = ""
@@ -10,8 +10,8 @@
 [Poniborg]
     name = "Poniborg"
     class = "city"
-    lat = 3265
-    lng = 3674
+    x = 3265
+    y = 3674
     zoom_level = 1
     description = ""
     link = ""
@@ -19,8 +19,8 @@
 [Trotsyvil]
     name = "Trotsyvil"
     class = "city"
-    lat = 3230
-    lng = 3625
+    x = 3230
+    y = 3625
     zoom_level = 1
     description = ""
     link = ""
@@ -28,8 +28,8 @@
 [Irktrotsky]
     name = "Irktrotsky"
     class = "city"
-    lat = 3320
-    lng = 3616
+    x = 3320
+    y = 3616
     zoom_level = 1
     description = ""
     link = ""
@@ -37,8 +37,8 @@
 [Kopytograd]
     name = "Kopytograd"
     class = "city"
-    lat = 3311
-    lng = 3679
+    x = 3311
+    y = 3679
     zoom_level = 1
     description = ""
     link = ""

@@ -1,8 +1,8 @@
 [Starynopla]
     name = "Starynopla"
     class ="pre-war-capital"
-    lat = 2931
-    lng = 2974
+    x = 2931
+    y = 2974
     zoom_level = 0
     description = "The fully planned and highly automated former capital of the Queendom of Ezpassiôn. Now covered by the deadly Fog."
     link = ""
@@ -10,8 +10,8 @@
 [Liscasco]
     name = "Liscasco"
     class = "city"
-    lat = 2888
-    lng = 2960
+    x = 2888
+    y = 2960
     zoom_level = 1
     description = ""
     link = ""
@@ -19,8 +19,8 @@
 [Sulporta]
     name = "Sulporta"
     class = "city"
-    lat = 2918
-    lng = 3008
+    x = 2918
+    y = 3008
     zoom_level = 1
     description = ""
     link = ""
@@ -28,8 +28,8 @@
 [Cascorto]
     name = "Cascôrto"
     class = "city"
-    lat = 2883
-    lng = 3011
+    x = 2883
+    y = 3011
     zoom_level = 1
     description = ""
     link = ""
@@ -37,8 +37,8 @@
 [Popaporto]
     name = "Popaporto"
     class = "city"
-    lat = 2891
-    lng = 3027
+    x = 2891
+    y = 3027
     zoom_level = 1
     description = ""
     link = ""
@@ -46,8 +46,8 @@
 [Portroto]
     name = "Portrôto"
     class = "city"
-    lat = 2953
-    lng = 3043
+    x = 2953
+    y = 3043
     zoom_level = 1
     description = ""
     link = ""
@@ -55,8 +55,8 @@
 [Estibordoburgo]
     name = "Estibordoburgo"
     class = "city"
-    lat = 3002
-    lng = 3012
+    x = 3002
+    y = 3012
     zoom_level = 1
     description = ""
     link = ""
@@ -64,8 +64,8 @@
 [Boencia]
     name = "Boençia"
     class = "city"
-    lat = 3030
-    lng = 2927
+    x = 3030
+    y = 2927
     zoom_level = 1
     description = ""
     link = ""
@@ -73,8 +73,8 @@
 [SunkenSunAnkh]
     name = "Sunkén Sun Ankh"
     class = "city"
-    lat = 2990
-    lng = 2952
+    x = 2990
+    y = 2952
     zoom_level = 1
     description = "The former largest kirin city outside of the qilin lands."
     link = ""
@@ -82,8 +82,8 @@
 [Thalesia]
     name = "Thalesia"
     class = "city"
-    lat = 2968
-    lng = 2901
+    x = 2968
+    y = 2901
     zoom_level = 1
     description = "The world's largest city, so large it was beyond certain small countries, at its peak Thalesia had 1.5 Billion inhabitants."
     link = ""
@@ -91,8 +91,8 @@
 [Norteporta]
     name = "Norteporta"
     class = "city"
-    lat = 2966
-    lng = 2969
+    x = 2966
+    y = 2969
     zoom_level = 1
     description = ""
     link = ""
@@ -100,8 +100,8 @@
 [Cruzada]
     name = "Cruzada"
     class = "city"
-    lat = 2926
-    lng = 2935
+    x = 2926
+    y = 2935
     zoom_level = 1
     description = ""
     link = ""
@@ -109,8 +109,8 @@
 [RioLeste]
     name = "Rio Leste"
     class = "city"
-    lat = 2967
-    lng = 2811
+    x = 2967
+    y = 2811
     zoom_level = 1
     description = ""
     link = ""
@@ -118,8 +118,8 @@
 [TerraNova]
     name = "Terra Nova"
     class = "city"
-    lat = 2933 
-    lng = 2821
+    x = 2933 
+    y = 2821
     zoom_level = 1
     description = ""
     link = ""
@@ -127,8 +127,8 @@
 [Remota]
     name = "Remota"
     class = "city"
-    lat = 3010
-    lng = 3022
+    x = 3010
+    y = 3022
     zoom_level = 1
     description = ""
     link = ""

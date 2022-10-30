@@ -1,8 +1,8 @@
 [Cascadas]
     name = "Cascadas"
     class ="pre-war-capital"
-    lat = 1945
-    lng = 2060
+    x = 1945
+    y = 2060
     zoom_level = 0
     description = ""
     link = ""

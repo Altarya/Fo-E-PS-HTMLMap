@@ -1,8 +1,8 @@
 [Metro]
     name = "Metrô"
     class = "settlement"
-    lat = 2978
-    lng = 2867
+    x = 2978
+    y = 2867
     zoom_level = 2
     description = "A large settlement built on the safest parts of the former Thalesian Metro System. Name means: Metro."
     link = ""
@@ -10,8 +10,8 @@
 [Trilhao]
     name = "Trilhão"
     class = "settlement"
-    lat = 2989
-    lng = 2856
+    x = 2989
+    y = 2856
     zoom_level = 2
     description = "A small settlement built over a former thalesian raill station. Name means: Trillions of Rail."
     link = ""
@@ -19,8 +19,8 @@
 [VistasDosTrilhos]
     name = "Vistas dos Trilhos"
     class = "settlement"
-    lat = 3000
-    lng = 2855
+    x = 3000
+    y = 2855
     zoom_level = 1
     description = "A bustling trade settlement and the largest in Ezthalesia that was built over a large rail yard and train factory, both of which have been reactivated which is what lead to its boom. Name means: Views of the Rails."
     link = ""
@@ -28,8 +28,8 @@
 [Barcopolis]
     name = "Barcópolis"
     class = "settlement"
-    lat = 3019
-    lng = 2861
+    x = 3019
+    y = 2861
     zoom_level = 2
     description = "A small coastal settlement built over a former luxury yatch pier. Name means: Boat City."
     link = ""
@@ -37,8 +37,8 @@
 [Fuligem]
     name = "Fuligem"
     class = "settlement"
-    lat = 3035
-    lng = 2873
+    x = 3035
+    y = 2873
     zoom_level = 2
     description = "A small settlement built over the remains of an Ark that was a train. Name means: Smoke."
     link = ""
@@ -46,8 +46,8 @@
 [PortoGrande]
     name = "Porto Grande"
     class = "settlement"
-    lat = 3049
-    lng = 2876
+    x = 3049
+    y = 2876
     zoom_level = 1
     description = "A large trading settlement that boasts of a fleet of tugboats and a cargo ship. Name means: Great Port."
     link = ""
@@ -55,8 +55,8 @@
 [MinasDouro]
     name = "Minas D'ouro"
     class = "settlement"
-    lat = 3014
-    lng = 2899
+    x = 3014
+    y = 2899
     zoom_level = 2
     description = "A small settlement built over a deactivated historical gold mine. Name means: Gold Mine."
     link = ""
@@ -64,8 +64,8 @@
 [CampoLua]
     name = "Campo Lua"
     class = "settlement"
-    lat = 3002
-    lng = 2873
+    x = 3002
+    y = 2873
     zoom_level = 2
     description = "A medium settlement made up primarilly of scout fillies and colts. Name means: Camp Moon."
     link = ""
@@ -73,8 +73,8 @@
 [Precinto]
     name = "Precinto"
     class = "settlement"
-    lat = 2982
-    lng = 2901
+    x = 2982
+    y = 2901
     zoom_level = 2
     description = "A medium settlement built over Thalesia's former high security prison. Name means: Precinct"
     link = ""
@@ -82,8 +82,8 @@
 [TresPredios]
     name = "Três Prédios"
     class = "settlement"
-    lat = 2965
-    lng = 2893
+    x = 2965
+    y = 2893
     zoom_level = 2
     description = "A medium primarilly cloud based settlement built over 3 large skyscrapers that tilted and coollided with each other. Name means: Three Buildings."
     link = ""
@@ -91,8 +91,8 @@
 [Fabriquicia]
     name = "Fabriquícia"
     class = "settlement"
-    lat = 2934
-    lng = 2894
+    x = 2934
+    y = 2894
     zoom_level = 2
     description = "A small settlement built over an old car factory. Name means: Little Factory."
     link = ""
@@ -100,8 +100,8 @@
 [CascadasSerenas]
     name = "Cascadas Serênas"
     class = "settlement"
-    lat = 2988
-    lng = 2886
+    x = 2988
+    y = 2886
     zoom_level = 2
     description = "A small kirin settlement, remote from much of anything at the summt of the Peak of Thales where the Águas Cristalinas(Crystal Waters) river begins. Name means: Serene Waterfalls."
     link = ""
@@ -109,8 +109,8 @@
 [ThalesiaDowntown]
     name = "Thalesia Downtown"
     class = "settlement"
-    lat = 2974
-    lng = 2901
+    x = 2974
+    y = 2901
     zoom_level = 1
     description = "A collection of settlements that form a large one built over Thalesia's historical downtown."
     link = ""

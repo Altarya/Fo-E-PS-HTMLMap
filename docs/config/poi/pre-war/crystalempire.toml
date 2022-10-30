@@ -1,8 +1,8 @@
 [CrystalCity]
     name = "Crystal City"
     class ="pre-war-capital"
-    lat = 4173
-    lng = 3579
+    x = 4173
+    y = 3579
     zoom_level = 0
     description = ""
     link = ""
@@ -10,8 +10,8 @@
 [Ceffyldd]
     name = "Ceffyldd"
     class = "city"
-    lat = 4179
-    lng = 3683
+    x = 4179
+    y = 3683
     zoom_level = 1
     description = ""
     link = ""
@@ -19,8 +19,8 @@
 [Birneigham]
     name = "Birneigham"
     class = "city"
-    lat = 4139
-    lng = 3588
+    x = 4139
+    y = 3588
     zoom_level = 1
     description = ""
     link = ""
@@ -28,8 +28,8 @@
 [Leads]
     name = "Leads"
     class = "city"
-    lat = 4085
-    lng = 3449
+    x = 4085
+    y = 3449
     zoom_level = 1
     description = ""
     link = ""
@@ -37,8 +37,8 @@
 [YCastell]
     name = "Y Castell"
     class = "city"
-    lat = 4124
-    lng = 3736
+    x = 4124
+    y = 3736
     zoom_level = 1
     description = ""
     link = ""
@@ -46,8 +46,8 @@
 [Edinhoof]
     name = "Edinhoof"
     class = "city"
-    lat = 3919
-    lng = 3059
+    x = 3919
+    y = 3059
     zoom_level = 1
     description = ""
     link = ""
@@ -55,8 +55,8 @@
 [Oliverland]
     name = "Oliverland"
     class = "city"
-    lat = 4412
-    lng = 2986
+    x = 4412
+    y = 2986
     zoom_level = 1
     description = ""
     link = ""
@@ -64,8 +64,8 @@
 [Briddlefast]
     name = "Briddlefast"
     class = "city"
-    lat = 4145
-    lng = 3924
+    x = 4145
+    y = 3924
     zoom_level = 1
     description = ""
     link = ""
@@ -73,8 +73,8 @@
 [Cruscllin]
     name = "Crusclin"
     class = "city"
-    lat = 4109
-    lng = 3931
+    x = 4109
+    y = 3931
     zoom_level = 1
     description = ""
     link = ""
@@ -82,8 +82,8 @@
 [Lerpick]
     name = "Lerpick"
     class = "city"
-    lat = 4285
-    lng = 4296
+    x = 4285
+    y = 4296
     zoom_level = 1
     description = ""
     link = ""

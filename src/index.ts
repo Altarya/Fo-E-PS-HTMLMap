@@ -8,9 +8,12 @@ import { setupFeatures } from "./features";
 import { setupLayers } from "./layers";
 import { setupRivers } from "./river";
 import { setupLines } from "./lines";
+import terminator from "./daynight";
+import AutoGraticule from "leaflet-auto-graticule";
+import betterscale from "./scalebar";
 
 var Lextra: any;
-let centerOfMap = new L.LatLng(3374, 3339)
+let centerOfMap = new L.LatLng(0, 0)
 let partyIcon = new L.Icon({
     iconSize:     [48, 48],
     shadowSize:   [0, 0],
@@ -27,10 +30,11 @@ var markerParty = L.marker(centerOfMap, {
     title: "Party Location",
 }).bindTooltip(tooltip)
 var map = new L.Map('map', {
-    crs: L.CRS.Simple,
+    //crs: L.CRS.Simple,
+    crs: L.CRS.EPSG4326,
     center: centerOfMap,
-    zoom: 0,
-    minZoom: -3
+    zoom: 5,
+    minZoom: 2
 });
 
 if (typeof exports === 'object') {
@@ -65,8 +69,8 @@ fetch(Config.configPath+"main.toml").then((response => {
 
                 let mapSize: [number, number] = CONFIG.get("map_size")
 
-                var southWest: LatLngExpression = new L.LatLng(0, 0)
-                var northEast: LatLngExpression = new L.LatLng(mapSize[0], mapSize[1])
+                var southWest: LatLngExpression = new L.LatLng(-90, -180)
+                var northEast: LatLngExpression = new L.LatLng(90, 180)
 
                 const terrain = L.imageOverlay(
                     './assets/layers/terrain.webp', 
@@ -102,26 +106,26 @@ fetch(Config.configPath+"main.toml").then((response => {
 
                 map.on('click', (e: LeafletMouseEvent) => {
                     locMarker.setLatLng(e.latlng)
-                    .bindPopup(e.latlng.lat + " " + e.latlng.lng + " Latitude and Longitude")
+                    .bindPopup(e.latlng.lat + ", " + e.latlng.lng + " Lat and Lng<p>" + ((e.latlng.lat+90)/180)*mapSize[0]+ ", " + ((e.latlng.lat+180)/360)*mapSize[1]+" X/Y</p>")
                     .addTo(map)
                     .openPopup();
                 });
                 locMarker.on('drag', (e: LeafletMouseEvent) => {
                     locMarker.setLatLng(e.latlng)
-                    .bindPopup(e.latlng.lat + " " + e.latlng.lng + " Latitude and Longitude")
+                    .bindPopup(e.latlng.lat + ", " + e.latlng.lng + " Lat and Lng<p>" + ((e.latlng.lat+90)/180)*mapSize[0]+ ", " + ((e.latlng.lat+180)/360)*mapSize[1]+" X/Y</p>") 
                     .addTo(map)
                     .openPopup();
                 });
 
                 layerController.addBaseLayer(terrain, "Terrain")
 
-                var poiLayer = setupPOI(map, layerController, mainConfigMap)
-                var featuresLayer = setupFeatures(layerController, mainConfigMap)
-                var riversLayer = setupRivers(layerController, mainConfigMap)
-                var linesLayer = setupLines(layerController, mainConfigMap).addTo(map)
+                var poiLayer = setupPOI(map, layerController, mainConfigMap, mapSize)
+                var featuresLayer = setupFeatures(layerController, mainConfigMap, mapSize)
+                var riversLayer = setupRivers(layerController, mainConfigMap, mapSize)
+                var linesLayer = setupLines(layerController, mainConfigMap, mapSize).addTo(map)
 
                 var searchLayers = L.layerGroup([poiLayer, featuresLayer])
-                map.addControl( new Lextra.Control.Search({layer: searchLayers, zoom: 5, initial: false}) );
+                map.addControl( new Lextra.Control.Search({layer: searchLayers, zoom: 10, initial: false}) );
                 console.log("Loaded Search")
 
                 var options = {
@@ -137,13 +141,13 @@ fetch(Config.configPath+"main.toml").then((response => {
                     lengthUnit: {                 // You can use custom length units. Default unit is kilometers.
                         display: 'km',              // This is the display value will be shown on the screen. Example: 'meters'
                         decimal: 2,                 // Distance result will be fixed to this value. 
-                        factor: 0.05,               // This value will be used to convert from kilometers. Example: 1000 (from kilometers to meters)  
+                        factor: 1,               // This value will be used to convert from kilometers. Example: 1000 (from kilometers to meters)  
                         label: 'Distance:'           
                     },
                     angleUnit: {
                         display: '&deg;',           // This is the display value will be shown on the screen. Example: 'Gradian'
                         decimal: 2,                 // Bearing result will be fixed to this value.
-                        factor: 0.05,                // This option is required to customize angle unit. Specify solid angle value for angle unit. Example: 400 (for gradian).
+                        factor: 1,                // This option is required to customize angle unit. Specify solid angle value for angle unit. Example: 400 (for gradian).
                         label: 'Bearing:'
                     }
                 };
@@ -161,7 +165,10 @@ fetch(Config.configPath+"main.toml").then((response => {
                 const isPartyEnabled: boolean = CONFIG.get("enable_party_indicator")
 
                 if (isPartyEnabled) {
-                    const defaultPos: [number, number] = CONFIG.get("default_party_indicator")
+                    let defaultPos: [number, number] = CONFIG.get("default_party_indicator")
+
+                    defaultPos[0] = ((defaultPos[0]/mapSize[0])*180)-90
+                    defaultPos[1] = ((defaultPos[1]/mapSize[1])*360)-180
 
                     markerParty.setLatLng(defaultPos).addTo(map)
 
@@ -209,6 +216,31 @@ fetch(Config.configPath+"main.toml").then((response => {
                             "]\n"
                         saveAs(new File([serialPos], "party-pos.toml", {type: "text/plain;charset=utf-8"}));
                     })
+                }
+
+                var daynight = terminator({
+                    interactive: true
+                })
+
+                layerController.addOverlay(daynight, "Day/Night")
+
+                var graticule = new AutoGraticule();
+
+                layerController.addOverlay(graticule, "Lat/Lng Graticule")
+
+                const isBetterscaleEnabled: boolean = CONFIG.get("enable_better_scalebar")
+                if (isBetterscaleEnabled) {
+                    betterscale({
+                        metric: 1,
+                        imperial: 0
+                    }).addTo(map)
+                }
+
+                const isScaleEnabled: boolean = CONFIG.get("enable_leaflet_scalebar")
+                if (isScaleEnabled) {
+                    L.control.scale({
+                        imperial: false
+                    }).addTo(map);
                 }
 
             } catch (error) {

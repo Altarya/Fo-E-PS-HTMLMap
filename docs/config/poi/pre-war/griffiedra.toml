@@ -1,8 +1,8 @@
 [Griffiedra]
     name = "Griffiedra (Griffonstone)"
     class ="pre-war-capital"
-    lat = 3208
-    lng = 4415
+    x = 3208
+    y = 4415
     zoom_level = 0
     description = ""
     link = ""
@@ -10,8 +10,8 @@
 [Garrid]
     name = "Garrid"
     class = "city"
-    lat = 3186
-    lng = 4494
+    x = 3186
+    y = 4494
     zoom_level = 1
     description = ""
     link = ""
@@ -19,8 +19,8 @@
 [Zarapluma]
     name = "Zarapluma"
     class = "city"
-    lat = 3014
-    lng = 4343
+    x = 3014
+    y = 4343
     zoom_level = 1
     description = ""
     link = ""
@@ -28,8 +28,8 @@
 [LasPatas]
     name = "Las Patas"
     class = "city"
-    lat = 3121
-    lng = 4256
+    x = 3121
+    y = 4256
     zoom_level = 1
     description = ""
     link = ""
@@ -37,8 +37,8 @@
 [Patarlona]
     name = "Patarlona"
     class = "city"
-    lat = 3196
-    lng = 4150
+    x = 3196
+    y = 4150
     zoom_level = 1
     description = ""
     link = ""
@@ -46,8 +46,8 @@
 [Sevala]
     name = "Sevala"
     class = "city"
-    lat = 3209
-    lng = 4071
+    x = 3209
+    y = 4071
     zoom_level = 1
     description = ""
     link = ""
@@ -55,8 +55,8 @@
 [Grifencia]
     name = "Griféncia"
     class = "city"
-    lat = 3284
-    lng = 4075
+    x = 3284
+    y = 4075
     zoom_level = 1
     description = ""
     link = ""
@@ -64,8 +64,8 @@
 [Picao]
     name = "Picao"
     class = "city"
-    lat = 3278
-    lng = 4280
+    x = 3278
+    y = 4280
     zoom_level = 1
     description = ""
     link = ""
@@ -73,8 +73,8 @@
 [VitoriaGabriela]
     name = "Vitoria-Gabriela"
     class = "city"
-    lat = 3484
-    lng = 4384
+    x = 3484
+    y = 4384
     zoom_level = 1
     description = ""
     link = ""
@@ -82,8 +82,8 @@
 [Trotenedo]
     name = "Troteñedo"
     class = "city"
-    lat = 3517
-    lng = 4169
+    x = 3517
+    y = 4169
     zoom_level = 1
     description = ""
     link = ""

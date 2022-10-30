@@ -1,8 +1,8 @@
 [MuseoDeArtesYCienciasDeGrifencia]
     name = "Museo de Artes y Ciencias de Griféncia"
     class = "intra-settlement"
-    lat = 3289
-    lng = 4070
+    x = 3289
+    y = 4070
     zoom_level = 2
     description = "A magnificent advanced museum, featuring live virtual reality rooms and a plethora of artifacts, said to be extremelly dangerous but filled with valuable loot. Name means: Museum of Arts and Sciences of Grifencia."
     link = ""
@@ -10,8 +10,8 @@
 [PuertoDeGrifencia]
     name = "Puerto de Griféncia"
     class = "intra-settlement"
-    lat = 3282
-    lng = 4066
+    x = 3282
+    y = 4066
     zoom_level = 3
     description = "A very active port for the settlement of Bastión. Name means: Grifencia Port."
     link = ""
@@ -19,8 +19,8 @@
 [FortalezaDorada]
     name = "Fortaleza Dorada"
     class = "intra-settlement"
-    lat = 3285
-    lng = 4075
+    x = 3285
+    y = 4075
     zoom_level = 3
     description = "The home of the duchess of Bastión. Name means: Golden Fortress."
     link = ""
@@ -28,8 +28,8 @@
 [LaPataDeOro]
     name = "La Pata de Oro"
     class = "intra-settlement"
-    lat = 3288
-    lng = 4067
+    x = 3288
+    y = 4067
     zoom_level = 3
     description = "A small but quite popular bar famous for its discounts. Owned by a griffon named Amanda and managed by her daughter Clara. Name means: The Golden Paw."
     link = ""

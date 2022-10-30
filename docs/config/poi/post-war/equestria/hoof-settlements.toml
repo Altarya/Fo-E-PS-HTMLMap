@@ -1,8 +1,8 @@
 [Chapel]
     name = "Chapel"
     class = "settlement"
-    lat = 3450
-    lng = 3705
+    x = 3450
+    y = 3705
     zoom_level = 2
     description = "Home of the <a href='https://falloutequestria.fandom.com/wiki/Crusaders_(Project_Horizons)'>Crusaders.</a><p><img src='https://static.wikia.nocookie.net/falloutequestria/images/2/22/Hoofington_Crusaders.png' style='height: 160px;'></img></p> <p>Image by: DotRook</p>"
     link = ""
@@ -10,8 +10,8 @@
 [Flotsam]
     name = "Flotsam"
     class = "settlement"
-    lat = 3441
-    lng = 3709
+    x = 3441
+    y = 3709
     zoom_level = 2
     description = "A small settlement built over a floating platform."
     link = ""
@@ -19,8 +19,8 @@
 [Megamart]
     name = "Megamart"
     class = "settlement"
-    lat = 3439
-    lng = 3698
+    x = 3439
+    y = 3698
     zoom_level = 1
     description = "<a href='https://falloutequestria.fandom.com/wiki/Bottlecap_(Project_Horizons)'>Bottlecap</a>'s settlement, built on trade of goods."
     link = ""
@@ -28,8 +28,8 @@
 [Paradise]
     name = "Paradise"
     class = "settlement redeye"
-    lat = 3470
-    lng = 3647
+    x = 3470
+    y = 3647
     zoom_level = 1
     description = "<a href='https://falloutequestria.fandom.com/wiki/Usury_(Project_Horizons)'>Usury</a>'s settlement, built on slave trade."
     link = ""
@@ -37,8 +37,8 @@
 [Flank]
     name = "Flank"
     class = "settlement"
-    lat = 3461
-    lng = 3691
+    x = 3461
+    y = 3691
     zoom_level = 1
     description = "<a href='https://falloutequestria.fandom.com/wiki/Caprice_(Project_Horizons)'>Caprice</a>'s settlement, built on prostitution."
     link = ""
@@ -46,8 +46,8 @@
 [Boardwalk]
     name = "Boardwalk"
     class = "settlement"
-    lat = 3430
-    lng = 3695
+    x = 3430
+    y = 3695
     zoom_level = 2
     description = "A small settlement built on old docks."
     link = ""
@@ -55,8 +55,8 @@
 [Riverside]
     name = "Riverside"
     class = "settlement"
-    lat = 3443
-    lng = 3707
+    x = 3443
+    y = 3707
     zoom_level = 2
     description = "A small hellhound/diamond dog settlement."
     link = ""
@@ -64,8 +64,8 @@
 [Thunderhead]
     name = "Thunderhead"
     class = "settlement enclave"
-    lat = 3448
-    lng = 3711
+    x = 3448
+    y = 3711
     zoom_level = 1
     description = "A city to rival Neighvarro, Thunderhead is one of the Enclave's most powerfull cities and the most technologically advanced. <a href='https://falloutequestria.fandom.com/wiki/Morning_Glory_(Project_Horizons)'>Morning Glory</a>'s home"
     link = "https://falloutequestria.fandom.com/wiki/Thunderhead_(Project_Horizons)"
@@ -73,8 +73,8 @@
 [HoofingtonSportsArena]
     name = "Hoofington Sports Arena"
     class = "settlement"
-    lat = 3441
-    lng = 3701
+    x = 3441
+    y = 3701
     zoom_level = 2
     description = "The H.Q. of the <a href='https://falloutequestria.fandom.com/wiki/Reapers_(Project_Horizons)'>Reapers</a>. <p><img src='https://static.wikia.nocookie.net/falloutequestria/images/6/66/Reapersfactiondotrook.png' style='height: 160px;'></img></p> <p>Image by: DotRook</p>"
     link = ""
@@ -82,8 +82,8 @@
 [IronmareNavalStation]
     name = "Ironmare Naval Station"
     class = "settlement steelranger"
-    lat = 3436
-    lng = 3716
+    x = 3436
+    y = 3716
     zoom_level = 2
     description = "The base of operations for the Hoofington Steel Rangers branch."
     link = ""
@@ -91,8 +91,8 @@
 [RosehoofAcademy]
     name = "Rosehoof Academy"
     class = "settlement"
-    lat = 3456.5
-    lng = 3698
+    x = 3456.5
+    y = 3698
     zoom_level = 2
     description = "The old university of hoofington now the home base of the <a href='https://falloutequestria.fandom.com/wiki/Collegiate_(Project_Horizons)'>The Collegiate</a>.<p><img src='https://static.wikia.nocookie.net/falloutequestria/images/6/6a/Collegiatefactiondotrook.png' style='height: 160px;'></img></p> <p>Image by: DotRook</p>"
     link = "https://falloutequestria.fandom.com/wiki/University_(Project_Horizons)"
@@ -100,8 +100,8 @@
 [Stable152]
     name = "Stable 152"
     class = "settlement stable"
-    lat = 3455
-    lng = 3690
+    x = 3455
+    y = 3690
     zoom_level = 2
     description = "An active sealed millitary stable, one of the largest stables."
     link = ""
@@ -109,8 +109,8 @@
 [BrimstonesFall]
     name = "Brimstone's Fall"
     class = "settlement redeye"
-    lat = 3457
-    lng = 3695
+    x = 3457
+    y = 3695
     zoom_level = 2
     description = "A medium slaver settlement."
     link = ""
@@ -118,8 +118,8 @@
 [Stockyard]
     name = "Stockyard"
     class = "settlement"
-    lat = 3449
-    lng = 3689
+    x = 3449
+    y = 3689
     zoom_level = 2
     description = "A small settlement built over a trash pit."
     link = ""
@@ -127,8 +127,8 @@
 [Meatlocker]
     name = "Meatlocker"
     class = "settlement"
-    lat = 3441
-    lng = 3722
+    x = 3441
+    y = 3722
     zoom_level = 2
     description = "A ghoul settlement built on an old industrial meat killing place."
     link = ""
@@ -136,8 +136,8 @@
 [NightmareCastle]
     name = "Nightmare Castle"
     class = "settlement"
-    lat = 3454.9375
-    lng = 3726.5625
+    x = 3454.9375
+    y = 3726.5625
     zoom_level = 2
     description = "Princess Luna's ancient castle, now used as a sort of stable by the descendants of the night guard. Very inbred."
     link = ""
@@ -145,8 +145,8 @@
 [ElysiumResort]
     name = "Elysium Resort"
     class = "settlement"
-    lat = 3471.5
-    lng = 3682.25
+    x = 3471.5
+    y = 3682.25
     zoom_level = 1
     description = "The luxury resort turned serf plantation settlement, owned by <a href='https://falloutequestria.fandom.com/wiki/Society_(Project_Horizons)'>The Society</a>.<img src='https://static.wikia.nocookie.net/falloutequestria/images/5/5a/Societyfactiondotrook.png' style='height: 160px;'></img> Image by: DotRook"
     link = ""
@@ -154,8 +154,8 @@
 [Highlands]
     name = "The Highlands"
     class = "settlement"
-    lat = 3463
-    lng = 3724
+    x = 3463
+    y = 3724
     zoom_level = 1
     description = "The home of the odd earth ponies known as the Highlanders whose existence extends far before The Great War, they are fiercly independent."
     link = "https://falloutequestria.fandom.com/wiki/Highlanders_(Project_Horizons)"
@@ -163,8 +163,8 @@
 [ShawdowboltTower]
     name = "Shadowbolt Tower"
     class = "settlement"
-    lat = 3449
-    lng = 3710
+    x = 3449
+    y = 3710
     zoom_level = 3
     description = "The very very very tall sky scraper on the hoofington core that pierces the clouds and goes right through Thunderhead, it was owned by the Ministry of Awesome.<p><img src='https://static.wikia.nocookie.net/falloutequestria/images/7/77/Shadowbolt_Tower.png' style='height: 160px;'></img></p> <p>Image by: Marktwain</p>"
     link = "https://falloutequestria.fandom.com/wiki/Shadowbolt_Tower_(Project_Horizons)"
@@ -172,8 +172,8 @@
 [FillydelphiaFunFarm]
     name = "Fillidelphia Fun Farm"
     class = "settlement redeye"
-    lat = 3372
-    lng = 3546
+    x = 3372
+    y = 3546
     zoom_level = 1
     description = "A large slaver settlement controlled by <a href='https://falloutequestria.fandom.com/wiki/Red_Eye'>Red Eye.</a>"
     link = "https://falloutequestria.fandom.com/wiki/Fillydelphia_FunFarm"

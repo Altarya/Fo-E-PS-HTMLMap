@@ -1,8 +1,8 @@
 [Kharkhoof]
     name = "Kharkhoof"
     class = "settlement"
-    lat = 3860
-    lng = 3817
+    x = 3860
+    y = 3817
     zoom_level = 1
     description = ""
     link = ""

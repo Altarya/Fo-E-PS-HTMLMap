@@ -1,8 +1,8 @@
 [FabricaDeBatatas]
     name = "Fábrica de Batatas"
     class = "misc-poi"
-    lat = 2977
-    lng = 2989
+    x = 2977
+    y = 2989
     zoom_level = 2
     description = "An old massive potato factory, it kinda smells. Name means: Potato Factory."
     link = ""
@@ -10,8 +10,8 @@
 [MansaoCarangueijo]
     name = "Mansão Carangueijo"
     class = "misc-poi"
-    lat = 3007
-    lng = 3024
+    x = 3007
+    y = 3024
     zoom_level = 2
     description = "Also known as Crab Manor, an old seapony manor."
     link = ""

@@ -1,8 +1,8 @@
 [Stable99]
     name = "Stable 99"
     class = "misc-poi stable"
-    lat = 3437
-    lng = 3689
+    x = 3437
+    y = 3689
     zoom_level = 2
     description = "<a href='https://falloutequestria.fandom.com/wiki/Blackjack_(Project_Horizons)'>Blackjack</a>'s and <a href='https://falloutequestria.fandom.com/wiki/P-21_(Project_Horizons)'>P-21</a>'s now inactive stable."
     link = "https://falloutequestria.fandom.com/wiki/Stable_99_(Project_Horizons)"
@@ -10,8 +10,8 @@
 [Stable90]
     name = "Stable 90"
     class = "misc-poi stable"
-    lat = 3458
-    lng = 3693
+    x = 3458
+    y = 3693
     zoom_level = 2
     description = "An abandoned stable that lacked... pretty much all of its infrastructure which caused all of its inhabitants to die."
     link = "https://falloutequestria.fandom.com/wiki/Stable_90_(Project_Horizons)"
@@ -19,8 +19,8 @@
 [BoomInc]
     name = "BOOM Inc."
     class = "misc-poi"
-    lat = 3459
-    lng = 3689
+    x = 3459
+    y = 3689
     zoom_level = 3
     description = "An old explosives factory."
     link = ""
@@ -28,8 +28,8 @@
 [Well33]
     name = "Well 33"
     class = "misc-poi"
-    lat = 3458
-    lng = 3690
+    x = 3458
+    y = 3690
     zoom_level = 3
     description = ""
     link = ""
@@ -37,8 +37,8 @@
 [MiramareAirStation]
     name = "Miramare Air Station"
     class = "misc-poi"
-    lat = 3458.5
-    lng = 3691
+    x = 3458.5
+    y = 3691
     zoom_level = 3
     description = "A wartime millitary airbase, famously used by <a href='https://falloutequestria.fandom.com/wiki/Macintosh%27s_Marauders_(Project_Horizons)'>Macintosh's Marauders</a>"
     link = ""
@@ -46,8 +46,8 @@
 [HippocampusSparkStation]
     name = "Hippocampus Spark Station"
     class = "misc-poi"
-    lat = 3451
-    lng = 3693
+    x = 3451
+    y = 3693
     zoom_level = 3
     description = "An old poower station. Nowdays used by <a href='https://falloutequestria.fandom.com/wiki/Sanguine_(Project_Horizons)'>Sanguine.</a>"
     link = ""
@@ -55,8 +55,8 @@
 [FluttershyMedicalCenter]
     name = "Fluttershy Medical Center"
     class = "intra-settlement"
-    lat = 3445
-    lng = 3692
+    x = 3445
+    y = 3692
     zoom_level = 2
     description = "A very large hospital in Hoofington, know to be extremelly dangerous but filled with untapped loot."
     link = ""
@@ -64,8 +64,8 @@
 [IronshodRnD]
     name = "Ironshod R&D"
     class = "intra-settlement"
-    lat = 3438
-    lng = 3667
+    x = 3438
+    y = 3667
     zoom_level = 3
     description = "The R&D department of Ironshod Firearms."
     link = ""
@@ -73,8 +73,8 @@
 [HippocracticResearch]
     name = "Hippocractic Research"
     class = "intra-settlement"
-    lat = 3456
-    lng = 3712
+    x = 3456
+    y = 3712
     zoom_level = 3
     description = "Flim and Flam's old fflux factory, nowdays know for its absurd amount of taint and killing joke."
     link = ""
@@ -82,8 +82,8 @@
 [HMSLunaWreck]
     name = "HMS Luna Wreck"
     class = "misc-poi"
-    lat = 3433
-    lng = 3712
+    x = 3433
+    y = 3712
     zoom_level = 3
     description = "The wreck of a large equestrian battleship."
     link = ""
@@ -91,8 +91,8 @@
 [HoofingtonWeekly]
     name = "Hoofington Weekly"
     class = "intra-settlement"
-    lat = 3441
-    lng = 3692
+    x = 3441
+    y = 3692
     zoom_level = 3
     description = "The building for a pre-war newspaper company. Was also a front for the Ministry of Image."
     link = ""
@@ -100,8 +100,8 @@
 [Boneyard]
     name = "Boneyard"
     class = "misc-poi radiation"
-    lat = 3429
-    lng = 3688
+    x = 3429
+    y = 3688
     zoom_level = 3
     description = "A literal yard of bones from the ponies who tried to run to Manehattan and Fillydelphia and couldn't make it."
     link = ""
@@ -109,8 +109,8 @@
 [Stable53]
     name = "Stable 53"
     class = "misc-poi stable"
-    lat = 3433
-    lng = 3658
+    x = 3433
+    y = 3658
     zoom_level = 2
     description = "A nearly dead stable made up mainly of dragons and sphinxes... It's Alpha/Datara's terrible terrible home."
     link = ""
@@ -118,8 +118,8 @@
 [RepconRocketLtd]
     name = "Repcon Rockets Ltd."
     class = "misc-poi"
-    lat = 3432
-    lng = 3661
+    x = 3432
+    y = 3661
     zoom_level = 3
     description = "The main factory of Smoulder's Repcon Rockets."
     link = ""
@@ -127,8 +127,8 @@
 [PoseidonElectricsFactoy]
     name = "Poseidon Electrics Factory"
     class = "misc-poi"
-    lat = 3426
-    lng = 3665
+    x = 3426
+    y = 3665
     zoom_level = 3
     description = "A very large electrics factory."
     link = ""
@@ -136,8 +136,8 @@
 [OIABuilding]
     name = "O.I.A. H.Q."
     class = "intra-settlement"
-    lat = 3456
-    lng = 3683
+    x = 3456
+    y = 3683
     zoom_level = 2
     description = "The main unassuming head quarters of the <a href='https://falloutequestria.fandom.com/wiki/Office_of_Interministry_Affairs_(Project_Horizons)'>O.I.A.</a>"
     link = ""
@@ -145,8 +145,8 @@
 [BlacktapeFacility]
     name = "Blacktape Facility"
     class = "misc-poi ezp"
-    lat = 3454
-    lng = 3684
+    x = 3454
+    y = 3684
     zoom_level = 3
     description = "The site of a crashed spaceship of sorts underground with several <a style='color: red;'>c</a><a style='color: brown;'>o</a><a style='color: cyan;'>l</a><a style='color: blue;'>o</a><a style='color: purple;'>u</a><a style='color: yellow;'>r</a> coded projects."
     link = ""
@@ -154,8 +154,8 @@
 [EAMSStation7]
     name = "E.A.M.S. Station 7"
     class = "intra-settlement eams"
-    lat = 3428
-    lng = 3723
+    x = 3428
+    y = 3723
     zoom_level = 2
     description = ""
     link = ""
@@ -163,8 +163,8 @@
 [IsolatedFarmstead]
     name = "Isolated Farmstead"
     class = "intra-settlement"
-    lat = 3448
-    lng = 3696
+    x = 3448
+    y = 3696
     zoom_level = 3
     description = "An isolated unassuming farm house."
     link = ""
@@ -172,8 +172,8 @@
 [MASEBS13]
     name = "M.A.S.E.B.S. Tower 13"
     class = "intra-settlement"
-    lat = 3445
-    lng = 3698
+    x = 3445
+    y = 3698
     zoom_level = 3
     description = ""
     link = ""
@@ -181,8 +181,8 @@
 [MASEBS14]
     name = "M.A.S.E.B.S. Tower 14"
     class = "intra-settlement"
-    lat = 3435
-    lng = 3699
+    x = 3435
+    y = 3699
     zoom_level = 3
     description = ""
     link = ""
@@ -190,8 +190,8 @@
 [LunaDam]
     name = "Luna Dam"
     class = "misc-poi"
-    lat = 3442
-    lng = 3713
+    x = 3442
+    y = 3713
     zoom_level = 3
     description = "Hoofington's eastern hydroelectric dam."
     link = ""
@@ -199,8 +199,8 @@
 [CelestiaDam]
     name = "Celestia Dam"
     class = "misc-poi"
-    lat = 3442
-    lng = 3709
+    x = 3442
+    y = 3709
     zoom_level = 3
     description = "Hoofington's western hydroelectric dam."
     link = ""
@@ -208,8 +208,8 @@
 [HoofingtonCore]
     name = "Hoofington Core"
     class = "misc-poi"
-    lat = 3450
-    lng = 3711
+    x = 3450
+    y = 3711
     zoom_level = 2
     description = "The cursed core of the city of Hoofington, one of the deadliest places in The Wasteland.<p><img src='https://static.wikia.nocookie.net/falloutequestria/images/f/f6/Foe_ph_hoofington_by_theomegaridley-d6td5aw.png' style='height: 160px;'></img></p> <p>Image by: TheOmegaRidley</p>"
     link = ""
@@ -217,8 +217,8 @@
 [HightowerPrison]
     name = "Hightower Prison"
     class = "intra-settlement radiation"
-    lat = 3445
-    lng = 3719
+    x = 3445
+    y = 3719
     zoom_level = 2
     description = "A very fucked up wartime prison."
     link = ""
@@ -226,8 +226,8 @@
 [MuseumOfNaturalHistory]
     name = "Museum Of Natural History"
     class = "intra-settlement"
-    lat = 3449
-    lng = 3704
+    x = 3449
+    y = 3704
     zoom_level = 3
     description = "A a pre-war museum, featuring prehistoric fossils."
     link = ""
@@ -235,8 +235,8 @@
 [GreenLineAccess]
     name = "Green Line Access"
     class = "intra-settlement"
-    lat = 3446
-    lng = 3705
+    x = 3446
+    y = 3705
     zoom_level = 3
     description = "A monorail line going between outer Hoofington and the Core."
     link = ""
@@ -244,8 +244,8 @@
 [BluebloodEstate]
     name = "Blueblood Estate"
     class = "intra-settlement"
-    lat = 3444
-    lng = 3704
+    x = 3444
+    y = 3704
     zoom_level = 3
     description = "The old manor of thee Blueblood familly."
     link = ""
@@ -253,8 +253,8 @@
 [StarHouse]
     name = "Star House"
     class = "intra-settlement"
-    lat = 3451
-    lng = 3704
+    x = 3451
+    y = 3704
     zoom_level = 3
     description = "<a href='https://falloutequestria.fandom.com/wiki/Rampage_(Project_Horizons)'>Arloste</a>'s old house."
     link = ""
@@ -262,8 +262,8 @@
 [SPPTowerHoofington]
     name = "S.P.P. Tower Hoofington"
     class = "intra-settlement"
-    lat = 3452
-    lng = 3711
+    x = 3452
+    y = 3711
     zoom_level = 3
     description = ""
     link = ""
@@ -271,8 +271,8 @@
 [StableTecHQ]
     name = "Stable-Tec H.Q."
     class = "intra-settlement"
-    lat = 3388
-    lng = 3559
+    x = 3388
+    y = 3559
     zoom_level = 1
     description = "The headquarters of Stable-Tec, a major wartime equestrian corporation famous for creating the stables and pipbucks."
     link = "https://falloutequestria.fandom.com/wiki/Stable-Tec_HQ"
@@ -280,8 +280,8 @@
 [Stable0]
     name = "Stable 0"
     class = "misc-poi stable"
-    lat = 3387
-    lng = 3562
+    x = 3387
+    y = 3562
     zoom_level = 2
     description = "The original test stable."
     link = "https://falloutequestria.fandom.com/wiki/Stable_0"
@@ -289,8 +289,8 @@
 [BankOfEquestria]
     name = "Bank of Equestria"
     class = "intra-settlement"
-    lat = 3382
-    lng = 3569
+    x = 3382
+    y = 3569
     zoom_level = 2
     description = "A large bank building for an old pre-war bank chain."
     link = ""
@@ -298,8 +298,8 @@
 [MOMHub]
     name = "M.O.M. Hub"
     class = "intra-settlement"
-    lat = 3362
-    lng = 3541
+    x = 3362
+    y = 3541
     zoom_level = 2
     description = "The hub of the Ministry of Morale in Fillydelphia"
     link = ""
@@ -307,8 +307,8 @@
 [ThePit]
     name = "The Pit"
     class = "intra-settlement redeye"
-    lat = 3365
-    lng = 3545
+    x = 3365
+    y = 3545
     zoom_level = 2
     description = "A fighting arena that used to be an ice skating ring."
     link = "https://falloutequestria.fandom.com/wiki/The_Pit"
@@ -316,8 +316,8 @@
 [AlphaOmegaHotel]
     name = "Alpha Omega Hotel"
     class = "intra-settlement"
-    lat = 3369
-    lng = 3557
+    x = 3369
+    y = 3557
     zoom_level = 2
     description = "An old pre-war luxury hotel."
     link = "https://falloutequestria.fandom.com/wiki/Alpha-Omega_Hotel"
@@ -325,8 +325,8 @@
 [TheRoamer]
     name = "The Roamer"
     class = "intra-settlement redeye"
-    lat = 3377
-    lng = 3566
+    x = 3377
+    y = 3566
     zoom_level = 2
     description = "The gates of the FunFarm."
     link = ""
@@ -334,8 +334,8 @@
 [SPPTowerFillydelphia]
     name = "S.P.P. Tower Fillydelphia"
     class = "intra-settlement"
-    lat = 3392
-    lng = 3573
+    x = 3392
+    y = 3573
     zoom_level = 2
     description = ""
     link = ""
@@ -343,8 +343,8 @@
 [FillidelphiaCrater]
     name = "Fillydelphia Crater"
     class = "misc-poi radiation"
-    lat = 3366
-    lng = 3552
+    x = 3366
+    y = 3552
     zoom_level = 2
     description = "The impact site of the balefire bomb that hit Filly."
     link = ""
@@ -352,8 +352,8 @@
 [StarPoint]
     name = "Star Point"
     class = "misc-poi"
-    lat = 3432
-    lng = 3718
+    x = 3432
+    y = 3718
     zoom_level = 2
     description = "A cliff watching over the ocean, very prone to maing ponies suicidal."
     link = ""
@@ -361,8 +361,8 @@
 [HoofingtonIndustrialCenter]
     name = "Hoofington Industrial Center"
     class = "misc-poi"
-    lat = 3430
-    lng = 3644
+    x = 3430
+    y = 3644
     zoom_level = 1
     description = "The industrial hub of Hoofington."
     link = ""
@@ -370,8 +370,8 @@
 [CharitysShop]
     name = "Charity's Shop"
     class = "intra-settlement shop"
-    lat = 3450.5
-    lng = 3705.5
+    x = 3450.5
+    y = 3705.5
     zoom_level = 3
     description = "A shop ran by a filly named Charity. Despite its name she is quite famously a price gouger."
     link = ""
@@ -379,8 +379,8 @@
 [BlackPonyountain]
     name = "Black Pony Mountain"
     class = "misc-poi"
-    lat = 3456 
-    lng = 3726
+    x = 3456 
+    y = 3726
     zoom_level = 1
     description = "A small 'mountain' that had its top completelly excavated."
     link = ""

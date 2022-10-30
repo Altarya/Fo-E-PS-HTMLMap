@@ -1,8 +1,8 @@
 [Stable9]
     name = "Stable 9"
     class = "misc-poi stable"
-    lat = 3307
-    lng = 3182
+    x = 3307
+    y = 3182
     zoom_level = 2
     description = "An old abandoned and sealed from the outside stable, a lot of bloodwings seem to live there."
     link = ""
@@ -10,8 +10,8 @@
 [Stable14]
     name = "Stable 14"
     class = "misc-poi stable"
-    lat = 3283
-    lng = 3183
+    x = 3283
+    y = 3183
     zoom_level = 2
     description = "An empty griffon stable now used as base by the Triggerponies."
     link = ""
@@ -19,8 +19,8 @@
 [HaloOnePowerStation]
     name = "Halo One Power Station"
     class = "misc-poi rnp"
-    lat = 3295
-    lng = 3192
+    x = 3295
+    y = 3192
     zoom_level = 2
     description = "A large solar updraft and underground hydroelectric power plant that is constantly being fought over by the R.N.P, Steel Rangers and Enclave."
     link = ""
@@ -28,8 +28,8 @@
 [JetblueSkyport]
     name = "Jetblue Skyport"
     class = "misc-poi rnp"
-    lat = 3303
-    lng = 3173
+    x = 3303
+    y = 3173
     zoom_level = 2
     description = "The old international airport of Los Pegasos, now used as a R.N.P. base."
     link = ""
@@ -37,8 +37,8 @@
 [NewPegasusDam]
     name = "New Pegasus Dam"
     class = "misc-poi rnp"
-    lat = 3330
-    lng = 3165
+    x = 3330
+    y = 3165
     zoom_level = 1
     description = "A very large hydroelectric power plant thats under the control of the R.N.P. with constant attack by the New Legion."
     link = ""
@@ -46,8 +46,8 @@
 [FnFTools]
     name = "F&F Tools"
     class = "misc-poi"
-    lat = 3316
-    lng = 3173
+    x = 3316
+    y = 3173
     zoom_level = 2
     description = "The old F&F factory."
     link = ""
@@ -55,8 +55,8 @@
 [GreenMistValley]
     name = "Green Mist Valley"
     class = "misc-poi radiation"
-    lat = 3352
-    lng = 3166
+    x = 3352
+    y = 3166
     zoom_level = 1
     description = "A vallley of radioactive myst filled with feral ghouls."
     link = ""
@@ -64,8 +64,8 @@
 [EAMSStation1]
     name = "E.A.M.S. Station 1"
     class = "intra-settlement eams"
-    lat = 3297
-    lng = 3157
+    x = 3297
+    y = 3157
     zoom_level = 2
     description = ""
     link = ""
@@ -73,8 +73,8 @@
 [QueensSchoolOfInterpretation]
     name = "Queen's School of Interpretation"
     class = "intra-settlement"
-    lat = 3262
-    lng = 3157
+    x = 3262
+    y = 3157
     zoom_level = 3
     description = "The H.Q. of The Queens, a former school of theatre."
     link = ""
@@ -82,8 +82,8 @@
 [VanDamns]
     name = "Van Damns'"
     class = "intra-settlement weapons"
-    lat = 3268
-    lng = 3162
+    x = 3268
+    y = 3162
     zoom_level = 3
     description = "A shady magical energy weapons story."
     link = ""
@@ -91,8 +91,8 @@
 [LuckyHorseshoe]
     name = "The Lucky Horseshoe"
     class = "intra-settlement casino"
-    lat = 3273
-    lng = 3157
+    x = 3273
+    y = 3157
     zoom_level = 3
     description = "The tallest building in New Pegasus and home of Mr. Tops, New Pegasus' mysterious controller. It used to be a bustling casino but now very few get to enter it."
     link = ""
@@ -100,8 +100,8 @@
 [DemocracysPalace]
     name = "Democracy's Palace"
     class = "intra-settlement rnp"
-    lat = 3276
-    lng = 3149
+    x = 3276
+    y = 3149
     zoom_level = 3
     description = "The presidential palace of the R.N.P. built over a massive luxury resort."
     link = ""
@@ -109,8 +109,8 @@
 [MatchnTariffs]
     name = "Match and Tariff's"
     class = "intra-settlement shop"
-    lat = 3266
-    lng = 3157
+    x = 3266
+    y = 3157
     zoom_level = 3
     description = "A general store owned by a stallion couple."
     link = ""
@@ -118,8 +118,8 @@
 [EmperorsPalace]
     name = "Emperor's Palace"
     class = "intra-settlement casino"
-    lat = 3272
-    lng = 3158
+    x = 3272
+    y = 3158
     zoom_level = 3
     description = "A large luxury casino built like a roaman building."
     link = ""
@@ -127,8 +127,8 @@
 [TheGrandRoyale]
     name = "The Grand Royale"
     class = "intra-settlement casino"
-    lat = 3271
-    lng = 3157
+    x = 3271
+    y = 3157
     zoom_level = 3
     description = "A V shaped casino with the creepiest of staff, all masked. Its meant to be a luxury semi-resort with a pool."
     link = ""
@@ -136,8 +136,8 @@
 [TheApplewoodResortnCasino]
     name = "The Applewood Resort & Casino"
     class = "intra-settlement casino"
-    lat = 3270
-    lng = 3158
+    x = 3270
+    y = 3158
     zoom_level = 3
     description = "A tacky casino filled to the brim with posters and imagery of pre-war celebrities."
     link = ""
@@ -145,8 +145,8 @@
 [Stable20Hotel]
     name = "Stable 20 Hotel"
     class = "intra-settlement stable"
-    lat = 3271.5
-    lng = 3154
+    x = 3271.5
+    y = 3154
     zoom_level = 3
     description = "A hotel built on what was New Pegasus' main stable."
     link = ""
@@ -154,8 +154,8 @@
 [HonestHeartsDetectiveAgency]
     name = "Honest Hearts Detective Agency"
     class = "intra-settlement"
-    lat = 3269
-    lng = 3153
+    x = 3269
+    y = 3153
     zoom_level = 3
     description = "A detective agency owned by a synth pony named Honest Hearts."
     link = ""
@@ -163,8 +163,8 @@
 [Stable97]
     name = "Stable 97"
     class = "misc-poi stable"
-    lat = 3394
-    lng = 2976
+    x = 3394
+    y = 2976
     zoom_level = 2
     description = "A reactivated stable by the Enclave for their 'Devil's Child' programme."
     link = ""
@@ -172,8 +172,8 @@
 [TwinCitiesDam]
     name = "Twin Cities Dam"
     class = "misc-poi enclave"
-    lat = 3391
-    lng = 3000
+    x = 3391
+    y = 3000
     zoom_level = 1
     description = "A large dam that powers both Saint's Parish and Whinneapolis."
     link = ""
@@ -181,8 +181,8 @@
 [LittlehornValley]
     name = "Littlehorn Valley"
     class = "misc-poi"
-    lat = 3256
-    lng = 2856
+    x = 3256
+    y = 2856
     zoom_level = 1
     description = "A valley famous for a massacre that took place at the early days of The Great War."
     link = ""
@@ -190,8 +190,8 @@
 [LunasSchoolForGiftedUnicorns]
     name = "Luna's School For Gifted Unicorns"
     class = "misc-poi"
-    lat = 3250
-    lng = 2856
+    x = 3250
+    y = 2856
     zoom_level = 2
     description = "A magic school for unicorns ran by Princess Luna, it was the site of a massacre."
     link = ""
@@ -199,8 +199,8 @@
 [KingdomsMansion]
     name = "Kingdom's Mansion"
     class = "intra-settlement lodge"
-    lat = 3395
-    lng = 3074
+    x = 3395
+    y = 3074
     zoom_level = 2
     description = "The house of Empress Sheena and Emperor Punch, features a very extensive medical complex."
     link = ""
@@ -208,8 +208,8 @@
 [AbsentRuins]
     name = "Absent Ruins"
     class = "misc-poi"
-    lat = 3392
-    lng = 3073
+    x = 3392
+    y = 3073
     zoom_level = 2
     description = "Ruins of the old pre-war city of Reinchester, now said to be haunted."
     link = ""
@@ -217,8 +217,8 @@
 [MASEBS10]
     name = "M.A.S.E.B.S. Tower 10"
     class = "misc-poi"
-    lat = 3345
-    lng = 3175
+    x = 3345
+    y = 3175
     zoom_level = 2
     description = ""
     link = ""
@@ -226,8 +226,8 @@
 [FirstBoulevard]
     name = "First Boulevard"
     class = "intra-settlement"
-    lat = 3380
-    lng = 2991
+    x = 3380
+    y = 2991
     zoom_level = 2
     description = "The wealthiest part of Whinnieapolis"
     link = ""
@@ -235,8 +235,8 @@
 [KingdomsMedicalWing]
     name = "Kingdom's Medical Wing"
     class = "intra-settlement medical"
-    lat = 3395.21875
-    lng = 3073.40625
+    x = 3395.21875
+    y = 3073.40625
     zoom_level = 3
     description = "One of the largest collections off medical staff in the wasteland."
     link = ""
@@ -244,8 +244,8 @@
 [SilverSnipsArmoury]
     name = "Silver Snip's Armoury"
     class = "intra-settlement armour"
-    lat = 3341.734375
-    lng = 3177.296875
+    x = 3341.734375
+    y = 3177.296875
     zoom_level = 3
     description = "A small tailor shop owned by an unicorn mare named Silver Snip."
     link = ""
@@ -253,8 +253,8 @@
 [PurpleHeartClinic]
     name = "Purple Heart Clinic"
     class = "intra-settlement medical"
-    lat = 3342.640625
-    lng = 3177.0703125
+    x = 3342.640625
+    y = 3177.0703125
     zoom_level = 3
     description = "A small clinic owned by an unicorn stallion named Purple Heart."
     link = ""
@@ -262,8 +262,8 @@
 [DriftsPlace]
     name = "Drift's Place"
     class = "intra-settlement shop"
-    lat = 3342.25
-    lng = 3176.90625
+    x = 3342.25
+    y = 3176.90625
     zoom_level = 3
     description = "A small shop owned by a ghoul stallion named Drift Fast."
     link = ""
@@ -271,8 +271,8 @@
 [MommasGuns]
     name = "Momma's guns"
     class = "intra-settlement weapons"
-    lat = 3342.40625
-    lng = 3176.8125
+    x = 3342.40625
+    y = 3176.8125
     zoom_level = 3
     description = "A small weapons store owned by a mare named Redheart."
     link = ""
@@ -280,8 +280,8 @@
 [EquestrianExpress]
     name = "Equestrian Express"
     class = "intra-settlement"
-    lat = 3341.390625
-    lng = 3177.390625
+    x = 3341.390625
+    y = 3177.390625
     zoom_level = 3
     description = "The main place for the Equestrian Express courier service owned by an old earth pony stallion named Box Tape."
     link = ""
@@ -289,8 +289,8 @@
 [GrimsShack]
     name = "Grim's Shack"
     class = "intra-settlement"
-    lat = 3270.1875
-    lng = 3183.5
+    x = 3270.1875
+    y = 3183.5
     zoom_level = 3
     description = "An old run down shack that used to be a repair shop owned by a unicorn nammed Grimoire Spell."
     link = ""
@@ -298,8 +298,8 @@
 [EnclaveSkyport]
     name = "Enclave Skyport"
     class = "intra-settlement enclave"
-    lat = 3275.09375
-    lng = 3156.78125
+    x = 3275.09375
+    y = 3156.78125
     zoom_level = 3
     description = "The last functional cloud elevator in New Pegasus, turned basically the official embassy of the Enclave in the city."
     link = ""
@@ -307,8 +307,8 @@
 [Stable34]
     name = "Stable 34"
     class = "misc-poi stable"
-    lat = 3268.25
-    lng = 3184.15625
+    x = 3268.25
+    y = 3184.15625
     zoom_level = 2
     description = "The old stable where The Anihilators are from, now owned by Trotston which has sparked a fierce rivalry between the two."
     link = ""

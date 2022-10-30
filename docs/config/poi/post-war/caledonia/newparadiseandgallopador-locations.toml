@@ -1,8 +1,8 @@
 [Stable102]
     name = "Stable 102"
     class = "misc-poi stable"
-    lat = 3705
-    lng = 3941
+    x = 3705
+    y = 3941
     zoom_level = 2
     description = ""
     link = ""
@@ -10,8 +10,8 @@
 [Stable123]
     name = "Stable 123"
     class = "misc-poi stable"
-    lat = 3767
-    lng = 3938
+    x = 3767
+    y = 3938
     zoom_level = 2
     description = ""
     link = ""
@@ -19,8 +19,8 @@
 [EAMSStation3]
     name = "E.A.M.S. Station 3"
     class = "intra-settlement eams"
-    lat = 3723
-    lng = 3924
+    x = 3723
+    y = 3924
     zoom_level = 2
     description = ""
     link = ""
@@ -28,8 +28,8 @@
 [TheGreatWarMuseum]
     name = "The Great War Museum"
     class = "intra-settlement nca"
-    lat = 3696
-    lng = 3952
+    x = 3696
+    y = 3952
     zoom_level = 2
     description = "A grand war museum with several originals, including boats!"
     link = ""
@@ -37,8 +37,8 @@
 [DiseFlightAcademy]
     name = "Dise Flight Academy"
     class = "intra-settlement enclave"
-    lat = 3736
-    lng = 3975
+    x = 3736
+    y = 3975
     zoom_level = 3
     description = "The home base of the enclave remnants of Caledonia."
     link = ""
@@ -46,8 +46,8 @@
 [NCAEmbassy]
     name = "NCA Embassy"
     class = "intra-settlement nca"
-    lat = 3737
-    lng = 3978
+    x = 3737
+    y = 3978
     zoom_level = 3
     description = "The embassy of New Caledonia Alliance."
     link = ""
@@ -55,8 +55,8 @@
 [PhotoFinishsStudio]
     name = "Photo Finish's Studio"
     class = "intra-settlement"
-    lat = 3727
-    lng = 3985
+    x = 3727
+    y = 3985
     zoom_level = 3
     description = "The H.Q. of The Finishers"
     link = ""
@@ -64,8 +64,8 @@
 [TheBlackSalamander]
     name = "The Black Salamander"
     class = "intra-settlement casino"
-    lat = 3732 
-    lng = 3981
+    x = 3732 
+    y = 3981
     zoom_level = 3
     description = "Mr. House's casino and base of operations for his <a hrf='https://falloutequestria.fandom.com/wiki/Hizais_(Heroes)'>Hizais</a>."
     link = ""
@@ -73,8 +73,8 @@
 [TheMoonCasino]
     name = "The Moon Casino"
     class = "intra-settlement casino"
-    lat = 3735
-    lng = 3980
+    x = 3735
+    y = 3980
     zoom_level = 3
     description = "Roy Mustang's casino and H.Q. of The Mustangs."
     link = ""
@@ -82,8 +82,8 @@
 [ClipsnClopsCasino]
     name = "Clips & Clops Casino"
     class = "intra-settlement casino"
-    lat = 3733
-    lng = 3983
+    x = 3733
+    y = 3983
     zoom_level = 3
     description = "The most mysterious of the casionos, owned by Granny Dynamite and her Galicians and also from where the Securiponies are controlled."
     link = ""
@@ -91,8 +91,8 @@
 [TheAlehouse]
     name = "The Alehouse"
     class = "intra-settlement casino"
-    lat = 3734
-    lng = 3979
+    x = 3734
+    y = 3979
     zoom_level = 3
     description = "Molly's casino, featuring a gladiatorial arena and the base for her gang: The Baises."
     link = ""
@@ -100,8 +100,8 @@
 [DiseCrater]
     name = "Dise Crater"
     class = "misc-poi radiation"
-    lat = 3740
-    lng = 3952
+    x = 3740
+    y = 3952
     zoom_level = 2
     description = "The impact site of the megaspell that hit Dise"
     link = ""
@@ -109,8 +109,8 @@
 [DiseTunnels]
     name = "Dise Tunnels"
     class = "intra-settlement"
-    lat = 3728.6875 
-    lng = 3978
+    x = 3728.6875 
+    y = 3978
     zoom_level = 1
     description = "A series of underground tunnels under Dise built by Wallkirk as an attempt to create a stable-like bunker system, it failed."
     link = "https://falloutequestria.fandom.com/wiki/Dise_Tunnels_(Heroes)"

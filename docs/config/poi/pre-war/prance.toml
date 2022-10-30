@@ -1,8 +1,8 @@
 [Hayris]
     name = "Hayris"
     class ="pre-war-capital"
-    lat = 3680
-    lng = 3250
+    x = 3680
+    y = 3250
     zoom_level = 0
     description = "Known formerly as the city of light, it used to be one of the most famous cities in the world."
     link = ""
@@ -10,8 +10,8 @@
 [Neighon]
     name = "Neighon"
     class = "city"
-    lat = 3747
-    lng = 3137
+    x = 3747
+    y = 3137
     zoom_level = 1
     description = ""
     link = ""
@@ -19,8 +19,8 @@
 [Hondeaux]
     name = "Hondeaux"
     class = "city"
-    lat = 3654
-    lng = 3089
+    x = 3654
+    y = 3089
     zoom_level = 1
     description = ""
     link = ""
@@ -28,8 +28,8 @@
 [Fille]
     name = "Fille"
     class = "city"
-    lat = 3615
-    lng = 3260
+    x = 3615
+    y = 3260
     zoom_level = 1
     description = ""
     link = ""
@@ -37,8 +37,8 @@
 [Fancee]
     name = "Fancee"
     class = "city"
-    lat = 3528
-    lng = 3112
+    x = 3528
+    y = 3112
     zoom_level = 1
     description = "A former large city that featured the most amount of crystal ponies outside of the Crystal Empire, it as well was a crystal city."
     link = ""
@@ -46,8 +46,8 @@
 [Trotluise]
     name = "Trotluise"
     class = "city"
-    lat = 3543
-    lng = 2946
+    x = 3543
+    y = 2946
     zoom_level = 1
     description = ""
     link = ""
@@ -55,8 +55,8 @@
 [Maneille]
     name = "Maneille"
     class = "city"
-    lat = 3644
-    lng = 2961
+    x = 3644
+    y = 2961
     zoom_level = 1
     description = ""
     link = ""
@@ -64,8 +64,8 @@
 [Chicacolt]
     name = "Chicacolt"
     class = "city"
-    lat = 3597
-    lng = 2860
+    x = 3597
+    y = 2860
     zoom_level = 1
     description = "A former booming metropolis that was more equestrian than prench."
     link = "https://falloutequestria.fandom.com/wiki/Chicacolt_(Starlight)"
@@ -73,8 +73,8 @@
 [Albamareal]
     name = "Albamareal"
     class = "city"
-    lat = 3531.5
-    lng = 3235
+    x = 3531.5
+    y = 3235
     zoom_level = 1
     description = ""
     link = ""
@@ -82,8 +82,8 @@
 [Bridlewood]
     name = "Bridlewood"
     class = "city"
-    lat = 3551.125 
-    lng = 3175.125
+    x = 3551.125 
+    y = 3175.125
     zoom_level = 1
     description = ""
     link = ""

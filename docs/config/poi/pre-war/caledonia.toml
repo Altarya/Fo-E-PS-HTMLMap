@@ -1,8 +1,8 @@
 [Trotonto]
     name = "Trotonto"
     class ="pre-war-capital"
-    lat = 3442
-    lng = 3911
+    x = 3442
+    y = 3911
     zoom_level = 0
     description = "The old capital of the long gone Federal Republic of Caledonia."
     link = ""
@@ -10,8 +10,8 @@
 [CelestiasParadise]
     name = "Celestia's Paradise"
     class = "city"
-    lat = 3729
-    lng = 3958
+    x = 3729
+    y = 3958
     zoom_level = 1
     description = "Once the vice capital of the world."
     link = ""
@@ -19,8 +19,8 @@
 [QueighbeckCity]
     name = "Queighbeck City"
     class = "city"
-    lat = 3598
-    lng = 3839
+    x = 3598
+    y = 3839
     zoom_level = 1
     description = ""
     link = ""
@@ -28,8 +28,8 @@
 [Otrotwa]
     name = "Otrotwa"
     class = "city"
-    lat = 3581
-    lng = 4063
+    x = 3581
+    y = 4063
     zoom_level = 1
     description = ""
     link = ""
@@ -37,8 +37,8 @@
 [Taurear]
     name = "Taurear"
     class = "city"
-    lat = 3859
-    lng = 3985
+    x = 3859
+    y = 3985
     zoom_level = 1
     description = ""
     link = ""
@@ -46,8 +46,8 @@
 [Midtreal]
     name = "Midtreal"
     class = "city"
-    lat = 3917
-    lng = 3892
+    x = 3917
+    y = 3892
     zoom_level = 1
     description = ""
     link = ""
@@ -55,8 +55,8 @@
 [Bugtown]
     name = "Bugtown"
     class = "city"
-    lat = 3927
-    lng = 3770
+    x = 3927
+    y = 3770
     zoom_level = 1
     description = ""
     link = ""

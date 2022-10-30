@@ -14,7 +14,7 @@ if (typeof exports === 'object') {
 var lines: L.FeatureGroup<any>[] = new Array();
 var locationsLayers = L.layerGroup(lines)
 
-export function setupLines(layerController: L.Control.Layers, map: Map<string, toml.AnyJson>) {
+export function setupLines(layerController: L.Control.Layers, map: Map<string, toml.AnyJson>, mapSize: [number, number]) {
 
     const PATH = new Map(Object.entries(map.get("PATH")))
 
@@ -65,7 +65,11 @@ export function setupLines(layerController: L.Control.Layers, map: Map<string, t
                             const classNamev: string = ent[1][1]
                             const colorv: string = ent[2][1]
                             const layerv: number = ent[3][1]
-                            const latlng: [] = ent[4][1]
+                            let latlng: Array<[number, number]> = ent[4][1]
+                            for (let i = 0; i < latlng.length; i++) {
+                                latlng[i][0] = ((latlng[i][0]/mapSize[0])*180)-90
+                                latlng[i][1] = ((latlng[i][1]/mapSize[1])*360)-180
+                            }
                             const width: number = ent[5][1]
                             const smooothing: number = ent[6][1]
                             const description: string = ent[7][1]

@@ -1,8 +1,8 @@
 [IronshodFirearms]
     name = "Ironshod Firearms"
     class = "misc-poi redeye"
-    lat = 3281
-    lng = 3306
+    x = 3281
+    y = 3306
     zoom_level = 2
     description = "An old weapon's manufacturing plant."
     link = "https://falloutequestria.fandom.com/wiki/Ironshod_Firearms"
@@ -10,8 +10,8 @@
 [OldOlneigh]
     name = "Old Olneigh"
     class = "misc-poi unity"
-    lat = 3250
-    lng = 3252
+    x = 3250
+    y = 3252
     zoom_level = 2
     description = "An old wartime village."
     link = "https://falloutequestria.fandom.com/wiki/Old_Olneigh"
@@ -19,8 +19,8 @@
 [Stable24]
     name = "Stable 24"
     class = "misc-poi stable"
-    lat = 3292
-    lng = 3282
+    x = 3292
+    y = 3282
     zoom_level = 2
     description = "A dead stable that, unlike most others had an overstallion."
     link = "https://falloutequestria.fandom.com/wiki/Stable_24"
@@ -28,8 +28,8 @@
 [PinkiePieMuseum]
     name = "Pinkie Pie Museum"
     class = "misc-poi"
-    lat = 3290
-    lng = 3333
+    x = 3290
+    y = 3333
     zoom_level = 2
     description = "The old Ministry of Morale's museum."
     link = "https://falloutequestria.fandom.com/wiki/Pinkie_Pie_Museum"
@@ -37,8 +37,8 @@
 [HippocampusEnergyPlant12]
     name = "Hippocampus Energy Plant 12"
     class = "misc-poi redeye"
-    lat = 3305
-    lng = 3407
+    x = 3305
+    y = 3407
     zoom_level = 2
     description = "An old energy plant."
     link = ""
@@ -46,8 +46,8 @@
 [LumenContaintmentFacility]
     name = "Lumen Containment Facility"
     class = "misc-poi ezp"
-    lat = 3365
-    lng = 3411
+    x = 3365
+    y = 3411
     zoom_level = 1
     description = "An old wartime facility built into a mountain, it was built to contain an ancient zebra ruin, for whatever reason. It features a very very very large E.Z.P. branded Seal Door."
     link = ""
@@ -55,8 +55,8 @@
 [Arca1Wreck]
     name = "Arca 1 Wreck"
     class = "misc-poi ezp"
-    lat = 3427
-    lng = 3367
+    x = 3427
+    y = 3367
     zoom_level = 2
     description = "The wreck of Ezpassion's first Ark, it housed its main political leaders and influential V.I.P.s."
     link = ""
@@ -64,8 +64,8 @@
 [EAMSHub]
     name = "E.A.M.S. Hub"
     class = "intra-settlement eams"
-    lat = 3408
-    lng = 3273
+    x = 3408
+    y = 3273
     zoom_level = 2
     description = "The hub of the Equestrian Arm of Movement System for very important ponies!"
     link = ""
@@ -73,8 +73,8 @@
 [EAMSStation2]
     name = "E.A.M.S. Station 2"
     class = "intra-settlement eams"
-    lat = 3341
-    lng = 3449
+    x = 3341
+    y = 3449
     zoom_level = 2
     description = ""
     link = ""
@@ -82,8 +82,8 @@
 [Stable29]
     name = "Stable 29"
     class = "misc-poi stable"
-    lat = 3301
-    lng = 3496
+    x = 3301
+    y = 3496
     zoom_level = 2
     description = "A dead stable that was entirelly controlled by robots."
     link = "https://falloutequestria.fandom.com/wiki/Stable_29"
@@ -91,8 +91,8 @@
 [RedRacerFactory]
     name = "Red Racer Factory"
     class = "intra-settlement"
-    lat = 3293
-    lng = 3507
+    x = 3293
+    y = 3507
     zoom_level = 2
     description = "The main factory of the Red Racer Corporation."
     link = ""
@@ -100,8 +100,8 @@
 [ManehattanCrater]
     name = "Manehattan Crater"
     class = "misc-poi radiation"
-    lat = 3275
-    lng = 3538
+    x = 3275
+    y = 3538
     zoom_level = 1
     description = "The impact site of the bomb that struck Manehattan."
     link = ""
@@ -109,8 +109,8 @@
 [HorseshoeTower]
     name = "Horseshoe Tower"
     class = "intra-settlement"
-    lat = 3310
-    lng = 3509
+    x = 3310
+    y = 3509
     zoom_level = 2
     description = "An old tall skyscraper."
     link = ""
@@ -118,8 +118,8 @@
 [CelestiaLine]
     name = "Celestia Line"
     class = "intra-settlement"
-    lat = 3303
-    lng = 3518
+    x = 3303
+    y = 3518
     zoom_level = 2
     description = "Manehattan's major monorail line."
     link = "https://falloutequestria.fandom.com/wiki/Celestia_Line"
@@ -127,8 +127,8 @@
 [LunaLine]
     name = "Luna Line"
     class = "intra-settlement"
-    lat = 3299
-    lng = 3510
+    x = 3299
+    y = 3510
     zoom_level = 2
     description = "Manehattan's second major monorail line."
     link = "https://falloutequestria.fandom.com/wiki/Luna_Line"
@@ -136,8 +136,8 @@
 [GRAS]
     name = "G.R.A.S."
     class = "intra-settlement"
-    lat = 3270
-    lng = 3531
+    x = 3270
+    y = 3531
     zoom_level = 2
     description = "Manehattan's zoo."
     link = ""
@@ -145,8 +145,8 @@
 [ManehattanGardens]
     name = "Manehattan Gardens"
     class = "intra-settlement"
-    lat = 3301
-    lng = 3527
+    x = 3301
+    y = 3527
     zoom_level = 1
     description = "A pre-wat wildlife sanctuary."
     link = "https://falloutequestria.fandom.com/wiki/Manehattan_Gardens"
@@ -154,8 +154,8 @@
 [FourStarsGrandHotel]
     name = "Four Stars Grand Hotel"
     class = "intra-settlement"
-    lat = 3293
-    lng = 3523
+    x = 3293
+    y = 3523
     zoom_level = 2
     description = "A major hotel in Manehattan, now a ruin."
     link = ""
@@ -163,8 +163,8 @@
 [HopeSolarArray]
     name = "Hope Solar Array"
     class = "misc-poi redeye"
-    lat = 3259
-    lng = 3283
+    x = 3259
+    y = 3283
     zoom_level = 3
     description = "The solar array that powered Ponyville, now mostly useless thanks to the cloud cover."
     link = ""
@@ -172,8 +172,8 @@
 [GhostFarm]
     name = "Ghost Farm"
     class = "intra-settlement"
-    lat = 3259
-    lng = 3293
+    x = 3259
+    y = 3293
     zoom_level = 3
     description = "A farm where its said that anyone who ventures into it never returns."
     link = "https://falloutequestria.fandom.com/wiki/Haunted_Farm"
@@ -181,8 +181,8 @@
 [ZecorasHut]
     name = "Zecora's Hut"
     class = "intra-settlement"
-    lat = 3251
-    lng = 3299
+    x = 3251
+    y = 3299
     zoom_level = 3
     description = "The hut of the zebra Zecora."
     link = "https://falloutequestria.fandom.com/wiki/Zecora's_Hut"
@@ -190,8 +190,8 @@
 [CarouselBoutique]
     name = "Carousel Boutique"
     class = "intra-settlement"
-    lat = 3261
-    lng = 3299
+    x = 3261
+    y = 3299
     zoom_level = 3
     description = "Rarity's old shop."
     link = "https://falloutequestria.fandom.com/wiki/Carousel_Boutique"
@@ -199,8 +199,8 @@
 [SweetAppleAcres]
     name = "Sweet Apple Acres"
     class = "intra-settlement"
-    lat = 3259
-    lng = 3303
+    x = 3259
+    y = 3303
     zoom_level = 3
     description = "Applejack's old farm<p><img src='https://static.wikia.nocookie.net/falloutequestria/images/1/13/SweetAppleAcres.jpg' style='height: 120px;'></img></p> <p>Image by: MLP.</p>"
     link = "https://falloutequestria.fandom.com/wiki/Sweet_Apple_Acres"
@@ -208,8 +208,8 @@
 [PonyvilleLibrary]
     name = "Ponyville Library"
     class = "intra-settlement"
-    lat = 3266
-    lng = 3292
+    x = 3266
+    y = 3292
     zoom_level = 3
     description = "Twilight Sparkles' old library."
     link = ""
@@ -217,8 +217,8 @@
 [FluttershysCabin]
     name = "Fluttershy's Cabin"
     class = "intra-settlement"
-    lat = 3264
-    lng = 3305
+    x = 3264
+    y = 3305
     zoom_level = 3
     description = "Fluttershy's old home."
     link = "https://falloutequestria.fandom.com/wiki/Fluttershy's_Cabin"
@@ -226,8 +226,8 @@
 [MacintoshMemorial]
     name = "Macintosh Memorial"
     class = "intra-settlement"
-    lat = 3270
-    lng = 3294
+    x = 3270
+    y = 3294
     zoom_level = 3
     description = "A memorial for Big Macintosh, one of Equestria's war heroes."
     link = "https://falloutequestria.fandom.com/wiki/The_Macintosh_War_Memorial"
@@ -235,8 +235,8 @@
 [RainbowDashsShack]
     name = "Rainbow Dash's Shack"
     class = "misc-poi"
-    lat = 3296
-    lng = 3316
+    x = 3296
+    y = 3316
     zoom_level = 2
     description = "The old secluded wartime get-away of Rainbow Dash."
     link = "https://falloutequestria.fandom.com/wiki/Rainbow_Dash%27s_Shack"
@@ -244,8 +244,8 @@
 [MinistryWalk]
     name = "Ministry Walk"
     class = "intra-settlement"
-    lat = 3416
-    lng = 3276
+    x = 3416
+    y = 3276
     zoom_level = 3
     description = "The old plaza where the main buildings of each equestrian ministry are located."
     link = "https://falloutequestria.fandom.com/wiki/Ministry_Walk"
@@ -253,8 +253,8 @@
 [CelestianMonument]
     name = "Celestian Monument"
     class = "intra-settlement"
-    lat = 3417
-    lng = 3277
+    x = 3417
+    y = 3277
     zoom_level = 3
     description = "A landmark in honour of Princess Celestia's thousand year long reign."
     link = "https://falloutequestria.fandom.com/wiki/Celestian_Monument"
@@ -262,8 +262,8 @@
 [IvoryTower]
     name = "Ivory Tower"
     class = "intra-settlement"
-    lat = 3418
-    lng = 3279
+    x = 3418
+    y = 3279
     zoom_level = 3
     description = "A litteral ivory tower, damn canterlot elites!"
     link = "https://falloutequestria.fandom.com/wiki/Ivory_Tower"
@@ -271,8 +271,8 @@
 [SchoolForGiftedUnicorns]
     name = "School For Gifted Unicorns"
     class = "intra-settlement"
-    lat = 3417
-    lng = 3274
+    x = 3417
+    y = 3274
     zoom_level = 3
     description = "A pre-war magic academy for unicorns ran by Princess Celestia."
     link = "https://falloutequestria.fandom.com/wiki/Princess_Celestia's_School_for_Gifted_Unicorns"
@@ -280,8 +280,8 @@
 [SphinxQuicksilverRuin]
     name = "Sphinx Quicksilver Ruin"
     class = "misc-poi"
-    lat = 3447
-    lng = 3374
+    x = 3447
+    y = 3374
     zoom_level = 2
     description = "A set of VERY ANCIENT sphinx ruins with many pools of quicksilver."
     link = ""
@@ -289,8 +289,8 @@
 [HMBLunaria]
     name = "HMB Lunaria"
     class = "intra-settlement"
-    lat = 3429
-    lng = 3365
+    x = 3429
+    y = 3365
     zoom_level = 2
     description = "An old broken submarine left there by the Enclave and now used as Splendid Fall's town hall."
     link = ""
@@ -298,8 +298,8 @@
 [SphinxTown]
     name = "Sphinx Town"
     class = "intra-settlement"
-    lat = 3440
-    lng = 3369
+    x = 3440
+    y = 3369
     zoom_level = 2
     description = "The part of Splendid Falls where all the sphinxes have started to live and may or may not be erecting a pyramid."
     link = ""
@@ -307,8 +307,8 @@
 [FleurDeLisGreatBoutique]
     name = "Fleur De Lis' Great Boutique"
     class = "intra-settlement armour"
-    lat = 3435
-    lng = 3373
+    x = 3435
+    y = 3373
     zoom_level = 2
     description = "The ghoul's magnificent clothes and armours shop."
     link = ""
@@ -316,8 +316,8 @@
 [OldBatopia]
     name = "Old Batopia"
     class = "intra-settlement"
-    lat = 3438
-    lng = 3355
+    x = 3438
+    y = 3355
     zoom_level = 2
     description = "An old pre-war batpony city that once had a serenity induced time loop anomaly."
     link = ""
@@ -325,8 +325,8 @@
 [EZPStoreSplendid]
     name = "E.Z.P. Store (Splendid Falls)"
     class = "intra-settlement ezp"
-    lat = 3431
-    lng = 3376
+    x = 3431
+    y = 3376
     zoom_level = 2
     description = "'E.Z.P. We make your life magnificently better!'"
     link = ""
@@ -334,8 +334,8 @@
 [AetherithsWeapons]
     name = "Aetherith's Weapons"
     class = "intra-settlement weapons"
-    lat = 3433
-    lng = 3366
+    x = 3433
+    y = 3366
     zoom_level = 2
     description = "A weapon store owned by the zebra Aetherith, sister of Zephyrith."
     link = ""
@@ -343,8 +343,8 @@
 [NewStableDistrict]
     name = "New Stable District"
     class = "intra-settlement lodge"
-    lat = 3431
-    lng = 3360
+    x = 3431
+    y = 3360
     zoom_level = 2
     description = "Where the ponies of stable 152 erected an entirely new city block."
     link = ""
@@ -352,8 +352,8 @@
 [SplendidMedicalDistrict]
     name = "Splendid Medical District"
     class = "intra-settlement medical"
-    lat = 3436
-    lng = 3370
+    x = 3436
+    y = 3370
     zoom_level = 2
     description = "A growing collection of medical staff."
     link = ""
@@ -361,8 +361,8 @@
 [SniezhanniamEmbassy]
     name = "Sniezhannia Embassy"
     class = "intra-settlement sniezhannia"
-    lat = 3437
-    lng = 3375
+    x = 3437
+    y = 3375
     zoom_level = 2
     description = "The official embassy between Splendid Falls and the Sniezhannia S.S.R."
     link = ""
@@ -370,8 +370,8 @@
 [LightOfTheMoonGeneralGoods]
     name = "Light Of The Moon General Goods"
     class = "intra-settlement shop"
-    lat = 3431.875
-    lng = 3372.4375
+    x = 3431.875
+    y = 3372.4375
     zoom_level = 2
     description = "A general store owned by a unicorn named Sunflower."
     link = ""

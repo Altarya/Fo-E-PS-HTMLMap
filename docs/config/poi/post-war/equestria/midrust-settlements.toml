@@ -1,8 +1,8 @@
 [PonaRosa]
     name = "Pona Rosa"
     class = "settlement"
-    lat = 3569
-    lng = 3607
+    x = 3569
+    y = 3607
     zoom_level = 1
     description = "A bustling trade settlement that is meant to be a neutral zone for all gangs in the regions built within an old shopping mall. Its ran by an earth pony mare named Roulette, the only pre-day-of-sunshine-and-rainbows settlement from Dead End."
     link = ""
@@ -10,8 +10,8 @@
 [NewCloudsdale]
     name = "New Cloudsdale"
     class = "post-war-capital enclave"
-    lat = 3548
-    lng = 3395
+    x = 3548
+    y = 3395
     zoom_level = 0
     description = "The 'official' capital of the Grand Pegasus Enclave and its largest city, its size is comparable to a pre-war metropolis."
     link = ""
@@ -19,8 +19,8 @@
 [Portharbour]
     name = "Portharbour"
     class = "settlement"
-    lat = 3785
-    lng = 3474
+    x = 3785
+    y = 3474
     zoom_level = 1
     description = "'Is it a port or a harbour?!'"
     link = ""
@@ -28,8 +28,8 @@
 [Stable11]
     name = "Stable 11"
     class = "settlement stable"
-    lat = 3593
-    lng = 3533
+    x = 3593
+    y = 3533
     zoom_level = 1
     description = "Cherry Fizz's still active stable that also regularly trades with the outside. It's overmare has recently been 'murdered'."
     link = ""
@@ -37,8 +37,8 @@
 [Stable9]
     name = "Stable 9"
     class = "settlement stable"
-    lat = 3758
-    lng = 3497
+    x = 3758
+    y = 3497
     zoom_level = 1
     description = "A still active and friendly stable that constantly trades with the outside."
     link = ""
@@ -46,8 +46,8 @@
 [HoofRiver]
     name = "Hoof River"
     class = "settlement"
-    lat = 3681
-    lng = 3508
+    x = 3681
+    y = 3508
     zoom_level = 1
     description = "A small town turned small trading settlement."
     link = ""
@@ -55,8 +55,8 @@
 [Parkdale]
     name = "Parkdale"
     class = "settlement"
-    lat = 3727
-    lng = 3507
+    x = 3727
+    y = 3507
     zoom_level = 1
     description = "A small village famous for its cemitery of travellers."
     link = ""
@@ -64,8 +64,8 @@
 [Stormgate]
     name = "Stormgate"
     class = "settlement"
-    lat = 3791
-    lng = 3466
+    x = 3791
+    y = 3466
     zoom_level = 1
     description = "A small port settlement."
     link = ""
@@ -73,8 +73,8 @@
 [Ticklemoose]
     name = "Ticklemoose"
     class = "settlement"
-    lat = 3817
-    lng = 3438
+    x = 3817
+    y = 3438
     zoom_level = 1
     description = "A medium coastal settlement. Known for its cheese and... odd name."
     link = ""
@@ -82,8 +82,8 @@
 [Maredras]
     name = "Maredras"
     class = "settlement"
-    lat = 3663
-    lng = 3500
+    x = 3663
+    y = 3500
     zoom_level = 1
     description = "An old town with a weird billboard."
     link = ""
@@ -91,8 +91,8 @@
 [Fold]
     name = "Fold"
     class = "settlement"
-    lat = 3671
-    lng = 3522
+    x = 3671
+    y = 3522
     zoom_level = 1
     description = "A lumber settlement owned by the Timberjacks."
     link = ""
@@ -100,8 +100,8 @@
 [ThreeRivers]
     name = "Three Rivers"
     class = "settlement"
-    lat = 3552
-    lng = 3443
+    x = 3552
+    y = 3443
     zoom_level = 1
     description = "A small settlement surrounded by 3 nascent tributaries."
     link = ""

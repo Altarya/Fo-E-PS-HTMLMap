@@ -1,5 +1,5 @@
 [OliverPrismPeninsula]
     name = "Oliver Prism Peninsula"
     class = "natural"
-    lat = 4404
-    lng = 2957
+    x = 4404
+    y = 2957

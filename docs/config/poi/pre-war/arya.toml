@@ -1,8 +1,8 @@
 [NeuePurlin]
     name = "Neue-Purlin"
     class ="pre-war-capital"
-    lat = 3417
-    lng = 3790
+    x = 3417
+    y = 3790
     zoom_level = 0
     description = ""
     link = ""
@@ -10,8 +10,8 @@
 [Trabisberg]
     name = "Trabisberg"
     class ="city"
-    lat = 3408
-    lng = 3741
+    x = 3408
+    y = 3741
     zoom_level = 1
     description = ""
     link = ""
@@ -19,8 +19,8 @@
 [Hufburg]
     name = "Hufburg"
     class = "city"
-    lat = 3482
-    lng = 3778
+    x = 3482
+    y = 3778
     zoom_level = 1
     description = ""
     link = ""

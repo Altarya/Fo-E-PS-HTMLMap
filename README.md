@@ -53,8 +53,8 @@ said folder. Then in the list follow this:
 [YourWaypointNameWithoutSpacesOrSpecialCharacters]
     name = "Your Waypoint Name"
     class = "CSS Class(See styling) or multiple separated by a space"
-    lat = 0 #Latitude, clicking on the map will display lat and lng coordinates that you can use here
-    lng = 0 #Longitude
+    x = 0 #x, clicking on the map will display x and y coordinates that you can use here
+    y = 0 #y
     zoom_level = 0 #A value of 0 to 3 that determines at which zoom level this waypoint will be visible where:
     #0-Always Visible, 1-Major City, 2-Small City, 3-Street Level
     description = "" #The description of the poi, fully html compliant
@@ -69,8 +69,8 @@ For each entry use:
 [YourFeatureNameWithoutSpacesOrSpecialCharacters]
     name = "Your Feature Name"
     class ="CSS Class(See styling)"
-    lat = 0 #Latitude, clicking on the map will display lat and lng coordinates that you can use here
-    lng = 0 #Longitude
+    x = 0 #x, clicking on the map will display x and x coordinates that you can use here
+    y = 0 #x
 ```
 Note that features are always visible regardless of zoom levels.
 ## Styling

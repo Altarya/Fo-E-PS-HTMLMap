@@ -5,7 +5,7 @@ import * as L from "leaflet"
 var features = new L.FeatureGroup();
 var locationsLayers = L.layerGroup([features])
 
-export function setupFeatures(layerController: L.Control.Layers, map: Map<string, toml.AnyJson>) {
+export function setupFeatures(layerController: L.Control.Layers, map: Map<string, toml.AnyJson>, mapSize: [number, number]) {
 
     layerController.addOverlay(locationsLayers, "Features")
 
@@ -41,14 +41,14 @@ export function setupFeatures(layerController: L.Control.Layers, map: Map<string
 
                             const name = ent[0]
                             const classNamev = ent[1]
-                            const lat = ent[2]
-                            const lng = ent[3]
+                            const lat: number = ((ent[2][1]/mapSize[0])*180)-90
+                            const lng: number = ((ent[3][1]/mapSize[1])*360)-180
 
                             const label = L.tooltip({
                                 className: classNamev[1],
                                 permanent: true,
                                 direction: 'center',
-                            }).setLatLng((new L.LatLng(lat[1], lng[1]))).setContent(name[1])
+                            }).setLatLng((new L.LatLng(lat, lng))).setContent(name[1])
 
                             var featureIcon = new L.Icon({
                                 iconSize:     [24, 24],
@@ -61,7 +61,7 @@ export function setupFeatures(layerController: L.Control.Layers, map: Map<string
                             })
 
                             var marker = L.marker(
-                                (new L.LatLng(lat[1], lng[1])), {
+                                (new L.LatLng(lat, lng)), {
                                     title: name[1],
                                     icon: featureIcon
                                 }

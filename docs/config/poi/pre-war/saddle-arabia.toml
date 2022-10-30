@@ -1,8 +1,8 @@
 [Ryakhoof]
     name = "Ryakhoof"
     class ="pre-war-capital"
-    lat = 2864
-    lng = 2474
+    x = 2864
+    y = 2474
     zoom_level = 0
     description = ""
     link = ""
@@ -10,8 +10,8 @@
 [Stemphis]
     name = "Stemphis"
     class = "city"
-    lat = 2946
-    lng = 2546
+    x = 2946
+    y = 2546
     zoom_level = 1
     description = ""
     link = ""

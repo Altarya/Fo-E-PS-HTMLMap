@@ -1,8 +1,8 @@
 [Pawdar]
     name = "Pawdar"
     class ="pre-war-capital"
-    lat = 1822
-    lng = 1618
+    x = 1822
+    y = 1618
     zoom_level = 0
     description = ""
     link = ""

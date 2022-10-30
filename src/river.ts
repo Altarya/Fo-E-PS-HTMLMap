@@ -138,7 +138,7 @@ if (typeof exports === 'object') {
 var features = new L.FeatureGroup();
 var locationsLayers = L.layerGroup([features])
 
-export function setupRivers(layerController: L.Control.Layers, map: Map<string, toml.AnyJson>) {
+export function setupRivers(layerController: L.Control.Layers, map: Map<string, toml.AnyJson>, mapSize: [number, number]) {
 
     layerController.addOverlay(locationsLayers, "Rivers")
 
@@ -174,7 +174,12 @@ export function setupRivers(layerController: L.Control.Layers, map: Map<string, 
 
                             const name: string = ent[0][1]
                             const classNamev: string = ent[1][1]
-                            const latlng: [] = ent[2][1]
+                            let latlng: Array<[number, number]> = ent[2][1]
+                            for (let i = 0; i < latlng.length; i++) {
+                                latlng[i][0] = ((latlng[i][0]/mapSize[0])*180)-90
+                                latlng[i][1] = ((latlng[i][1]/mapSize[1])*360)-180
+                            }
+                            
                             const minWidthv: number = ent[3][1]
                             const maxWidthv: number = ent[4][1]
                             const opacityv: number = ent[5][1]

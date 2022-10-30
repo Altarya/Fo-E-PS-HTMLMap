@@ -1,8 +1,8 @@
 [CrystalSkyEnrichmentCentre]
     name = "Crystal Sky Enrichment Centre"
     class = "settlement"
-    lat = 4176
-    lng = 3572
+    x = 4176
+    y = 3572
     zoom_level = 1
     description = "The site of the Crystal Empire's most ambitious research centre."
     link = ""
@@ -10,8 +10,8 @@
 [FukkatsuAriuBase]
     name = "Fukkatsu Ariu Base"
     class = "settlement"
-    lat = 4542
-    lng = 2965
+    x = 4542
+    y = 2965
     zoom_level = 1
     description = "The base of operations from the yarinese resistence."
     link = ""
@@ -19,8 +19,8 @@
 [QilinguoAntransarcticBase]
     name = "Qilinguo Antransarctic Base"
     class = "settlement"
-    lat = 4614
-    lng = 2706
+    x = 4614
+    y = 2706
     zoom_level = 1
     description = "A large post-war millitary and scientific installation owned by the Qilinguo government."
     link = ""

@@ -1,8 +1,8 @@
 [GrandeArsenal]
     name = "Grande Arsenal"
     class = "settlement"
-    lat = 2892
-    lng = 3012
+    x = 2892
+    y = 3012
     zoom_level = 2
     description = "A large settlement built on a massive former ezpassionian millitary complex. Name means: Great Arsenal"
     link = ""
@@ -10,8 +10,8 @@
 [PontePonte]
     name = "Ponte Ponte"
     class = "settlement"
-    lat = 2899
-    lng = 3000
+    x = 2899
+    y = 3000
     zoom_level = 2
     description = "A small settlement built over two collapsed bridges. Name means: Bridge Bridge"
     link = ""
@@ -19,8 +19,8 @@
 [PortoRelevancia]
     name = "Porto Relevância"
     class = "settlement"
-    lat = 2877
-    lng = 2958
+    x = 2877
+    y = 2958
     zoom_level = 2
     description = "A small isolated settlement built on a small port. Name means: Relevant Port"
     link = ""

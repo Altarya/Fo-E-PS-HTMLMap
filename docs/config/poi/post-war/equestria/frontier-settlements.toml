@@ -1,8 +1,8 @@
 [Cartwheel]
     name = "Cartwheel"
     class = "settlement"
-    lat = 3342
-    lng = 3177
+    x = 3342
+    y = 3177
     zoom_level = 1
     description = "A small trading town whose main establishment of note is the Equestrian Express courier service owned by Box Tape."
     link = ""
@@ -10,8 +10,8 @@
 [HiddenValley]
     name = "Hidden Sands"
     class = "settlement steelranger"
-    lat = 3323
-    lng = 3181
+    x = 3323
+    y = 3181
     zoom_level = 1
     description = "The bunker where the New Pegasus Steel Rangers branch reside."
     link = ""
@@ -19,8 +19,8 @@
 [TheBramble]
     name = "The Bramble"
     class = "settlement"
-    lat = 3307
-    lng = 3158
+    x = 3307
+    y = 3158
     zoom_level = 1
     description = "A bloodthirsty underground settlement with one of The Wasteland's deadliest gladiatorial arenas."
     link = ""
@@ -28,8 +28,8 @@
 [NewPegasus]
     name = "New Pegasus"
     class = "post-war-capital rnp"
-    lat = 3284
-    lng = 3152
+    x = 3284
+    y = 3152
     zoom_level = 0
     description = "The bustling 'capital' on paper of the R.N.P. The only major pre-war equestrian city to avoid the bombs."
     link = ""
@@ -37,8 +37,8 @@
 [NewPegasusStrip]
     name = "New Pegasus Strip"
     class = "settlement"
-    lat = 3274
-    lng = 3158
+    x = 3274
+    y = 3158
     zoom_level = 1
     description = "The wealthiest part of New Pegasus with its famous casinos."
     link = ""
@@ -46,8 +46,8 @@
 [Freedom]
     name = "Freedom"
     class = "settlement"
-    lat = 3265
-    lng = 3159
+    x = 3265
+    y = 3159
     zoom_level = 1
     description = "The poor parts of New Pegasus, dominated by The Queens and the Van Damns."
     link = ""
@@ -55,8 +55,8 @@
 [SpitfiresFlightAcademy]
     name = "Spitfire's Flight Academy"
     class = "settlement"
-    lat = 3266.5
-    lng = 3177.5
+    x = 3266.5
+    y = 3177.5
     zoom_level = 2
     description = "Homebase of The Anihhilators a group of former stable dwellers that don't take kindly to outsiders."
     link = ""
@@ -64,8 +64,8 @@
 [Trotston]
     name = "Trotston"
     class = "settlement"
-    lat = 3269
-    lng = 3183
+    x = 3269
+    y = 3183
     zoom_level = 2
     description = "A technologically advanced and heavilly fortified settlement made by former stable dwellers from stable 9."
     link = ""
@@ -73,8 +73,8 @@
 [FortSummit]
     name = "Fort Summit"
     class = "settlement unity"
-    lat = 3255
-    lng = 3180
+    x = 3255
+    y = 3180
     zoom_level = 2
     description = "A settlement created by an alicorn named Violet which is open to everyone fleeing persecution."
     link = ""
@@ -82,8 +82,8 @@
 [CrimsonCanyon]
     name = "Crimson Canyon"
     class = "settlement talon"
-    lat = 3260
-    lng = 3185
+    x = 3260
+    y = 3185
     zoom_level = 1
     description = "The home of the Red Talon Company griffons one the best talon companies in The Wasteland."
     link = ""
@@ -91,8 +91,8 @@
 [Appleton]
     name = "Appleton"
     class = "settlement enclave"
-    lat = 3244
-    lng = 3152
+    x = 3244
+    y = 3152
     zoom_level = 1
     description = "A large trading settlement that has a large Enclave presence due to it sitting underneath the cloud city of Stratus."
     link = ""
@@ -100,8 +100,8 @@
 [Stratus]
     name = "Stratus"
     class = "settlement enclave"
-    lat = 3246
-    lng = 3147
+    x = 3246
+    y = 3147
     zoom_level = 1
     description = "One of the Enclave's smaller cities, famous for its everlasting alliance with Nimbus."
     link = ""
@@ -109,8 +109,8 @@
 [Stable28]
     name = "Stable 28"
     class = "settlement stable"
-    lat = 3357
-    lng = 3163
+    x = 3357
+    y = 3163
     zoom_level = 1
     description = "Shadow Star's still active stable. An earth pony stable thats recently closed off from the outside."
     link = ""
@@ -118,8 +118,8 @@
 [TheKingdom]
     name = "The Kingdom"
     class = "settlement"
-    lat = 3394
-    lng = 3075
+    x = 3394
+    y = 3075
     zoom_level = 1
     description = "A grand settlement open to everyone so long as they don't hold any prejudices or are violent, lead by Empress Sheena and Emperor Periwinkle Punch."
     link = ""
@@ -127,8 +127,8 @@
 [LittleHoof]
     name = "Little Hoof"
     class = "settlement"
-    lat = 3322
-    lng = 3167
+    x = 3322
+    y = 3167
     zoom_level = 2
     description = "A settlement composed entirelly of fillies and colts, hidden from the outside."
     link = ""
@@ -136,8 +136,8 @@
 [MillCityTower]
     name = "Mill City Tower"
     class = "settlement enclave"
-    lat = 3387
-    lng = 2973
+    x = 3387
+    y = 2973
     zoom_level = 1
     description = "A large spire located in the centre of Whinneapolis, its used as a major centre of Enclave research."
     link = ""
@@ -145,8 +145,8 @@
 [Sorchville]
     name = "Scorchville"
     class = "settlement"
-    lat = 3405
-    lng = 3042
+    x = 3405
+    y = 3042
     zoom_level = 2
     description = "A small settlement near the pre-war city of Lakewood with a peculiar cult of a robot by the name of Serendipidy."
     link = ""
@@ -154,8 +154,8 @@
 [Branch]
     name = "Branch"
     class = "settlement"
-    lat = 3415
-    lng = 3030
+    x = 3415
+    y = 3030
     zoom_level = 2
     description = "A medium settlement in Saint's Parish famous for its exploding grain silos."
     link = ""
@@ -163,8 +163,8 @@
 [Pins]
     name = "Pins"
     class = "settlement"
-    lat = 3335
-    lng = 3152
+    x = 3335
+    y = 3152
     zoom_level = 2
     description = "A small settlement of slavers."
     link = ""
@@ -172,8 +172,8 @@
 [CrossroadsTradingPosts]
     name = "Crossroads Trading Posts"
     class = "settlement rnp"
-    lat = 3260.542578125
-    lng = 3170.671875
+    x = 3260.542578125
+    y = 3170.671875
     zoom_level = 2
     description = "A large trading settlement built on an overpass and controlled by the R.N.P."
     link = ""
@@ -181,8 +181,8 @@
 [Coven]
     name = "Coven"
     class = "settlement"
-    lat = 3257.3125 
-    lng = 3169.1875
+    x = 3257.3125 
+    y = 3169.1875
     zoom_level = 2
     description = "A small trading settlement with a large zebra population."
     link = ""

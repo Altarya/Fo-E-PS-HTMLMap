@@ -1,8 +1,8 @@
 [EZPHQ]
     name = "E.Z.P. H.Q."
     class = "intra-settlement ezp"
-    lat = 2971
-    lng = 2919
+    x = 2971
+    y = 2919
     zoom_level = 2
     description = "The former headquarters of Extremo Zelo Poderoso the largest and megacorp tier corporation from the war."
     link = ""
@@ -10,8 +10,8 @@
 [UniversidadeDeThalesia]
     name = "Universidade de Thalesia"
     class = "intra-settlement"
-    lat = 2966
-    lng = 2876
+    x = 2966
+    y = 2876
     zoom_level = 2
     description = "The former largestt university in the world, now far too dangerous to be explored."
     link = ""
@@ -19,8 +19,8 @@
 [EZPPhaserFactory]
     name = "Fábrica de Fazers E.Z.P."
     class = "intra-settlement ezp"
-    lat = 2947
-    lng = 2918
+    x = 2947
+    y = 2918
     zoom_level = 2
     description = "Also known as the E.Z.P. Phaser Factory. It used to be the main factory for E.Z.P.'s famous phaser weapons."
     link = ""
@@ -28,8 +28,8 @@
 [EZPAeroFactory]
     name = "Aero-fábrica E.Z.P."
     class = "intra-settlement ezp"
-    lat = 2957
-    lng = 2916
+    x = 2957
+    y = 2916
     zoom_level = 2
     description = "Also known as The E.Z.P. Aerofactory. It was the largest airshipyard and general aeronautics factory in the world."
     link = ""
@@ -37,8 +37,8 @@
 [ThalesiaSouthCrater]
     name = "Thalesia South Crater"
     class = "misc-poi radiation"
-    lat = 2949
-    lng = 2901
+    x = 2949
+    y = 2901
     zoom_level = 1
     description = "The impact site of a balefire bomb launched by the S.P.Q.R. that targeted Thalesia on the day the world ended and took out a good chunk of its commercial district."
     link = ""
@@ -46,8 +46,8 @@
 [ThalesiaNorthCrater]
     name = "Thalesia North Crater"
     class = "misc-poi radiation"
-    lat = 3000
-    lng = 2905
+    x = 3000
+    y = 2905
     zoom_level = 1
     description = "The impact site of an explosion based megaspell launched by Equestria that took out a great portion of Thalesia's residential zones."
     link = ""

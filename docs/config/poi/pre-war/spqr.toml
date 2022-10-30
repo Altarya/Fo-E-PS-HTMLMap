@@ -1,8 +1,8 @@
 [Roam]
     name = "Roam"
     class ="pre-war-capital"
-    lat = 3085
-    lng = 2021
+    x = 3085
+    y = 2021
     zoom_level = 0
     description = "The beautyful capital of the zebras now reduced to an eternally burning hell."
     link = ""
@@ -10,8 +10,8 @@
 [Clavenas]
     name = "Clavenas"
     class = "city"
-    lat = 3152
-    lng = 2255
+    x = 3152
+    y = 2255
     zoom_level = 1
     description = ""
     link = ""
@@ -19,8 +19,8 @@
 [Ormoeas]
     name = "Órmoeas"
     class = "city"
-    lat = 3060
-    lng = 2162
+    x = 3060
+    y = 2162
     zoom_level = 1
     description = ""
     link = ""
@@ -28,8 +28,8 @@
 [Knochaitios]
     name = "Knochaítios"
     class = "city"
-    lat = 3020
-    lng = 2105
+    x = 3020
+    y = 2105
     zoom_level = 1
     description = ""
     link = ""
@@ -37,8 +37,8 @@
 [Alagovala]
     name = "Alagovala"
     class = "city"
-    lat = 2990
-    lng = 2037
+    x = 2990
+    y = 2037
     zoom_level = 1
     description = ""
     link = ""
@@ -46,8 +46,8 @@
 [Doryarta]
     name = "Doryarta"
     class = "city"
-    lat = 3006
-    lng = 2232
+    x = 3006
+    y = 2232
     zoom_level = 1
     description = ""
     link = ""
@@ -55,8 +55,8 @@
 [Tripodimiki]
     name = "Tripodimiki"
     class = "city"
-    lat = 3083
-    lng = 2392
+    x = 3083
+    y = 2392
     zoom_level = 1
     description = ""
     link = ""
@@ -64,8 +64,8 @@
 [Sanctvm]
     name = "Sanctvm"
     class = "city"
-    lat = 3184
-    lng = 2412
+    x = 3184
+    y = 2412
     zoom_level = 1
     description = "Also known as 'Sanctuary'"
     link = ""
@@ -73,8 +73,8 @@
 [Zestrvm]
     name = "Zestrvm"
     class = "city"
-    lat = 3069
-    lng = 2429
+    x = 3069
+    y = 2429
     zoom_level = 1
     description = ""
     link = ""
@@ -82,8 +82,8 @@
 [Exilivrbs]
     name = "Exilivrbs"
     class = "city"
-    lat = 3155
-    lng = 3738
+    x = 3155
+    y = 3738
     zoom_level = 1
     description = ""
     link = ""
@@ -91,8 +91,8 @@
 [Herazevraion]
     name = "Herazévraion"
     class = "city"
-    lat = 3143
-    lng = 2177
+    x = 3143
+    y = 2177
     zoom_level = 1
     description = ""
     link = ""
@@ -100,8 +100,8 @@
 [Opliolis]
     name = "Opliolis"
     class = "city"
-    lat = 3277
-    lng = 2142
+    x = 3277
+    y = 2142
     zoom_level = 1
     description = ""
     link = ""
@@ -109,8 +109,8 @@
 [OryzaFlvvivs]
     name = "Oryza Flvvivs"
     class = "city"
-    lat = 3424
-    lng = 2056
+    x = 3424
+    y = 2056
     zoom_level = 1
     description = "Also known as 'Rice River'."
     link = ""
@@ -118,8 +118,8 @@
 [Thermopolis]
     name = "Thermopolis"
     class = "city"
-    lat = 3282
-    lng = 1984
+    x = 3282
+    y = 1984
     zoom_level = 1
     description = ""
     link = ""
@@ -127,8 +127,8 @@
 [Nicomedivm]
     name = "Nicomedivm"
     class = "city"
-    lat = 3340
-    lng = 1905
+    x = 3340
+    y = 1905
     zoom_level = 1
     description = ""
     link = ""
@@ -136,8 +136,8 @@
 [Aricornvm]
     name = "Aricornvm"
     class = "city"
-    lat = 3370
-    lng = 1837
+    x = 3370
+    y = 1837
     zoom_level = 1
     description = ""
     link = ""
@@ -145,8 +145,8 @@
 [Vallvum]
     name = "Vallvm"
     class = "city"
-    lat = 3307
-    lng = 1752
+    x = 3307
+    y = 1752
     zoom_level = 1
     description = "Also known as 'Bastion'"
     link = ""
@@ -154,8 +154,8 @@
 [Lvghinnitvm]
     name = "Lvghinnitvm"
     class = "city"
-    lat = 3181
-    lng = 1842
+    x = 3181
+    y = 1842
     zoom_level = 1
     description = ""
     link = ""
@@ -163,8 +163,8 @@
 [Lvmenopolis]
     name = "Lvmenopolis"
     class = "city"
-    lat = 3025
-    lng = 1893
+    x = 3025
+    y = 1893
     zoom_level = 1
     description = ""
     link = ""
@@ -172,8 +172,8 @@
 [Zevran]
     name = "Zévran"
     class = "city"
-    lat = 3185
-    lng = 1676
+    x = 3185
+    y = 1676
     zoom_level = 1
     description = ""
     link = ""
@@ -181,8 +181,8 @@
 [Londvngvlam]
     name = "Londvgvlam"
     class = "city"
-    lat = 3442
-    lng = 1690
+    x = 3442
+    y = 1690
     zoom_level = 1
     description = ""
     link = ""
@@ -190,8 +190,8 @@
 [Rvptvpiclaven]
     name = "Rvptvpiclaven"
     class = "city"
-    lat = 3591
-    lng = 1705
+    x = 3591
+    y = 1705
     zoom_level = 1
     description = ""
     link = ""
@@ -199,8 +199,8 @@
 [Blesfrigvs]
     name = "Blesfrigvs"
     class = "city"
-    lat = 3624 
-    lng = 1640
+    x = 3624 
+    y = 1640
     zoom_level = 1
     description = ""
     link = ""
@@ -208,8 +208,8 @@
 [Glaceniam]
     name = "Glaceniam"
     class = "city"
-    lat = 3843
-    lng = 1638
+    x = 3843
+    y = 1638
     zoom_level = 1
     description = ""
     link = ""
@@ -217,8 +217,8 @@
 [Antizevran]
     name = "Antizévran"
     class = "city"
-    lat = 3447
-    lng = 1332
+    x = 3447
+    y = 1332
     zoom_level = 1
     description = ""
     link = ""
@@ -226,8 +226,8 @@
 [Hvmidvmia]
     name = "Hvmidvmia"
     class = "city"
-    lat = 3500
-    lng = 1292
+    x = 3500
+    y = 1292
     zoom_level = 1
     description = ""
     link = ""
@@ -235,8 +235,8 @@
 [NovvsReginam]
     name = "Novvs Reginam"
     class = "city"
-    lat = 3474
-    lng = 1245
+    x = 3474
+    y = 1245
     zoom_level = 1
     description = ""
     link = ""
@@ -244,8 +244,8 @@
 [Marepropem]
     name = "Marepropem"
     class = "city"
-    lat = 3450
-    lng = 1060
+    x = 3450
+    y = 1060
     zoom_level = 1
     description = ""
     link = ""
@@ -253,8 +253,8 @@
 [VngvlaSerdica]
     name = "Vngvla Serdica"
     class = "city"
-    lat = 3500
-    lng = 1013
+    x = 3500
+    y = 1013
     zoom_level = 1
     description = ""
     link = ""
@@ -262,8 +262,8 @@
 [Caeseratrix]
     name = "Caeseratrix"
     class = "city"
-    lat = 3579
-    lng = 1002
+    x = 3579
+    y = 1002
     zoom_level = 1
     description = ""
     link = ""
@@ -271,8 +271,8 @@
 [NovaRoam]
     name = "Nova Roam"
     class = "city"
-    lat = 3715
-    lng = 868
+    x = 3715
+    y = 868
     zoom_level = 1
     description = ""
     link = ""
@@ -280,8 +280,8 @@
 [Rhofias]
     name = "Rhofias"
     class = "city"
-    lat = 2955 
-    lng = 2071
+    x = 2955 
+    y = 2071
     zoom_level = 1
     description = ""
     link = ""
@@ -289,8 +289,8 @@
 [Canalogos]
     name = "Çanálogos"
     class = "city"
-    lat = 2924
-    lng = 2063
+    x = 2924
+    y = 2063
     zoom_level = 1
     description = ""
     link = ""
@@ -298,8 +298,8 @@
 [Trochaitas]
     name = "Trochaítas"
     class = "city"
-    lat = 2954
-    lng = 1972
+    x = 2954
+    y = 1972
     zoom_level = 1
     description = ""
     link = ""
@@ -307,8 +307,8 @@
 [Knosto]
     name = "Knósto"
     class = "city"
-    lat = 2880
-    lng = 1961
+    x = 2880
+    y = 1961
     zoom_level = 1
     description = ""
     link = ""
@@ -316,8 +316,8 @@
 [Zevrymno]
     name = "Zevrymno"
     class = "city"
-    lat = 2863
-    lng = 2015
+    x = 2863
+    y = 2015
     zoom_level = 1
     description = ""
     link = ""
@@ -325,8 +325,8 @@
 [Zakropolis]
     name = "Zakropolis"
     class = "city"
-    lat = 2855
-    lng = 2074
+    x = 2855
+    y = 2074
     zoom_level = 1
     description = ""
     link = ""
@@ -334,8 +334,8 @@
 [Mikitainia]
     name = "Mikitainía"
     class = "city"
-    lat = 2896
-    lng = 2161
+    x = 2896
+    y = 2161
     zoom_level = 1
     description = ""
     link = ""
@@ -343,8 +343,8 @@
 [Phaignostos]
     name = "Phaignóstos"
     class = "city"
-    lat = 2839
-    lng = 2046
+    x = 2839
+    y = 2046
     zoom_level = 1
     description = ""
     link = ""
@@ -352,8 +352,8 @@
 [Maliphilias]
     name = "Maliphilias"
     class = "city"
-    lat = 2803
-    lng = 2124
+    x = 2803
+    y = 2124
     zoom_level = 1
     description = ""
     link = ""
@@ -361,8 +361,8 @@
 [Palekalogos]
     name = "Palekálogos"
     class = "city"
-    lat = 2759
-    lng = 2061
+    x = 2759
+    y = 2061
     zoom_level = 1
     description = ""
     link = ""
@@ -370,8 +370,8 @@
 [Tylichivos]
     name = "Tylichívos"
     class = "city"
-    lat = 2728
-    lng = 2122
+    x = 2728
+    y = 2122
     zoom_level = 1
     description = ""
     link = ""
@@ -379,8 +379,8 @@
 [Calvis]
     name = "Calvis"
     class = "city"
-    lat = 2752
-    lng = 1948
+    x = 2752
+    y = 1948
     zoom_level = 1
     description = ""
     link = ""
@@ -388,8 +388,8 @@
 [Cognitionia]
     name = "Cognitionia"
     class = "city"
-    lat = 2783
-    lng = 1949
+    x = 2783
+    y = 1949
     zoom_level = 1
     description = ""
     link = ""
@@ -397,8 +397,8 @@
 [Insvlermo]
     name = "Insvlermo"
     class = "city"
-    lat = 2792
-    lng = 1913
+    x = 2792
+    y = 1913
     zoom_level = 1
     description = ""
     link = ""
@@ -406,8 +406,8 @@
 [Cagliarem]
     name = "Cagliarem"
     class = "city"
-    lat = 2832
-    lng = 1802
+    x = 2832
+    y = 1802
     zoom_level = 1
     description = ""
     link = ""
@@ -415,8 +415,8 @@
 [Pomperlona]
     name = "Pomperlona"
     class = "city"
-    lat = 2853
-    lng = 1678
+    x = 2853
+    y = 1678
     zoom_level = 1
     description = ""
     link = ""
@@ -424,8 +424,8 @@
 [Syraecvvs]
     name = "Syræcvvs"
     class = "city"
-    lat = 2819
-    lng = 1997
+    x = 2819
+    y = 1997
     zoom_level = 1
     description = ""
     link = ""
@@ -433,8 +433,8 @@
 [Saltvrbs]
     name = "Saltvrbs"
     class = "city"
-    lat = 2924
-    lng = 1577
+    x = 2924
+    y = 1577
     zoom_level = 1
     description = ""
     link = ""

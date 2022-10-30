@@ -1,130 +1,130 @@
 [EverfreeForest]
     name = "Everfree Forest"
     class = "natural"
-    lat = 3159
-    lng = 3323
+    x = 3159
+    y = 3323
 [MarejaveDesert]
     name = "Marejave Desert"
     class = "natural"
-    lat = 3225 
-    lng = 3174
+    x = 3225 
+    y = 3174
 [TheBadlands]
     name = "The Badlands"
     class = "natural"
-    lat = 3127
-    lng = 3196
+    x = 3127
+    y = 3196
 [PineForest]
     name = "Pine Forest"
     class = "natural"
-    lat = 3526
-    lng = 3780
+    x = 3526
+    y = 3780
 [GoldeSandsDesert]
     name = "Golden Sands Desert"
     class = "natural"
-    lat = 3772  
-    lng = 4024
+    x = 3772  
+    y = 4024
 [SerenePeaksPark]
     name = "Serene Peaks Park"
     class = "natural"
-    lat = 3988
-    lng = 3600
+    x = 3988
+    y = 3600
 [CaledonianHighlands]
     name = "Caledonian Highlands"
     class = "natural"
-    lat = 3801
-    lng = 3698
+    x = 3801
+    y = 3698
 [Equestrian-prenchRange]
     name = "Equestrian-prench Range"
     class = "natural"
-    lat = 3479
-    lng = 3302
+    x = 3479
+    y = 3302
 [ThestralIsland]
     name = "Thestral Island"
     class = "natural"
-    lat = 4034
-    lng = 3118
+    x = 4034
+    y = 3118
 [QuartzArchipelago]
     name = "Quartz Archipelago"
     class = "natural"
-    lat = 4157 
-    lng = 4004
+    x = 4157 
+    y = 4004
 [PrismArchipelago]
     name = "Prism Archipelago"
     class = "natural"
-    lat = 4310 
-    lng = 4308
+    x = 4310 
+    y = 4308
 [WhitetailWoods]
     name = "Whitetail Woods"
     class = "natural"
-    lat = 3308
-    lng = 3297
+    x = 3308
+    y = 3297
 [IsleOfTrottingham]
     name = "Isle of Trottingham"
     class = "natural"
-    lat = 3247  
-    lng = 3712
+    x = 3247  
+    y = 3712
 [AppleachianMountains]
     name = "Appleachian Mountains"
     class = "natural"
-    lat = 3550.125 
-    lng = 3277
+    x = 3550.125 
+    y = 3277
 [SplendidValley]
     name = "Splendid Valley"
     class = "unnatural"
-    lat = 3250
-    lng = 3248
+    x = 3250
+    y = 3248
 [RedForest]
     name = "Red Forest"
     class = "unnatural"
-    lat = 3850
-    lng = 3559
+    x = 3850
+    y = 3559
 [PinewoodsPark]
     name = "Pinewoods Park"
     class = "unnatural"
-    lat = 3571
-    lng = 3609
+    x = 3571
+    y = 3609
 [TheExclusionZone]
     name = "The Exclusion Zone"
     class = "unnatural"
-    lat = 3280
-    lng = 3619
+    x = 3280
+    y = 3619
 [NorthwoodsWasteland]
     name = "Northwoods Wasteland"
     class = "unnatural"
-    lat = 3420
-    lng = 3039
+    x = 3420
+    y = 3039
 [HoofBay]
     name = "Hoof Bay"
     class = "sea"
-    lat = 3378
-    lng = 3641
+    x = 3378
+    y = 3641
 [CelestialChannel]
     name = "Celestial Channel"
     class = "sea"
-    lat = 3312
-    lng = 3058
+    x = 3312
+    y = 3058
 [TheGreatTradeBay]
     name = "The Great Trade Bay"
     class = "sea"
-    lat = 3563
-    lng = 3996
+    x = 3563
+    y = 3996
 [ManeBay]
     name = "Mane Bay"
     class = "sea"
-    lat = 3267
-    lng = 3456
+    x = 3267
+    y = 3456
 [SplendidLake]
     name = "Splendid Lake"
     class = "sea"
-    lat = 3385
-    lng = 3351
+    x = 3385
+    y = 3351
 [SeineLake]
     name = "Seine Lake"
     class = "sea"
-    lat = 3714 
-    lng = 3202
+    x = 3714 
+    y = 3202
 [HeartBay]
     name = "Heart Bay"
     class = "sea"
-    lat = 3883
-    lng = 3475
+    x = 3883
+    y = 3475

@@ -1,8 +1,8 @@
 [PalacioDaInquisicao]
     name = "Palácio da Inquisição"
     class = "intra-settlement"
-    lat = 2211
-    lng = 2916
+    x = 2211
+    y = 2916
     zoom_level = 3
     description = "The Palace of the Inquisition, one of the oldest buildings in Porto Capital. It houses Ausil's main inquisitorial court"
     link = ""
@@ -10,8 +10,8 @@
 [PalacioDaJustica]
     name = "Palácio da Justiça"
     class = "intra-settlement"
-    lat = 2210
-    lng = 2918
+    x = 2210
+    y = 2918
     zoom_level = 3
     description = "The Justice Palace, a colonial era building that houses various courtrooms and high justice officials."
     link = ""
@@ -19,8 +19,8 @@
 [PalacioDaAuvorada]
     name = "Palácio da Auvorada"
     class = "intra-settlement"
-    lat = 2213
-    lng = 2921
+    x = 2213
+    y = 2921
     zoom_level = 3
     description = "The Presidential Palace of Ausil."
     link = ""
@@ -28,8 +28,8 @@
 [CongressoNacional]
     name = "Congresso Nacional"
     class = "intra-settlement"
-    lat = 2212
-    lng = 2914
+    x = 2212
+    y = 2914
     zoom_level = 3
     description = "The National Congress, where both houses of parliament are located."
     link = ""
@@ -37,8 +37,8 @@
 [MinisterioDeDefesaPublica]
     name = "Ministério de Defesa Pública"
     class = "intra-settlement"
-    lat = 2209
-    lng = 2917
+    x = 2209
+    y = 2917
     zoom_level = 3
     description = "The Ministry of Public Defense's building, it houses the Minister herself and various other offices."
     link = ""
@@ -46,8 +46,8 @@
 [EmbaixadaEquestriana]
     name = "Embaixada Equestriana"
     class = "intra-settlement lodge"
-    lat = 2205
-    lng = 2917
+    x = 2205
+    y = 2917
     zoom_level = 3
     description = "The old embassy building for the long gone Principality of Equestria."
     link = ""
@@ -55,8 +55,8 @@
 [PalacioKauane]
     name = "Palácio de Kauane"
     class = "intra-settlement"
-    lat = 2203
-    lng = 2921
+    x = 2203
+    y = 2921
     zoom_level = 3
     description = "The 'palace' of the old gelupirí monarchy."
     link = ""
@@ -64,8 +64,8 @@
 [DistritoDeGuarabara]
     name = "Distrito de Guarábara"
     class = "intra-settlement"
-    lat = 2208
-    lng = 2916
+    x = 2208
+    y = 2916
     zoom_level = 2
     description = "The central administrative district of Ausil, where most federal buildings are located."
     link = ""
@@ -73,8 +73,8 @@
 [CasteloDasDiretas]
     name = "Castelo Das Diretas"
     class = "intra-settlement"
-    lat = 2193
-    lng = 2890
+    x = 2193
+    y = 2890
     zoom_level = 2
     description = "The large and ancient castle of the Direta familly. Currently owned by an international prosecutor named Amanda Direta"
     link = ""
@@ -82,8 +82,8 @@
 [ASenzalaInconfidente]
     name = "A Senzala Inconfidênte"
     class = "intra-settlement"
-    lat = 2224
-    lng = 2908
+    x = 2224
+    y = 2908
     zoom_level = 2
     description = "An old unassuming unpreserved colonial house that now leads to the H.Q. of the new inconfident revolutionaries."
     link = ""

@@ -1,8 +1,8 @@
 [EyeGlow]
     name = "Eye Glow"
     class = "post-war-capital nca"
-    lat = 3451
-    lng = 3917
+    x = 3451
+    y = 3917
     zoom_level = 0
     description = "The large capital of the N.C.A."
     link = ""

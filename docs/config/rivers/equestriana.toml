@@ -15,7 +15,7 @@
         [3332.0625, 3286.25 ],
     ]
     minWidth = 1
-    maxWidth = 5
+    maxWidth = 10
     opacity = 0.5
 [EquestrianRiver]
     name = "Equestrian River"
@@ -37,7 +37,7 @@
         [3175.25, 3256.0],
         [3165.5, 3253.0],
     ]
-    minWidth = 1
+    minWidth = 5
     maxWidth = 10
     opacity = 0.5
 [SplendidFalls]
@@ -47,7 +47,7 @@
         [3427.625, 3327.375],
         [3417.375, 3336.875],
     ]
-    minWidth = 5
+    minWidth = 4
     maxWidth = 5
     opacity = 0.5
 [HoofRiver]
@@ -96,7 +96,7 @@
         [3552.875, 3231.0],
         [3561.875, 3222.0],
     ]
-    minWidth = 15
+    minWidth = 14
     maxWidth = 15
     opacity = 0.5
 [ShenandoeahRiver]

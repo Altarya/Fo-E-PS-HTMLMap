@@ -1,8 +1,8 @@
 [ColterField]
     name = "Colter Field"
     class = "intra-settlement"
-    lat = 3576
-    lng = 2866
+    x = 3576
+    y = 2866
     zoom_level = 2
     description = "An old hoofball stadium home of the Cult of Iron Will."
     link = ""
@@ -10,8 +10,8 @@
 [FillysTower]
     name = "Filly's Tower"
     class = "intra-settlement"
-    lat = 3607
-    lng = 2859
+    x = 3607
+    y = 2859
     zoom_level = 2
     description = "A black tall tower known for its ghost tales that scare away any scavengers. The Minotaur DJ broadcasts from here."
     link = ""
@@ -19,8 +19,8 @@
 [ChicacoltMuseum]
     name = "Chicacolt Museum"
     class = "intra-settlement"
-    lat = 3590
-    lng = 2850
+    x = 3590
+    y = 2850
     zoom_level = 2
     description = "An old run down museum thats ffar too danggerous to venture into."
     link = ""
@@ -28,8 +28,8 @@
 [FillysPier]
     name = "Filly's Pier"
     class = "intra-settlement"
-    lat = 3623
-    lng = 2853
+    x = 3623
+    y = 2853
     zoom_level = 2
     description = "An old equestrian millitary naval base that also featured a theme park with a ferris wheel."
     link = ""
@@ -37,8 +37,8 @@
 [AlbamarealWestDam]
     name = "Albamareal West Dam"
     class = "misc-poi"
-    lat = 3520.25
-    lng = 3245
+    x = 3520.25
+    y = 3245
     zoom_level = 2
     description = ""
     link = ""
@@ -46,8 +46,8 @@
 [AlbamarealEastDam]
     name = "Albamareal East Dam"
     class = "misc-poi"
-    lat = 3519
-    lng = 3253.2
+    x = 3519
+    y = 3253.2
     zoom_level = 2
     description = ""
     link = ""
@@ -55,8 +55,8 @@
 [WhinnychesterCompound]
     name = "Whinnychester Compound"
     class = "misc-poi"
-    lat = 3513.125
-    lng = 3262.5
+    x = 3513.125
+    y = 3262.5
     zoom_level = 2
     description = ""
     link = ""
@@ -64,8 +64,8 @@
 [PleasantPoint]
     name = "Pleasant Point"
     class = "misc-poi"
-    lat = 3594.375
-    lng = 3202.125
+    x = 3594.375
+    y = 3202.125
     zoom_level = 2
     description = ""
     link = ""
@@ -73,8 +73,8 @@
 [ToxicValley]
     name = "Toxic Valley"
     class = "misc-poi radiation"
-    lat = 3606.375
-    lng = 3176.125
+    x = 3606.375
+    y = 3176.125
     zoom_level = 2
     description = ""
     link = ""
@@ -82,8 +82,8 @@
 [NewRiverGorgeBridge]
     name = "New River Gorge Bridge"
     class = "misc-poi"
-    lat = 3535.125
-    lng = 3218.875
+    x = 3535.125
+    y = 3218.875
     zoom_level = 2
     description = ""
     link = ""
@@ -91,8 +91,8 @@
 [EquestrianStreet]
     name = "Equestrian Street"
     class = "intra-settlement"
-    lat = 3603.625
-    lng = 3182.875
+    x = 3603.625
+    y = 3182.875
     zoom_level = 2
     description = ""
     link = ""

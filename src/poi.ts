@@ -12,19 +12,19 @@ function zoomCheck(mapVar: L.Map) {
     if (mapVar.hasLayer(locationsLayers)) {
         let zoom = mapVar.getZoom()
         mapVar.addLayer(capitals);
-        if (zoom > 0){
+        if (zoom > 4){
             mapVar.addLayer(cities);
         }
         else {
             mapVar.removeLayer(cities);
         }
-        if (zoom > 2){
+        if (zoom > 6){
             mapVar.addLayer(settlements);
         }
         else {
             mapVar.removeLayer(settlements);
         }
-        if (zoom > 4){
+        if (zoom > 8){
             mapVar.addLayer(intraSettlement);
         }
         else {
@@ -33,7 +33,7 @@ function zoomCheck(mapVar: L.Map) {
     }
 }
 
-export function setupPOI(mapVar: L.Map, layerController: L.Control.Layers, map: Map<string, toml.AnyJson>) {
+export function setupPOI(mapVar: L.Map, layerController: L.Control.Layers, map: Map<string, toml.AnyJson>, mapSize: [number, number]) {
 
     var poiIcon: new(any: any) => L.Icon = L.Icon.extend({
         options: {
@@ -93,8 +93,8 @@ export function setupPOI(mapVar: L.Map, layerController: L.Control.Layers, map: 
                             if(ent.length == 8) {
                                 const name: string = ent[0][1]
                                 const classNamev: string = ent[1][1]
-                                const lat: number = ent[2][1]
-                                const lng: number = ent[3][1]
+                                const lat: number = ((ent[2][1]/mapSize[0])*180)-90
+                                const lng: number = ((ent[3][1]/mapSize[1])*360)-180
                                 const zoom_level: number = ent[4][1]
                                 const description: string = ent[5][1]
                                 const link: string = ent[6][1]
