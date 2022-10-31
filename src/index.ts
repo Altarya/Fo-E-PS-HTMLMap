@@ -11,6 +11,8 @@ import { setupLines } from "./lines";
 import terminator from "./daynight";
 import AutoGraticule from "leaflet-auto-graticule";
 import betterscale from "./scalebar";
+import makeSlider from "./slider";
+import htmllegend from "./htmllegend";
 
 var Lextra: any;
 let centerOfMap = new L.LatLng(0, 0)
@@ -106,13 +108,13 @@ fetch(Config.configPath+"main.toml").then((response => {
 
                 map.on('click', (e: LeafletMouseEvent) => {
                     locMarker.setLatLng(e.latlng)
-                    .bindPopup(e.latlng.lat + ", " + e.latlng.lng + " Lat and Lng<p>" + ((e.latlng.lat+90)/180)*mapSize[0]+ ", " + ((e.latlng.lat+180)/360)*mapSize[1]+" X/Y</p>")
+                    .bindPopup(e.latlng.lat + ", " + e.latlng.lng + " Lat and Lng<p>" + ((e.latlng.lat+90)/180)*mapSize[0]+ ", " + ((e.latlng.lng+180)/360)*mapSize[1]+" X/Y</p>")
                     .addTo(map)
                     .openPopup();
                 });
                 locMarker.on('drag', (e: LeafletMouseEvent) => {
                     locMarker.setLatLng(e.latlng)
-                    .bindPopup(e.latlng.lat + ", " + e.latlng.lng + " Lat and Lng<p>" + ((e.latlng.lat+90)/180)*mapSize[0]+ ", " + ((e.latlng.lat+180)/360)*mapSize[1]+" X/Y</p>") 
+                    .bindPopup(e.latlng.lat + ", " + e.latlng.lng + " Lat and Lng<p>" + ((e.latlng.lat+90)/180)*mapSize[0]+ ", " + ((e.latlng.lng+180)/360)*mapSize[1]+" X/Y</p>") 
                     .addTo(map)
                     .openPopup();
                 });
@@ -223,6 +225,62 @@ fetch(Config.configPath+"main.toml").then((response => {
                 })
 
                 layerController.addOverlay(daynight, "Day/Night")
+
+                const dayone = 2478938.50000
+                const daylast = 2479303.49999
+                var currentTime = new Date()
+                var currentLeg = 1
+                const slider = function () {
+                }
+                var htmlLegend = htmllegend({
+                    position: 'topleft',
+                    disableVisibilityControls: true
+                })
+                htmlLegend.addTo(map)
+                htmlLegend.addLegend({
+                    name: "Time",
+                    layer: daynight,
+                    elements: [{
+                        html: "<p>"+currentTime.toDateString()+"</p>"
+                    }]
+                })
+                var timeSlider = makeSlider(slider, {
+                    size: '1000px',
+                    position: 'bottomleft',
+                    min: dayone,
+                    max: daylast,
+                    step: 0.005,
+                    id: "slider",
+                    value: dayone,
+                    collapsed: false,
+                    title: 'Time Slider',
+                    logo: 'T',
+                    orientation: 'horizontal',
+                    increment: true,
+                    getValue: function(value: any) {
+                        var millis = (parseFloat(value) - 2440587.5) * 86400000
+                        currentTime = new Date(millis)
+                        htmlLegend.removeLegend(currentLeg)
+                        htmlLegend.addLegend({
+                            name: "Time",
+                            layer: daynight,
+                            elements: [{
+                                html: "<p>"+currentTime.toDateString()+"</p>"
+                            }]
+                        })
+                        currentLeg++
+                        daynight.setTime(new Date(millis))
+                        return value;
+                    },
+                    showValue: true,
+                })
+
+                daynight.on('add', function() {
+                    timeSlider.addTo(map)
+                });
+                daynight.on('remove', function() {
+                    map.removeControl(timeSlider)
+                });
 
                 var graticule = new AutoGraticule();
 
