@@ -1,5 +1,5 @@
 .stable.leaflet-marker-icon {
-    background-image: url(./assets/icons/poi/gear.webp);
+    background-image: url(./assets/icons/poi/stable.webp);
     background-repeat: no-repeat;
     background-size: 16px;
     background-position: top;
@@ -19,7 +19,7 @@
 }
 
 .weapons.leaflet-marker-icon {
-    background-image: url(./assets/icons/poi/weapon.webp);
+    background-image: url(./assets/icons/poi/weapons.webp);
     background-repeat: no-repeat;
     background-size: 20px;
     background-position: top;
@@ -169,7 +169,7 @@
 }
 
 .unity.leaflet-marker-icon {
-    background-image: url(./assets/icons/poi/unity_by_cazra.webp);
+    background-image: url(./assets/icons/poi/unity.webp);
     background-repeat: no-repeat;
     background-size: 19px;
     background-position: top;

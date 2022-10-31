@@ -105,3 +105,15 @@
     ]
     enable_leaflet_scalebar = false #Wether or not Leaflet's default scale bar will be visible
     enable_better_scalebar = true #Wether or not Betterscale's scale bar will be visible
+    enable_globe = true #Wether or not the Cesium Globe is enabled
+[poi_colour_list] 
+    settlement = [ "255", "0", "0" ]
+    city = [ "0", "255", "0" ]
+    pre-war-capital = [ "0", "180", "0" ]
+    post-war-capital = [ "180", "0", "0" ]
+    intra-settlement = [ "0", "180", "180" ]
+    misc-poi = [ "0", "255", "255" ]
+[features_colour_list]
+    natural = [ "255", "255", "0" ]
+    unnatural = [ "255", "69", "0" ]
+    sea = [ "0", "153", "255" ]

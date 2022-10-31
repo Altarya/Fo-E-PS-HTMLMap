@@ -1,10 +1,11 @@
 import * as L from "leaflet"
+import * as Cesium from "cesium"
 import { LatLngBounds, LatLngBoundsExpression, LatLngExpression, LeafletMouseEvent, ImageOverlayOptions } from "leaflet";
-import { setupPOI } from "./poi";
+import { setupPOI, setupPOICesium } from "./poi";
 import * as Config from './config'
 import * as toml from '@iarna/toml'
 import saveAs from "file-saver";
-import { setupFeatures } from "./features";
+import { setupFeatures, setupFeaturesCesium } from "./features";
 import { setupLayers } from "./layers";
 import { setupRivers } from "./river";
 import { setupLines } from "./lines";
@@ -13,6 +14,7 @@ import AutoGraticule from "leaflet-auto-graticule";
 import betterscale from "./scalebar";
 import makeSlider from "./slider";
 import htmllegend from "./htmllegend";
+import { ThreeDButton } from "./threedbutton";
 
 var Lextra: any;
 let centerOfMap = new L.LatLng(0, 0)
@@ -59,13 +61,13 @@ fetch(Config.configPath+"main.toml").then((response => {
     }))
     .then((result) => {
         result.text().then(response => {
-
+            /****** LEAFLET  ******/
             const mainConfigParsed = toml.parse(response)
             const mainConfigMap = new Map(Object.entries(mainConfigParsed))
 
             const CONFIG = new Map(Object.entries(mainConfigMap.get("CONFIG")))
 
-            try {
+            //try {
 
                 var layerController = L.control.layers().addTo(map)
 
@@ -301,9 +303,58 @@ fetch(Config.configPath+"main.toml").then((response => {
                     }).addTo(map);
                 }
 
-            } catch (error) {
-                console.error("Parsing error on line " + error.line + ", column " + error.column + ": " + error.message);
-            }
+
+                /******* CESIUM *******/
+                const isGlobeEnabled: boolean = CONFIG.get("enable_globe")
+                if (isGlobeEnabled) {
+                    const terrainc = new Cesium.SingleTileImageryProvider({
+                        url: './assets/layers/terrain.webp',
+                        rectangle: new Cesium.Rectangle(-Math.PI, -Math.PI/2, Math.PI, Math.PI/2),
+                    })
+                    terrainc.defaultMagnificationFilter = Cesium.TextureMagnificationFilter.NEAREST
+                    terrainc.defaultMinificationFilter = Cesium.TextureMinificationFilter.NEAREST
+
+                    //const layersc = new Cesium.ImageryLayerCollection()
+                    //layersc.addImageryProvider(terrainc)
+
+                    const viewer = new Cesium.Viewer('map2', {
+                        //terrainProvider: Cesium.createWorldTerrain(
+                        imageryProvider: terrainc,
+                        baseLayerPicker: false,
+                        shadows: false,
+                        projectionPicker: true,
+                        //geocoder: new LabelCollectionGeocoder(),
+                        geocoder: false,
+                        sceneModePicker: true,
+                        timeline: false,
+                    });
+                    var poi = viewer.entities
+
+                    setupPOICesium(poi, mainConfigMap, mapSize)
+                    setupFeaturesCesium(poi, mainConfigMap, mapSize)
+
+                    var button = document.createElement('button');
+                    button.type = 'button';
+                    button.className = 'cesium-button';
+                    button.onclick = function() {
+                        var mapC = document.getElementById("map2");
+                        mapC.style.height = "0%"
+                        mapC.style.width = "0%"
+                        var mapL = document.getElementById("map");
+                        mapL.style.height = "100%"
+                        mapL.style.width = "100%"
+                    };
+                    button.textContent = '2D';
+                    document.getElementsByClassName('cesium-viewer-toolbar').item(0).appendChild(button);
+
+                    ThreeDButton({
+                        position: "topleft"
+                    }).addTo(map)
+                }
+
+            //} catch (error) {
+            //    console.error("Parsing error on line " + error.line + ", column " + error.column + ": " + error.message);
+            //}
         }
     )
 })

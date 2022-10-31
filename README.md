@@ -12,6 +12,7 @@ and here: https://altarya.github.io/Fo-E-PS-HTMLMap/ for the whole thing working
 - (Semi-accurate) Distance and Bearing ruler
 - Loose files for deployment with the packaged Electron Launcher or anywhere that can render WebGL and HTML5
 - Easilly moldable for those that want to use this as a base for their own maps
+- Toggable 3D Globe mode
 
 # How to use?
 ## Standalone
@@ -76,12 +77,23 @@ Note that features are always visible regardless of zoom levels.
 ## Styling
 This is how you give each marker its own style, this is done by calling the className property of the marker in a css file, for locations
 use pointsofinterest.css and for features use features.css.
-I'd reccommend reading a bit about CSS Styling before you attempt to mess with these.
+I'd recommend reading a bit about CSS Styling before you attempt to mess with these.
 ```css
   .yourClassNameHere {
       /* Styling */
   }
 ```
+## Styling the Globe
+The Globe is powered by an API named Cesium, which does not provide CSS classes, so you are more limited on how you can customize the markers on the map, don't worry tho! All functionality from the markers aside from that are kept, including the HTML powered descriptions. Still i wanted to give people the option to modify the icons and colours of the markers, so here's how it works:
+### Colours
+Editing colours for POIs and Feature markers is done via the two bottommost lists in main.toml: poi_colour_list and features_colour_list.
+The names are derived from your class name that you define in your marker and the colour is an array of strings:
+```toml
+    name = [ "red", "green", "blue" ]
+```
+### Icons
+Editing the icons was a bit trickier, basically if you enter a second class with a space in your class name that will be the icon which will be loaded as webp image from assets/icons/poi, for example if you have a class name set to "settlement rnp" the icon will be assets/icons/poi/rnp.webp!
+
 You can also modify other Leaflet ui things using this same format, you can of course find out what classes to modify using your browser's(or
 the bundled Electron's) webpage inspector(Inspect Element).
 ## Other Settings
