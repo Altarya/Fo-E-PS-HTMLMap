@@ -22,7 +22,7 @@
     x = 3590
     y = 2850
     zoom_level = 2
-    description = "An old run down museum thats ffar too danggerous to venture into."
+    description = "An old run down museum thats far too danggerous to venture into."
     link = ""
     from = 3
 [FillysPier]
@@ -40,7 +40,7 @@
     x = 3520.25
     y = 3245
     zoom_level = 2
-    description = ""
+    description = "An old pre-war still functioning hydroelectric power plant on the western side of the river system."
     link = ""
     from = 13
 [AlbamarealEastDam]
@@ -49,25 +49,7 @@
     x = 3519
     y = 3253.2
     zoom_level = 2
-    description = ""
-    link = ""
-    from = 13
-[WhinnychesterCompound]
-    name = "Whinnychester Compound"
-    class = "misc-poi"
-    x = 3513.125
-    y = 3262.5
-    zoom_level = 2
-    description = ""
-    link = ""
-    from = 13
-[PleasantPoint]
-    name = "Pleasant Point"
-    class = "misc-poi"
-    x = 3594.375
-    y = 3202.125
-    zoom_level = 2
-    description = ""
+    description = "An old pre-war still functioning hydroelectric power plant on the eastern side of the river system."
     link = ""
     from = 13
 [ToxicValley]
@@ -76,7 +58,7 @@
     x = 3606.375
     y = 3176.125
     zoom_level = 2
-    description = ""
+    description = "Coated in a pasty, white radioactive layer on everything, this region is very inhospitable to all creatures. Home to some minor steel mills and industrial complex Pre-Last Day."
     link = ""
     from = 13
 [NewRiverGorgeBridge]
@@ -85,7 +67,7 @@
     x = 3535.125
     y = 3218.875
     zoom_level = 2
-    description = ""
+    description = "Large bridge connecting two dividing mountains and bridging the Shanandoeah river."
     link = ""
     from = 13
 [EquestrianStreet]
@@ -95,5 +77,14 @@
     y = 3182.875
     zoom_level = 2
     description = ""
+    link = ""
+    from = 13
+[EquestrianSteel]
+    name = "Equestrian Seel"
+    class = "misc-poi"
+    x = 3574.0625
+    y = 3210.5546875
+    zoom_level = 2
+    description = "The largest steel mill on the Shanandoeah river."
     link = ""
     from = 13

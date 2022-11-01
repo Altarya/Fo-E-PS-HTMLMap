@@ -214,3 +214,12 @@
     description = "A small gem mining town, now mostly empty save it for the cave which houses a settlement of hellhounds and ponies."
     link = ""
     from = 4
+[SandyShoals]
+    name = "Sandy Shoals"
+    class = "city"
+    x = 3629.875 
+    y = 3213.375
+    zoom_level = 1
+    description = "A small seaside town, now settlement, used to be a popular vacation spot."
+    link = ""
+    from = 13

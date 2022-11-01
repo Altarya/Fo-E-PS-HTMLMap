@@ -40,7 +40,7 @@
     x = 3524.25
     y = 3240
     zoom_level = 1
-    description = ""
+    description = "An unfinished skyscraper in the heart of Albamareal now an odd settlement. Stable 83 was constructed in the basement with access being from a ramp in the Foyer. The groups that now live in the tower have a mysterious goal of finishing the aging skyscraper."
     link = ""
     from = 13
 [Raineigh]
@@ -49,7 +49,7 @@
     x = 3537.375
     y = 3265.875
     zoom_level = 1
-    description = ""
+    description = "A median enclave cloud city, it was targeted during the day the bombs fell however the bomb was a dud."
     link = ""
     from = 13
 [SugarGrove]
@@ -58,7 +58,7 @@
     x = 3533.375
     y = 3270.625
     zoom_level = 2
-    description = ""
+    description = "Once a Equestrian Naval Listening post, it was abandoned after the war, only to be rediscovered and converted into a settlement. It had been built for three weeks by the time of the story."
     link = ""
     from = 13
 [TheHive]
@@ -67,7 +67,7 @@
     x = 3618.75
     y = 3173.75
     zoom_level = 2
-    description = ""
+    description = "A strange deadzone area in the Toxic Valley, seems to be inhabited?"
     link = ""
     from = 13
 [PortTopsailNavalBase]
@@ -76,16 +76,24 @@
     x = 3601.375
     y = 3198.125
     zoom_level = 2
-    description = ""
+    description = "An old equestrian navy drydock, now owned by the Whinnychester Steel Rangers chapter."
     link = ""
     from = 13
-[SandyShoals]
-    name = "Sandy Shoals"
-    class = "settlement"
-    x = 3629.875 
-    y = 3213.375
+[WhinnychesterCompound]
+    name = "Whinnychester Compound"
+    class = "settlement steelranger"
+    x = 3513.125
+    y = 3262.5
     zoom_level = 2
-    description = ""
+    description = "An old prison complex-city owned by the Whinnychester Family during the war, now a Whinnychester Steel Ranger arms factory."
     link = ""
     from = 13
-
+[PleasantPoint]
+    name = "Pleasant Point"
+    class = "settlement"
+    x = 3594.375
+    y = 3202.125
+    zoom_level = 2
+    description = "The home to a poor, small town of creatures. Very dependent on the Water Caravans to sell the water from their purifiers in the river."
+    link = ""
+    from = 13
