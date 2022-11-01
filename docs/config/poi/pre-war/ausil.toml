@@ -52,8 +52,8 @@
     description = ""
     link = ""
     from = 2
-[RioDeJaneighro]
-    name = "Rio de Janeighro"
+[CrinaDeJaneiro]
+    name = "Crina de Janeiro"
     class ="city"
     x = 1972
     y = 2965
