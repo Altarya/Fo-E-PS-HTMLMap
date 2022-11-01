@@ -181,9 +181,18 @@
 [Coven]
     name = "Coven"
     class = "settlement"
-    x = 3257.3125 
+    x = 3257.3125
     y = 3169.1875
     zoom_level = 2
     description = "A small trading settlement with a large zebra population."
+    link = ""
+    from = 4
+[DriftwoodCove]
+    name = "Driftwood Cove"
+    class = "settlement"
+    x = 3336.5625
+    y = 3090.46875
+    zoom_level = 1
+    description = "A large old fort now home to the XII Legion of Roam."
     link = ""
     from = 4

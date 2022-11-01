@@ -4,14 +4,14 @@ import * as L from "leaflet"
 
 var Lextra: any
 if (typeof exports === 'object') {
-    Lextra = require('leaflet');
+    Lextra = require('leaflet')
 } else {
     if(typeof window.L === 'undefined')
-        throw 'Leaflet must be loaded first';
+        throw 'Leaflet must be loaded first'
     Lextra = L
 }
 
-var lines: L.FeatureGroup<any>[] = new Array();
+var lines: L.FeatureGroup<any>[] = new Array()
 var locationsLayers = L.layerGroup(lines)
 
 export function setupLines(layerController: L.Control.Layers, map: Map<string, toml.AnyJson>, mapSize: [number, number]) {
@@ -34,8 +34,8 @@ export function setupLines(layerController: L.Control.Layers, map: Map<string, t
 
     const featureList = new Map(Object.entries(PATH.get("lines_list")))
     for (let entry of Array.from(featureList.entries())) {
-        let key = entry[0];
-        let value = entry[1];
+        let key = entry[0]
+        let value = entry[1]
         //console.log(key+" "+value)
 
         fetch(Config.linesPath+value+".toml").then((response => {
@@ -46,20 +46,20 @@ export function setupLines(layerController: L.Control.Layers, map: Map<string, t
             .then((result) => {
                 result.text().then(response => {
                     try {
-                        var parsed = toml.parse(response);
+                        var parsed = toml.parse(response)
 
-                        const pois = new Map(Object.entries(parsed));
-                        //console.log(pois);
+                        const pois = new Map(Object.entries(parsed))
+                        //console.log(pois)
 
                         for (let entry of Array.from(pois.entries())) {
-                            let key = entry[0];
-                            let value = entry[1];
+                            let key = entry[0]
+                            let value = entry[1]
                             //console.log(key+" "+value)
 
                             const entm = new Map(Object.entries(pois.get(key)))
                             const ent = Array.from(entm.entries())
 
-                            //console.log(ent);
+                            //console.log(ent)
 
                             const name: string = ent[0][1]
                             const classNamev: string = ent[1][1]
@@ -93,7 +93,7 @@ export function setupLines(layerController: L.Control.Layers, map: Map<string, t
                             lines[layerv].addLayer(line)
                         }
                     } catch (error) {
-                        console.error("Parsing error on line " + error.line + ", column " + error.column + ": " + error.message);
+                        console.error("Parsing error on line " + error.line + ", column " + error.column + ": " + error.message)
                     }
                 })
             }

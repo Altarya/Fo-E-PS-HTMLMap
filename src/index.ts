@@ -1,22 +1,22 @@
 import * as L from "leaflet"
 import * as Cesium from "cesium"
-import { LatLngBounds, LatLngBoundsExpression, LatLngExpression, LeafletMouseEvent, ImageOverlayOptions } from "leaflet";
-import { setupPOI, setupPOICesium } from "./poi";
+import { LatLngBounds, LatLngBoundsExpression, LatLngExpression, LeafletMouseEvent, ImageOverlayOptions } from "leaflet"
+import { setupPOI, setupPOICesium } from "./poi"
 import * as Config from './config'
 import * as toml from '@iarna/toml'
-import saveAs from "file-saver";
-import { setupFeatures, setupFeaturesCesium } from "./features";
-import { setupLayers } from "./layers";
-import { setupRivers } from "./river";
-import { setupLines } from "./lines";
-import terminator from "./daynight";
-import AutoGraticule from "leaflet-auto-graticule";
-import betterscale from "./scalebar";
-import makeSlider from "./slider";
-import htmllegend from "./htmllegend";
-import { ThreeDButton } from "./threedbutton";
+import saveAs from "file-saver"
+import { setupFeatures, setupFeaturesCesium } from "./features"
+import { setupLayers } from "./layers"
+import { setupRivers } from "./river"
+import { setupLines } from "./lines"
+import terminator from "./daynight"
+import AutoGraticule from "leaflet-auto-graticule"
+import betterscale from "./scalebar"
+import makeSlider from "./slider"
+import htmllegend from "./htmllegend"
+import { ThreeDButton } from "./threedbutton"
 
-var Lextra: any;
+var Lextra: any
 let centerOfMap = new L.LatLng(0, 0)
 let partyIcon = new L.Icon({
     iconSize:     [48, 48],
@@ -39,13 +39,13 @@ var map = new L.Map('map', {
     center: centerOfMap,
     zoom: 5,
     minZoom: 2
-});
+})
 
 if (typeof exports === 'object') {
-    Lextra = require('leaflet');
+    Lextra = require('leaflet')
 } else {
     if(typeof window.L === 'undefined')
-        throw 'Leaflet must be loaded first';
+        throw 'Leaflet must be loaded first'
     Lextra = L
 }
 
@@ -106,20 +106,20 @@ fetch(Config.configPath+"main.toml").then((response => {
                 let locMarker = L.marker(centerOfMap, {
                     icon: locMarkerIcon,
                     draggable: true
-                });
+                })
 
                 map.on('click', (e: LeafletMouseEvent) => {
                     locMarker.setLatLng(e.latlng)
                     .bindPopup(e.latlng.lat + ", " + e.latlng.lng + " Lat and Lng<p>" + ((e.latlng.lat+90)/180)*mapSize[0]+ ", " + ((e.latlng.lng+180)/360)*mapSize[1]+" X/Y</p>")
                     .addTo(map)
-                    .openPopup();
-                });
+                    .openPopup()
+                })
                 locMarker.on('drag', (e: LeafletMouseEvent) => {
                     locMarker.setLatLng(e.latlng)
                     .bindPopup(e.latlng.lat + ", " + e.latlng.lng + " Lat and Lng<p>" + ((e.latlng.lat+90)/180)*mapSize[0]+ ", " + ((e.latlng.lng+180)/360)*mapSize[1]+" X/Y</p>") 
                     .addTo(map)
-                    .openPopup();
-                });
+                    .openPopup()
+                })
 
                 layerController.addBaseLayer(terrain, "Terrain")
 
@@ -129,7 +129,7 @@ fetch(Config.configPath+"main.toml").then((response => {
                 var linesLayer = setupLines(layerController, mainConfigMap, mapSize).addTo(map)
 
                 var searchLayers = L.layerGroup([poiLayer, featuresLayer])
-                map.addControl( new Lextra.Control.Search({layer: searchLayers, zoom: 10, initial: false}) );
+                map.addControl( new Lextra.Control.Search({layer: searchLayers, zoom: 10, initial: false}) )
                 console.log("Loaded Search")
 
                 var options = {
@@ -149,13 +149,13 @@ fetch(Config.configPath+"main.toml").then((response => {
                         label: 'Distance:'           
                     },
                     angleUnit: {
-                        display: '&deg;',           // This is the display value will be shown on the screen. Example: 'Gradian'
+                        display: '&deg',           // This is the display value will be shown on the screen. Example: 'Gradian'
                         decimal: 2,                 // Bearing result will be fixed to this value.
                         factor: 1,                // This option is required to customize angle unit. Specify solid angle value for angle unit. Example: 400 (for gradian).
                         label: 'Bearing:'
                     }
-                };
-                Lextra.control.ruler(options).addTo(map);
+                }
+                Lextra.control.ruler(options).addTo(map)
                 console.log("Loaded Ruler")
 
                 Lextra.control.MiniMap(terrainMinimap, {
@@ -164,7 +164,7 @@ fetch(Config.configPath+"main.toml").then((response => {
                     zoomAnimation: true,
                     zoomLevelFixed: true,
                     zoomLevelOffset: -5
-                }).addTo(map);
+                }).addTo(map)
 
                 const isPartyEnabled: boolean = CONFIG.get("enable_party_indicator")
 
@@ -190,7 +190,7 @@ fetch(Config.configPath+"main.toml").then((response => {
                                 pos.lat + ",\n" +
                                 pos.lng + "\n" +
                                 "]\n"
-                            saveAs(new File([serialPos], "party-pos.toml", {type: "text/plain;charset=utf-8"}));
+                            saveAs(new File([serialPos], "party-pos.toml", {type: "text/plaincharset=utf-8"}))
                         })
                     }
 
@@ -201,8 +201,8 @@ fetch(Config.configPath+"main.toml").then((response => {
                         }))
                         .then((result) => {
                             result.text().then(response => {
-                                const posParsed = toml.parse(response);
-                                const posParsedMap = new Map(Object.entries(posParsed));
+                                const posParsed = toml.parse(response)
+                                const posParsedMap = new Map(Object.entries(posParsed))
                                 const pos: [number, number] = <any>posParsedMap.get("position")
 
                                 markerParty.setLatLng(pos)
@@ -218,7 +218,7 @@ fetch(Config.configPath+"main.toml").then((response => {
                             pos.lat + ",\n" +
                             pos.lng + "\n" +
                             "]\n"
-                        saveAs(new File([serialPos], "party-pos.toml", {type: "text/plain;charset=utf-8"}));
+                        saveAs(new File([serialPos], "party-pos.toml", {type: "text/plaincharset=utf-8"}))
                     })
                 }
 
@@ -272,19 +272,19 @@ fetch(Config.configPath+"main.toml").then((response => {
                         })
                         currentLeg++
                         daynight.setTime(new Date(millis))
-                        return value;
+                        return value
                     },
                     showValue: true,
                 })
 
                 daynight.on('add', function() {
                     timeSlider.addTo(map)
-                });
+                })
                 daynight.on('remove', function() {
                     map.removeControl(timeSlider)
-                });
+                })
 
-                var graticule = new AutoGraticule();
+                var graticule = new AutoGraticule()
 
                 layerController.addOverlay(graticule, "Lat/Lng Graticule")
 
@@ -300,7 +300,7 @@ fetch(Config.configPath+"main.toml").then((response => {
                 if (isScaleEnabled) {
                     L.control.scale({
                         imperial: false
-                    }).addTo(map);
+                    }).addTo(map)
                 }
 
 
@@ -316,21 +316,21 @@ fetch(Config.configPath+"main.toml").then((response => {
 
                     const LabelCollectionGeocoder: any = function(): void {}
                     LabelCollectionGeocoder.prototype.geocode = function (viewModel: string, geocodeType: number) {
-                        var searchtext = viewModel;
-                        var searchlist: any[] = [];
+                        var searchtext = viewModel
+                        var searchlist: any[] = []
 
-                        var plen = viewer.scene.primitives.length;
+                        var plen = viewer.scene.primitives.length
                         for (var i = 0; i < plen; ++i) {
-                            var l: Cesium.PrimitiveCollection = viewer.scene.primitives.get(i); 
+                            var l: Cesium.PrimitiveCollection = viewer.scene.primitives.get(i) 
                             if (l.constructor.name == "PrimitiveCollection") {
-                                var gcLC = l.get(0);
-                                var len = gcLC.length;
+                                var gcLC = l.get(0)
+                                var len = gcLC.length
                                 for (var j = 0; j < len; ++j) {
-                                    var ld: any = gcLC.get(j)._labelCollection._labels;
+                                    var ld: any = gcLC.get(j)._labelCollection._labels
                                     for (let i = 0; i < ld.length; i++) {
-                                        const element = ld[i];
+                                        const element = ld[i]
                                         if ( element.text.toLowerCase().indexOf( searchtext.toLowerCase() ) > -1 ) {
-                                            searchlist.push(element);
+                                            searchlist.push(element)
                                         }
                                     }
                                 }
@@ -340,32 +340,31 @@ fetch(Config.configPath+"main.toml").then((response => {
                         return Cesium.Resource.fetch({
                             url: "",
                         }).then(function (results: any) {
-                                var bboxDegrees;
                                 return searchlist.map(function (resultObject) {
-                                    var lonlat = Cesium.Ellipsoid.WGS84.cartesianToCartographic(resultObject.position);
-                                    var heightmin = 10000;
-                                    var heightmax = 10000;
-                                    if (resultObject.distanceDisplayCondition.near) heightmin = resultObject.distanceDisplayCondition.near/100;
-                                    if (resultObject.distanceDisplayCondition.far) heightmax = resultObject.distanceDisplayCondition.far/100;
-                                    var horizdeg = Math.sqrt(0.5*6371000*(heightmax+heightmin)/10)/111000;
-                                    var nwlat = lonlat.latitude + Math.PI/180*horizdeg/2; if (nwlat > Math.PI/2) nwlat=(nwlat/Math.PI/2) % 1 * Math.PI/2;
-                                    var nwlon = lonlat.longitude + Math.PI/360*horizdeg; if (nwlon > Math.PI) nwlon=(nwlon/Math.PI - 1) % 1 * Math.PI;
-                                    var swlat = lonlat.latitude - Math.PI/180*horizdeg/2; if (swlat < -Math.PI/2) swlat=(swlat/Math.PI/2) % 1 * Math.PI/2;
-                                    var swlon = lonlat.longitude - Math.PI/360*horizdeg; if (swlon < -Math.PI) swlon=(swlon/Math.PI + 1) % 1 * Math.PI;
+                                    var lonlat = Cesium.Ellipsoid.WGS84.cartesianToCartographic(resultObject.position)
+                                    var heightmin = 10000
+                                    var heightmax = 10000
+                                    if (resultObject.distanceDisplayCondition.near) heightmin = resultObject.distanceDisplayCondition.near/100
+                                    if (resultObject.distanceDisplayCondition.far) heightmax = resultObject.distanceDisplayCondition.far/100
+                                    var horizdeg = Math.sqrt(0.5*6371000*(heightmax+heightmin)/10)/111000
+                                    var nwlat = lonlat.latitude + Math.PI/180*horizdeg/2; if (nwlat > Math.PI/2) nwlat=(nwlat/Math.PI/2) % 1 * Math.PI/2
+                                    var nwlon = lonlat.longitude + Math.PI/360*horizdeg; if (nwlon > Math.PI) nwlon=(nwlon/Math.PI - 1) % 1 * Math.PI
+                                    var swlat = lonlat.latitude - Math.PI/180*horizdeg/2; if (swlat < -Math.PI/2) swlat=(swlat/Math.PI/2) % 1 * Math.PI/2
+                                    var swlon = lonlat.longitude - Math.PI/360*horizdeg; if (swlon < -Math.PI) swlon=(swlon/Math.PI + 1) % 1 * Math.PI
                                     var carto = [
                                             new Cesium.Cartographic(swlon, swlat, heightmin),
                                             new Cesium.Cartographic(nwlon, nwlat, heightmax)
-                                                ];
-                                    var recto = Cesium.Rectangle.fromCartographicArray(carto);
+                                                ]
+                                    var recto = Cesium.Rectangle.fromCartographicArray(carto)
                                     var returnObject =  {
                                         displayName: resultObject.text,
                                         destination: recto
-                                    };
-                                    return returnObject;
-                                });
+                                    }
+                                    return returnObject
+                                })
                             }
-                        );
-                    };
+                        )
+                    }
 
                     const viewer = new Cesium.Viewer('map2', {
                         //terrainProvider: Cesium.createWorldTerrain(
@@ -377,25 +376,25 @@ fetch(Config.configPath+"main.toml").then((response => {
                         //geocoder: false,
                         sceneModePicker: true,
                         timeline: false,
-                    });
+                    })
                     var poi = viewer.entities
 
                     setupPOICesium(poi, mainConfigMap, mapSize)
                     setupFeaturesCesium(poi, mainConfigMap, mapSize)
 
-                    var button = document.createElement('button');
-                    button.type = 'button';
-                    button.className = 'cesium-button';
+                    var button = document.createElement('button')
+                    button.type = 'button'
+                    button.className = 'cesium-button'
                     button.onclick = function() {
-                        var mapC = document.getElementById("map2");
+                        var mapC = document.getElementById("map2")
                         mapC.style.height = "0%"
                         mapC.style.width = "0%"
-                        var mapL = document.getElementById("map");
+                        var mapL = document.getElementById("map")
                         mapL.style.height = "100%"
                         mapL.style.width = "100%"
-                    };
-                    button.textContent = '2D';
-                    document.getElementsByClassName('cesium-viewer-toolbar').item(0).appendChild(button);
+                    }
+                    button.textContent = '2D'
+                    document.getElementsByClassName('cesium-viewer-toolbar').item(0).appendChild(button)
 
                     ThreeDButton({
                         position: "topleft"
@@ -403,7 +402,7 @@ fetch(Config.configPath+"main.toml").then((response => {
                 }
 
             //} catch (error) {
-            //    console.error("Parsing error on line " + error.line + ", column " + error.column + ": " + error.message);
+            //    console.error("Parsing error on line " + error.line + ", column " + error.column + ": " + error.message)
             //}
         }
     )

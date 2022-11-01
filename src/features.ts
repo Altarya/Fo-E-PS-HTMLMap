@@ -3,7 +3,7 @@ import * as toml from '@iarna/toml'
 import * as L from "leaflet"
 import * as Cesium from "cesium"
 
-var features = new L.FeatureGroup();
+var features = new L.FeatureGroup()
 var locationsLayers = L.layerGroup([features])
 
 export function setupFeatures(layerController: L.Control.Layers, map: Map<string, toml.AnyJson>, mapSize: [number, number]) {
@@ -13,8 +13,8 @@ export function setupFeatures(layerController: L.Control.Layers, map: Map<string
     const PATH = new Map(Object.entries(map.get("PATH")))
     const featureList = new Map(Object.entries(PATH.get("features_list")))
     for (let entry of Array.from(featureList.entries())) {
-        let key = entry[0];
-        let value = entry[1];
+        let key = entry[0]
+        let value = entry[1]
         //console.log(key+" "+value)
 
         fetch(Config.featuresPath+value+".toml").then((response => {
@@ -25,20 +25,20 @@ export function setupFeatures(layerController: L.Control.Layers, map: Map<string
             .then((result) => {
                 result.text().then(response => {
                     try {
-                        var parsed = toml.parse(response);
+                        var parsed = toml.parse(response)
 
-                        const pois = new Map(Object.entries(parsed));
-                        //console.log(pois);
+                        const pois = new Map(Object.entries(parsed))
+                        //console.log(pois)
 
                         for (let entry of Array.from(pois.entries())) {
-                            let key = entry[0];
-                            let value = entry[1];
+                            let key = entry[0]
+                            let value = entry[1]
                             //console.log(key+" "+value)
 
                             const entm = new Map(Object.entries(pois.get(key)))
                             const ent = Array.from(entm.entries())
 
-                            //console.log(ent);
+                            //console.log(ent)
 
                             const name = ent[0]
                             const classNamev = ent[1]
@@ -73,7 +73,7 @@ export function setupFeatures(layerController: L.Control.Layers, map: Map<string
                             marker.setIcon(featureIcon)
                         }
                     } catch (error) {
-                        console.error("Parsing error on line " + error.line + ", column " + error.column + ": " + error.message);
+                        console.error("Parsing error on line " + error.line + ", column " + error.column + ": " + error.message)
                     }
                 })
             }
@@ -88,7 +88,7 @@ export function setupFeaturesCesium(entities: Cesium.EntityCollection, map: Map<
     const poiList = new Map(Object.entries(PATH.get("features_list")))
     const listOfColours = new Map(Object.entries(map.get("features_colour_list")))
     for (let entry of Array.from(poiList.entries())) {
-        let value = entry[1];
+        let value = entry[1]
         fetch(Config.featuresPath+value+".toml").then((response => {
             if (response.ok) {
                 return response.blob()
@@ -97,12 +97,12 @@ export function setupFeaturesCesium(entities: Cesium.EntityCollection, map: Map<
             .then((result) => {
                 result.text().then(response => {
                     //try {
-                        var parsed = toml.parse(response);
+                        var parsed = toml.parse(response)
 
-                        const pois = new Map(Object.entries(parsed));
+                        const pois = new Map(Object.entries(parsed))
 
                         for (let entry of Array.from(pois.entries())) {
-                            let key = entry[0];
+                            let key = entry[0]
 
                             const entm = new Map(Object.entries(pois.get(key)))
                             const ent = Array.from(entm.entries())
@@ -189,7 +189,7 @@ export function setupFeaturesCesium(entities: Cesium.EntityCollection, map: Map<
                             }
                         }
                     //} catch (error) {
-                    //    console.error("Parsing error on line " + error.line + ", column " + error.column + ": " + error.message);
+                    //    console.error("Parsing error on line " + error.line + ", column " + error.column + ": " + error.message)
                     //}
                 }
             )

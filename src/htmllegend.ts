@@ -15,7 +15,7 @@ var HtmlLegend = L.Control.extend({
         // if true, legend entries that are from a simple renderer will use compact presentation
         collapseSimple: false,
 
-        // if true, will test to see if legend entries look stretched; these are usually in sets of 3 with the middle element having no label
+        // if true, will test to see if legend entries look stretched these are usually in sets of 3 with the middle element having no label
         detectStretched: false,
 
         // if true, legends will be collapsed when a new instance is initialized
@@ -30,32 +30,32 @@ var HtmlLegend = L.Control.extend({
     },
 
     onAdd(map: any) {
-        this._map = map;
-        this._container = L.DomUtil.create('div', 'leaflet-control leaflet-bar leaflet-html-legend');
-        this._lastId = 0;
-        this._entries = {};
+        this._map = map
+        this._container = L.DomUtil.create('div', 'leaflet-control leaflet-bar leaflet-html-legend')
+        this._lastId = 0
+        this._entries = {}
 
         // Disable events on container
-        L.DomEvent.disableClickPropagation(this._container);
-        L.DomEvent.disableScrollPropagation(this._container);
+        L.DomEvent.disableClickPropagation(this._container)
+        L.DomEvent.disableScrollPropagation(this._container)
 
-        this.render();
+        this.render()
 
-        return this._container;
+        return this._container
     },
 
     render() {
-        L.DomUtil.empty(this._container);
+        L.DomUtil.empty(this._container)
 
-        this.options.legends.forEach((legend: any) => this._renderLegend(legend), this);
+        this.options.legends.forEach((legend: any) => this._renderLegend(legend), this)
 
-        this._checkVisibility();
+        this._checkVisibility()
     },
 
     addLegend(legend: any) {
         if (this._map) {
-            this._renderLegend(legend);
-            return this._lastId;
+            this._renderLegend(legend)
+            return this._lastId
         }
         throw Error('Legend control must be added to the map first.')
     },
@@ -71,14 +71,14 @@ var HtmlLegend = L.Control.extend({
         }
     },
 
-    _renderLegend(legend: { elements: any; name: string; }) {
+    _renderLegend(legend: { elements: any; name: string }) {
         if (!legend.elements) {
-            return;
+            return
         }
 
-        const elements = legend.elements;
+        const elements = legend.elements
 
-        let className = 'legend-block';
+        let className = 'legend-block'
 
         if (this.options.detectStretched) {
             if (
@@ -87,140 +87,140 @@ var HtmlLegend = L.Control.extend({
                 elements[1].label === '' &&
                 elements[2].label !== ''
             ) {
-                className += ' legend-stretched';
+                className += ' legend-stretched'
             }
         }
 
-        const block = L.DomUtil.create('div', className, this._container);
-        const entryIdx = ++this._lastId;
+        const block = L.DomUtil.create('div', className, this._container)
+        const entryIdx = ++this._lastId
         this._entries[entryIdx] = { container: block }
 
         if (this.options.collapseSimple && elements.length === 1 && !elements[0].label) {
-            this._addElement(elements[0].html, legend.name, elements[0].style, block);
-            this._connectLayer(block, legend, entryIdx);
-            return block;
+            this._addElement(elements[0].html, legend.name, elements[0].style, block)
+            this._connectLayer(block, legend, entryIdx)
+            return block
         }
 
         if (legend.name) {
-            const header = L.DomUtil.create('h4', null, block);
-            L.DomUtil.create('div', 'legend-caret', header);
-            L.DomUtil.create('span', null, header).innerHTML = legend.name;
+            const header = L.DomUtil.create('h4', null, block)
+            L.DomUtil.create('div', 'legend-caret', header)
+            L.DomUtil.create('span', null, header).innerHTML = legend.name
 
             if (this.options.collapsedOnInit) {
-                L.DomUtil.addClass(header, 'closed');
+                L.DomUtil.addClass(header, 'closed')
             }
 
             L.DomEvent.on(header, 'click', () => {
                 if (L.DomUtil.hasClass(header, 'closed')) {
-                    L.DomUtil.removeClass(header, 'closed');
+                    L.DomUtil.removeClass(header, 'closed')
                 }
                 else {
-                    L.DomUtil.addClass(header, 'closed');
+                    L.DomUtil.addClass(header, 'closed')
                 }
-            }, this);
+            }, this)
         }
 
-        const elementContainer = L.DomUtil.create('div', 'legend-elements', block);
+        const elementContainer = L.DomUtil.create('div', 'legend-elements', block)
 
-        elements.forEach((element: { html: any; label: any; style: any; }) => {
-            this._addElement(element.html, element.label, element.style, elementContainer);
-        }, this);
+        elements.forEach((element: { html: any; label: any; style: any }) => {
+            this._addElement(element.html, element.label, element.style, elementContainer)
+        }, this)
 
-        this._connectLayer(block, legend, entryIdx);
-        return block;
+        this._connectLayer(block, legend, entryIdx)
+        return block
     },
 
-    _addElement(html: string, label: string, style: { [s: string]: unknown; } | ArrayLike<unknown>, container: HTMLElement) {
-        const row = L.DomUtil.create('div', 'legend-row', container);
-        const symbol = L.DomUtil.create('span', 'symbol', row);
+    _addElement(html: string, label: string, style: { [s: string]: unknown } | ArrayLike<unknown>, container: HTMLElement) {
+        const row = L.DomUtil.create('div', 'legend-row', container)
+        const symbol = L.DomUtil.create('span', 'symbol', row)
         if (style) {
-            Object.entries(style).forEach(([k, v]: [string, any]) => { symbol.style[parseInt(k)] = v; });
+            Object.entries(style).forEach(([k, v]: [string, any]) => { symbol.style[parseInt(k)] = v })
         }
-        symbol.innerHTML = html;
+        symbol.innerHTML = html
         if (label) {
-            L.DomUtil.create('label', null, row).innerHTML = label;
+            L.DomUtil.create('label', null, row).innerHTML = label
         }
     },
 
-    _updateOpacity(layer: { setOpacity: (arg0: any) => void; setStyle: (arg0: { opacity: any; }) => void; }, opacity: any) {
+    _updateOpacity(layer: { setOpacity: (arg0: any) => void; setStyle: (arg0: { opacity: any }) => void }, opacity: any) {
         if (typeof this.options.updateOpacity === 'function') {
             this.options.updateOpacity(layer, opacity)
         } else if (typeof layer.setOpacity === 'function') {
-            layer.setOpacity(opacity);
+            layer.setOpacity(opacity)
         } else if (typeof layer.setStyle === 'function') {
-            layer.setStyle({ opacity });
+            layer.setStyle({ opacity })
         }
     },
 
-    _layerAdd(container: { style: { display: string; }; }) {
-        this._activeLayers += 1;
-        container.style.display = '';
-        this._checkVisibility();
+    _layerAdd(container: { style: { display: string } }) {
+        this._activeLayers += 1
+        container.style.display = ''
+        this._checkVisibility()
     },
 
-    _layerRemove(container: { style: { display: string; }; }) {
-        this._activeLayers -= 1;
-        container.style.display = 'none';
-        this._checkVisibility();
+    _layerRemove(container: { style: { display: string } }) {
+        this._activeLayers -= 1
+        container.style.display = 'none'
+        this._checkVisibility()
     },
 
-    _connectLayer(container: HTMLElement, legend: { layer: any; }, entryIdx: string | number) {
-        const layer = legend.layer;
+    _connectLayer(container: HTMLElement, legend: { layer: any }, entryIdx: string | number) {
+        const layer = legend.layer
 
         if (!layer) {
-            this._alwaysShow = true;
-            return;
+            this._alwaysShow = true
+            return
         }
 
         if (this._map.hasLayer(layer)) {
-            this._activeLayers += 1;
+            this._activeLayers += 1
         }
         else {
-            container.style.display = 'none';
+            container.style.display = 'none'
         }
 
-        container.classList.add('layer-control');
+        container.classList.add('layer-control')
 
         if (!this.options.disableVisibilityControls) {
-            const opacity = layer.opacity || this.options.defaultOpacity || 1;
-            this._updateOpacity(layer, opacity);
+            const opacity = layer.opacity || this.options.defaultOpacity || 1
+            this._updateOpacity(layer, opacity)
 
-            const toggleButton = L.DomUtil.create('i', `visibility-toggle ${this.options.toggleIcon}`, container);
-            toggleButton.dataset.visibileOpacity = opacity;
+            const toggleButton = L.DomUtil.create('i', `visibility-toggle ${this.options.toggleIcon}`, container)
+            toggleButton.dataset.visibileOpacity = opacity
             L.DomEvent.on(toggleButton, 'click', (e) => {
-                const button = <HTMLElement>e.target;
+                const button = <HTMLElement>e.target
                 if (L.DomUtil.hasClass(button, 'disabled')) {
-                    L.DomUtil.removeClass(button, 'disabled');
-                    this._updateOpacity(layer, button.dataset.visibileOpacity);
+                    L.DomUtil.removeClass(button, 'disabled')
+                    this._updateOpacity(layer, button.dataset.visibileOpacity)
                 }
                 else {
-                    L.DomUtil.addClass(button, 'disabled');
-                    this._updateOpacity(layer, 0);
+                    L.DomUtil.addClass(button, 'disabled')
+                    this._updateOpacity(layer, 0)
                 }
-            });
+            })
 
-            const opacityController = L.DomUtil.create('span', 'opacity-slider', container);
+            const opacityController = L.DomUtil.create('span', 'opacity-slider', container)
 
-            L.DomUtil.create('span', 'slider-label', opacityController).innerHTML = 'Transparency:';
+            L.DomUtil.create('span', 'slider-label', opacityController).innerHTML = 'Transparency:'
 
-            L.DomUtil.create('i', this.options.visibleIcon, opacityController);
+            L.DomUtil.create('i', this.options.visibleIcon, opacityController)
 
-            const opacitySlider = L.DomUtil.create('input', null, opacityController);
-            opacitySlider.type = 'range';
-            opacitySlider.min = String(0);
-            opacitySlider.max = String(1);
-            opacitySlider.step = String(0.1);
+            const opacitySlider = L.DomUtil.create('input', null, opacityController)
+            opacitySlider.type = 'range'
+            opacitySlider.min = String(0)
+            opacitySlider.max = String(1)
+            opacitySlider.step = String(0.1)
             opacitySlider.onchange = ((e) => {
                 const elem = <HTMLElement>e.target
-                const newOpacity = 1 - parseFloat(elem.nodeValue) || 0;
-                this._updateOpacity(layer, newOpacity);
-                toggleButton.dataset.visibileOpacity = String(newOpacity);
-                L.DomUtil.removeClass(toggleButton, 'disabled');
-            });
-            opacitySlider.value = String(1 - (opacity));
+                const newOpacity = 1 - parseFloat(elem.nodeValue) || 0
+                this._updateOpacity(layer, newOpacity)
+                toggleButton.dataset.visibileOpacity = String(newOpacity)
+                L.DomUtil.removeClass(toggleButton, 'disabled')
+            })
+            opacitySlider.value = String(1 - (opacity))
 
-            L.DomUtil.create('i', this.options.hiddenIcon, opacityController);
-        };
+            L.DomUtil.create('i', this.options.hiddenIcon, opacityController)
+        }
 
 
         const layerAdd = this._layerAdd.bind(this, container)
@@ -235,13 +235,13 @@ var HtmlLegend = L.Control.extend({
 
     _checkVisibility() {
         if (this._alwaysShow || this._activeLayers) {
-            this._container.style.display = '';
+            this._container.style.display = ''
         }
         else {
-            this._container.style.display = 'none';
+            this._container.style.display = 'none'
         }
     }
-});
+})
 
 export default function htmllegend(options: any) {
     return new HtmlLegend(options)

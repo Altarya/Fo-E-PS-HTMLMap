@@ -3,33 +3,33 @@ import * as toml from '@iarna/toml'
 import * as L from "leaflet"
 import * as Cesium from "cesium"
 
-var capitals = new L.FeatureGroup(); //Level 0
-var cities = new L.FeatureGroup(); //Level 1
-var settlements = new L.FeatureGroup(); //Level 2
-var intraSettlement = new L.FeatureGroup(); //Level 3
+var capitals = new L.FeatureGroup() //Level 0
+var cities = new L.FeatureGroup() //Level 1
+var settlements = new L.FeatureGroup() //Level 2
+var intraSettlement = new L.FeatureGroup() //Level 3
 var locationsLayers = L.layerGroup([capitals, cities, settlements, intraSettlement])
 
 function zoomCheck(mapVar: L.Map) {
     if (mapVar.hasLayer(locationsLayers)) {
         let zoom = mapVar.getZoom()
-        mapVar.addLayer(capitals);
+        mapVar.addLayer(capitals)
         if (zoom > 4){
-            mapVar.addLayer(cities);
+            mapVar.addLayer(cities)
         }
         else {
-            mapVar.removeLayer(cities);
+            mapVar.removeLayer(cities)
         }
         if (zoom > 6){
-            mapVar.addLayer(settlements);
+            mapVar.addLayer(settlements)
         }
         else {
-            mapVar.removeLayer(settlements);
+            mapVar.removeLayer(settlements)
         }
         if (zoom > 8){
-            mapVar.addLayer(intraSettlement);
+            mapVar.addLayer(intraSettlement)
         }
         else {
-            mapVar.removeLayer(intraSettlement);
+            mapVar.removeLayer(intraSettlement)
         }
     }
 }
@@ -45,27 +45,27 @@ export function setupPOI(mapVar: L.Map, layerController: L.Control.Layers, map: 
             popupAnchor:  [8, 0],
             tooltipAnchor:  [8, 0]
         }
-    });
+    })
 
     layerController.addOverlay(locationsLayers, "Locations")
 
     mapVar.on('zoomend', function() {
         zoomCheck(mapVar)
-    });
+    })
     mapVar.on('overlayadd', function() {
         zoomCheck(mapVar)
-    });
+    })
 
-    //const map = new Map(Object.entries(parsed));
-    //console.log(map);
+    //const map = new Map(Object.entries(parsed))
+    //console.log(map)
 
     const PATH = new Map(Object.entries(map.get("PATH")))
     const poiList = new Map(Object.entries(PATH.get("poi_list")))
     const atribLists = new Array(PATH.get("atribution_list"))
     const realAtribList: [string] = atribLists[0]
     for (let entry of Array.from(poiList.entries())) {
-        let key = entry[0];
-        let value = entry[1];
+        let key = entry[0]
+        let value = entry[1]
         //console.log(key+" "+value)
 
         fetch(Config.poiPath+value+".toml").then((response => {
@@ -76,20 +76,20 @@ export function setupPOI(mapVar: L.Map, layerController: L.Control.Layers, map: 
             .then((result) => {
                 result.text().then(response => {
                     try {
-                        var parsed = toml.parse(response);
+                        var parsed = toml.parse(response)
 
-                        const pois = new Map(Object.entries(parsed));
-                        //console.log(pois);
+                        const pois = new Map(Object.entries(parsed))
+                        //console.log(pois)
 
                         for (let entry of Array.from(pois.entries())) {
-                            let key = entry[0];
-                            let value = entry[1];
+                            let key = entry[0]
+                            let value = entry[1]
                             //console.log(key+" "+value)
 
                             const entm = new Map(Object.entries(pois.get(key)))
                             const ent = Array.from(entm.entries())
 
-                            //console.log(ent);
+                            //console.log(ent)
 
                             if(ent.length == 8) {
                                 const name: string = ent[0][1]
@@ -113,20 +113,20 @@ export function setupPOI(mapVar: L.Map, layerController: L.Control.Layers, map: 
                                 switch (zoom_level) {
                                     case 1:
                                         iconImage = "./assets/icons/poi/1.webp"
-                                        cities.addLayer(marker);
-                                        break;
+                                        cities.addLayer(marker)
+                                        break
                                     case 2:
                                         iconImage = "./assets/icons/poi/2.webp"
-                                        settlements.addLayer(marker);
-                                        break;
+                                        settlements.addLayer(marker)
+                                        break
                                     case 3:
                                         iconImage = "./assets/icons/poi/3.webp"
-                                        intraSettlement.addLayer(marker);
-                                        break;
+                                        intraSettlement.addLayer(marker)
+                                        break
                                     default:
                                         iconImage = "./assets/icons/poi/0.webp"
-                                        capitals.addLayer(marker);
-                                        break;
+                                        capitals.addLayer(marker)
+                                        break
                                 }
 
                                 let linkVar = ""
@@ -144,7 +144,7 @@ export function setupPOI(mapVar: L.Map, layerController: L.Control.Layers, map: 
                                     fromVar = "<h2>From</h2>" + realAtribList[from]
                                 }
 
-                                marker.bindPopup("<h1>" + name + "</h1>" + descVar + linkVar + fromVar);
+                                marker.bindPopup("<h1>" + name + "</h1>" + descVar + linkVar + fromVar)
 
                                 var Icon = new poiIcon({iconUrl: iconImage, className: classNamev})
                                 marker.setIcon(Icon)
@@ -153,7 +153,7 @@ export function setupPOI(mapVar: L.Map, layerController: L.Control.Layers, map: 
                             }
                         }
                     } catch (error) {
-                        console.error("Parsing error on line " + error.line + ", column " + error.column + ": " + error.message);
+                        console.error("Parsing error on line " + error.line + ", column " + error.column + ": " + error.message)
                     }
                 }
             )
@@ -169,7 +169,7 @@ export function setupPOICesium(entities: Cesium.EntityCollection, map: Map<strin
     const atribLists = new Array(PATH.get("atribution_list"))
     const realAtribList: [string] = atribLists[0]
     for (let entry of Array.from(poiList.entries())) {
-        let value = entry[1];
+        let value = entry[1]
         fetch(Config.poiPath+value+".toml").then((response => {
             if (response.ok) {
                 return response.blob()
@@ -178,12 +178,12 @@ export function setupPOICesium(entities: Cesium.EntityCollection, map: Map<strin
             .then((result) => {
                 result.text().then(response => {
                     //try {
-                        var parsed = toml.parse(response);
+                        var parsed = toml.parse(response)
 
-                        const pois = new Map(Object.entries(parsed));
+                        const pois = new Map(Object.entries(parsed))
 
                         for (let entry of Array.from(pois.entries())) {
-                            let key = entry[0];
+                            let key = entry[0]
 
                             const entm = new Map(Object.entries(pois.get(key)))
                             const ent = Array.from(entm.entries())
@@ -213,18 +213,18 @@ export function setupPOICesium(entities: Cesium.EntityCollection, map: Map<strin
                                     case 1:
                                         far = 1000000.0
                                         scalev = 1.5
-                                        break;
+                                        break
                                     case 2:
                                         far = 300000.0
-                                        break;
+                                        break
                                     case 3:
                                         scalev = 1.0
                                         far = 100000.0
-                                        break;
+                                        break
                                     default:
                                         far = 10000000.0
                                         scalev = 1.75
-                                        break;
+                                        break
                                 }
 
                                 let linkVar = ""
@@ -307,7 +307,7 @@ export function setupPOICesium(entities: Cesium.EntityCollection, map: Map<strin
                             }
                         }
                     //} catch (error) {
-                    //    console.error("Parsing error on line " + error.line + ", column " + error.column + ": " + error.message);
+                    //    console.error("Parsing error on line " + error.line + ", column " + error.column + ": " + error.message)
                     //}
                 }
             )

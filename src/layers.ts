@@ -11,20 +11,20 @@ export function setupLayers(mapVar: L.Map, layerController: L.Control.Layers, so
         .then((result) => {
             result.text().then(response => {
                 try {
-                    var parsed = toml.parse(response);
+                    var parsed = toml.parse(response)
 
-                    const layers = new Map(Object.entries(parsed));
-                    //console.log(pois);
+                    const layers = new Map(Object.entries(parsed))
+                    //console.log(pois)
 
                     for (let entry of Array.from(layers.entries())) {
-                        let key = entry[0];
-                        let value = entry[1];
+                        let key = entry[0]
+                        let value = entry[1]
                         //console.log(key+" "+value)
 
                         const entm = new Map(Object.entries(layers.get(key)))
                         const ent = Array.from(entm.entries())
 
-                        //console.log(ent);
+                        //console.log(ent)
 
                         const name = <string>ent[0][1]
                         const zindex = <number>ent[1][1]
@@ -46,7 +46,7 @@ export function setupLayers(mapVar: L.Map, layerController: L.Control.Layers, so
                         }
                     }
                 } catch (error) {
-                    console.error("Parsing error on line " + error.line + ", column " + error.column + ": " + error.message);
+                    console.error("Parsing error on line " + error.line + ", column " + error.column + ": " + error.message)
                 }
             }
         )
