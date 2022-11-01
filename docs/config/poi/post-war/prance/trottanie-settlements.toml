@@ -73,8 +73,8 @@
 [PortTopsailNavalBase]
     name = "Port Topsail Naval Base"
     class = "settlement steelranger"
-    x = 3601.375
-    y = 3198.125
+    x = 3604.62890625
+    y = 3198.2529296875
     zoom_level = 2
     description = "An old equestrian navy drydock, now owned by the Whinnychester Steel Rangers chapter."
     link = ""
