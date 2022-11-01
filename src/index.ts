@@ -314,8 +314,58 @@ fetch(Config.configPath+"main.toml").then((response => {
                     terrainc.defaultMagnificationFilter = Cesium.TextureMagnificationFilter.NEAREST
                     terrainc.defaultMinificationFilter = Cesium.TextureMinificationFilter.NEAREST
 
-                    //const layersc = new Cesium.ImageryLayerCollection()
-                    //layersc.addImageryProvider(terrainc)
+                    const LabelCollectionGeocoder: any = function(): void {}
+                    LabelCollectionGeocoder.prototype.geocode = function (viewModel: string, geocodeType: number) {
+                        var searchtext = viewModel;
+                        var searchlist: any[] = [];
+
+                        var plen = viewer.scene.primitives.length;
+                        for (var i = 0; i < plen; ++i) {
+                            var l: Cesium.PrimitiveCollection = viewer.scene.primitives.get(i); 
+                            if (l.constructor.name == "PrimitiveCollection") {
+                                var gcLC = l.get(0);
+                                var len = gcLC.length;
+                                for (var j = 0; j < len; ++j) {
+                                    var ld: any = gcLC.get(j)._labelCollection._labels;
+                                    for (let i = 0; i < ld.length; i++) {
+                                        const element = ld[i];
+                                        if ( element.text.toLowerCase().indexOf( searchtext.toLowerCase() ) > -1 ) {
+                                            searchlist.push(element);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        return Cesium.Resource.fetch({
+                            url: "",
+                        }).then(function (results: any) {
+                                var bboxDegrees;
+                                return searchlist.map(function (resultObject) {
+                                    var lonlat = Cesium.Ellipsoid.WGS84.cartesianToCartographic(resultObject.position);
+                                    var heightmin = 10000;
+                                    var heightmax = 10000;
+                                    if (resultObject.distanceDisplayCondition.near) heightmin = resultObject.distanceDisplayCondition.near/100;
+                                    if (resultObject.distanceDisplayCondition.far) heightmax = resultObject.distanceDisplayCondition.far/100;
+                                    var horizdeg = Math.sqrt(0.5*6371000*(heightmax+heightmin)/10)/111000;
+                                    var nwlat = lonlat.latitude + Math.PI/180*horizdeg/2; if (nwlat > Math.PI/2) nwlat=(nwlat/Math.PI/2) % 1 * Math.PI/2;
+                                    var nwlon = lonlat.longitude + Math.PI/360*horizdeg; if (nwlon > Math.PI) nwlon=(nwlon/Math.PI - 1) % 1 * Math.PI;
+                                    var swlat = lonlat.latitude - Math.PI/180*horizdeg/2; if (swlat < -Math.PI/2) swlat=(swlat/Math.PI/2) % 1 * Math.PI/2;
+                                    var swlon = lonlat.longitude - Math.PI/360*horizdeg; if (swlon < -Math.PI) swlon=(swlon/Math.PI + 1) % 1 * Math.PI;
+                                    var carto = [
+                                            new Cesium.Cartographic(swlon, swlat, heightmin),
+                                            new Cesium.Cartographic(nwlon, nwlat, heightmax)
+                                                ];
+                                    var recto = Cesium.Rectangle.fromCartographicArray(carto);
+                                    var returnObject =  {
+                                        displayName: resultObject.text,
+                                        destination: recto
+                                    };
+                                    return returnObject;
+                                });
+                            }
+                        );
+                    };
 
                     const viewer = new Cesium.Viewer('map2', {
                         //terrainProvider: Cesium.createWorldTerrain(
@@ -323,8 +373,8 @@ fetch(Config.configPath+"main.toml").then((response => {
                         baseLayerPicker: false,
                         shadows: false,
                         projectionPicker: true,
-                        //geocoder: new LabelCollectionGeocoder(),
-                        geocoder: false,
+                        geocoder: new LabelCollectionGeocoder(),
+                        //geocoder: false,
                         sceneModePicker: true,
                         timeline: false,
                     });

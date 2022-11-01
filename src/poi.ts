@@ -219,7 +219,7 @@ export function setupPOICesium(entities: Cesium.EntityCollection, map: Map<strin
                                         break;
                                     case 3:
                                         scalev = 1.0
-                                        far = 75000.0
+                                        far = 100000.0
                                         break;
                                     default:
                                         far = 10000000.0
