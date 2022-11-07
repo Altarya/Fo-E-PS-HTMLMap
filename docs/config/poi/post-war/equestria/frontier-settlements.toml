@@ -196,3 +196,12 @@
     description = "A large old fort now home to the XII Legion of Roam."
     link = ""
     from = 4
+[JetblueSkyport]
+    name = "Jetblue Skyport"
+    class = "settlement rnp"
+    x = 3303
+    y = 3173
+    zoom_level = 2
+    description = "The old international airport of Los Pegasos, now used as a R.N.P. base."
+    link = ""
+    from = 4

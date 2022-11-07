@@ -1,18 +1,20 @@
 # Fo-E-PS-HTMLMap
 An interactive map(or Map template) made using LeafletJS, CesiumJS, Typescript and Electron.
 [![Demo Video](https://cdn.discordapp.com/attachments/455198803478183938/1030905650689093734/unknown.png)](https://cdn.discordapp.com/attachments/455198803478183938/1030905064736444508/map.mp4)
-^ Click here for a demo video.
+^ Click here for a demo video(old).
 and here: https://altarya.github.io/Fo-E-PS-HTMLMap/ for the whole thing working.
 
 # Features
-- Vectorised fully configurable waypoints that appear at different zoom levels
+- Vectorized fully configurable waypoints that appear at different zoom levels
 - HTML compliant popups on markers
-- Togable and customisable Layers
+- Toggable and customizable Layers
 - Search bar
-- (Semi-accurate) Distance and Bearing ruler
+- Distance and Bearing ruler
 - Loose files for deployment with the packaged Electron Launcher or anywhere that can render WebGL and HTML5
-- Easilly moldable for those that want to use this as a base for their own maps
+- Easily moldable for those that want to use this as a base for their own maps
 - Toggable 3D Globe mode
+- Day/night Display with custom dates
+- Vector Rivers and other lines(like roads, railroads)
 
 # How to use?
 ## Standalone

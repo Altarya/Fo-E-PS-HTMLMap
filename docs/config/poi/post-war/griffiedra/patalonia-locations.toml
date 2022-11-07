@@ -34,3 +34,30 @@
     description = "A small but quite popular bar famous for its discounts. Owned by a griffon named Amanda and managed by her daughter Clara. Name means: The Golden Paw."
     link = ""
     from = 11
+[LasTransportadoras]
+    name = "Las Transportadoras"
+    class = "intra-settlement"
+    x = 3285.5078125
+    y = 4074.4609375
+    zoom_level = 3
+    description = "Two large factories where no one is allowed to go. Name means: The Conveyors."
+    link = ""
+    from = 11
+[LaCamaDeSuAlteza]
+    name = "La Cama De Su Alteza"
+    class = "intra-settlement"
+    x = 3286.25
+    y = 4075.166015625
+    zoom_level = 3
+    description = "A large gated aristocratic suburb. Name means: Your Highness' Beds."
+    link = ""
+    from = 11
+[LosBolsillosPesados]
+    name = "Los Bolsillos Pesados"
+    class = "intra-settlement shop"
+    x = 3286.73828125
+    y = 4071.3994140625
+    zoom_level = 3
+    description = "A very large central market filled with just about everything, including a magic shop run by a kirin named Gonzales. Name means: The Heavy Pockets."
+    link = ""
+    from = 11

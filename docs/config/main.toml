@@ -66,7 +66,7 @@
     ]
     lines_layers = [
         "Roads", #0
-        #"Railroads", #1
+        "Railroads", #1
         #"Dirt Roads", #2
     ]
     lines_list = [
@@ -106,6 +106,8 @@
     enable_leaflet_scalebar = false #Wether or not Leaflet's default scale bar will be visible
     enable_better_scalebar = true #Wether or not Betterscale's scale bar will be visible
     enable_globe = true #Wether or not the Cesium Globe is enabled
+    julian_first_day = 2478938.50000 #Min/max values for the day/night slider in Julian Days
+    julian_last_day = 2479303.49999 #Make sure to setup a time.toml file!
 [poi_colour_list] 
     settlement = [ "255", "0", "0" ]
     city = [ "0", "255", "0" ]

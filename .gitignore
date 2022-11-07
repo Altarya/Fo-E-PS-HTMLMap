@@ -1,5 +1,6 @@
 node_modules/*
 docs/party-pos.toml
+docs/time.toml
 docs/htmlserenitymap.rar
 out/
 docs/win-unpacked

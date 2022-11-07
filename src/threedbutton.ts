@@ -17,10 +17,6 @@ const threeDButton = L.Control.extend({
 
         return button
     },
-
-    onRemove: function(map: L.Map) {
-        // Nothing to do here
-    }
 })
 
 export function ThreeDButton(opts: any) {

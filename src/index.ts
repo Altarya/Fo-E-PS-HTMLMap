@@ -227,13 +227,36 @@ fetch(Config.configPath+"main.toml").then((response => {
                 })
 
                 layerController.addOverlay(daynight, "Day/Night")
-
-                const dayone = 2478938.50000
-                const daylast = 2479303.49999
+                
+                const dayone = <number>CONFIG.get("julian_first_day")
+                const daylast = <number>CONFIG.get("julian_last_day")
                 var currentTime = new Date()
                 var currentLeg = 1
-                const slider = function () {
-                }
+                const slider = function () {}
+
+                const saveButton = L.Control.extend({
+                    onAdd: function(map: L.Map) {
+                        var button = document.createElement('button')
+                        button.type = 'button'
+                        button.className = 'leaftlet-button'
+                        button.onclick = function() {
+                            let serialTime = 
+                            "time = '" +
+                            currentTime.toISOString() + 
+                            "'"
+                        saveAs(new File([serialTime], "time.toml", {type: "text/plaincharset=utf-8"}))
+                        }
+                        button.textContent = 'Save Time'
+
+                        return button
+                    },
+                })
+
+                const saveButtonVar = new saveButton({
+                    position: "topleft"
+                })
+                daynight
+
                 var htmlLegend = htmllegend({
                     position: 'topleft',
                     disableVisibilityControls: true
@@ -243,45 +266,106 @@ fetch(Config.configPath+"main.toml").then((response => {
                     name: "Time",
                     layer: daynight,
                     elements: [{
-                        html: "<p>"+currentTime.toDateString()+"</p>"
+                        html: "<p>"+currentTime.toDateString()+" "+currentTime.getHours()+":"+currentTime.getMinutes()+"</p>"
                     }]
                 })
-                var timeSlider = makeSlider(slider, {
-                    size: '1000px',
-                    position: 'bottomleft',
-                    min: dayone,
-                    max: daylast,
-                    step: 0.005,
-                    id: "slider",
-                    value: dayone,
-                    collapsed: false,
-                    title: 'Time Slider',
-                    logo: 'T',
-                    orientation: 'horizontal',
-                    increment: true,
-                    getValue: function(value: any) {
-                        var millis = (parseFloat(value) - 2440587.5) * 86400000
-                        currentTime = new Date(millis)
-                        htmlLegend.removeLegend(currentLeg)
-                        htmlLegend.addLegend({
-                            name: "Time",
-                            layer: daynight,
-                            elements: [{
-                                html: "<p>"+currentTime.toDateString()+"</p>"
-                            }]
-                        })
-                        currentLeg++
-                        daynight.setTime(new Date(millis))
-                        return value
-                    },
-                    showValue: true,
-                })
 
-                daynight.on('add', function() {
-                    timeSlider.addTo(map)
-                })
-                daynight.on('remove', function() {
-                    map.removeControl(timeSlider)
+                fetch("./time.toml").then((response => {
+                    if (response.ok) {
+                        return response.blob()
+                    }
+                    }))
+                    .then((result) => {
+                        result.text().then(response => {
+                            const timeParsed = toml.parse(response)
+                            const timeParsedMap = new Map(Object.entries(timeParsed))
+                            const time: string = <any>timeParsedMap.get("time")
+                            currentTime = new Date(Date.parse(time))
+                            let currentMilis = (currentTime.getTime() / 86400000) + 2440587.5 + 0.125
+                            var timeSlider = makeSlider(slider, {
+                                size: '1000px',
+                                position: 'bottomleft',
+                                min: dayone,
+                                max: daylast,
+                                step: 0.005,
+                                id: "slider",
+                                value: currentMilis,
+                                collapsed: false,
+                                title: 'Time Slider',
+                                logo: 'T',
+                                orientation: 'horizontal',
+                                increment: true,
+                                getValue: function(value: any) {
+                                    var millis = (parseFloat(value) - 2440587.5) * 86400000
+                                    currentTime = new Date(millis)
+                                    htmlLegend.removeLegend(currentLeg)
+                                    htmlLegend.addLegend({
+                                        name: "Time",
+                                        layer: daynight,
+                                        elements: [{
+                                            html: "<p>"+currentTime.toDateString()+" "+currentTime.getHours()+":"+currentTime.getMinutes()+"</p>"
+                                        }]
+                                    })
+                                    currentLeg++
+                                    daynight.setTime(new Date(millis))
+                                    return value
+                                },
+                                showValue: true,
+                            })
+
+                            daynight.on('add', function() {
+                                timeSlider.addTo(map)
+                                saveButtonVar.addTo(map)
+                            })
+                            daynight.on('remove', function() {
+                                map.removeControl(timeSlider)
+                                map.removeControl(saveButtonVar)
+                            })
+                        })
+                    }
+                )
+                .catch(error => {
+                    console.log("No time.toml file found, will use current date")
+                    let currentMilis = (currentTime.getTime() / 86400000) + 2440587.5 + 0.125
+                    var timeSlider = makeSlider(slider, {
+                        size: '1000px',
+                        position: 'bottomleft',
+                        min: dayone,
+                        max: daylast,
+                        step: 0.005,
+                        id: "slider",
+                        value: currentMilis,
+                        collapsed: false,
+                        title: 'Time Slider',
+                        logo: 'T',
+                        orientation: 'horizontal',
+                        increment: true,
+                        getValue: function(value: any) {
+                            var millis = (parseFloat(value) - 2440587.5) * 86400000
+                            currentTime = new Date(millis)
+                            htmlLegend.removeLegend(currentLeg)
+                            htmlLegend.addLegend({
+                                name: "Time",
+                                layer: daynight,
+                                elements: [{
+                                    html: "<p>"+currentTime.toDateString()+" "+currentTime.getHours()+":"+currentTime.getMinutes()+"</p>"
+                                }]
+                            })
+                            currentLeg++
+                            daynight.setTime(new Date(millis))
+                            return value
+                        },
+                        showValue: true,
+                    })
+
+                    daynight.on('add', function() {
+                        timeSlider.addTo(map)
+                        saveButtonVar.addTo(map)
+                    })
+                    daynight.on('remove', function() {
+                        map.removeControl(timeSlider)
+                        map.removeControl(saveButtonVar)
+                    })
                 })
 
                 var graticule = new AutoGraticule()

@@ -25,15 +25,6 @@
     description = "A large solar updraft and underground hydroelectric power plant that is constantly being fought over by the R.N.P, Steel Rangers and Enclave."
     link = ""
     from = 4
-[JetblueSkyport]
-    name = "Jetblue Skyport"
-    class = "misc-poi rnp"
-    x = 3303
-    y = 3173
-    zoom_level = 2
-    description = "The old international airport of Los Pegasos, now used as a R.N.P. base."
-    link = ""
-    from = 4
 [NewPegasusDam]
     name = "New Pegasus Dam"
     class = "misc-poi rnp"
@@ -311,5 +302,23 @@
     y = 3184.15625
     zoom_level = 2
     description = "The old stable where The Anihilators are from, now owned by Trotston which has sparked a fierce rivalry between the two."
+    link = ""
+    from = 4
+[MonorailStation]
+    name = "Monorail Station"
+    class = "intra-settlement rnp"
+    x = 3275.8984375
+    y = 3157.896484375
+    zoom_level = 2
+    description = "An old functional monorail station owned by the RNP that connects to the New Pegasus Skyport."
+    link = ""
+    from = 4
+[SandstoneRuins]
+    name = "Sandstone Ruins"
+    class = "misc-poi"
+    x = 3258.73046875
+    y = 3186.990234375
+    zoom_level = 3
+    description = "The ruins of a town made out of sandstone, now deserted."
     link = ""
     from = 4

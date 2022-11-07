@@ -17,3 +17,15 @@
     width = 2
     smoothing = 1.0
     description = "The main road from Canterlot to the Frontier."
+[LosPegasosMonorail]
+    name = "Los Pegasos Monorail"
+    className = "rail"
+    color = "brown"
+    layer = 1
+    latLngs = [
+        [3275.8984375, 3157.896484375],
+        [3303, 3173],
+    ]
+    width = 1
+    smoothing = 1.0
+    description = "An old active elevated maglev monorail."
