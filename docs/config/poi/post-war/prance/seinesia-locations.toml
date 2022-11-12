@@ -4,7 +4,7 @@
     x = 3689
     y = 3252
     zoom_level = 2
-    description = "A magnificent landmark monument that in the past used to bring people from all over the world to Hayris. Name means: Neigh Tower"
+    description = "A magnificent landmark monument that in the past used to bring people from all over the world to Hayris. Name means: Neigh Tower."
     link = ""
     from = 2
 [EAMSStation5]
@@ -16,3 +16,21 @@
     description = ""
     link = ""
     from = 2
+[FabriqueDeDabrisTechnologies]
+    name = "Fabrique de D'abris Technologies"
+    class = "intra-settlement abri"
+    x = 3642.1875
+    y = 3188.5859375
+    zoom_level = 2
+    description = "The old factory of the D'abris Technologies Pépinfille, their version of the PipBuck 3000. Name means: Shelter Technologies Factory."
+    link = ""
+    from = 14
+[MontEtoile]
+    name = "Mont Étoile"
+    class = "misc-poi"
+    x = 3653.90625
+    y = 3289.375
+    zoom_level = 2
+    description = "An ancient said to be cursed mountain, features an extremely high amount oof diverse ruins many of which were never identified. Name means: Mount Star."
+    link = ""
+    from = 14

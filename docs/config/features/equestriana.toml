@@ -68,6 +68,11 @@
     class = "natural"
     x = 3550.125 
     y = 3277
+[LePassage]
+    name = "Le Passage"
+    class = "natural"
+    x = 3425
+    y = 3131.140625
 [SplendidValley]
     name = "Splendid Valley"
     class = "unnatural"

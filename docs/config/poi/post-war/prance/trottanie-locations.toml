@@ -79,3 +79,75 @@
     description = "The largest steel mill on the Shanandoeah river."
     link = ""
     from = 13
+[LePetitCrystalTower]
+    name = "Le Petit Crystal Tower"
+    class = "intra-settlement enclave"
+    x = 3519.0625
+    y = 3107.09375
+    zoom_level = 2
+    description = "A smaller version of the Crystal Palace's main tower, it keeps Fancee and Nimbus warmer than the surrounding regions."
+    link = ""
+    from = 14
+[Stable287]
+    name = "Stable 287"
+    class = "misc-poi stable"
+    x = 3552.5
+    y = 3138.1171875
+    zoom_level = 2
+    description = "An old mixed-pony abandoned stable where many wars seem to have been fought."
+    link = ""
+    from = 14
+[EeztretienFacility]
+    name = "Eeztretien Facility"
+    class = "misc-poi ezp"
+    x = 3653.4375
+    y = 3155.1875
+    zoom_level = 2
+    description = "A huge and highly dangerous manufacturing complex owned by the ezpassionian megacorp E.Z.P. nopony has been able to loot it as its been on high alert since the bombs fell."
+    link = ""
+    from = 14
+[Abri10]
+    name = "Abri 10"
+    class = "misc-poi abri"
+    x = 3549.6875
+    y = 3084.0859375
+    zoom_level = 2
+    description = "The crashed deadly remains of a D'abris Technologies Cloud Shelter, some say its still haunted by its original inhabitants."
+    link = ""
+    from = 14
+[LesOsExcavationSite]
+    name = "Les Os Excavation Site"
+    class = "misc-poi radiation"
+    x = 3585.46875
+    y = 3118.96875
+    zoom_level = 2
+    description = "The deathly toxic and radioactive remains of a paleontologic excavation site from the Great War, rumours say a copy of the Black Book is buried there. Name Means: The Bones Excavation Site."
+    link = ""
+    from = 14
+[DabrisTechnologiesHQ]
+    name = "D'abris Technologies H.Q."
+    class = "intra-settlement abri"
+    x = 3650.46875
+    y = 3098.11328125
+    zoom_level = 2
+    description = "The highly secure H.Q. of the pre-war corporation of D'abris Technologies(Lit. Shelter Technologies)."
+    link = ""
+    from = 14
+[HondeauxCrater]
+    name = "Hondeaux Crater"
+    class = "misc-poi radiation"
+    x = 3660.3125
+    y = 3082.37890625
+    zoom_level = 2
+    description = "The impact site of Hondeaux's balefire bomb."
+    link = ""
+    from = 14
+[HayrisCrater]
+    name = "Hayris Crater"
+    class = "misc-poi radiation"
+    x = 3673.75
+    y = 3255.828125
+    zoom_level = 2
+    description = "The impact site of Hayris' balefire bomb."
+    link = ""
+    from = 14

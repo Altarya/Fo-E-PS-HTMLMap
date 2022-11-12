@@ -97,3 +97,156 @@
     description = "The home to a poor, small town of creatures. Very dependent on the Water Caravans to sell the water from their purifiers in the river."
     link = ""
     from = 13
+[TwoRivieres]
+    name = "Two Rivières"
+    class = "settlement enclave"
+    x = 3516.5625
+    y = 3128.9140625
+    zoom_level = 2
+    description = "An old military base turned enclave settlement, now used to protect Fancee's and Nimbus' power source. Name means: Two Rivers."
+    link = ""
+    from = 14
+[TheFerme]
+    name = "The Ferme"
+    class = "settlement"
+    x = 3576.5625
+    y = 3103.828125
+    zoom_level = 2
+    description = "A small earth pony only settlement built over an old large estate. Name means: The Farmhouse."
+    link = ""
+    from = 14
+[Laccordeon]
+    name = "L'accordéon"
+    class = "settlement liberateurs"
+    x = 3583.59375
+    y = 3151.328125
+    zoom_level = 2
+    description = "A large settlement built over an accordion factory that still works!. Name means: The Accordion."
+    link = ""
+    from = 14
+[Stable299]
+    name = "Stable 299"
+    class = "settlement stable"
+    x = 3630.937
+    y = 3104.2734375
+    zoom_level = 2
+    description = "An active but closed off griffon stable."
+    link = ""
+    from = 14
+[LaGrandePlaine]
+    name = "La Grande Plaine(Abri 23)"
+    class = "settlement abri"
+    x = 3609.375
+    y = 3126.2421875
+    zoom_level = 1
+    description = "A large trading settlement built over the crashed remains of a D'abris Technologies Cloud Shelter. Name means: The Great Plain."
+    link = ""
+    from = 14
+[VillageSerein]
+    name = "Village Serein"
+    class = "settlement liberateurs"
+    x = 3630.15625
+    y = 3140.9375
+    zoom_level = 2
+    description = "A medium sized friendly settlement built over an old medieval prench village. Name Means: Serene Village."
+    link = ""
+    from = 14
+[QuartierDeNastha]
+    name = "Quartier De Nasþa"
+    class = "settlement aomielstra"
+    x = 3636.875
+    y = 3091.2109375 
+    zoom_level = 1
+    description = "A large batpony settlement built on the thestral district of Hondeaux, lead by a batpony mare named: Amiur D'Or, who has been fiercely fighting Les Libérateurs. Name means: Night District."
+    link = ""
+    from = 14
+[ChateauXiestha]
+    name = "Chateau Xiesþa"
+    class = "post-war-capital aomielstra"
+    x = 3584.0625
+    y = 3043.859375
+    zoom_level = 0
+    description = "An ancient pre-equestria/pre-prance castle that once belonged to Princess Luna, it has recently been occupied by Aomielstra(Lit. Nightmare's Shadow or Nightmare's Inquisition) and is being used as their capital. The castle sits in the middle of a lake that fills up during the day and empties during the night. Name means: Midnight Castle."
+    link = ""
+    from = 14
+[LaxThesieim]
+    name = "Lax Þesieim"
+    class = "settlement aomielstra"
+    x = 3634.375
+    y = 2965.78125
+    zoom_level = 1
+    description = "A large primarily unicorn settlement that allied itself and is now protected by Aomielstra. Name means: Place of Unicorns."
+    link = ""
+    from = 14
+[AvenueDeLest]
+    name = "Avenue de L'est"
+    class = "settlement aomielstra"
+    x = 3551.09375
+    y = 2965.484375
+    zoom_level = 1
+    description = "A large naval trading settlement now controlled by Aomielstra. Name means: Eastern Avenue."
+    link = ""
+    from = 14
+[ParcAquatique]
+    name = "Parc Aquatique"
+    class = "settlement"
+    x = 3648.4375
+    y = 3085.71875
+    zoom_level = 2
+    description = "A small settlement of mainly seaponies located within an old waterpark. Name means: Waterpark."
+    link = ""
+    from = 14
+[PortMarie]
+    name = "Port-Marie"
+    class = "settlement liberateurs"
+    x = 3661.5625
+    y = 3105.4609375
+    zoom_level = 1
+    description = "A large naval base turned settlement featuring a docked battleship: Liberté. Name means: Port Mary."
+    link = ""
+    from = 14
+[TourPranceExpress]
+    name = "Tour Prance Express"
+    class = "settlement"
+    x = 3643.046875
+    y = 3092.02734375
+    zoom_level = 2
+    description = "A small settlement of ponies who also run the TV broadcasting station for the old pre-war company Prance Express. Name means: Prance Express Tower."
+    link = ""
+    from = 14
+[PlageDesGriffons]
+    name = "Plage Des Griffons"
+    class = "settlement talon"
+    x = 3658.59375
+    y = 3030.0546875
+    zoom_level = 1
+    description = "A large griffon settlement built on a large resort. Home to the Blue Talons the largest talon company in Prance. Name means: Griffon Beach."
+    link = ""
+    from = 14
+[FortSurLaColline]
+    name = "Fort Sur La Colline"
+    class = "settlement steelranger"
+    x = 3625.625
+    y = 3051.4296875
+    zoom_level = 1
+    description = "A large fort now occupied by the Trottanie Steel Ranger chapter. Name means: Fort on the Hill."
+    link = ""
+    from = 14
+[Stable255]
+    name = "Stable 255"
+    class = "settlement stable"
+    x = 3629.375
+    y = 3008.828125
+    zoom_level = 1
+    description = "An active zebra stable that used to trade with the outside world, but has now sealed its door thanks to the threat of Aomielstra."
+    link = ""
+    from = 14
+[Stable277]
+    name = "Stable 277"
+    class = "settlement stable"
+    x = 3556.40625
+    y = 2945.7421875
+    zoom_level = 1
+    description = "An active batpony that is still sealed, narrowly evading discovery by Aomielstra."
+    link = ""
+    from = 14

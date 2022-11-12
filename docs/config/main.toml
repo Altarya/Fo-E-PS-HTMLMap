@@ -88,6 +88,7 @@
         "Fallout Equestria: Griffonia", #11
         "<a href='https://steamcommunity.com/sharedfiles/filedetails/?id=1826643372'>Equestria At War</a>", #12
         "<a href='https://www.fimfiction.net/story/514028/fallout-equestria-storm-protocol'>Fallout Equestria: Storm Protocol</a>", #13
+        "Fallout Equestria: Vive La Prance", #14
     ]
 [CONFIG]
     enable_party_indicator = true #Wether or not the draggable party indicator is enabled

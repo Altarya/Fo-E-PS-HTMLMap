@@ -187,3 +187,33 @@
     height: 50px !important;
     object-fit: contain;
 }
+
+.liberateurs.leaflet-marker-icon {
+    background-image: url(./assets/icons/poi/liberateurs.webp);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: top;
+    align-content: center;
+    height: 50px !important;
+    object-fit: contain;
+}
+
+.abri.leaflet-marker-icon {
+    background-image: url(./assets/icons/poi/abri.webp);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: top;
+    align-content: center;
+    height: 50px !important;
+    object-fit: contain;
+}
+
+.aomielstra.leaflet-marker-icon {
+    background-image: url(./assets/icons/poi/aomielstra.webp);
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: top;
+    align-content: center;
+    height: 50px !important;
+    object-fit: contain;
+}

@@ -88,3 +88,12 @@
     description = "And old pre-war town now the home to a covenant of racially inclined Unicorns that will, sometimes, take in non-Unicorns to their walled in town."
     link = ""
     from = 13
+[VilleLacustre]
+    name = "Ville Lacustre"
+    class = "city"
+    x = 3628.75
+    y = 3172.40625
+    zoom_level = 1
+    description = ""
+    link = ""
+    from = 14

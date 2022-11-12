@@ -4,6 +4,69 @@
     x = 3670
     y = 3238
     zoom_level = 1
-    description = "A large cloud city that used to be the cloud half of Hayris. Name means: Cloudy Skies."
+    description = "A large cloud city that used to be the cloud half of Hayris built from Abri 1. Name means: Cloudy Skies."
     link = ""
     from = 2
+[CiteDuProgres]
+    name = "Cité du Progrès"
+    class = "post-war-capital liberateurs"
+    x = 3737.96875
+    y = 3134.109375
+    zoom_level = 0
+    description = "The largest settlement in the prench wasteland and capital of the Les Libérateurs army, built over the old aristocratic district of Neighon. Les Libérateurs are said to be the descendants of the pre-war prench revolutionary army itself with their leader Clarisse Hennieon XIV says she is a direct descendant of the original Clarisse Hennieon who managed to besiege Canterlot before the Great War. Name means: City of Progress."
+    link = ""
+    from = 14
+[AstieraCathedrale]
+    name = "Astiera Cathédrale"
+    class = "settlement"
+    x = 3683.90625
+    y = 3235.046875
+    zoom_level = 2
+    description = "A small settlement located within a very large ancient cathedral. Name means: Star Cathedral."
+    link = ""
+    from = 14
+[LeLac]
+    name = "Le Lac"
+    class = "settlement liberateurs"
+    x = 3662.34375
+    y = 3192
+    zoom_level = 2
+    description = "A small naval settlement built over an old boat rental. Name means: The Lake."
+    link = ""
+    from = 14
+[GrattecielEnBrique]
+    name = "Gratte-ciel en Brique"
+    class = "settlement liberateurs"
+    x = 3643.59375
+    y = 3174.6328125
+    zoom_level = 1
+    description = "A large settlement on an old still standing brick skyscraper. Name means: Brick Skyscraper."
+    link = ""
+    from = 14
+[PeninsuleDeCorne]
+    name = "Péninsule de Corne"
+    class = "settlement liberateurs"
+    x = 3668.75
+    y = 3158.8984375
+    zoom_level = 2
+    description = "A medium settlement on a huge farm, strongly protected by Les Libérateurs. Name means: Horn Peninsula."
+    link = ""
+    from = 14
+[LaPetiteFille]
+    name = "La Petite Fille"
+    class = "settlement liberateurs"
+    x = 3620.625
+    y = 3258.5
+    zoom_level = 2
+    description = "A small settlement of mares and fillies only, protected by Les Libérateurs. Name means: The Little Filly."
+    link = ""
+    from = 14
+[Laccident]
+    name = "L'accident"
+    class = "settlement liberateurs"
+    x = 3644.21875
+    y = 3248.703125
+    zoom_level = 1
+    description = "A large trading settlement built on a literal trainwreck. It has functioning trains, controlled by Les Libérateurs. Name means: The Accident."
+    link = ""
+    from = 14
