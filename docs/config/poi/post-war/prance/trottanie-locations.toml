@@ -142,12 +142,21 @@
     description = "The impact site of Hondeaux's balefire bomb."
     link = ""
     from = 14
-[HayrisCrater]
-    name = "Hayris Crater"
-    class = "misc-poi radiation"
-    x = 3673.75
-    y = 3255.828125
+[Arca6Wreck]
+    name = "Arca 6 Wreck"
+    class = "misc-poi ezp"
+    x = 3653.046875
+    y = 2945.7421875
     zoom_level = 2
-    description = "The impact site of Hayris' balefire bomb."
+    description = "The remains of an E.Z.P. Ark in the form a giant zeppelin, if there were any survivors they are far gone."
+    link = ""
+    from = 14
+[AureaLilasUniversity]
+    name = "Auréa Lilas University"
+    class = "misc-poi"
+    x = 3652.5
+    y = 2994.7265625
+    zoom_level = 2
+    description = "An old prestigious university, now owned by a group of earth pony supremacists named: Ascension Terrestre."
     link = ""
     from = 14

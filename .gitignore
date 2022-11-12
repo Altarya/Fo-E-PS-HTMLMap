@@ -12,3 +12,5 @@ docs/builder-effective-config.yaml
 yarn-error.log
 dist
 .vscode
+build
+.cache

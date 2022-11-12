@@ -1,0 +1,6 @@
+[submodule "submodule/cesium-terrain-builder"]
+	path = submodule/cesium-terrain-builder
+	url = https://github.com/geo-data/cesium-terrain-builder
+[submodule "submodule/vcpkg"]
+	path = submodule/vcpkg
+	url = https://github.com/Microsoft/vcpkg

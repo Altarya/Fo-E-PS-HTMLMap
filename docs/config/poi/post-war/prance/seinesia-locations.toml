@@ -34,3 +34,12 @@
     description = "An ancient said to be cursed mountain, features an extremely high amount oof diverse ruins many of which were never identified. Name means: Mount Star."
     link = ""
     from = 14
+[HayrisCrater]
+    name = "Hayris Crater"
+    class = "misc-poi radiation"
+    x = 3673.75
+    y = 3255.828125
+    zoom_level = 2
+    description = "The impact site of Hayris' balefire bomb."
+    link = ""
+    from = 14
