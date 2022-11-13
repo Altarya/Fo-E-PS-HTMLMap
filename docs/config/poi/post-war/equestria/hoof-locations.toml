@@ -34,15 +34,6 @@
     description = ""
     link = ""
     from = 5
-[MiramareAirStation]
-    name = "Miramare Air Station"
-    class = "misc-poi"
-    x = 3458.5
-    y = 3691
-    zoom_level = 3
-    description = "A wartime millitary airbase, famously used by <a href='https://falloutequestria.fandom.com/wiki/Macintosh%27s_Marauders_(Project_Horizons)'>Macintosh's Marauders</a>"
-    link = ""
-    from = 5
 [HippocampusSparkStation]
     name = "Hippocampus Spark Station"
     class = "misc-poi"

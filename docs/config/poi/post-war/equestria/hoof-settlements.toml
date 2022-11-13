@@ -178,3 +178,12 @@
     description = "A large slaver settlement controlled by <a href='https://falloutequestria.fandom.com/wiki/Red_Eye'>Red Eye.</a>"
     link = "https://falloutequestria.fandom.com/wiki/Fillydelphia_FunFarm"
     from = 0
+[MiramareAirStation]
+    name = "Miramare Air Station"
+    class = "settlement enclave"
+    x = 3458.5
+    y = 3691
+    zoom_level = 3
+    description = "A wartime millitary airbase, famously used by <a href='https://falloutequestria.fandom.com/wiki/Macintosh%27s_Marauders_(Project_Horizons)'>Macintosh's Marauders</a> now owned by the Enclave"
+    link = ""
+    from = 5
