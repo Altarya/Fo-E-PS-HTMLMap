@@ -73,6 +73,11 @@
     class = "natural"
     x = 3425
     y = 3131.140625
+[HautesterresdeSombral]
+    name = "Hautes-terres de Sombral"
+    class = "natural"
+    x = 3529.375
+    y = 3027.53125
 [SplendidValley]
     name = "Splendid Valley"
     class = "unnatural"

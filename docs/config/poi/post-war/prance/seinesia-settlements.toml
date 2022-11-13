@@ -70,3 +70,12 @@
     description = "A large trading settlement built on a literal trainwreck. It has functioning trains, controlled by Les Libérateurs. Name means: The Accident."
     link = ""
     from = 14
+[LaResistence]
+    name = "La Résistence"
+    class = "settlement liberateurs"
+    x = 3675.15625
+    y = 3231.9296875
+    zoom_level = 1
+    description = "A large independent settlement lead by a unicorn mare named Vous Combat who has successfully pushed back the Enclave and Les Liberatèurs. Name means: The Resistance."
+    link = ""
+    from = 14

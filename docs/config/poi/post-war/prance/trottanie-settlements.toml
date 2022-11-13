@@ -250,3 +250,48 @@
     description = "An active batpony stable that is still sealed, narrowly evading discovery by Aomielstra. Its experiment was to be run like a technocracy and they were given several E.Z.P. sponsored machinery"
     link = ""
     from = 14
+[AureaLilasUniversity]
+    name = "Auréa Lilas University"
+    class = "settlement"
+    x = 3652.5
+    y = 2994.7265625
+    zoom_level = 2
+    description = "An old prestigious university, now owned by a group of earth pony supremacists named: Ascension Terrestre."
+    link = ""
+    from = 14
+[LaFinDuneBlague]
+    name = "La Fin D'une Blague"
+    class = "settlement"
+    x = 3646.09375
+    y = 2952.421875
+    zoom_level = 2
+    description = "A large settlement of gangs, talons and many other less than desired groups, built over the old town hall. Its been able to resist Aomielstran incursions. Name means: A Joke's End"
+    link = ""
+    from = 14
+[VagueRomantique]
+    name = "Vague Romantique"
+    class = "settlement unity"
+    x = 3536.40625
+    y = 2947.5234375
+    zoom_level = 2
+    description = "A small secret alicorn exile settlement, contained within a high school. Name means: Romance Wave"
+    link = ""
+    from = 14
+[TheDesunion]
+    name = "The Désunion"
+    class = "settlement unity"
+    x = 3526.171875
+    y = 3103.53125
+    zoom_level = 2
+    description = "A small alicorn exile settlement allowed to be around by the Enclave, contained within a bus station. Name means: The Dis-unity"
+    link = ""
+    from = 14
+[LeDelta]
+    name = "Le Delta"
+    class = "settlement unity"
+    x = 3614.84375
+    y = 2926.7421875
+    zoom_level = 2
+    description = "A small alicorn settlement which is just getting by. Name means: The Delta"
+    link = ""
+    from = 14

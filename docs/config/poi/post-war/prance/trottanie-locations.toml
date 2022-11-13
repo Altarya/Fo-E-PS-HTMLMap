@@ -142,6 +142,24 @@
     description = "The impact site of Hondeaux's balefire bomb."
     link = ""
     from = 14
+[ManeilleCrater]
+    name = "Maneille Crater"
+    class = "misc-poi radiation"
+    x = 3650.46875
+    y = 2973.5
+    zoom_level = 2
+    description = "The impact site of Maneille's balefire bomb."
+    link = ""
+    from = 14
+[TrotluiseCrater]
+    name = "Trotluise Crater"
+    class = "misc-poi radiation"
+    x = 3542.96875
+    y = 2935.0546875
+    zoom_level = 2
+    description = "The impact site of Trotluise's balefire bomb."
+    link = ""
+    from = 14
 [Arca6Wreck]
     name = "Arca 6 Wreck"
     class = "misc-poi ezp"
@@ -151,12 +169,30 @@
     description = "The remains of an E.Z.P. Ark in the form a giant zeppelin, if there were any survivors they are far gone."
     link = ""
     from = 14
-[AureaLilasUniversity]
-    name = "Auréa Lilas University"
-    class = "misc-poi"
-    x = 3652.5
-    y = 2994.7265625
+[MinisteredelaCooperationMillitaire]
+    name = "Ministère de la Coopération Militaire"
+    class = "intra-settlement"
+    x = 3640
+    y = 2953.015625
     zoom_level = 2
-    description = "An old prestigious university, now owned by a group of earth pony supremacists named: Ascension Terrestre."
+    description = "The central hub of the MCM, protected by a building shield which has not been breached since the day the bombs fell. Name means: Ministry of Military Cooperation"
+    link = ""
+    from = 14
+[LePortariendeZeppelin]
+    name = "Le Portaérien de zeppelin"
+    class = "misc-poi"
+    x = 3647.34375
+    y = 3045.046875
+    zoom_level = 2
+    description = "A large military airbase primarily meant for airships, most of the ships are crashed and non functional. Name means: The Zeppelin Skyport"
+    link = ""
+    from = 14
+[CercleMegalithique]
+    name = "Cercle Mégalithique"
+    class = "misc-poi aomielstra"
+    x = 3592.65625
+    y = 2990.2734375
+    zoom_level = 2
+    description = "Beyond ancient unknown ruins that are kept under tight guard of the Aomielstra. Name means: Megalithic Circles"
     link = ""
     from = 14

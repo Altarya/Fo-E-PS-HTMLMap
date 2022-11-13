@@ -43,3 +43,21 @@
     description = "The impact site of Hayris' balefire bomb."
     link = ""
     from = 14
+[Abri8]
+    name = "Abri 8"
+    class = "misc-poi abri"
+    x = 3693.125
+    y = 3127.578125
+    zoom_level = 2
+    description = "The remains of an Abri, now used as an ammo storage compound by Les Libérateurs."
+    link = ""
+    from = 14
+[JeteeDeLaSeine]
+    name = "Jetée de la Seine"
+    class = "misc-poi liberateurs"
+    x = 3700.9375
+    y = 3158.8984375
+    zoom_level = 2
+    description = "A pier controlled by Les Libérateurs. Name means: Seine Pier"
+    link = ""
+    from = 14

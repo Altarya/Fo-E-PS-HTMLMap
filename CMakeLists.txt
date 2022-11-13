@@ -48,10 +48,10 @@ set(TERRAIN_TILE_SIZE 65)
 set(TERRAIN_MASK_SIZE 256)
 
 # Configure a header file to pass some of the CMake settings to the source code
-configure_file(
-  "${CESIUM_TB_DIR}/src/config.hpp.in"
-  "${CESIUM_TB_DIR}/config.hpp"
-  )
+#configure_file(
+#  "${CESIUM_TB_DIR}/src/config.hpp.in"
+#  "${CESIUM_TB_DIR}/config.hpp"
+#)
 
 # Add the binary tree to the search path for include files so that we will find
 # `config.hpp`
