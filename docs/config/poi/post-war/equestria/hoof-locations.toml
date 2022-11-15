@@ -261,7 +261,7 @@
     from = 5
 [StableTecHQ]
     name = "Stable-Tec H.Q."
-    class = "intra-settlement"
+    class = "intra-settlement stable"
     x = 3388
     y = 3559
     zoom_level = 1
