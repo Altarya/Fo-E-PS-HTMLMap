@@ -4,7 +4,16 @@
     x = 3569
     y = 3607
     zoom_level = 1
-    description = "A bustling trade settlement that is meant to be a neutral zone for all gangs in the regions built within an old shopping mall. Its ran by an earth pony mare named Roulette, the only pre-day-of-sunshine-and-rainbows settlement from Dead End."
+    description = "A bustling trade settlement that is meant to be a neutral zone for all gangs in the regions built within an old shopping mall. Its ran by an earth pony mare named Roulette."
+    link = ""
+    from = 9
+[Cherryhoof]
+    name = "Cherryhoof"
+    class = "settlement"
+    x = 3601.09375
+    y = 3559.828125
+    zoom_level = 1
+    description = "A small settlement built over a small unimpressive amusement park of the same name."
     link = ""
     from = 9
 [NewCloudsdale]

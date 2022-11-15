@@ -1,4 +1,5 @@
 [PATH]
+    terrain_legend = "./legends/terrain.html"
     poi_list = [
         "pre-war/equestria",
         "post-war/equestria/crownlands-settlements",
@@ -52,7 +53,10 @@
         "pre-war/champisuyu",
         "pre-war/ausil",
         "post-war/ausil/porto-capital-locations",
+        "pre-war/ponska",
+        "post-war/ponska/ponska-settlements",
     ]
+    poi_legend = "./legends/locations.html"
     features_list = [
         "equestriana",
         "alsahra",
@@ -61,6 +65,7 @@
         "thermonia",
         "cervinia",
     ]
+    features_legend = "./legends/features.html"
     rivers_list = [
         "equestriana",
     ]
@@ -72,6 +77,10 @@
     lines_list = [
         "roads/crownlands",
         "roads/frontier",
+    ]
+    lines_legends = [
+        "./legends/roads.html",
+        "./legends/railroads.html",
     ]
     atribution_list = [
         "<a href='https://www.fimfiction.net/story/119190/fallout-equestria'>Fallout: Equestria</a>", #0

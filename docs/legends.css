@@ -1,0 +1,251 @@
+.legendtable {
+    display: flex;
+}
+
+.legendrow {
+    flex: 1;
+}
+.legendrowimg {
+    flex: 2;
+}
+
+.box {
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.box:before {
+    position: absolute;
+    left: -20px;
+    content: "";
+    height:10px;
+    width:10px;
+    margin-bottom:15px;
+    border:1px solid black;
+}
+
+.boxborderless:before {
+    position: absolute;
+    left: -20px;
+    content: "";
+    margin-bottom:15px;
+}
+.boxborderless {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Terrain */
+.box.plains:before {
+    background-color:rgb(86, 124, 27);
+}
+
+.box.water:before {
+    background-color:rgb(8, 31, 130);
+}
+
+.box.forest:before {
+    background-color:rgb(6, 200, 11);
+}
+
+.box.denseforest:before {
+    background-color:rgb(0, 86, 6);
+}
+
+.box.rainforest:before {
+    background-color:rgb(7, 50, 0);
+}
+
+.box.desert:before {
+    background-color:rgb(206, 169, 99);
+}
+
+.box.deserthills:before {
+    background-color:rgb(102, 93, 62);
+}
+
+.box.deserttransitional:before {
+    background-color:rgb(139, 132, 84);
+}
+
+.box.mountains:before {
+    background-color:rgb(118, 102, 83);
+}
+
+.box.steepmountains:before {
+    background-color:rgb(92, 83, 76);
+}
+
+.box.highlands:before {
+    background-color:rgb(176, 156, 0);
+}
+
+.box.lowhills:before {
+    background-color:rgb(153, 173, 58);
+}
+
+.box.highhills:before {
+    background-color:rgb(94, 106, 37);
+}
+
+.box.marshlands:before {
+    background-color:rgb(49, 80, 62);
+}
+
+.box.urban:before {
+    background-color: yellow;
+}
+
+.box.glacial:before {
+    background-color: white;
+}
+
+
+/* Locations */
+.legendimage {
+    -webkit-filter: brightness(0%);
+    filter: brightness(0%);
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+.legendimageicon {
+    -webkit-filter: brightness(0%);
+    filter: brightness(0%);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.legendimagetext {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.box.prewar:before {
+    background-color:rgb(0, 255, 0);
+}
+
+.box.prewarcapital:before {
+    background-color:rgb(0, 180, 0);
+}
+
+.box.postwar:before {
+    background-color:rgb(255, 0, 0);
+}
+
+.box.postwarcapital:before {
+    background-color:rgb(180, 0, 0);
+}
+
+.box.intrasettlement:before {
+    background-color:rgb(0, 180, 180);
+}
+
+.box.miscpoi:before {
+    background-color:rgb(0, 255, 255);
+}
+
+/* Features */
+.box.naturall:before {
+    background-color:rgb(255, 255, 0);
+}
+
+.box.unnaturall:before {
+    background-color:rgb(255, 69, 0);
+}
+
+.box.seal:before {
+    background-color:rgb(0, 153, 255);
+}
+
+/* Lines */
+.box.roadl:before {
+    background-color:gray;
+}
+.box.monoraill:before {
+    background-color:brown;
+}
+
+/* Factions */
+.box.enclavel:before {
+    background-color:rgb(106, 44, 255);
+}
+
+.box.redeyel:before {
+    background-color:rgb(220, 44, 47);
+}
+
+.box.crimsonhoofl:before {
+    background-color:rgb(161, 40, 25);
+}
+
+.box.sniezhannial:before {
+    background-color:rgb(248, 0, 30);
+}
+
+.box.ncal:before {
+    background-color:rgb(62, 121, 209);
+}
+
+.box.rnpl:before {
+    background-color:rgb(59, 255, 132);
+}
+
+.box.liberateursl:before {
+    background-color:rgb(0, 57, 255);
+}
+
+.box.aomielstral:before {
+    background-color:rgb(92, 0, 157);
+}
+
+.box.respublical:before {
+    background-color:rgb(0, 102, 209);
+}
+
+.box.xiilegionl:before {
+    background-color:rgb(223, 102, 18);
+}
+
+.box.ausill:before {
+    background-color:rgb(59, 255, 64);
+}
+
+.box.champisuyul:before {
+    background-color:rgb(161, 148, 234);
+}
+
+.box.pratenial:before {
+    background-color:rgb(141, 168, 228);
+}
+
+.box.vimteverl:before {
+    background-color:rgb(255, 150, 188);
+}
+
+.box.rabonial:before {
+    background-color:rgb(147, 135, 188);
+}
+
+.box.abyssinial:before {
+    background-color:rgb(127, 106, 0);
+}
+
+.box.velandamal:before {
+    background-color:rgb(22, 183, 18);
+}
+
+.box.satyyrinal:before {
+    background-color:rgb(106, 183, 112);
+}
+
+.box.huoyanl:before {
+    background-color:rgb(240, 160, 0);
+}

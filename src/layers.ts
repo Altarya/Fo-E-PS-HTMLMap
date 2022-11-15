@@ -2,7 +2,7 @@ import * as Config from './config'
 import * as toml from '@iarna/toml'
 import * as L from "leaflet"
 
-export function setupLayers(mapVar: L.Map, layerController: L.Control.Layers, southWest: L.LatLngExpression, northEast: L.LatLngExpression) {
+export function setupLayers(mapVar: L.Map, layerController: L.Control.Layers, southWest: L.LatLngExpression, northEast: L.LatLngExpression, htmllegend: any) {
     fetch(Config.layersPath+"layers.toml").then((response => {
         if (response.ok) {
             return response.blob()
@@ -30,6 +30,7 @@ export function setupLayers(mapVar: L.Map, layerController: L.Control.Layers, so
                         const zindex = <number>ent[1][1]
                         const image = <string>ent[2][1]
                         const isBase = <boolean>ent[3][1]
+                        const legend = <string>ent[4][1]
 
                         var layer = L.imageOverlay(
                             "./assets/layers/" + image, 
@@ -43,6 +44,25 @@ export function setupLayers(mapVar: L.Map, layerController: L.Control.Layers, so
                             layerController.addOverlay(layer, name)
                         } else {
                             layerController.addBaseLayer(layer, name)
+                        }
+
+                        if(legend.length) {
+                            fetch(legend).then((response => {
+                                if (response.ok) {
+                                    return response.blob()
+                                }
+                                }))
+                                .then((result) => {
+                                    result.text().then(response => {
+                                    htmllegend.addLegend({
+                                        name: name,
+                                        layer: layer,
+                                        elements: [{
+                                            html: response
+                                        }]
+                                    })
+                                })
+                            })
                         }
                     }
                 } catch (error) {

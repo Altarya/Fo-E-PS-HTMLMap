@@ -196,3 +196,12 @@
     description = "Beyond ancient unknown ruins that are kept under tight guard of the Aomielstra. Name means: Megalithic Circles"
     link = ""
     from = 14
+[Stable-TecFiliale2]
+    name = "Stable-Tec Filiale 2"
+    class = "intra-settlement stable"
+    x = 3555.1171875
+    y = 2945.1484375
+    zoom_level = 3
+    description = "The collapsed remains of a Stable-Tec skyscraper built within a residential district, only its underground parking lot remains which houses the entrance to Stable 277. Name means: Stable-Tec Subsidiary 2"
+    link = ""
+    from = 14

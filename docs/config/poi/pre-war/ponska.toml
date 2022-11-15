@@ -1,0 +1,18 @@
+[OstatniPlomien]
+    name = "Ostatni Plomien"
+    class = "city"
+    x = 3214.6875
+    y = 3771.796875
+    zoom_level = 1
+    description = "The family home of Raven Ray, Raven Beam and Raven Light. Name means: Last Light"
+    link = ""
+    from = 2
+[LzyKsieszyca]
+    name = "Łzy Księżyca"
+    class = "city"
+    x = 3185.2252331133514
+    y = 3837.4730274177205
+    zoom_level = 1
+    description = "Name means: Moon's Tears"
+    link = ""
+    from = 2

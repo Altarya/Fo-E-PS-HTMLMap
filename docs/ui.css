@@ -599,10 +599,10 @@ a.leaflet-control-slider-toggle {
     background: #FFF;
     border: 2px solid #FFF;
     padding: 6px;
-    max-height: 250px;
+    max-height: 600px;
     overflow-y: auto;
     line-height: 1.2;
-    width: 250px;
+    width: 257px;
 
 }
 

@@ -439,3 +439,12 @@
     description = ""
     link = ""
     from = 2
+[NeaBorealia]
+    name = "Nea Borealia"
+    class = "city"
+    x = 3136.25
+    y = 3781.59375
+    zoom_level = 1
+    description = ""
+    link = ""
+    from = 2

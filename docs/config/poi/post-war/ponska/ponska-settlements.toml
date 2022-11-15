@@ -1,0 +1,9 @@
+[StableE1]
+    name = "Stable E1"
+    class = "settlement stable"
+    x = 3211.40625
+    y = 3760.9609375
+    zoom_level = 2
+    description = "The home stable of Raven Light and her daughters Raven Beam and Raven Ray, it features large gardens and animal dens meant to sustain a variety of wildlife."
+    link = ""
+    from = 2

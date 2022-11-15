@@ -8,5 +8,9 @@
         "allowJs": true,
         "moduleResolution": "node",
         "allowSyntheticDefaultImports": true,
-    }
+    },
+    "exclude": [
+        "./submodule/",
+        "./out/",
+    ]
 }

@@ -66,6 +66,7 @@ fetch(Config.configPath+"main.toml").then((response => {
             const mainConfigMap = new Map(Object.entries(mainConfigParsed))
 
             const CONFIG = new Map(Object.entries(mainConfigMap.get("CONFIG")))
+            const PATH = new Map(Object.entries(mainConfigMap.get("PATH")))
 
             //try {
 
@@ -92,7 +93,36 @@ fetch(Config.configPath+"main.toml").then((response => {
                     }
                 )
 
-                setupLayers(map, layerController, southWest, northEast)
+                var htmlLegendLayers = htmllegend({
+                    position: 'topright',
+                    disableVisibilityControls: true,
+                    collapsedOnInit: true
+                })
+                htmlLegendLayers.addTo(map)
+                htmlLegendLayers.addLegend({
+                    name: "Legend",
+                    layer: terrainMinimap,
+                    elements: [{
+                        html: "Legends go here"
+                    }]
+                })
+                fetch(PATH.get("terrain_legend")).then((response => {
+                    if (response.ok) {
+                        return response.blob()
+                    }
+                    }))
+                    .then((result) => {
+                        result.text().then(response => {
+                        htmlLegendLayers.addLegend({
+                            name: "Terrain",
+                            layer: terrain,
+                            elements: [{
+                                html: response
+                            }]
+                        })
+                    })
+                })
+                setupLayers(map, layerController, southWest, northEast, htmlLegendLayers)
 
                 let locMarkerIcon = new L.Icon({
                     iconSize:     [24, 24],
@@ -124,9 +154,41 @@ fetch(Config.configPath+"main.toml").then((response => {
                 layerController.addBaseLayer(terrain, "Terrain")
 
                 var poiLayer = setupPOI(map, layerController, mainConfigMap, mapSize)
+                fetch(PATH.get("poi_legend")).then((response => {
+                    if (response.ok) {
+                        return response.blob()
+                    }
+                    }))
+                    .then((result) => {
+                        result.text().then(response => {
+                        htmlLegendLayers.addLegend({
+                            name: "Locations",
+                            layer: poiLayer,
+                            elements: [{
+                                html: response
+                            }]
+                        })
+                    })
+                })
                 var featuresLayer = setupFeatures(layerController, mainConfigMap, mapSize)
+                fetch(PATH.get("features_legend")).then((response => {
+                    if (response.ok) {
+                        return response.blob()
+                    }
+                    }))
+                    .then((result) => {
+                        result.text().then(response => {
+                        htmlLegendLayers.addLegend({
+                            name: "Features",
+                            layer: featuresLayer,
+                            elements: [{
+                                html: response
+                            }]
+                        })
+                    })
+                })
                 var riversLayer = setupRivers(layerController, mainConfigMap, mapSize)
-                var linesLayer = setupLines(layerController, mainConfigMap, mapSize).addTo(map)
+                var linesLayer = setupLines(layerController, mainConfigMap, mapSize, htmlLegendLayers).addTo(map)
 
                 var searchLayers = L.layerGroup([poiLayer, featuresLayer])
                 map.addControl( new Lextra.Control.Search({layer: searchLayers, zoom: 10, initial: false}) )
@@ -255,14 +317,13 @@ fetch(Config.configPath+"main.toml").then((response => {
                 const saveButtonVar = new saveButton({
                     position: "topleft"
                 })
-                daynight
 
-                var htmlLegend = htmllegend({
+                var htmlLegendDayNight = htmllegend({
                     position: 'topleft',
                     disableVisibilityControls: true
                 })
-                htmlLegend.addTo(map)
-                htmlLegend.addLegend({
+                htmlLegendDayNight.addTo(map)
+                htmlLegendDayNight.addLegend({
                     name: "Time",
                     layer: daynight,
                     elements: [{
@@ -298,10 +359,10 @@ fetch(Config.configPath+"main.toml").then((response => {
                                 getValue: function(value: any) {
                                     var millis = (parseFloat(value) - 2440587.5) * 86400000
                                     currentTime = new Date(millis)
-                                    htmlLegend.removeLegend(currentLeg)
-                                    htmlLegend.addLegend({
+                                    htmlLegendDayNight.removeLegend(currentLeg)
+                                    htmlLegendDayNight.addLegend({
                                         name: "Time",
-                                        layer: daynight,
+                                        //layer: daynight,
                                         elements: [{
                                             html: "<p>"+currentTime.toDateString()+" "+currentTime.getHours()+":"+currentTime.getMinutes()+"</p>"
                                         }]
@@ -314,12 +375,19 @@ fetch(Config.configPath+"main.toml").then((response => {
                             })
 
                             daynight.on('add', function() {
+                                if (currentLeg) {
+                                    currentLeg = 0
+                                }
+                                htmlLegendDayNight.addTo(map)
                                 timeSlider.addTo(map)
                                 saveButtonVar.addTo(map)
+                                //htmlLegendDayNight.addTo(map)
                             })
                             daynight.on('remove', function() {
                                 map.removeControl(timeSlider)
                                 map.removeControl(saveButtonVar)
+                                map.removeControl(htmlLegendDayNight)
+                                //htmlLegendDayNight.remove()
                             })
                         })
                     }
@@ -343,8 +411,8 @@ fetch(Config.configPath+"main.toml").then((response => {
                         getValue: function(value: any) {
                             var millis = (parseFloat(value) - 2440587.5) * 86400000
                             currentTime = new Date(millis)
-                            htmlLegend.removeLegend(currentLeg)
-                            htmlLegend.addLegend({
+                            htmlLegendDayNight.removeLegend(currentLeg)
+                            htmlLegendDayNight.addLegend({
                                 name: "Time",
                                 layer: daynight,
                                 elements: [{

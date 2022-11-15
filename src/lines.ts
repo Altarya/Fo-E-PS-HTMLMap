@@ -14,7 +14,7 @@ if (typeof exports === 'object') {
 var lines: L.FeatureGroup<any>[] = new Array()
 var locationsLayers = L.layerGroup(lines)
 
-export function setupLines(layerController: L.Control.Layers, map: Map<string, toml.AnyJson>, mapSize: [number, number]) {
+export function setupLines(layerController: L.Control.Layers, map: Map<string, toml.AnyJson>, mapSize: [number, number], htmllegend: any) {
 
     const PATH = new Map(Object.entries(map.get("PATH")))
 
@@ -98,6 +98,31 @@ export function setupLines(layerController: L.Control.Layers, map: Map<string, t
                 })
             }
         )
+    }
+
+    const featureListLegend = new Map(Object.entries(PATH.get("lines_legends")))
+    let linesLayerNames = Array.from(featureListLegend.entries())
+    const linesList = Array.from(layersList)
+    for (let i = 0; i < linesLayerNames.length; i++) {
+        const legend = <string>linesLayerNames[i][1]
+        if (legend.length) {
+            fetch(legend).then((response => {
+                if (response.ok) {
+                    return response.blob()
+                }
+                }))
+                .then((result) => {
+                    result.text().then(response => {
+                    htmllegend.addLegend({
+                        name: <string>linesList[i][1],
+                        layer: locationsLayers,
+                        elements: [{
+                            html: response
+                        }]
+                    })
+                })
+            })
+        }
     }
 
     return locationsLayers

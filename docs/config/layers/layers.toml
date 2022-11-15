@@ -3,38 +3,46 @@
     zindex = 0
     image = "terrain_upscaled.webp"
     base = true
+    legend = ""
 [Upscaled4]
     name = "Terrain(Upscaled 4x)"
     zindex = 0
     image = "terrain_upscaled_4x.webp"
     base = true
+    legend = ""
 [Municipalities]
     name = "Municipalities, Sub-states and Sea Regions"
     zindex = 1
     image = "municipalities.webp"
     base = false
+    legend = ""
 [StatesOutlines]
     name = "Administrative Divisions(States)"
     zindex = 2
     image = "states.webp"
     base = false
+    legend = ""
 [States]
     name = "Administrative Divisions(States) Filled"
     zindex = 3
     image = "statesfilled.webp"
     base = false
+    legend = ""
 [Tropics]
     name = "Tropics"
     zindex = 4
     image = "tropics.webp"
     base = false
+    legend = ""
 [ContinentsnOceans]
     name = "Continents and Oceans"
     zindex = 5
     image = "continentsoceans.webp"
     base = false
+    legend = ""
 [Factions]
     name = "Major Factions and Countries(2275)"
     zindex = 6
     image = "countries.webp"
     base = false
+    legend = "./legends/countries.html"

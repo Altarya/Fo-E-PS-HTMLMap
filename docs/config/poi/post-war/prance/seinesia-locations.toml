@@ -18,7 +18,7 @@
     from = 2
 [FabriqueDeDabrisTechnologies]
     name = "Fabrique de D'abris Technologies"
-    class = "intra-settlement abri"
+    class = "misc-poi abri"
     x = 3642.1875
     y = 3188.5859375
     zoom_level = 2

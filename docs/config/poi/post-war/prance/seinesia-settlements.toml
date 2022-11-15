@@ -72,7 +72,7 @@
     from = 14
 [LaResistence]
     name = "La Résistence"
-    class = "settlement liberateurs"
+    class = "settlement"
     x = 3675.15625
     y = 3231.9296875
     zoom_level = 1

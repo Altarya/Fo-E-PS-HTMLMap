@@ -175,7 +175,7 @@
     x = 3634.375
     y = 2965.78125
     zoom_level = 1
-    description = "A large primarily unicorn settlement that allied itself and is now protected by Aomielstra. Name means: Place of Unicorns."
+    description = "A large primarily unicorn settlement that allied itself and is now protected by Aomielstra, built inside an old commercial district. Name means: Place of Unicorns."
     link = ""
     from = 14
 [AvenueDeLest]
@@ -274,7 +274,7 @@
     x = 3536.40625
     y = 2947.5234375
     zoom_level = 2
-    description = "A small secret alicorn exile settlement, contained within a high school. Name means: Romance Wave"
+    description = "A small secret alicorn exile settlement, contained within a high school and lead by a blue alicorn named: Chant Star. Name means: Romance Wave"
     link = ""
     from = 14
 [TheDesunion]
