@@ -115,7 +115,7 @@ export function setupLines(layerController: L.Control.Layers, map: Map<string, t
                     result.text().then(response => {
                     htmllegend.addLegend({
                         name: <string>linesList[i][1],
-                        layer: locationsLayers,
+                        layer: lines[i],
                         elements: [{
                             html: response
                         }]
