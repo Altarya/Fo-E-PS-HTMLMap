@@ -295,3 +295,12 @@
     description = "A small alicorn settlement which is just getting by. Name means: The Delta"
     link = ""
     from = 14
+[ColterField]
+    name = "Colter Field"
+    class = "settlement"
+    x = 3576
+    y = 2866
+    zoom_level = 1
+    description = "An old hoofball stadium home of the Cult of Iron Will."
+    link = ""
+    from = 3

@@ -1,12 +1,3 @@
-[ColterField]
-    name = "Colter Field"
-    class = "intra-settlement"
-    x = 3576
-    y = 2866
-    zoom_level = 2
-    description = "An old hoofball stadium home of the Cult of Iron Will."
-    link = ""
-    from = 3
 [FillysTower]
     name = "Filly's Tower"
     class = "intra-settlement"
@@ -205,3 +196,12 @@
     description = "The collapsed remains of a Stable-Tec skyscraper built within a residential district, only its underground parking lot remains which houses the entrance to Stable 277. Name means: Stable-Tec Subsidiary 2"
     link = ""
     from = 14
+[Stable180]
+    name = "Stable 180"
+    class = "misc-poi stable"
+    x = 3574.21875
+    y = 2839.3125
+    zoom_level = 2
+    description = "A ruined abandoned stable that connects to a changeling hive."
+    link = ""
+    from = 3

@@ -85,7 +85,7 @@
     x = 3273
     y = 3157
     zoom_level = 3
-    description = "The tallest building in New Pegasus and home of Mr. Tops, New Pegasus' mysterious controller. It used to be a bustling casino but now very few get to enter it."
+    description = "The tallest building in New Pegasus and home of Mr. Tops, New Pegasus' mysterious controller. It used to be a bustling casino but now very few get to enter it. It was actually built to be the hideout of the Children of the Night."
     link = ""
     from = 4
 [DemocracysPalace]
@@ -279,11 +279,11 @@
     from = 4
 [GrimsShack]
     name = "Grim's Shack"
-    class = "intra-settlement"
+    class = "misc-poi"
     x = 3270.1875
     y = 3183.5
     zoom_level = 3
-    description = "An old run down shack that used to be a repair shop owned by a unicorn nammed Grimoire Spell."
+    description = "An old run down shack that used to be a repair shop owned by a unicorn nammed Grimoire Spell. It was the secret hideout of the Children of the Night before the construction of the Lucky Horseshoe."
     link = ""
     from = 4
 [EnclaveSkyport]

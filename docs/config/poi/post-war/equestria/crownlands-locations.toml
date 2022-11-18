@@ -376,3 +376,12 @@
     description = "A general store owned by a unicorn named Sunflower."
     link = ""
     from = 2
+[TheChildrensCavern]
+    name = "The Children's Cavern"
+    class = "misc-poi"
+    x = 3432.65625
+    y = 3267.072265625
+    zoom_level = 2
+    description = "An ancient secret magically sealed cave that was used by the original Children of the Night."
+    link = ""
+    from = 4
