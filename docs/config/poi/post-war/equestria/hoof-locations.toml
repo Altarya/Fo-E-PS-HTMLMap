@@ -244,10 +244,10 @@
 [StarHouse]
     name = "Star House"
     class = "intra-settlement"
-    x = 3451
-    y = 3704
+    x = 3450.37109375
+    y = 3704.84228515625
     zoom_level = 3
-    description = "<a href='https://falloutequestria.fandom.com/wiki/Rampage_(Project_Horizons)'>Arloste</a>'s old house."
+    description = "<a href='https://falloutequestria.fandom.com/wiki/Rampage_(Project_Horizons)'>Arloste's</a>'s old house."
     link = ""
     from = 5
 [SPPTowerHoofington]
@@ -343,10 +343,10 @@
 [StarPoint]
     name = "Star Point"
     class = "misc-poi"
-    x = 3432
-    y = 3718
+    x = 3432.578125
+    y = 3697.689453125
     zoom_level = 2
-    description = "A cliff watching over the ocean, very prone to maing ponies suicidal."
+    description = "A cliff watching over the ocean, very prone to making ponies suicidal."
     link = ""
     from = 5
 [HoofingtonIndustrialCenter]

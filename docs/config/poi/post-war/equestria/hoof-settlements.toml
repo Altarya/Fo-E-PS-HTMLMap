@@ -1,8 +1,8 @@
 [Chapel]
     name = "Chapel"
     class = "settlement"
-    x = 3450
-    y = 3705
+    x = 3450.263671875
+    y = 3705.296875
     zoom_level = 2
     description = "Home of the <a href='https://falloutequestria.fandom.com/wiki/Crusaders_(Project_Horizons)'>Crusaders.</a><p><img src='https://static.wikia.nocookie.net/falloutequestria/images/2/22/Hoofington_Crusaders.png' style='height: 160px;'></img></p> <p>Image by: DotRook</p>"
     link = ""
@@ -28,8 +28,8 @@
 [Paradise]
     name = "Paradise"
     class = "settlement redeye"
-    x = 3470
-    y = 3647
+    x = 3440.15625
+    y = 3679.3203125
     zoom_level = 1
     description = "<a href='https://falloutequestria.fandom.com/wiki/Usury_(Project_Horizons)'>Usury</a>'s settlement, built on slave trade."
     link = ""
