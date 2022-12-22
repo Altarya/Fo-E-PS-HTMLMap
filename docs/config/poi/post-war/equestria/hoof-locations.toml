@@ -46,8 +46,8 @@
 [FluttershyMedicalCenter]
     name = "Fluttershy Medical Center"
     class = "intra-settlement"
-    x = 3445
-    y = 3692
+    x = 3443.4765625
+    y = 3691.9375
     zoom_level = 2
     description = "A very large hospital in Hoofington, know to be extremelly dangerous but filled with untapped loot."
     link = ""

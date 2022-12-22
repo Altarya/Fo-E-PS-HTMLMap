@@ -73,8 +73,8 @@
 [HoofingtonSportsArena]
     name = "Hoofington Sports Arena"
     class = "settlement"
-    x = 3441
-    y = 3701
+    x = 3440.078125
+    y = 3701.845703125
     zoom_level = 2
     description = "The H.Q. of the <a href='https://falloutequestria.fandom.com/wiki/Reapers_(Project_Horizons)'>Reapers</a>. <p><img src='https://static.wikia.nocookie.net/falloutequestria/images/6/66/Reapersfactiondotrook.png' style='height: 160px;'></img></p> <p>Image by: DotRook</p>"
     link = ""
@@ -127,8 +127,8 @@
 [Meatlocker]
     name = "Meatlocker"
     class = "settlement"
-    x = 3441
-    y = 3722
+    x = 3438.90625
+    y = 3719.84375
     zoom_level = 2
     description = "A ghoul settlement built on an old industrial meat killing place."
     link = ""
