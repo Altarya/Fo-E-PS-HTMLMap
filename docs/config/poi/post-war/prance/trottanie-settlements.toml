@@ -304,3 +304,12 @@
     description = "An old hoofball stadium home of the Cult of Iron Will."
     link = ""
     from = 3
+[TheNascent]
+    name = "The Nascent"
+    class = "settlement unity"
+    x = 3438.90625
+    y = 3133.515625
+    zoom_level = 1
+    description = "A small settlement of alicorns and ponies that assist anyone crossing Le Passage, originally it helped Unity alicorns that wandered into Prance or were sent there by the Goddess."
+    link = ""
+    from = 3

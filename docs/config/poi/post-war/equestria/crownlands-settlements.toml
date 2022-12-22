@@ -94,7 +94,7 @@
     x = 3258
     y = 3535
     zoom_level = 1
-    description = "A large settlement built within the Pony of Liberty Statue."
+    description = "A large settlement built within the Pony of Liberty Statue.<p><img src='https://static.wikia.nocookie.net/falloutequestria/images/d/da/Fallout_equestria_factions_friendship_city_by_dotrook-d4knqyy.png' style='height: 160px;'></img></p> <p>Image by: DotRook</p>"
     link = "https://falloutequestria.fandom.com/wiki/Friendship_City"
     from = 0
 [TenponyTower]
@@ -184,7 +184,7 @@
     x = 3246
     y = 3247
     zoom_level = 1
-    description = "An old wartime research facility owned by the M.A.S. it houses the Alicorn project and nowdays the Goddess.<p><img src='https://static.wikia.nocookie.net/falloutequestria/images/1/17/Maripony.png' style='height: 160px;'></img></p> <p>Image by: OmegaRidley</p>"
+    description = "An old wartime research facility owned by the M.A.S. it houses the Alicorn Project and nowadays the Goddess.<p><img src='https://static.wikia.nocookie.net/falloutequestria/images/1/17/Maripony.png' style='height: 160px;'></img></p> <p>Image by: OmegaRidley</p>"
     link = "https://falloutequestria.fandom.com/wiki/Maripony"
     from = 0
 [EquestriaRoyalPalace]
@@ -193,6 +193,15 @@
     x = 3415
     y = 3277
     zoom_level = 2
-    description = "Or Canterlot Castle, it was the old home of the equestrian princesses, nowdays it seems to be controlled by a crazed alicorn named Nightseer."
+    description = "Or Canterlot Castle, it was the old home of the equestrian princesses, nowadays it seems to be controlled by a crazed alicorn named Nightseer."
     link = "https://falloutequestria.fandom.com/wiki/Canterlot_Castle"
     from = 0
+[LaxIenThesiela]
+    name = "Laxieran Ien Þesiela"
+    class = "settlement"
+    x = 3285.15625
+    y = 3516.3359375
+    zoom_level = 2
+    description = "A small settlement of batponies built on an old orphanage, has evaded Red Eye control by paying tribute. Lead by a batpony mare named Night Heart, the settlement's mayor. Name means: Home of the Batpony."
+    link = ""
+    from = 2

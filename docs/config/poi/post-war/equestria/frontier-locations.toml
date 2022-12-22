@@ -322,3 +322,12 @@
     description = "The ruins of a town made out of sandstone, now deserted."
     link = ""
     from = 4
+[SanPalominoGorge]
+    name = "San Palomino Gorge"
+    class = "misc-poi"
+    x = 3254.375
+    y = 3206.1015625
+    zoom_level = 3
+    description = "A strange deadly sinkhole that saps away unicorn magic, used to be a tourist attraction during the war and nowadays has still barely been explored. There is an abandoned motel next to it."
+    link = ""
+    from = 4

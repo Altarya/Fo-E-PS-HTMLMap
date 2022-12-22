@@ -385,3 +385,12 @@
     description = "An ancient secret magically sealed cave that was used by the original Children of the Night."
     link = ""
     from = 4
+[Stable13]
+    name = "Stable 13"
+    class = "misc-poi stable"
+    x = 3283.75
+    y = 3524.27734375
+    zoom_level = 2
+    description = "An old stable built deep underground near a sewage collection station, it has flooded in several sections and parts of it have collapsed. Octavia Melody was its first Overmare."
+    link = ""
+    from = 2

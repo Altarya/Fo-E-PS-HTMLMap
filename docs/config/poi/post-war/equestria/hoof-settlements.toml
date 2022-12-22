@@ -35,8 +35,8 @@
     link = ""
     from = 5
 [Flank]
-    name = "Flank"
-    class = "settlement"
+    name = "Flank(Stable 69)"
+    class = "settlement stable"
     x = 3461
     y = 3691
     zoom_level = 1
@@ -156,7 +156,7 @@
     class = "settlement"
     x = 3463
     y = 3724
-    zoom_level = 1
+    zoom_level = 2
     description = "The home of the odd earth ponies known as the Highlanders whose existence extends far before The Great War, they are fiercly independent."
     link = "https://falloutequestria.fandom.com/wiki/Highlanders_(Project_Horizons)"
     from = 5
@@ -165,7 +165,7 @@
     class = "settlement"
     x = 3449
     y = 3710
-    zoom_level = 3
+    zoom_level = 2
     description = "The very very very tall sky scraper on the hoofington core that pierces the clouds and goes right through Thunderhead, it was owned by the Ministry of Awesome.<p><img src='https://static.wikia.nocookie.net/falloutequestria/images/7/77/Shadowbolt_Tower.png' style='height: 160px;'></img></p> <p>Image by: Marktwain</p>"
     link = "https://falloutequestria.fandom.com/wiki/Shadowbolt_Tower_(Project_Horizons)"
     from = 5
