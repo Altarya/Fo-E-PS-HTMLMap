@@ -70,8 +70,8 @@
     description = "A technologically advanced and heavilly fortified settlement made by former stable dwellers from stable 9."
     link = ""
     from = 4
-[FortSummit]
-    name = "Fort Summit"
+[FrostySummit]
+    name = "Frosty Summit"
     class = "settlement unity"
     x = 3255
     y = 3180
