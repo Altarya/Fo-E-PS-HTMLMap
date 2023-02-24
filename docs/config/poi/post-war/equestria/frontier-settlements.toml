@@ -7,7 +7,7 @@
     description = "A small trading town whose main establishment of note is the Equestrian Express courier service owned by Box Tape."
     link = ""
     from = 4
-[HiddenValley]
+[HiddenSands]
     name = "Hidden Sands"
     class = "settlement steelranger"
     x = 3323
@@ -203,5 +203,14 @@
     y = 3173
     zoom_level = 2
     description = "The old international airport of Los Pegasos, now used as a R.N.P. base."
+    link = ""
+    from = 4
+[LosAlicornSkyport]
+    name = "Los Alicorn Skyport"
+    class = "settlement steelranger"
+    x = 3203.984375
+    y = 3218.34765625
+    zoom_level = 1
+    description = "The main base of operations for the Los Alicorn Steel Rangers chapter.<img src='https://static.wikia.nocookie.net/falloutequestria/images/8/84/Steelrangersfactiondotrook.png' style='height: 160px;'></img> Image by: DotRook"
     link = ""
     from = 4

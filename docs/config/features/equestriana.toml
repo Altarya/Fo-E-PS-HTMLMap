@@ -138,3 +138,13 @@
     class = "sea"
     x = 3883
     y = 3475
+[LunaBay]
+    name = "Luna Bay"
+    class = "sea"
+    x = 3185.9375
+    y = 3215.453125
+[TheDeadlands]
+    name = "The Deadlands"
+    class = "natural"
+    x = 3265.3125
+    y = 3200.609375

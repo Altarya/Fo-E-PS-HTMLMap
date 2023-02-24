@@ -1,0 +1,9 @@
+[LasRosas]
+    name = "Las Rosas"
+    class = "post-war-capital talon"
+    x = 3214.6875
+    y = 4394.1953125
+    zoom_level = 0
+    description = "A large settlement on Grifiedra's largest high density residential area, home base of the Rose Talons."
+    link = ""
+    from = 11
