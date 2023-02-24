@@ -211,7 +211,7 @@
     x = 3441.9921875
     y = 3717.09765625
     zoom_level = 2
-    description = "An old factory and the home base of the Flash Fillies. The factory manufactured energy weapons and other laser based implements, its responsible for most laser-based weapons found in Equestria today."
+    description = "An old factory and the home base of the Flash Fillies. The factory manufactured energy weapons and other laser based implements, its responsible for most laser-based weapons found in Equestria today. The Flash Fillies are also fierce rivals of the Burner Boys."
     link = ""
     from = 5
 [RocketTown]
@@ -230,5 +230,23 @@
     y = 3717.580078125
     zoom_level = 3
     description = "A small village settlement on a junkyard, most of the buildings were made of overturned skywagons. Famous for... selling scrap to the Enclave."
+    link = ""
+    from = 5
+[HalfheartsHQ]
+    name = "Halfhearts H.Q."
+    class = "settlement"
+    x = 3455.9375
+    y = 3701.95703125
+    zoom_level = 1
+    description = "The headquarters of the Halfhearts gang, a very powerful gang that controls most of the western side of the Hoofington River."
+    link = ""
+    from = 5
+[BurnerBoysHQ]
+    name = "Burner Boys H.Q."
+    class = "settlement"
+    x = 3439.53125
+    y = 3726.375
+    zoom_level = 2
+    description = "The headquarters of the Burner Boys gang. A gang of sick ponies who tend to do horrible things to families. Fierce rivals of the Flash Fillies"
     link = ""
     from = 5

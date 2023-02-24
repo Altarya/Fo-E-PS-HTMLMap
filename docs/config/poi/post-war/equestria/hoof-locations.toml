@@ -439,3 +439,21 @@
     description = "The main launch site for rockets used by the Equestrian Space Program."
     link = ""
     from = 5
+[RoosehoofAcademy]
+    name = "Roosehoof Academy"
+    class = "intra-settlement"
+    x = 3455.78125
+    y = 3696.2421875
+    zoom_level = 3
+    description = "An old pre-war academy."
+    link = ""
+    from = 5
+[PrincessBridge]
+    name = "Princess Bridge"
+    class = "misc-poi"
+    x = 3458.046875
+    y = 3706.9296875
+    zoom_level = 3
+    description = "One of Hoofington's many bridges. Connected to the Sunset and Sunrise highways."
+    link = ""
+    from = 5
