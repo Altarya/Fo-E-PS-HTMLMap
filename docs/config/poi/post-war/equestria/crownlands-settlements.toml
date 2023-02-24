@@ -130,7 +130,7 @@
     x = 3277
     y = 3526
     zoom_level = 1
-    description = "The base of the Manehattan Steel Rangers branch.<p><img src='https://static.wikia.nocookie.net/falloutequestria/images/a/ab/Bucklyn_cross_by_maeni.jpg' style='height: 160px;'></img></p> <p>Image by: maeni</p>"
+    description = "The base of the Manehattan Steel Rangers branch.<p><img src='https://static.wikia.nocookie.net/falloutequestria/images/a/ab/Bucklyn_cross_by_maeni.jpg' style='height: 160px;'></img></p> <p>Image by: maeni</p><img src='https://static.wikia.nocookie.net/falloutequestria/images/8/84/Steelrangersfactiondotrook.png' style='height: 160px;'></img> Image by: DotRook"
     link = "https://falloutequestria.fandom.com/wiki/Bucklyn_Cross"
     from = 0
 [Duskhoof]
@@ -157,7 +157,7 @@
     x = 3408
     y = 3220
     zoom_level = 1
-    description = "The Enclave's most millitarilly capable city and could've become its capital."
+    description = "The Enclave's most millitarilly capable city and could've become its capital.<img src='https://static.wikia.nocookie.net/falloutequestria/images/3/39/Grand_Pegasus_Enclave.png' style='height: 160px;'></img> Image by: DotRook"
     link = "https://falloutequestria.fandom.com/wiki/Neighvarro"
     from = 0
 [Stable1City]

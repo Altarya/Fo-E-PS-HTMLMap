@@ -4,7 +4,7 @@
     x = 3511
     y = 3105
     zoom_level = 1
-    description = "An Enclave cloud city famous for its unicorns and also for being the only cloud city with a substantial amount of crystal ponies, it maintains close relations with Stratus and even controls two surface cities where its inhabitants are allowed to live. Them being Saint's Parish and Whinneapolis."
+    description = "An Enclave cloud city famous for its unicorns and also for being the only cloud city with a substantial amount of crystal ponies, it maintains close relations with Stratus and even controls two surface cities where its inhabitants are allowed to live. Them being Saint's Parish and Whinneapolis.<img src='https://static.wikia.nocookie.net/falloutequestria/images/3/39/Grand_Pegasus_Enclave.png' style='height: 160px;'></img> Image by: DotRook"
     link = ""
     from = 4
 [ChiTown]
@@ -13,7 +13,7 @@
     x = 3611
     y = 2852
     zoom_level = 1
-    description = "A settlement host to various tribes and former stable-ponies, controlled primarilly by the Lotus Triad."
+    description = "A settlement host to various tribes and former stable-ponies, controlled primarily by the Lotus Triad."
     link = ""
     from = 3
 [Filliet]
@@ -49,7 +49,7 @@
     x = 3537.375
     y = 3265.875
     zoom_level = 1
-    description = "A median enclave cloud city, it was targeted during the day the bombs fell however the bomb was a dud."
+    description = "A median Enclave cloud city, it was targeted during the day the bombs fell however the bomb was a dud.<img src='https://static.wikia.nocookie.net/falloutequestria/images/3/39/Grand_Pegasus_Enclave.png' style='height: 160px;'></img> Image by: DotRook"
     link = ""
     from = 13
 [SugarGrove]
@@ -76,7 +76,7 @@
     x = 3604.62890625
     y = 3198.2529296875
     zoom_level = 2
-    description = "An old equestrian navy drydock, now owned by the Whinnychester Steel Rangers chapter."
+    description = "An old equestrian navy drydock, now owned by the Whinnychester Steel Rangers chapter.<img src='https://static.wikia.nocookie.net/falloutequestria/images/8/84/Steelrangersfactiondotrook.png' style='height: 160px;'></img> Image by: DotRook"
     link = ""
     from = 13
 [WhinnychesterCompound]
@@ -85,7 +85,7 @@
     x = 3513.125
     y = 3262.5
     zoom_level = 2
-    description = "An old prison complex-city owned by the Whinnychester Family during the war, now a Whinnychester Steel Ranger arms factory."
+    description = "An old prison complex-city owned by the Whinnychester Family during the war, now a Whinnychester Steel Ranger arms factory.<img src='https://static.wikia.nocookie.net/falloutequestria/images/8/84/Steelrangersfactiondotrook.png' style='height: 160px;'></img> Image by: DotRook"
     link = ""
     from = 13
 [PleasantPoint]
@@ -229,7 +229,7 @@
     x = 3625.625
     y = 3051.4296875
     zoom_level = 1
-    description = "A large fort now occupied by the Trottanie Steel Ranger chapter. Name means: Fort on the Hill."
+    description = "A large fort now occupied by the Trottanie Steel Ranger chapter. Name means: Fort on the Hill.<img src='https://static.wikia.nocookie.net/falloutequestria/images/8/84/Steelrangersfactiondotrook.png' style='height: 160px;'></img> Image by: DotRook"
     link = ""
     from = 14
 [Stable255]

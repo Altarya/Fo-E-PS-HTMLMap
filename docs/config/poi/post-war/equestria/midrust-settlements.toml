@@ -22,7 +22,7 @@
     x = 3548
     y = 3395
     zoom_level = 0
-    description = "The 'official' capital of the Grand Pegasus Enclave and its largest city, its size is comparable to a pre-war metropolis."
+    description = "The 'official' capital of the Grand Pegasus Enclave and its largest city, its size is comparable to a pre-war metropolis.<img src='https://static.wikia.nocookie.net/falloutequestria/images/3/39/Grand_Pegasus_Enclave.png' style='height: 160px;'></img> Image by: DotRook"
     link = ""
     from = 2
 [Portharbour]

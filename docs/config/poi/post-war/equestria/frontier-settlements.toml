@@ -13,7 +13,7 @@
     x = 3323
     y = 3181
     zoom_level = 1
-    description = "The bunker where the New Pegasus Steel Rangers branch reside."
+    description = "The bunker where the New Pegasus Steel Rangers branch reside.<img src='https://static.wikia.nocookie.net/falloutequestria/images/8/84/Steelrangersfactiondotrook.png' style='height: 160px;'></img> Image by: DotRook"
     link = ""
     from = 4
 [TheBramble]
@@ -103,7 +103,7 @@
     x = 3246
     y = 3147
     zoom_level = 1
-    description = "One of the Enclave's smaller cities, famous for its everlasting alliance with Nimbus."
+    description = "One of the Enclave's smaller cities, famous for its everlasting alliance with Nimbus.<img src='https://static.wikia.nocookie.net/falloutequestria/images/3/39/Grand_Pegasus_Enclave.png' style='height: 160px;'></img> Image by: DotRook"
     link = ""
     from = 4
 [Stable28]

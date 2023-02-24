@@ -1,12 +1,3 @@
-[Stable99]
-    name = "Stable 99"
-    class = "misc-poi stable"
-    x = 3437
-    y = 3689
-    zoom_level = 2
-    description = "<a href='https://falloutequestria.fandom.com/wiki/Blackjack_(Project_Horizons)'>Blackjack</a>'s and <a href='https://falloutequestria.fandom.com/wiki/P-21_(Project_Horizons)'>P-21</a>'s now inactive stable."
-    link = "https://falloutequestria.fandom.com/wiki/Stable_99_(Project_Horizons)"
-    from = 5
 [Stable90]
     name = "Stable 90"
     class = "misc-poi stable"
@@ -64,10 +55,10 @@
 [HippocracticResearch]
     name = "Hippocractic Research"
     class = "intra-settlement"
-    x = 3456
-    y = 3712
+    x = 3438.4375
+    y = 3714.27734375
     zoom_level = 3
-    description = "Flim and Flam's old fflux factory, nowadays know for its absurd amount of taint and killing joke."
+    description = "Flim and Flam's old flux factory, nowadays know for its absurd amount of taint and killing joke."
     link = ""
     from = 5
 [HMSLunaWreck]
@@ -181,8 +172,8 @@
 [LunaDam]
     name = "Luna Dam"
     class = "misc-poi"
-    x = 3442
-    y = 3713
+    x = 3453.0078125
+    y = 3707.2265625
     zoom_level = 3
     description = "Hoofington's eastern hydroelectric dam."
     link = ""
@@ -190,15 +181,15 @@
 [CelestiaDam]
     name = "Celestia Dam"
     class = "misc-poi"
-    x = 3442
-    y = 3709
+    x = 3452.8515625
+    y = 3712.533203125
     zoom_level = 3
     description = "Hoofington's western hydroelectric dam."
     link = ""
     from = 5
 [HoofingtonCore]
     name = "Hoofington Core"
-    class = "misc-poi"
+    class = "misc-poi radiation"
     x = 3450
     y = 3711
     zoom_level = 2
@@ -376,3 +367,13 @@
     description = "A small 'mountain' that had its top completelly excavated."
     link = ""
     from = 5
+[ShawdowboltTower]
+    name = "Shadowbolt Tower"
+    class = "intra-settlement enclave"
+    x = 3449
+    y = 3710
+    zoom_level = 2
+    description = "The very very very tall sky scraper on the hoofington core that pierces the clouds and goes right through Thunderhead, it was owned by the Ministry of Awesome.<p><img src='https://static.wikia.nocookie.net/falloutequestria/images/7/77/Shadowbolt_Tower.png' style='height: 160px;'></img></p> <p>Image by: Marktwain</p>"
+    link = "https://falloutequestria.fandom.com/wiki/Shadowbolt_Tower_(Project_Horizons)"
+    from = 5
+
