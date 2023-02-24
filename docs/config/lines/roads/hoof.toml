@@ -1,0 +1,13 @@
+[GreenLine]
+    name = "Green Line"
+    className = "rail"
+    color = "green"
+    layer = 1
+    latLngs = [
+        [3446, 3705],
+        [3450, 3711],
+        [3457.1484375, 3713.275390625],
+    ]
+    width = 1
+    smoothing = 1.0
+    description = "An old metro line that goes underneath the deadly Core, high levels of ennervation and other dangers here."

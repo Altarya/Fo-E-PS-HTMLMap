@@ -77,6 +77,7 @@
     lines_list = [
         "roads/crownlands",
         "roads/frontier",
+        "roads/hoof",
     ]
     lines_legends = [
         "./legends/roads.html",

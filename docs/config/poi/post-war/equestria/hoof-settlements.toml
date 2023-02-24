@@ -125,12 +125,12 @@
     link = ""
     from = 5
 [Meatlocker]
-    name = "Meatlocker(Hoofington General/Memorial Hospital)"
+    name = "Meatlocker"
     class = "settlement"
     x = 3446.953125
     y = 3721.662109375
     zoom_level = 2
-    description = "A ghoul settlement built on an old industrial meat killing place."
+    description = "A ghoul settlement built on the old Hoofington General/Memorial Hospital."
     link = ""
     from = 5
 [NightmareCastle]
@@ -195,4 +195,40 @@
     zoom_level = 2
     description = "<a href='https://falloutequestria.fandom.com/wiki/Blackjack_(Project_Horizons)'>Blackjack</a>'s and <a href='https://falloutequestria.fandom.com/wiki/P-21_(Project_Horizons)'>P-21</a>'s stable. One of Stable-Tec's largest."
     link = "https://falloutequestria.fandom.com/wiki/Stable_99_(Project_Horizons)"
+    from = 5
+[Toll]
+    name = "Toll"
+    class = "settlement"
+    x = 3437
+    y = 3709
+    zoom_level = 3
+    description = "A small settlement on a bridge."
+    link = ""
+    from = 5
+[FlashIndustries]
+    name = "Flash Industries"
+    class = "settlement"
+    x = 3441.9921875
+    y = 3717.09765625
+    zoom_level = 2
+    description = "An old factory and the home base of the Flash Fillies. The factory manufactured energy weapons and other laser based implements, its responsible for most laser-based weapons found in Equestria today."
+    link = ""
+    from = 5
+[RocketTown]
+    name = "Rocket Town"
+    class = "settlement radiation"
+    x = 3461.09375
+    y = 3718.65625 
+    zoom_level = 2
+    description = "A ghoul settlement of mainly the former workers of the Luna Space Centre."
+    link = ""
+    from = 5
+[Scrapyard]
+    name = "Scrapyard"
+    class = "settlement"
+    x = 3453.4765625
+    y = 3717.580078125
+    zoom_level = 3
+    description = "A small village settlement on a junkyard, most of the buildings were made of overturned skywagons. Famous for... selling scrap to the Enclave."
+    link = ""
     from = 5

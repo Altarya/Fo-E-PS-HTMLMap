@@ -173,6 +173,10 @@
     background-color:brown;
 }
 
+.box.metro:before {
+    background-color:green;
+}
+
 /* Factions */
 .box.enclavel:before {
     background-color:rgb(106, 44, 255);

@@ -376,4 +376,66 @@
     description = "The very very very tall sky scraper on the hoofington core that pierces the clouds and goes right through Thunderhead, it was owned by the Ministry of Awesome.<p><img src='https://static.wikia.nocookie.net/falloutequestria/images/7/77/Shadowbolt_Tower.png' style='height: 160px;'></img></p> <p>Image by: Marktwain</p>"
     link = "https://falloutequestria.fandom.com/wiki/Shadowbolt_Tower_(Project_Horizons)"
     from = 5
-
+[ZenithBridge]
+    name = "Zenith Bridge"
+    class = "misc-poi"
+    x = 3439.7265625
+    y = 3709
+    zoom_level = 3
+    description = "One of Hoofington's many bridges. The Reapers hold the western side of the bridge while the Steel Rangers hold the eastern side in an uneasy truce."
+    link = ""
+    from = 5
+[CoreTunnelsElevator]
+    name = "Core Tunnels Elevator"
+    class = "intra-settlement"
+    x = 3457.1484375
+    y = 3713.275390625
+    zoom_level = 3
+    description = "An elevator that links to the underground Core tunnels network."
+    link = ""
+    from = 5
+[HorizonLaboratories]
+    name = "Horizon Laboratories"
+    class = "intra-settlement radiation"
+    x = 3437.1875
+    y = 3716.095703125
+    zoom_level = 3
+    description = "The remains of an old M.A.S. lab, the basement is still intact but the original building is but a balefire crater. There is also a metro station nearby which provides access to its basement, it goes by the name of Horizon Station."
+    link = ""
+    from = 5
+[OIAOffice]
+    name = "O.I.A. Office"
+    class = "intra-settlement"
+    x = 3439.0234375
+    y = 3716.392578125
+    zoom_level = 3
+    description = "A small unassuming office of the O.I.A."
+    link = ""
+    from = 5
+[Progress]
+    name = "Progress"
+    class = "misc-poi"
+    x = 3439.921875
+    y = 3720.474609375
+    zoom_level = 1
+    description = "One of Hoofington's major manufacturing and research centres."
+    link = ""
+    from = 5
+[GrimhoofArmyBase]
+    name = "Grimhoof Army Base"
+    class = "misc-poi"
+    x = 3460.546875
+    y = 3719.02734375
+    zoom_level = 2
+    description = "An army base, featured a zebra concentration camp. Several functional warheads remain here."
+    link = ""
+    from = 5
+[LunaSpaceCentre]
+    name = "Luna Space Centre"
+    class = "misc-poi"
+    x = 3461.3671875
+    y = 3717.98828125 
+    zoom_level = 2
+    description = "The main launch site for rockets used by the Equestrian Space Program."
+    link = ""
+    from = 5
