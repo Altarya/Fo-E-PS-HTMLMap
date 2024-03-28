@@ -91,7 +91,7 @@
         "<a href='https://www.fimfiction.net/story/17890/fallout-equestria-starlight'>Fallout Equestria: Starlight</a>", #3
         "<a href='https://www.fimfiction.net/story/350442/fallout-equestria-falling-shadows'>Fallout Equestria: Falling Shadows</a>", #4
         "<a href='https://www.fimfiction.net/story/208056/fallout-equestria-project-horizons'>Fallout: Equestria - Project Horizons</a>", #5
-        "<a href='https://www.fimfiction.net/story/360410/fallout-equestria-project-horizons-speak'>Fallout Equestria: Project Horizons - Speaks</a>", #6
+        "<a href='https://www.fimfiction.net/story/360410/fallout-equestria-project-horizons-speak'>Fallout Equestria: Project Horizons - Speak</a>", #6
         "<a href='https://www.fimfiction.net/story/298834/fallout-equestria-homelands'>Fallout Equestria: Homelands</a>", #7
         "<a href='https://www.fimfiction.net/story/662/fallout-equestria-heroes'>Fallout Equestria: Heroes</a>", #8
         "<a href='https://www.fimfiction.net/story/363291/fallout-equestria-dead-end'>Fallout Equestria: Dead End</a>", #9
@@ -100,6 +100,7 @@
         "<a href='https://steamcommunity.com/sharedfiles/filedetails/?id=1826643372'>Equestria At War</a>", #12
         "<a href='https://www.fimfiction.net/story/514028/fallout-equestria-storm-protocol'>Fallout Equestria: Storm Protocol</a>", #13
         "Fallout Equestria: Vive La Prance", #14
+        "Fallout Equestria: Reclamation", #15
     ]
 [CONFIG]
     enable_party_indicator = true #Wether or not the draggable party indicator is enabled

@@ -169,15 +169,15 @@
     description = ""
     link = ""
     from = 2
-[Maretropolis]
-    name = "Maretropolis"
+[Haven]
+    name = "Haven"
     class = "city"
     x = 3457
     y = 2857
     zoom_level = 1
-    description = ""
+    description = "A pre-war 'city' that is more an industrial complex, was intended as a safe haven during the war but was never completed. It is now a heaven for scavengers and scrappers... if they survive."
     link = ""
-    from = 2
+    from = 15
 [Portlandia]
     name = "Portlandia"
     class = "city"
