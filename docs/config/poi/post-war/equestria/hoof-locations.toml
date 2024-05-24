@@ -226,8 +226,8 @@
 [BluebloodEstate]
     name = "Blueblood Estate"
     class = "intra-settlement"
-    x = 3444
-    y = 3704
+    x = 3449.66796875
+    y = 3704.40625
     zoom_level = 3
     description = "The old manor of thee Blueblood familly."
     link = ""
