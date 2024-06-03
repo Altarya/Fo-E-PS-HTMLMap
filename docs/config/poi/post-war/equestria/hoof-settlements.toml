@@ -190,8 +190,8 @@
 [Stable99]
     name = "Stable 99"
     class = "settlement stable"
-    x = 3437
-    y = 3689
+    x = 3434.04296875
+    y = 3694.5908203125
     zoom_level = 2
     description = "<a href='https://falloutequestria.fandom.com/wiki/Blackjack_(Project_Horizons)'>Blackjack</a>'s and <a href='https://falloutequestria.fandom.com/wiki/P-21_(Project_Horizons)'>P-21</a>'s stable. One of Stable-Tec's largest."
     link = "https://falloutequestria.fandom.com/wiki/Stable_99_(Project_Horizons)"
