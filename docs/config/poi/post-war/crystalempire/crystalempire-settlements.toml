@@ -1,10 +1,10 @@
-[CrystalSkyEnrichmentCentre]
-    name = "Crystal Sky Enrichment Centre"
+[SnowflakeComplex]
+    name = "Snowflake Complex"
     class = "settlement"
     x = 4176
     y = 3572
-    zoom_level = 1
-    description = "The site of the Crystal Empire's most ambitious research centre."
+    zoom_level = 2
+    description = "The site of the Crystal Empire's most ambitious cluster of projects, such as the Strategic Kernel for Yardstick Evaluation. Owned by Her Majesty's Royal Research, but also constains the manufacturiing plant of Crystalix Chips, the developmental headquarters of Royal Softworks, and many others."
     link = ""
     from = 2
 [FukkatsuAriuBase]
@@ -25,3 +25,30 @@
     description = "A large post-war millitary and scientific installation owned by the Qilinguo government."
     link = ""
     from = 2
+[ChessWaystationm]
+    name = "Chess's Waystation"
+    class = "settlement lodge"
+    x = 3937.03125
+    y = 3457.40625
+    zoom_level = 2
+    description = "A small waystation turned settlement by the former Steel Ranger, Chess."
+    link = ""
+    from = 17
+[FortNeighson]
+    name = "Fort Neighson"
+    class = "settlement steelranger"
+    x = 3950.3125
+    y = 3453.6953125
+    zoom_level = 2
+    description = "A large fort controlled by the Crystal Empire Steel Rangers."
+    link = ""
+    from = 17
+[ZephyrHeights]
+    name = "Zephyr Heights"
+    class = "settlement"
+    x = 4155.9375
+    y = 3585.953125
+    zoom_level = 2
+    description = "A small but affluent cloud city that has remained isolated from the rest of the world since the end of the Great War. In the past, it was one of the kingdoms under the Crystal Empire."
+    link = ""
+    from = 18

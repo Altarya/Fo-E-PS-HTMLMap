@@ -1,6 +1,6 @@
 [IronshodFirearms]
     name = "Ironshod Firearms"
-    class = "misc-poi redeye"
+    class = "misc-poi"
     x = 3281
     y = 3306
     zoom_level = 2
@@ -394,3 +394,48 @@
     description = "An old stable built deep underground near a sewage collection station, it has flooded in several sections and parts of it have collapsed. Octavia Melody was its first Overmare."
     link = ""
     from = 2
+[BucaneerBlaze]
+    name = "Bucaneer Blaze"
+    class = "intra-settlement"
+    x = 3408.4765625
+    y = 3219.052734375
+    zoom_level = 3
+    description = "A very famous bar among young military recruits."
+    link = ""
+    from = 17
+[VITrainingSector]
+    name = "VI Training Sector"
+    class = "intra-settlement enclave"
+    x = 3410.8984375
+    y = 3221.279296875
+    zoom_level = 3
+    description = "A training facility using advanced virtual reality."
+    link = ""
+    from = 17
+[Stable88]
+    name = "Stable 88"
+    class = "misc-poi stable"
+    x = 3305.234375
+    y = 3321.734375
+    zoom_level = 2
+    description = "A Stable that was completely wiped out by raiders."
+    link = ""
+    from = 19
+[Stable112]
+    name = "Stable 112"
+    class = "misc-poi stable"
+    x = 3271.850875
+    y = 3309.34839375
+    zoom_level = 2
+    description = "A dead Stable."
+    link = ""
+    from = 19
+[BerryHillPark]
+    name = "Berry Hill Park"
+    class = "misc-poi"
+    x = 3338.984375
+    y = 3435.21484375
+    zoom_level = 3
+    description = "A wonderful park that once had cherry blossoms."
+    link = ""
+    from = 20

@@ -4,7 +4,7 @@
     x = 3670
     y = 3238
     zoom_level = 1
-    description = "A large cloud city that used to be the cloud half of Hayris built from Abri 1. Name means: Cloudy Skies.<img src='https://static.wikia.nocookie.net/falloutequestria/images/3/39/Grand_Pegasus_Enclave.png' style='height: 160px;'></img> Image by: DotRook"
+    description = "A large cloud city that used to be the cloud half of Foinris built from Abri 1. Name means: Cloudy Skies.<img src='https://static.wikia.nocookie.net/falloutequestria/images/3/39/Grand_Pegasus_Enclave.png' style='height: 160px;'></img> Image by: DotRook"
     link = ""
     from = 2
 [CiteDuProgres]
@@ -79,3 +79,13 @@
     description = "A large independent settlement lead by a unicorn mare named Vous Combat who has successfully pushed back the Enclave and Les Liberatèurs. Name means: The Resistance."
     link = ""
     from = 14
+[EauxCalmes]
+    name = "Eaux Calmes"
+    class = "settlement"
+    x = 3659.7265625
+    y = 2946.0390625
+    zoom_level = 2
+    description = "A mixed prench-equestrian trading settlement with a large port. Name means: Calm Waters."
+    link = ""
+    from = 14
+

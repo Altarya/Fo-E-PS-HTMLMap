@@ -62,7 +62,7 @@
     link = ""
     from = 13
 [EquestrianSteel]
-    name = "Equestrian Seel"
+    name = "Equestrian Steel"
     class = "intra-settlement"
     x = 3603.625
     y = 3182.875

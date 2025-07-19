@@ -448,3 +448,13 @@
     description = ""
     link = ""
     from = 2
+[Lexica]
+    name = "Lexica"
+    class = "city"
+    x = 3260.625
+    y = 2283.5625
+    zoom_level = 1
+    description = ""
+    link = ""
+    from = 7
+

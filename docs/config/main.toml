@@ -99,8 +99,13 @@
         "Fallout Equestria: Griffonia", #11
         "<a href='https://steamcommunity.com/sharedfiles/filedetails/?id=1826643372'>Equestria At War</a>", #12
         "<a href='https://www.fimfiction.net/story/514028/fallout-equestria-storm-protocol'>Fallout Equestria: Storm Protocol</a>", #13
-        "Fallout Equestria: Vive La Prance", #14
+        "Fallout Equestria: Project Horizons - Under the Moonlight", #14 formerly Vive La Prance
         "Fallout Equestria: Reclamation", #15
+        "<a href='https://www.fimfiction.net/story/19926/fallout-equestria-memories'>Fallout: Equestria - Memories</a>", #16
+        "<a href='https://www.fimfiction.net/story/201326/fallout-equestria-frozen-skies'>Fallout: Equestria - Frozen Skies", #17
+        "My Little Pony G5", #18
+        "<a href='https://www.fimfiction.net/story/2849/fallout-equestria-broken-steel'>Fallout Equestria: Broken Steel", #19
+        "<a href='https://www.fimfiction.net/story/551284/fallout-equestria-mona-lisa-overdrive'>Fallout Equestria: Mona Lisa Overdrive", #20
     ]
 [CONFIG]
     enable_party_indicator = true #Wether or not the draggable party indicator is enabled

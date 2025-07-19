@@ -25,3 +25,12 @@
     description = "The old palace of the crystallian royalty."
     link = ""
     from = 1
+[Stable-TecLab]
+    name = "Stable-Tec Ice Research"
+    class = "misc-poi"
+    x = 3943.75
+    y = 3459.6328125
+    zoom_level = 3
+    description = "An abandoned lab owned by Stable-Tec."
+    link = ""
+    from = 17

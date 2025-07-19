@@ -4,7 +4,7 @@
     x = 3689
     y = 3252
     zoom_level = 2
-    description = "A magnificent landmark monument that in the past used to bring people from all over the world to Hayris. Name means: Neigh Tower."
+    description = "A magnificent landmark monument that in the past used to bring people from all over the world to Foinris. Name means: Neigh Tower."
     link = ""
     from = 2
 [EAMSStation5]
@@ -34,13 +34,13 @@
     description = "An ancient said to be cursed mountain, features an extremely high amount of diverse ruins many of which were never identified. Name means: Mount Star."
     link = ""
     from = 14
-[HayrisCrater]
-    name = "Hayris Crater"
+[FoinrisCrater]
+    name = "Foinris Crater"
     class = "misc-poi radiation"
     x = 3673.75
     y = 3255.828125
     zoom_level = 2
-    description = "The impact site of Hayris' balefire bomb."
+    description = "The impact site of Foinris' balefire bomb."
     link = ""
     from = 14
 [Abri8]

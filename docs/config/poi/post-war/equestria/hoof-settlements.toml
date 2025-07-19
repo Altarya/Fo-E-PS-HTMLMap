@@ -250,3 +250,21 @@
     description = "The headquarters of the Burner Boys gang. A gang of sick ponies who tend to do horrible things to families. Fierce rivals of the Flash Fillies"
     link = ""
     from = 5
+[RadLadsSlavers]
+    name = "Rad Lads' Slaver Stronghold"
+    class = "settlement redeye"
+    x = 3360.76171875
+    y = 3517.44921875
+    zoom_level = 3
+    description = "A large stronghold controlled by the Rad Lads gang, they all have hayrish accents. A large energy company once operated in the area."
+    link = ""
+    from = 16
+[HappyHills]
+    name = "Happy Hills"
+    class = "settlement steelranger"
+    x = 3360.48828125
+    y = 3516.7626953125
+    zoom_level = 2
+    description = "A small settlement over a road crossing the hills. Now controlled by the local chapter of the Steel Rangers thanks to the actions of the <a href='https://falloutequestria.fandom.com/wiki/Frosty_Winds_(Memories)'>Blood Angel</a>."
+    link = ""
+    from = 16

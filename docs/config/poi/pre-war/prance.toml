@@ -1,10 +1,10 @@
-[Hayris]
-    name = "Hayris"
+[Foinris]
+    name = "Foinris"
     class ="pre-war-capital"
     x = 3680
     y = 3250
     zoom_level = 0
-    description = "Known formerly as the city of light, it used to be one of the most famous cities in the world."
+    description = "Known formerly as the city of light, it used to be one of the most famous cities in the world. Equestrian name: Hayris."
     link = ""
     from = 2
 [Neighon]
@@ -87,7 +87,7 @@
     zoom_level = 1
     description = "And old pre-war town now the home to a covenant of racially inclined Unicorns that will, sometimes, take in non-Unicorns to their walled in town."
     link = ""
-    from = 13
+    from = 18
 [VilleLacustre]
     name = "Ville Lacustre"
     class = "city"

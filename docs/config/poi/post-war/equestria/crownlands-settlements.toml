@@ -205,3 +205,48 @@
     description = "A small settlement of batponies built on an old orphanage, has evaded Red Eye control by paying tribute. Lead by a batpony mare named Night Heart, the settlement's mayor. Name means: Home of the Batpony."
     link = ""
     from = 2
+[HoofmaidsTail]
+    name = "Hoofmaid's Tail"
+    class = "settlement"
+    x = 3336.6796875 
+    y = 3421.001953125
+    zoom_level = 2
+    description = "A small trading settlement over a single narrow street, it has a very nice bar. Owned by the Battlemaids."
+    link = ""
+    from = 2
+[FirewingTalons]
+    name = "Firewing Talons' Stronghold"
+    class = "settlement talon"
+    x = 3356.2109375
+    y = 3511.5859375
+    zoom_level = 2
+    description = "An old fortress controlled by the Firewing Talons founded b the griffoness Firewing. Now controlled by Thundercane."
+    link = ""
+    from = 16
+[Perma]
+    name = "Perma"
+    class = "settlement"
+    x = 3351.484375
+    y = 3506.16796875
+    zoom_level = 2
+    description = "A closed off trading settlement."
+    link = ""
+    from = 16
+[Meteora]
+    name = "Meteora"
+    class = "settlement enclave"
+    x = 3332.1875
+    y = 3438.5546875
+    zoom_level = 2
+    description = "A smaller cloud city with a significant foreign population from Yarin and Nippony."
+    link = ""
+    from = 20
+[Stable50]
+    name = "Stable 50"
+    class = "settlement stable"
+    x = 3358.4375
+    y = 3434.84375
+    zoom_level = 2
+    description = "A Stable that has an electronics factory within and trades with the outside."
+    link = ""
+    from = 20
