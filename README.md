@@ -83,8 +83,7 @@ I'd recommend reading a bit about CSS Styling before you attempt to mess with th
       /* Styling */
   }
 ```
-You can also modify other Leaflet ui things using this same format, you can of course find out what classes to modify using your browser's(or
-the bundled Electron's) webpage inspector(Inspect Element).
+You can also modify other Leaflet ui things using this same format, you can of course find out what classes to modify using your browser's(or the bundled Electron's) webpage inspector(Inspect Element).
 ## Styling the Globe
 The Globe is powered by an API named Cesium, which does not provide CSS classes, so you are more limited on how you can customize the markers on the map, don't worry though! All functionality from the markers aside from that are kept, including the HTML powered descriptions. Still i wanted to give people the option to modify the icons and colours of the markers, so here's how it works:
 ### Colours
