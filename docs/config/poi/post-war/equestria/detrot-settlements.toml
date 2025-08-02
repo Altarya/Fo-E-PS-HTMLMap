@@ -1,0 +1,9 @@
+[Cirrus]
+    name = "Cirrus"
+    class = "settlement enclave"
+    x = 3207.8125
+    y = 33038.9609375
+    zoom_level = 1
+    description = "A secret cloud city housing some of the Enclave's special projects, and a popular retirement home for career officers and wealthy pegasi. Its exact location is kept a secret from the general public."
+    link = ""
+    from = 4
