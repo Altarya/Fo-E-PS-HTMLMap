@@ -133,8 +133,8 @@
     description = "A ghoul settlement built on the old Hoofington General/Memorial Hospital."
     link = ""
     from = 5
-[NightmareCastle]
-    name = "Nightmare Castle"
+[NightmareCitadel]
+    name = "Nightmare Citadel"
     class = "settlement"
     x = 3454.9375
     y = 3726.5625
